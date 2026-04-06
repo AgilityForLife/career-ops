@@ -1,0 +1,345 @@
+# Portal Scanner Configuration — Erick G. Rosa
+# Customized for: PM / Program Manager / Agile Coach / Scrum Master / Delivery Lead / AI-adjacent roles
+# Last updated: 2026-04-06
+
+title_filter:
+  positive:
+    # -- Project / Program Management --
+    - "Project Manager"
+    - "Program Manager"
+    - "Technical Project Manager"
+    - "Senior Project Manager"
+    - "Project Coordinator"
+    - "PMO"
+    - "Portfolio Manager"
+    - "Release Manager"
+    - "Delivery Manager"
+    - "Delivery Lead"
+    # -- Agile / Scrum --
+    - "Agile Coach"
+    - "Scrum Master"
+    - "SAFe"
+    - "RTE"                    # Release Train Engineer
+    - "Agile Program Manager"
+    - "Agile Delivery"
+    - "Product Owner"
+    # -- AI-adjacent roles --
+    - "AI Project Manager"
+    - "AI Program Manager"
+    - "AI Delivery"
+    - "AI Transformation"
+    - "Transformation Lead"
+    - "Digital Transformation"
+    - "Claude"
+    - "Agentic"
+    - "AI Coach"
+    # -- Construction / Infrastructure PM (Procore certified) --
+    - "Construction Project Manager"
+    - "Infrastructure Project Manager"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Entry Level"
+    - "Associate Project Manager"   # typically entry-level
+    - "Java "
+    - ".NET Developer"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "COBOL"
+    - "Mainframe"
+    - "FPGA"
+    - "ASIC"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Principal"
+    - "Staff"
+    - "Head"
+    - "Director"
+    - "VP"
+
+# -- Search queries --
+search_queries:
+
+  # -- PM & Agile roles on major portals --
+  - name: Greenhouse — Senior PM & Delivery Lead
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Technical Project Manager" OR "Program Manager" OR "Delivery Lead" remote OR "New Jersey" OR "New York"'
+    enabled: true
+
+  - name: Greenhouse — Agile Coach & Scrum Master
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Agile Coach" OR "Scrum Master" OR "RTE" OR "Release Train Engineer" remote OR "New York"'
+    enabled: true
+
+  - name: Ashby — PM & Agile roles
+    query: 'site:jobs.ashbyhq.com "Project Manager" OR "Agile Coach" OR "Scrum Master" OR "Delivery Lead" remote senior'
+    enabled: true
+
+  - name: Lever — PM & Program Manager
+    query: 'site:jobs.lever.co "Senior Project Manager" OR "Program Manager" OR "Technical Project Manager" remote OR "New Jersey" OR "New York"'
+    enabled: true
+
+  - name: Lever — Agile Coach & Scrum Master
+    query: 'site:jobs.lever.co "Agile Coach" OR "Scrum Master" OR "SAFe" OR "Agile Delivery" remote OR "New York"'
+    enabled: true
+
+  # -- AI PM / AI Transformation --
+  - name: Greenhouse — AI PM & Transformation Lead
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Project Manager" OR "AI Program Manager" OR "AI Transformation" OR "Digital Transformation" remote'
+    enabled: true
+
+  - name: Ashby — AI PM & Delivery
+    query: 'site:jobs.ashbyhq.com "AI" "Project Manager" OR "Program Manager" OR "Delivery" remote'
+    enabled: true
+
+  # -- PMO & Portfolio --
+  - name: Greenhouse — PMO & Portfolio Manager
+    query: 'site:boards.greenhouse.io "PMO" OR "Portfolio Manager" OR "Release Manager" remote OR "New York" OR "New Jersey"'
+    enabled: true
+
+  # -- Contract / C2C / Freelance --
+  - name: LinkedIn — Contract PM roles NJ/NY
+    query: '"project manager" OR "program manager" OR "scrum master" contract OR "C2C" OR "1099" "New Jersey" OR "New York" remote'
+    enabled: true
+
+  - name: Dice — Contract Technical PM
+    query: 'site:dice.com "Technical Project Manager" OR "Agile Coach" OR "Scrum Master" contract remote OR "New Jersey"'
+    enabled: true
+
+  - name: ClearanceJobs / Gov Contractors — PM
+    query: '"program manager" OR "project manager" "SAFe" OR "Agile" government OR federal OR "DOT" OR "DOD" remote OR "New Jersey"'
+    enabled: true
+
+  # -- Construction PM (Procore certified) --
+  - name: ProCore / Construction PM roles
+    query: '"construction project manager" OR "infrastructure project manager" "Procore" OR "PMP" "New Jersey" OR "New York" OR remote'
+    enabled: true
+
+# -- Tracked companies --
+# Enterprise tech, consulting, financial services, and AI companies hiring PMs & Agile Coaches
+
+tracked_companies:
+
+  # -- Enterprise Tech / Cloud --
+
+  - name: IBM
+    careers_url: https://www.ibm.com/employment
+    scan_method: websearch
+    scan_query: 'site:ibm.com/employment "Project Manager" OR "Agile Coach" OR "Scrum Master" OR "Program Manager" "New Jersey" OR "New York" OR remote'
+    notes: "Large PM/Agile employer. Hybrid-friendly."
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://jobs.ashbyhq.com/servicenow
+    scan_method: websearch
+    scan_query: 'site:servicenow.com/careers "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Delivery Lead" remote'
+    notes: "Enterprise platform. Strong PM hiring."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Project Manager" OR "Program Manager" OR "Delivery Lead" OR "Agile Coach" remote OR "New York"'
+    notes: "Agentforce AI + strong PM culture."
+    enabled: true
+
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Technical Program Manager" OR "Project Manager" OR "Agile Coach" remote OR "New York"'
+    notes: "TPM roles. Remote-friendly."
+    enabled: true
+
+  - name: AWS (Amazon)
+    careers_url: https://www.amazon.jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Technical Program Manager" OR "Program Manager" OR "Delivery Manager" remote OR "New York" OR "New Jersey"'
+    notes: "Heavy TPM hiring. Snowflake/AWS background valuable."
+    enabled: true
+
+  - name: Google
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Technical Program Manager" OR "Program Manager" OR "Delivery Lead" remote OR "New York"'
+    notes: "TPM and PM roles. Strong Agile culture."
+    enabled: true
+
+  # -- Consulting / Professional Services --
+
+  - name: Accenture
+    careers_url: https://www.accenture.com/us-en/careers
+    scan_method: websearch
+    scan_query: 'site:accenture.com/careers "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" OR "Delivery Lead" "New Jersey" OR "New York" OR remote'
+    notes: "Major Agile transformation employer. SAFe SPC valued."
+    enabled: true
+
+  - name: Deloitte
+    careers_url: https://jobs2.deloitte.com
+    scan_method: websearch
+    scan_query: 'site:deloitte.com/careers "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" "New Jersey" OR "New York" OR remote'
+    notes: "Large PM/Agile practice. SAFe + PMP valued."
+    enabled: true
+
+  - name: KPMG
+    careers_url: https://jobs.kpmg.us
+    scan_method: websearch
+    scan_query: 'site:jobs.kpmg.us "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Delivery Lead" "New Jersey" OR "New York"'
+    notes: "Advisory practice hires PMs heavily."
+    enabled: true
+
+  - name: PwC
+    careers_url: https://www.pwc.com/us/en/careers.html
+    scan_method: websearch
+    scan_query: '"pwc" careers "Project Manager" OR "Program Manager" OR "Agile Coach" "New Jersey" OR "New York" OR remote'
+    enabled: true
+
+  - name: EY (Ernst & Young)
+    careers_url: https://careers.ey.com
+    scan_method: websearch
+    scan_query: 'site:careers.ey.com "Project Manager" OR "Program Manager" OR "Agile Coach" "New York" OR "New Jersey" OR remote'
+    enabled: true
+
+  - name: Booz Allen Hamilton
+    careers_url: https://jobs.boozallen.com
+    scan_method: websearch
+    scan_query: 'site:boozallen.com/careers "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New Jersey"'
+    notes: "Gov contractor. SAFe/Agile heavy. DOT/DOD programs."
+    enabled: true
+
+  - name: Leidos
+    careers_url: https://careers.leidos.com
+    scan_method: websearch
+    scan_query: 'site:careers.leidos.com "Project Manager" OR "Program Manager" OR "Scrum Master" OR "Agile Coach" remote OR "New Jersey"'
+    notes: "Gov contractor. DOT, infrastructure programs."
+    enabled: true
+
+  - name: SAIC
+    careers_url: https://jobs.saic.com
+    scan_method: websearch
+    scan_query: 'site:jobs.saic.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New Jersey"'
+    enabled: true
+
+  - name: Cognizant
+    careers_url: https://careers.cognizant.com
+    scan_method: websearch
+    scan_query: 'site:careers.cognizant.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Delivery Lead" remote OR "New Jersey" OR "New York"'
+    notes: "Large IT services. Major PM employer. NJ presence."
+    enabled: true
+
+  # -- Financial Services --
+
+  - name: JPMorgan Chase
+    careers_url: https://careers.jpmorgan.com
+    scan_method: websearch
+    scan_query: 'site:careers.jpmorgan.com "Technical Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New York" OR "New Jersey"'
+    notes: "Major NYC employer. Strong Agile adoption."
+    enabled: true
+
+  - name: Citi
+    careers_url: https://jobs.citi.com
+    scan_method: websearch
+    scan_query: 'site:jobs.citi.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" OR "Delivery Lead" "New York" OR "New Jersey" OR remote'
+    enabled: true
+
+  - name: Goldman Sachs
+    careers_url: https://www.goldmansachs.com/careers
+    scan_method: websearch
+    scan_query: 'site:goldmansachs.com/careers "Technical Program Manager" OR "Project Manager" OR "Agile" "New York" OR remote'
+    enabled: true
+
+  - name: Prudential Financial
+    careers_url: https://jobs.prudential.com
+    scan_method: websearch
+    scan_query: 'site:jobs.prudential.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New Jersey"'
+    notes: "HQ Newark, NJ. Strong local employer."
+    enabled: true
+
+  - name: MetLife
+    careers_url: https://jobs.metlife.com
+    scan_method: websearch
+    scan_query: 'site:jobs.metlife.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Delivery Lead" remote OR "New York" OR "New Jersey"'
+    notes: "NYC/NJ employer. Insurance + tech PM roles."
+    enabled: true
+
+  # -- Healthcare / Pharma --
+
+  - name: Johnson & Johnson
+    careers_url: https://jobs.jnj.com
+    scan_method: websearch
+    scan_query: 'site:jobs.jnj.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New Jersey"'
+    notes: "HQ NJ. Pharma tech + IT PM roles."
+    enabled: true
+
+  - name: Merck
+    careers_url: https://jobs.merck.com
+    scan_method: websearch
+    scan_query: 'site:jobs.merck.com "Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote OR "New Jersey"'
+    notes: "HQ NJ. Large pharma. Good PM demand."
+    enabled: true
+
+  - name: UnitedHealth Group
+    careers_url: https://careers.unitedhealthgroup.com
+    scan_method: websearch
+    scan_query: 'site:careers.unitedhealthgroup.com "Technical Project Manager" OR "Program Manager" OR "Agile Coach" OR "Scrum Master" remote'
+    enabled: true
+
+  # -- AI / Tech companies hiring AI-adjacent PM roles --
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    notes: "Claude AI. Looking for AI PM / AI Architect roles here."
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Program Manager" OR "Project Manager" OR "Delivery" OR "Agile"'
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://careers.servicenow.com
+    scan_method: websearch
+    scan_query: 'site:careers.servicenow.com "Technical Program Manager" OR "Agile Coach" OR "Scrum Master" remote'
+    notes: "AI-powered enterprise platform."
+    enabled: true
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/palantir "Project Manager" OR "Program Manager" OR "Deployment" OR "Delivery"'
+    notes: "FDE/Deployment PM roles. Gov + commercial."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    notes: "Enterprise AI search. PM roles possible."
+    enabled: true
+
+  # -- Government / Transportation (DOT-adjacent, per ANE Consulting interview) --
+
+  - name: WSP USA
+    careers_url: https://www.wsp.com/en-us/careers
+    scan_method: websearch
+    scan_query: '"WSP" careers "Project Manager" OR "Program Manager" transportation OR infrastructure "New Jersey" OR "New York" OR remote'
+    notes: "Infrastructure/DOT PM roles. NJ/NY market."
+    enabled: true
+
+  - name: AECOM
+    careers_url: https://aecom.com/careers
+    scan_method: websearch
+    scan_query: 'site:aecom.com/careers "Project Manager" OR "Program Manager" transportation OR infrastructure "New Jersey" OR "New York"'
+    notes: "Infrastructure PM. DOT programs."
+    enabled: true
+
+  - name: Parsons Corporation
+    careers_url: https://www.parsons.com/careers
+    scan_method: websearch
+    scan_query: '"parsons" careers "Project Manager" OR "Program Manager" transportation OR infrastructure OR government "New Jersey" OR "New York" OR remote'
+    notes: "Gov + infrastructure PM roles."
+    enabled: true

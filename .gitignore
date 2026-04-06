@@ -1,9 +1,4 @@
-# Personal data (user fills these)
-data/applications.md
-data/pipeline.md
-data/scan-history.tsv
-reports/*.md
-!reports/.gitkeep
+# Output (regenerated each run)
 output/*
 !output/.gitkeep
 batch/logs/*
@@ -14,10 +9,6 @@ batch/tracker-additions/*.tsv
 !batch/tracker-additions/.gitkeep
 jds/*
 !jds/.gitkeep
-
-# User config
-config/profile.yml
-portals.yml
 
 # Generated
 .resolved-prompt-*

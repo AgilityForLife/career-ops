@@ -1,0 +1,126 @@
+# Career-Ops Profile — Erick G. Rosa
+# Source of truth for all personal data across all modes.
+# Last updated: 2026-04-06
+
+candidate:
+  full_name: "Erick G. Rosa"
+  credentials: "PMP, PMI-ACP, SPC6"
+  email: "ErickRosa01@gmail.com"
+  phone: "862-202-0908"
+  location: "New Jersey (Greater NYC Metro)"
+  linkedin: "linkedin.com/in/erickgrosa"
+  credly: "credly.com/users/erick-rosa"
+  portfolio_url: ""       # add if you build one
+  github: ""              # add if relevant
+  twitter: ""             # add if relevant
+
+target_roles:
+  primary:
+    - "Senior Technical Project Manager"
+    - "Program Manager"
+    - "Delivery Lead / Delivery Manager"
+    - "Agile Coach"
+    - "Scrum Master"
+    - "Project Coordinator"
+  secondary:
+    - "AI Project Manager"
+    - "AI Delivery Lead"
+    - "Claude AI Coder / AI Architect roles"
+  archetypes:
+    - name: "Technical Project Manager / Delivery Lead"
+      level: "Senior"
+      fit: "primary"       # primary = dream role
+    - name: "Program Manager"
+      level: "Senior"
+      fit: "primary"
+    - name: "Agile Coach / SAFe Consultant"
+      level: "Senior/Principal"
+      fit: "primary"
+    - name: "Scrum Master"
+      level: "Senior"
+      fit: "primary"
+    - name: "Project Coordinator"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "AI / Claude-AI Project Manager or Architect"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "Senior TPM — 15+ years delivering cloud, DevOps, and data platform programs at enterprise scale (AWS, Snowflake, SAFe SPC6)"
+  exit_story: >
+    After 15+ years leading enterprise technical delivery programs — AWS and DevOps
+    infrastructure modernization at Verisk, Snowflake OneMesh data platform migration
+    at Sanofi — I'm targeting Senior TPM and Program Manager roles where program
+    ownership, cloud platform delivery, and executive-level reporting are the core
+    requirements. I bring a rare combination: PMP-credentialed program discipline,
+    Power BI dashboards that VP and R&D leadership rely on for decisions, and SAFe SPC6
+    at portfolio scale. My differentiator is not process knowledge — it's measurable
+    delivery outcomes in regulated, complex enterprise environments.
+  superpowers:
+    - "Enterprise program delivery at scale: 5 teams, 50+ engineers, $3M budget, 4 releases/year at Verisk"
+    - "Cloud & data platform delivery: AWS infrastructure modernization + Snowflake OneMesh migration at Sanofi"
+    - "DevOps governance with results: 40% fewer outages, 70% faster provisioning, 60% better stability"
+    - "Power BI executive dashboards used by VP/R&D leadership — built for decisions, not status updates"
+    - "SAFe SPC6 at portfolio scale: ARTs, PI Planning, Jira Align — transformation, not certification"
+    - "Regulated delivery: pharma R&D (Sanofi) + compliance-aware infrastructure (Verisk)"
+  proof_points:
+    - name: "Verisk Cloud & DevOps Transformation"
+      context: "Senior TPM/Agile Coach, Aug 2018–Mar 2024"
+      hero_metrics:
+        - "Enabled launch of 3 new analytics products → ~$3M incremental revenue"
+        - "Reduced production outages by 40%"
+        - "Cut environment provisioning 70% (days → overnight) via automation"
+        - "Improved environment stability by 60%"
+        - "Led 5 concurrent delivery teams (~50 engineers)"
+    - name: "AFR Wholesale Salesforce Automation"
+      context: "Project Manager, Mar–Dec 2016"
+      hero_metrics:
+        - "$5M annual incremental revenue from automation programs"
+        - "20% reduction in time-to-market for contract/order management systems"
+        - "Supported ~500 Salesforce end users"
+    - name: "Sanofi R&D MDM & Portfolio Analytics Transformation"
+      context: "TPM/Scrum Master/Agile Coach, Jun 2023–Feb 2024"
+      hero_metrics:
+        - "Global multi-workstream program: Snowflake, AWS, Informatica IDMC, Control-M, Tableau, Power BI"
+        - "US + Europe cross-functional coordination"
+        - "Google Cloud + Oracle → Snowflake OneMesh migration"
+
+compensation:
+  preferred_type: "C2C / 1099 (first preference), then W2, then Full Time"
+  target_rate_contract: "$60+/hr (C2C or 1099)"
+  target_salary_fulltime: "$100K+"
+  currency: "USD"
+  minimum_rate_contract: "$60/hr"
+  minimum_salary_fulltime: "$100K"
+  location_flexibility: "Remote preferred; open to hybrid in Greater NYC Metro"
+  notes: >
+    Strong preference for contract roles (C2C or 1099) at $60+/hr.
+    W2 contracts acceptable. Full-time considered at $100K+.
+    Will not accept below minimums unless exceptional strategic opportunity.
+
+location:
+  country: "United States"
+  state: "New Jersey"
+  city: "Greater NYC Metro (NJ)"
+  timezone: "EST (UTC-5)"
+  visa_status: "No sponsorship needed"
+  onsite_availability: "Remote preferred; open to occasional on-site in NJ/NY Metro"
+
+deal_breakers:
+  - "Below $60/hr C2C or below $100K full-time"
+  - "Requires relocation outside NJ/NY Metro"
+  - "On-site 4-5 days/week mandatory with no flexibility"
+  - "No Agile/Scrum practices whatsoever"
+
+certifications:
+  - "PMP — PMI License #1793833"
+  - "PMI-ACP — License #1957875"
+  - "SAFe SPC6 — SAFe Program Consultant"
+  - "SAFe PO/PM"
+  - "SAFe Scrum Master (SSM)"
+  - "Leading SAFe (SA) — License #98352559-4607"
+  - "AWS Cloud Practitioner"
+  - "Procore PM — Project & Financial Management (2026)"
+  - "Salesforce Administrator — License #2590310"
+  - "Microsoft Office Specialist — License #12244443"

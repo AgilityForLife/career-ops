@@ -1,5 +1,30 @@
 # Career-Ops -- AI Job Search Pipeline
 
+---
+
+## ⚡ SESSION START — MANDATORY (runs before everything else)
+
+**BEFORE any evaluation, resume generation, or scan:**
+
+1. Read `config/skills-model.md` — this is the PRIMARY DECISION FRAMEWORK. It defines:
+   - Tier 1 Core Strengths (CS-1 through CS-7): the only lens for scoring and positioning
+   - Scoring rules: Core Strength Engagement Test must run before every score
+   - Resume generation rules: every resume opens with CS-1 + CS-2, never with coaching identity
+   - Interview prep rules: STAR story priority order and hiring-context framing
+   - De-emphasized skills: never lead with Tier 4 skills in senior TPM outputs
+
+2. Read `config/profile.yml` — candidate identity, comp targets, deal-breakers
+
+3. Read `cv.md` — canonical experience; never invent metrics
+
+**POSITIONING LOCK (do not override without explicit candidate instruction):**
+- Target: Senior Technical Program Manager / Delivery Lead
+- Lead always: CS-1 (enterprise delivery scale) + CS-2 (AWS + Snowflake)
+- Never lead: Agile coaching, training/instruction, Salesforce admin, non-profit work
+- BTII (current role) always listed last in experience; never used as lead proof point
+
+---
+
 ## Origin
 
 This system was built and used by [santifer](https://santifer.io) to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. The archetypes, scoring logic, negotiation scripts, and proof point structure all reflect his specific career search in AI/automation roles.
