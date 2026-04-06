@@ -4,7 +4,7 @@
 **Report #:** 004
 **Score:** 3.4/5
 **URL:** https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5
-**PDF:** ❌
+**PDF:** output/cv-erick-rosa-distyl-ai-dm-2026-04-06.pdf
 **Verification:** unconfirmed (batch mode)
 **Role Category:** [SECONDARY TARGET ROLE]
 

@@ -4,7 +4,7 @@
 **Report #:** 006
 **Score:** 3.0/5
 **URL:** https://job-boards.greenhouse.io/kasisto/jobs/8462035002
-**PDF:** ❌
+**PDF:** output/cv-erick-rosa-kasisto-tpm-2026-04-06.pdf
 **Verification:** unconfirmed (batch mode)
 **Role Category:** [SECONDARY TARGET ROLE]
 

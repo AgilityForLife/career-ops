@@ -4,7 +4,7 @@
 **Report #:** 002
 **Score:** 4.0/5
 **URL:** https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372
-**PDF:** ❌
+**PDF:** output/cv-erick-rosa-trilogy-federal-sm-2026-04-06.pdf
 **Verification:** unconfirmed (batch mode)
 **Role Category:** [PRIMARY TARGET ROLE]
 

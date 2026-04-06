@@ -4,7 +4,7 @@
 **Report #:** 003
 **Score:** 3.5/5
 **URL:** https://careers.leidos.com/jobs/17492470-scrum-master
-**PDF:** ❌
+**PDF:** output/cv-erick-rosa-leidos-sm-2026-04-06.pdf
 **Verification:** unconfirmed (batch mode)
 **Role Category:** [PRIMARY TARGET ROLE]
 

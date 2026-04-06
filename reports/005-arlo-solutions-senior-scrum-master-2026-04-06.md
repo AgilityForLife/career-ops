@@ -4,7 +4,7 @@
 **Report #:** 005
 **Score:** 3.3/5
 **URL:** https://job-boards.greenhouse.io/arlosolutionsllc/jobs/5031911007
-**PDF:** ❌
+**PDF:** output/cv-erick-rosa-arlo-solutions-sm-2026-04-06.pdf
 **Verification:** unconfirmed (batch mode)
 **Role Category:** [PRIMARY TARGET ROLE]
 
