@@ -67,7 +67,28 @@ async function generatePDF() {
     `file://$1.woff2')`
   );
 
-  const browser = await chromium.launch({ headless: true });
+  // Try default path first, fall back to older installed Chromium
+  const fallbackPaths = [
+    '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
+    '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell',
+  ];
+  let launchOptions = { headless: true };
+  try {
+    // Test default launch
+    const testBrowser = await chromium.launch(launchOptions);
+    await testBrowser.close();
+  } catch {
+    for (const p of fallbackPaths) {
+      try {
+        const { access } = await import('fs/promises');
+        await access(p);
+        launchOptions.executablePath = p;
+        console.log(`⚠️  Using fallback browser: ${p}`);
+        break;
+      } catch { /* try next */ }
+    }
+  }
+  const browser = await chromium.launch(launchOptions);
   const page = await browser.newPage();
 
   // Set content with file base URL for any relative resources

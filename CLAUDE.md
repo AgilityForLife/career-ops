@@ -224,6 +224,20 @@ Write one TSV file per evaluation to `batch/tracker-additions/{num}-{company-slu
 
 **Note:** In applications.md, score comes BEFORE status. The merge script handles this column swap automatically.
 
+### Auto-Resume Generation (Daily Pipeline)
+
+During daily pipeline runs, **automatically generate tailored resumes and PDFs** for all roles scoring **3.5/5 or higher**. This ensures strong-fit roles have application-ready materials without a second pass.
+
+**Process:**
+1. After evaluation, check score. If ≥ 3.5 → generate resume.
+2. Select resume type per role: Technical PM resume for TPM/PM roles, Agile resume for SM/Coach roles.
+3. Generate tailored HTML in `output/{num}-{company-slug}.html` using `templates/cv-template.html`.
+4. Convert to PDF via `node generate-pdf.mjs output/{file}.html output/{file}.pdf --format=letter`.
+5. Update the PDF column in the tracker TSV to `✅`.
+6. Resume rules from `config/skills-model.md` apply: summary opens with CS-1 + CS-2, BTII last, metrics always present.
+
+**Threshold:** 3.5/5 (configurable — adjust if too many or too few resumes are generated per run).
+
 ### Pipeline Integrity
 
 1. **NEVER edit applications.md to ADD new entries** -- Write TSV in `batch/tracker-additions/` and `merge-tracker.mjs` handles the merge.

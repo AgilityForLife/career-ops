@@ -10,9 +10,9 @@
 | 6 | 2026-04-06 | Kasisto | TPM Agentic AI Delivery | 3.0/5 | Aplicado | ✅ | [6](reports/006-kasisto-tpm-agentic-ai-2026-04-06.md) | SECONDARY; NJ-eligible remote; AI-adjacent; borderline fit; customer-facing gap |
 | 7 | 2026-04-07 | Nava | Sr. Project Manager | 3.2/5 | Evaluada | ❌ | [7](reports/007-nava-sr-pm-2026-04-07.md) | SECONDARY; gov tech PBC; NJ hybrid; strong CS-1/CS-5/CS-7 fit; no cloud/data (CS-2) |
 | 8 | 2026-04-07 | Capital Rx | Scrum Master | 2.5/5 | NO APLICAR | ❌ | [8](reports/008-capital-rx-scrum-master-2026-04-07.md) | Overqualified; single-team SM scope; 2/7 CS engaged; coaching-first positioning risk |
-| 9 | 2026-04-07 | Accela | Technical Program Manager | 3.8/5 | Evaluada | ❌ | [9](reports/009-accela-tpm-2026-04-07.md) | SECONDARY; govt software; $140-160K remote-first; strong CS-1/CS-5/CS-7 match |
+| 9 | 2026-04-07 | Accela | Technical Program Manager | 3.8/5 | Evaluada | ✅ | [9](reports/009-accela-tpm-2026-04-07.md) | SECONDARY; govt software; $140-160K remote-first; strong CS-1/CS-5/CS-7 match |
 | 10 | 2026-04-07 | Hudl | Senior Scrum Master | 2.5/5 | NO APLICAR | ❌ | [10](reports/010-hudl-senior-scrum-master-2026-04-07.md) | Coaching-first in sports tech; 2/7 CS engaged; no regulated/cloud scope |
 | 11 | 2026-04-07 | Ardent MC | Scrum Master (DHS) | 3.2/5 | Evaluada | ❌ | [11](reports/011-ardent-scrum-master-dhs-2026-04-07.md) | PRIMARY; DHS federal program; SAFe/Agile fit; gov background check req |
-| 12 | 2026-04-07 | Ema | TPM Agentic AI Platform | 3.7/5 | Evaluada | ❌ | [12](reports/012-ema-tpm-agentic-ai-2026-04-07.md) | SECONDARY; AI startup; cross-functional delivery; AI experience gap |
+| 12 | 2026-04-07 | Ema | TPM Agentic AI Platform | 3.7/5 | Evaluada | ✅ | [12](reports/012-ema-tpm-agentic-ai-2026-04-07.md) | SECONDARY; AI startup; cross-functional delivery; AI experience gap |
 | 13 | 2026-04-07 | Slide Insurance | Scrum Master | 2.8/5 | Evaluada | ❌ | [13](reports/013-slide-insurance-scrum-master-2026-04-07.md) | PRIMARY; insurtech; limited JD info; insufficient scope detail |
-| 14 | 2026-04-07 | Cognizant | Senior Consulting Manager PMO | 3.5/5 | Evaluada | ❌ | [14](reports/014-cognizant-senior-consulting-manager-pmo-2026-04-07.md) | SECONDARY; Teaneck NJ; $98K-$158K; PMO consulting; limited JD detail |
+| 14 | 2026-04-07 | Cognizant | Senior Consulting Manager PMO | 3.5/5 | Evaluada | ✅ | [14](reports/014-cognizant-senior-consulting-manager-pmo-2026-04-07.md) | SECONDARY; Teaneck NJ; $98K-$158K; PMO consulting; limited JD detail |
