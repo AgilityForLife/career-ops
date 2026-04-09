@@ -27,3 +27,13 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://job-boards.greenhouse.io/calendly/jobs/8377452002  Senior TPM - Calendly (4.0/5) [SECONDARY]
+https://job-boards.greenhouse.io/accela/jobs/7706706  TPM - Accela (3.7/5) [SECONDARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (Scrum Master) - HealthVerity (3.5/5) [PRIMARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. Project Manager - Nava NJ (3.3/5) [PRIMARY]
+https://jobs.lever.co/bixal/e32372e9-0808-408e-a844-d681c25d9223  Sr. Project Manager - Bixal (3.3/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior Scrum Master - Veda Data Solutions (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/slideinsurance/jobs/4990257008  Scrum Master - Slide Insurance (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.0/5) [PRIMARY]
+https://job-boards.greenhouse.io/vonage/jobs/8175050002  PM AI Implementation - Vonage (REJECTED: UK-based FTC)
+https://jobs.lever.co/applydigital/24a4efca-ff19-406f-86ba-e0d9617163c7  Sr PM/Scrum Master - Apply Digital (REJECTED: eCommerce agency, PT hours, low CS match 2.8/5)
