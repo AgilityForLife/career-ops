@@ -9,6 +9,14 @@ Format: one URL per line, optionally with a note after a space.
 https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
+https://job-boards.greenhouse.io/itd/jobs/4109016009  TPM / Anaplan Manager - itD Tech (Remote/NYC)
+https://job-boards.greenhouse.io/accela/jobs/7706706  Technical Program Manager - Accela (Remote)
+https://job-boards.greenhouse.io/rithum/jobs/7719444  Technical Project Manager - Rithum (Remote)
+https://jobs.lever.co/bixal/e32372e9-0808-408e-a844-d681c25d9223  Sr. PM - Bixal (Federal, Remote)
+https://jobs.lever.co/kobie/b5542bd1-f742-46df-9e25-bd87f467799e  Senior Technical PM - Kobie Marketing
+https://jobs.lever.co/useinsider/02c7af40-a326-4d2f-97e4-89cb2ebc4edb  Scrum Master - Insider One (Remote)
+https://jobs.lever.co/tala/ac8583ee-7fa8-42dc-a1b8-176bdbb09121  Senior Program Manager - Tala
+https://job-boards.greenhouse.io/rackner/jobs/4641309005  Senior PM Federal Health - Rackner (Remote)
 
 ## In Progress
 
@@ -27,3 +35,15 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. PM - Nava NJ Hybrid (3.8/5) [PRIMARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM/SM - HealthVerity (3.6/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master DHS - Ardent (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/calendly/jobs/8377452002  Senior TPM - Calendly (4.2/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior SM - Veda Data (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/slideinsurance/jobs/4990257008  Scrum Master - Slide Insurance (3.0/5) [PRIMARY]
+https://jobs.lever.co/applydigital/24a4efca-ff19-406f-86ba-e0d9617163c7  Sr PM/SM - Apply Digital (REJECTED: PT timezone required)
+https://job-boards.greenhouse.io/vonage/jobs/8175050002  PM AI Implementation - Vonage (REJECTED: London-based FTC)
+https://job-boards.greenhouse.io/agilesixv2/jobs/6263084003  Delivery Manager - Agile Six (SKIPPED: networking/future only)
+https://job-boards.greenhouse.io/wpp/jobs/8215251002  Agile DM - WPP (REJECTED: London)
+https://job-boards.greenhouse.io/hudl/jobs/7687372  Senior SM - Hudl (REJECTED: Chicago only)
