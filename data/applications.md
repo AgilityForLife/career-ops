@@ -8,3 +8,10 @@
 | 4 | 2026-04-06 | Distyl AI | Delivery Manager – Enterprise AI | 3.4/5 | Applied | ✅ | [4](reports/004-distyl-ai-delivery-manager-2026-04-06.md) | SECONDARY; NYC hybrid; $140K-$200K; $10M budget gap; AI experience gap |
 | 5 | 2026-04-06 | Arlo Solutions | Senior Scrum Master | 3.3/5 | Applied | ✅ | [5](reports/005-arlo-solutions-senior-scrum-master-2026-04-06.md) | PRIMARY; gov contractor; location uncertain; Jira+ADO fit; thin JD |
 | 6 | 2026-04-06 | Kasisto | TPM Agentic AI Delivery | 3.0/5 | Applied | ✅ | [6](reports/006-kasisto-tpm-agentic-ai-2026-04-06.md) | SECONDARY; NJ-eligible remote; AI-adjacent; borderline fit; customer-facing gap |
+| 7 | 2026-04-17 | Capital Rx | Scrum Master | 3.2/5 | Evaluated | ❌ | [7](reports/007-capital-rx-scrum-master-2026-04-17.md) | PRIMARY; remote/hybrid NYC; SM role; SPC6 exceeds req; comp unknown |
+| 8 | 2026-04-17 | Ardent | Scrum Master (DHS) | 3.5/5 | Evaluated | ❌ | [8](reports/008-ardent-scrum-master-dhs-2026-04-17.md) | PRIMARY; DHS federal; SAFe preferred; SPC6 differentiator; background check req |
+| 9 | 2026-04-17 | Accela | Technical Program Manager | 3.8/5 | Evaluated | ❌ | [9](reports/009-accela-tpm-2026-04-17.md) | SECONDARY; remote US; $140K-$160K; cross-functional engineering/data; gov tech |
+| 10 | 2026-04-17 | Calendly | Senior Technical Program Manager | 4.1/5 | Evaluated | ❌ | [10](reports/010-calendly-sr-tpm-2026-04-17.md) | SECONDARY; remote US; 6/7 CS engaged; cloud+CI/CD+compliance trifecta; strong fit |
+| 11 | 2026-04-17 | TTEC Digital | Principal Technical Project Manager | 3.3/5 | Evaluated | ❌ | [11](reports/011-ttec-digital-principal-tpm-2026-04-17.md) | SECONDARY; remote NJ eligible; NICE CXone platform; weak domain fit |
+| 12 | 2026-04-17 | Nava | Sr. Project Manager | 3.6/5 | Evaluated | ❌ | [12](reports/012-nava-sr-pm-nj-2026-04-17.md) | SECONDARY; NJ hybrid 2-3 days; Agile+traditional PM; gov digital services |
+| 13 | 2026-04-17 | Komodo Health | Scrum Master | 3.1/5 | Evaluated | ❌ | [13](reports/013-komodo-health-scrum-master-2026-04-17.md) | PRIMARY; remote/hybrid NYC; healthcare tech; limited CS engagement |
