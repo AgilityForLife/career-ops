@@ -31,6 +31,8 @@ const STATES_FILE = existsSync(join(CAREER_OPS, 'templates/states.yml'))
 const CANONICAL_STATUSES = [
   'evaluada', 'aplicado', 'respondido', 'entrevista',
   'oferta', 'rechazado', 'descartado', 'no aplicar',
+  'evaluated', 'applied', 'responded', 'interview',
+  'offer', 'rejected', 'discarded', 'skip',
 ];
 
 const ALIASES = {
