@@ -2,9 +2,19 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 1 | 2026-04-06 | System One | Project Manager / Scrum Master | 4.2/5 | Applied | ✅ | [1](reports/001-system-one-pm-scrum-master-2026-04-06.md) | C2C available; remote + Vienna VA; SAFe SSM+SPC6 fit; ADO gap manageable; $65-75/hr ask |
-| 2 | 2026-04-06 | Trilogy Federal | Scrum Master | 4.0/5 | Applied | ✅ | [2](reports/002-trilogy-federal-scrum-master-2026-04-06.md) | PRIMARY; SAFe SSM+PMP fit; VA/federal; remote; strong regulated delivery match |
-| 3 | 2026-04-06 | Leidos | Scrum Master (NJ) | 3.5/5 | Applied | ✅ | [3](reports/003-leidos-scrum-master-nj-2026-04-06.md) | PRIMARY; Egg Harbor NJ hybrid; SAFe env; CS degree req may be gap |
-| 4 | 2026-04-06 | Distyl AI | Delivery Manager – Enterprise AI | 3.4/5 | Applied | ✅ | [4](reports/004-distyl-ai-delivery-manager-2026-04-06.md) | SECONDARY; NYC hybrid; $140K-$200K; $10M budget gap; AI experience gap |
-| 5 | 2026-04-06 | Arlo Solutions | Senior Scrum Master | 3.3/5 | Applied | ✅ | [5](reports/005-arlo-solutions-senior-scrum-master-2026-04-06.md) | PRIMARY; gov contractor; location uncertain; Jira+ADO fit; thin JD |
-| 6 | 2026-04-06 | Kasisto | TPM Agentic AI Delivery | 3.0/5 | Applied | ✅ | [6](reports/006-kasisto-tpm-agentic-ai-2026-04-06.md) | SECONDARY; NJ-eligible remote; AI-adjacent; borderline fit; customer-facing gap |
+| 7 | 2026-04-20 | Calendly | Senior Technical Program Manager | 4.5/5 | Evaluada | ❌ | [7](reports/007-calendly-senior-tpm-2026-04-20.md) | PRIMARY; Remote US (NJ eligible); 7/7 CS engaged; cloud-native + CI/CD + SOC2 compliance; excellent fit |
+| 8 | 2026-04-20 | GitLab | Technical Program Manager (PMO) | 4.2/5 | Evaluada | ❌ | [8](reports/008-gitlab-tpm-pmo-2026-04-20.md) | PRIMARY; Remote (all-remote co); 6/7 CS; DevOps/CI-CD platform; async-first culture |
+| 9 | 2026-04-20 | Nava | Sr. Program Manager | 4.2/5 | Evaluada | ❌ | [9](reports/009-nava-sr-program-manager-2026-04-20.md) | PRIMARY; NJ/NY eligible; gov services; 6/7 CS; SAFe valued; cloud + regulated delivery |
+| 10 | 2026-04-20 | Twilio | Senior Principal TPM (R&D) | 3.5/5 | Evaluada | ❌ | [10](reports/010-twilio-senior-principal-tpm-2026-04-20.md) | SECONDARY; NJ/NY; $221K-$277K; aspirational stretch; 12+ yrs req; scale gap (hundreds of eng) |
+| 11 | 2026-04-20 | Angi | Senior Program Manager | 3.0/5 | Evaluada | ❌ | [11](reports/011-angi-senior-program-manager-2026-04-20.md) | SECONDARY; Remote NY; $120K-$180K; business-ops PM not technical; 2-3 CS engaged |
+| 12 | 2026-04-20 | Veda Data Solutions | Senior Scrum Master | 3.2/5 | Evaluada | ❌ | [12](reports/012-veda-data-senior-scrum-master-2026-04-20.md) | SECONDARY; Remote US; data solutions co; PMP valued; thin JD; scope is TPM not SM |
+| 13 | 2026-04-20 | Apply Digital | Senior PM / Scrum Master | 3.2/5 | Evaluada | ❌ | [13](reports/013-apply-digital-senior-pm-scrum-master-2026-04-20.md) | SECONDARY; Remote but Pacific Time req; agency model; PMI-ACP valued; timezone concern for EST |
+| 14 | 2026-04-20 | Decagon | Senior Technical Program Manager | 3.0/5 | Evaluada | ❌ | [14](reports/014-decagon-senior-tpm-2026-04-20.md) | SECONDARY; SF-based AI startup; 2 CS engaged; AI-adjacent strategic value; location gap |
+| 15 | 2026-04-20 | AHEAD | Senior Scrum Master | 2.8/5 | NO APLICAR | ❌ | [15](reports/015-ahead-senior-scrum-master-2026-04-20.md) | REJECTED; coaching-only scope; Tier 4 de-emphasis; ADO primary tool; 1-2 CS engaged |
+| 16 | 2026-04-20 | RXR | Project Lead AI Transformation | 2.5/5 | NO APLICAR | ❌ | [16](reports/016-rxr-project-lead-ai-transformation-2026-04-20.md) | REJECTED; AI tools adoption not delivery; 0-1 CS; $120K-$130K; real estate co; low fit |
+| 1 | 2026-04-06 | System One | Project Manager / Scrum Master | 4.2/5 | Aplicado | ✅ | [1](reports/001-system-one-pm-scrum-master-2026-04-06.md) | C2C available; remote + Vienna VA; SAFe SSM+SPC6 fit; ADO gap manageable; $65-75/hr ask |
+| 2 | 2026-04-06 | Trilogy Federal | Scrum Master | 4.0/5 | Aplicado | ✅ | [2](reports/002-trilogy-federal-scrum-master-2026-04-06.md) | PRIMARY; SAFe SSM+PMP fit; VA/federal; remote; strong regulated delivery match |
+| 3 | 2026-04-06 | Leidos | Scrum Master (NJ) | 3.5/5 | Aplicado | ✅ | [3](reports/003-leidos-scrum-master-nj-2026-04-06.md) | PRIMARY; Egg Harbor NJ hybrid; SAFe env; CS degree req may be gap |
+| 4 | 2026-04-06 | Distyl AI | Delivery Manager – Enterprise AI | 3.4/5 | Aplicado | ✅ | [4](reports/004-distyl-ai-delivery-manager-2026-04-06.md) | SECONDARY; NYC hybrid; $140K-$200K; $10M budget gap; AI experience gap |
+| 5 | 2026-04-06 | Arlo Solutions | Senior Scrum Master | 3.3/5 | Aplicado | ✅ | [5](reports/005-arlo-solutions-senior-scrum-master-2026-04-06.md) | PRIMARY; gov contractor; location uncertain; Jira+ADO fit; thin JD |
+| 6 | 2026-04-06 | Kasisto | TPM Agentic AI Delivery | 3.0/5 | Aplicado | ✅ | [6](reports/006-kasisto-tpm-agentic-ai-2026-04-06.md) | SECONDARY; NJ-eligible remote; AI-adjacent; borderline fit; customer-facing gap |
