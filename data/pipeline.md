@@ -17,6 +17,14 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://job-boards.greenhouse.io/calendly/jobs/8377452002  Senior TPM - Calendly (4.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/synerg/jobs/5848393004  Sr. Program Manager - Syner-G BioPharma (4.2/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior Scrum Master - Veda Data (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/jencapinc/jobs/4365961007  Senior PM PMO - Jencap (3.4/5) [SECONDARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. PM - Nava (3.4/5) [SECONDARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (SM) - HealthVerity (3.1/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (REJECTED: seniority mismatch 2.9/5)
+https://job-boards.greenhouse.io/rxr/jobs/5057163008  Project Lead AI - RXR (REJECTED: not program delivery 2.5/5)
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
