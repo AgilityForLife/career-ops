@@ -27,3 +27,11 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.citi.com/job/jersey-city/senior-program-project-manager-vp-nam-issuer-services-technology/287/32531724272  Sr Program/Project Manager VP - Citi (4.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master DHS - Ardent (3.4/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/slideinsurance/jobs/4990257008  Scrum Master - Slide Insurance (3.1/5) [PRIMARY]
+https://job-boards.greenhouse.io/rxr/jobs/5057163008  AI Transformation Lead - RXR (REJECTED: AI evangelist/trainer focus 2.7/5)
+https://jobs.lever.co/ttecdigital/acfd565c-7367-45aa-8683-f6a5f62d7e4a  Principal TPM - TTEC Digital (REJECTED: Google CCAI 2yr req 2.8/5)
+https://job-boards.greenhouse.io/komodohealth/jobs/8321858002  Scrum Master - Komodo Health (REJECTED: EoR structure 2.9/5)
