@@ -27,3 +27,11 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/cayuse/jobs/8519982002  TPM Platform Migration - Cayuse (3.8/5) [SECONDARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr Project Manager - Nava (3.6/5) [SECONDARY]
+https://jobs.lever.co/ttecdigital/acfd565c-7367-45aa-8683-f6a5f62d7e4a  Principal Technical PM - TTEC Digital (3.5/5) [SECONDARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master - Ardent DHS (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.4/5) [PRIMARY]
+https://jobs.ashbyhq.com/HighlightTA/508ed838-9ccf-4a53-bc0d-ae33055bd3b9  Agile Delivery Manager - Neon One (3.9/5) [PRIMARY]
+https://jobs.ashbyhq.com/rula/464582ee-ffc9-43e1-9f26-1de7a085a268  Technical Project Manager - Rula (3.5/5) [SECONDARY]
