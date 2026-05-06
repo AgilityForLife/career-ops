@@ -17,6 +17,19 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.4/5) [PRIMARY]
+https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Senior TPM - Energy Solutions (3.5/5) [SECONDARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master - Ardent DHS (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/komodohealth/jobs/8321858002  Scrum Master - Komodo Health (3.1/5) [PRIMARY]
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  TPM - CentralReach (3.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/slideinsurance/jobs/4990257008  Scrum Master - Slide Insurance (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/vonage/jobs/8175050002  PM AI Implementation - Vonage (REJECTED: UK-based FTC)
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. PM - Nava (REJECTED: no longer accepting applications)
+https://jobs.lever.co/ttecdigital/acfd565c-7367-45aa-8683-f6a5f62d7e4a  Principal TPM - TTEC Digital (REJECTED: requires Google CCAI experience)
+https://job-boards.greenhouse.io/3cloud/jobs/8516682002  Scrum Master - 3Cloud (REJECTED: Philippines)
+https://job-boards.greenhouse.io/wpp/jobs/8088298002  Scrum Master - WPP (REJECTED: India)
+https://job-boards.greenhouse.io/rackner/jobs/4636079005  TPM Federal Health - Rackner (REJECTED: Secret clearance required)
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
