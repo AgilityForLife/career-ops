@@ -27,3 +27,10 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://job-boards.greenhouse.io/mercury/jobs/5856800004  Senior TPM Revenue Technology - Mercury (3.6/5) [SECONDARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM/Scrum Master - HealthVerity (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.3/5) [SECONDARY]
+https://jobs.lever.co/bixal/17d0f552-88b5-44fc-bd6c-b97b39a7e1c9  Sr PM/Scrum Master VA Design System - Bixal (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  Technical Project Manager - CentralReach (3.1/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior Scrum Master - Veda Data Solutions (3.0/5) [PRIMARY]
+https://job-boards.greenhouse.io/rxr/jobs/5057163008  Project Lead AI Transformation - RXR (REJECTED: low CS engagement 2.8/5)
