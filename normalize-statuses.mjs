@@ -83,10 +83,20 @@ function normalizeStatus(raw) {
     if (lower === c.toLowerCase()) return { status: c };
   }
 
+  // English labels from states.yml
+  if (lower === 'evaluated') return { status: 'Evaluated' };
+  if (lower === 'applied') return { status: 'Applied' };
+  if (lower === 'responded') return { status: 'Responded' };
+  if (lower === 'interview') return { status: 'Interview' };
+  if (lower === 'offer') return { status: 'Offer' };
+  if (lower === 'rejected') return { status: 'Rejected' };
+  if (lower === 'discarded') return { status: 'Discarded' };
+  if (lower === 'skip') return { status: 'SKIP' };
+
   // Aliases from states.yml
-  if (['enviada', 'aplicada', 'applied', 'sent'].includes(lower)) return { status: 'Aplicado' };
-  if (['cerrada', 'descartada'].includes(lower)) return { status: 'Descartado' };
-  if (['no aplicar', 'no_aplicar', 'skip'].includes(lower)) return { status: 'NO APLICAR' };
+  if (['enviada', 'aplicada', 'sent'].includes(lower)) return { status: 'Applied' };
+  if (['cerrada', 'descartada'].includes(lower)) return { status: 'Discarded' };
+  if (['no aplicar', 'no_aplicar'].includes(lower)) return { status: 'SKIP' };
 
   // Unknown — flag it
   return { status: null, unknown: true };

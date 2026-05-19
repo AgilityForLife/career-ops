@@ -17,6 +17,12 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://job-boards.greenhouse.io/cybermediatechnologies/jobs/5101385008  Technical Project Manager - CyberMedia Technologies (4.0/5) [PRIMARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. Project Manager - Nava (3.7/5) [PRIMARY]
+https://jobs.lever.co/nava/0125234d-bc9c-4fc0-90e4-7a14cba1a5d7  Sr. Program Manager - Nava (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/mercury/jobs/5856800004  Senior TPM - Mercury (3.4/5) [SECONDARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.1/5) [SECONDARY]
+https://job-boards.greenhouse.io/capitalrx/jobs/4877946008  Scrum Master - Capital Rx (3.0/5) [PRIMARY]
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
