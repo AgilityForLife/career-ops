@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career-Ops — How the Pipeline Works</title>
+<style>
+  :root {
+    --bg: #0a0e14;
+    --surface: #131920;
+    --surface-2: #1a2130;
+    --border: #2a3545;
+    --text: #d4dce8;
+    --text-muted: #7a8b9e;
+    --blue: #5cb3ff;
+    --green: #4ade80;
+    --amber: #fbbf24;
+    --red: #f87171;
+    --purple: #c084fc;
+    --cyan: #67e8f9;
+    --pink: #f472b6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* ── Header ── */
+  .hero {
+    padding: 80px 24px 50px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(92,179,255,0.06) 0%, transparent 100%);
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    background: linear-gradient(135deg, var(--blue), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero .tagline {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    margin-top: 10px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ── Container ── */
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px 100px;
+  }
+
+  /* ── Timeline spine ── */
+  .timeline {
+    position: relative;
+    padding-left: 60px;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg,
+      var(--purple) 0%,
+      var(--blue) 20%,
+      var(--cyan) 40%,
+      var(--green) 60%,
+      var(--amber) 80%,
+      var(--red) 100%
+    );
+    opacity: 0.4;
+  }
+
+  /* ── Step ── */
+  .step {
+    position: relative;
+    margin-bottom: 48px;
+  }
+  .step:last-child { margin-bottom: 0; }
+
+  .step-dot {
+    position: absolute;
+    left: -42px;
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid;
+    background: var(--bg);
+    z-index: 1;
+  }
+  .step-dot.purple { border-color: var(--purple); }
+  .step-dot.blue { border-color: var(--blue); }
+  .step-dot.cyan { border-color: var(--cyan); }
+  .step-dot.green { border-color: var(--green); }
+  .step-dot.amber { border-color: var(--amber); }
+  .step-dot.red { border-color: var(--red); }
+  .step-dot.pink { border-color: var(--pink); }
+
+  .step-label {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .step-label.purple { background: rgba(192,132,252,0.12); color: var(--purple); }
+  .step-label.blue { background: rgba(92,179,255,0.12); color: var(--blue); }
+  .step-label.cyan { background: rgba(103,232,249,0.12); color: var(--cyan); }
+  .step-label.green { background: rgba(74,222,128,0.12); color: var(--green); }
+  .step-label.amber { background: rgba(251,191,36,0.12); color: var(--amber); }
+  .step-label.red { background: rgba(248,113,113,0.12); color: var(--red); }
+  .step-label.pink { background: rgba(244,114,182,0.12); color: var(--pink); }
+
+  .step h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+  .step p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  /* ── Cards inside steps ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 14px;
+  }
+  .card h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card h3 .icon { font-size: 1.1rem; }
+
+  /* ── Code blocks ── */
+  .code-block {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.82rem;
+    color: var(--cyan);
+    overflow-x: auto;
+    margin: 10px 0;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .code-block .comment { color: var(--text-muted); }
+  .code-block .keyword { color: var(--purple); }
+  .code-block .string { color: var(--green); }
+  .code-block .file { color: var(--amber); }
+  .code-block .arrow { color: var(--blue); }
+
+  /* ── Flow diagrams ── */
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 14px 0;
+  }
+  .flow-box {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid;
+  }
+  .flow-box.input { background: rgba(192,132,252,0.1); border-color: rgba(192,132,252,0.3); color: var(--purple); }
+  .flow-box.process { background: rgba(92,179,255,0.1); border-color: rgba(92,179,255,0.3); color: var(--blue); }
+  .flow-box.output { background: rgba(74,222,128,0.1); border-color: rgba(74,222,128,0.3); color: var(--green); }
+  .flow-box.decision { background: rgba(251,191,36,0.1); border-color: rgba(251,191,36,0.3); color: var(--amber); clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%); padding: 8px 24px; }
+  .flow-box.reject { background: rgba(248,113,113,0.1); border-color: rgba(248,113,113,0.3); color: var(--red); }
+  .flow-arrow { color: var(--text-muted); font-size: 1.1rem; flex-shrink: 0; }
+
+  /* ── Detail lists ── */
+  .detail-list {
+    list-style: none;
+  }
+  .detail-list li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid rgba(42,53,69,0.5);
+  }
+  .detail-list li:last-child { border-bottom: none; }
+  .detail-list li::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 16px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--border);
+  }
+  .detail-list li strong { color: var(--text); }
+  .detail-list li code {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--cyan);
+  }
+
+  /* ── Tables ── */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin: 10px 0;
+  }
+  .data-table th {
+    text-align: left;
+    padding: 8px 12px;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--border);
+  }
+  .data-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(42,53,69,0.4);
+  }
+
+  /* ── Example box ── */
+  .example {
+    background: rgba(92,179,255,0.04);
+    border: 1px solid rgba(92,179,255,0.15);
+    border-left: 3px solid var(--blue);
+    border-radius: 0 8px 8px 0;
+    padding: 16px 20px;
+    margin: 14px 0;
+  }
+  .example-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--blue);
+    margin-bottom: 8px;
+  }
+  .example p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+  .example code {
+    background: var(--surface-2);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: var(--cyan);
+  }
+
+  /* ── Callout ── */
+  .callout {
+    display: flex;
+    gap: 14px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    margin: 14px 0;
+    font-size: 0.88rem;
+    align-items: flex-start;
+  }
+  .callout.warn {
+    background: rgba(251,191,36,0.06);
+    border: 1px solid rgba(251,191,36,0.2);
+    color: var(--amber);
+  }
+  .callout.safe {
+    background: rgba(74,222,128,0.06);
+    border: 1px solid rgba(74,222,128,0.2);
+    color: var(--green);
+  }
+  .callout.info {
+    background: rgba(92,179,255,0.06);
+    border: 1px solid rgba(92,179,255,0.2);
+    color: var(--blue);
+  }
+  .callout .callout-icon { font-size: 1.2rem; flex-shrink: 0; }
+  .callout p { margin: 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 2rem; }
+    .timeline { padding-left: 40px; }
+    .timeline::before { left: 14px; }
+    .step-dot { left: -32px; }
+    .flow { flex-direction: column; align-items: stretch; }
+    .flow-arrow { transform: rotate(90deg); text-align: center; }
+    .flow-box.decision { clip-path: none; padding: 8px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>How Career-Ops Works</h1>
+  <p class="tagline">A step-by-step walkthrough of how the AI pipeline scans job portals, fetches descriptions, evaluates fit, scores roles, generates reports, and tracks applications &mdash; end to end.</p>
+</div>
+
+<div class="container">
+<div class="timeline">
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 1: LOAD THE BRAIN -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot purple"></div>
+  <span class="step-label purple">Step 1 &mdash; Setup</span>
+  <h2>Load the Brain</h2>
+  <p>Before any scanning happens, the system reads three files that tell it <em>who you are</em>, <em>what you're good at</em>, and <em>what you're looking for</em>. Nothing runs without this context.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F9E0;</span> Three files loaded every session</h3>
+    <ul class="detail-list">
+      <li><strong>config/skills-model.md</strong> &mdash; The decision framework. Defines 7 Core Strengths (CS-1 through CS-7) that every job is scored against. Contains scoring formulas, resume rules, interview strategy, and de-emphasis rules for Tier 4 skills.</li>
+      <li><strong>config/profile.yml</strong> &mdash; Your identity: name, location (NJ), target roles (Senior TPM, Agile Coach, Scrum Master), comp targets ($60+/hr C2C, $100K+ FTE), deal-breakers (no relocation, no on-site 5 days/week).</li>
+      <li><strong>cv.md</strong> &mdash; Your canonical resume. Every metric, every proof point comes from here. The system never invents data. If cv.md says "40% outage reduction" that's what goes on the resume &mdash; no rounding up to 50%.</li>
+    </ul>
+  </div>
+
+  <div class="callout info">
+    <span class="callout-icon">&#x1F512;</span>
+    <p><strong>Positioning Lock:</strong> The system always leads with CS-1 (enterprise delivery at scale) + CS-2 (AWS + Snowflake). It never leads with Agile coaching identity, Salesforce admin, or non-profit work &mdash; unless you explicitly override this.</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 2: BUILD SEARCH QUERIES -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot blue"></div>
+  <span class="step-label blue">Step 2 &mdash; Scan Configuration</span>
+  <h2>Build the Search Queries</h2>
+  <p>The system reads <code>portals.yml</code>, which defines exactly what to search for and where. This file contains 12 search query templates and 30+ tracked companies.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F50D;</span> What portals.yml contains</h3>
+    <ul class="detail-list">
+      <li><strong>Title filters (positive)</strong> &mdash; Keywords that match target roles: "Project Manager", "Agile Coach", "Scrum Master", "SAFe", "RTE", "Delivery Lead", "AI Project Manager", "Construction Project Manager", etc.</li>
+      <li><strong>Title filters (negative)</strong> &mdash; Keywords to reject: "Junior", "Intern", "Entry Level", "Java", ".NET", "iOS", "Blockchain", "COBOL".</li>
+      <li><strong>Seniority boost</strong> &mdash; Titles containing "Senior", "Lead", "Principal", "Director" get priority.</li>
+      <li><strong>12 search query templates</strong> &mdash; Pre-built Google-style searches targeting specific job board domains.</li>
+      <li><strong>30+ tracked companies</strong> &mdash; Enterprise tech (IBM, AWS, Google), consulting (Accenture, Deloitte, KPMG), finance (JPMorgan, Citi, Prudential), pharma (J&J, Merck), AI (Anthropic, OpenAI, Palantir), gov (WSP, AECOM, Parsons).</li>
+    </ul>
+  </div>
+
+  <div class="example">
+    <div class="example-title">Example Search Query</div>
+    <p><code>site:boards.greenhouse.io "Technical Project Manager" OR "Program Manager" OR "Delivery Lead" remote OR "New Jersey" OR "New York"</code></p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 3: HIT THE WEBSITES -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot blue"></div>
+  <span class="step-label blue">Step 3 &mdash; Portal Scanning</span>
+  <h2>Hit the Websites</h2>
+  <p>This is where the system actually goes out to the internet. It runs each search query using <strong>WebSearch</strong> (a Google-style search API) and collects job listing URLs from the results.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F310;</span> How it searches (parallel batches)</h3>
+    <ul class="detail-list">
+      <li><strong>Batch 1:</strong> Greenhouse boards &mdash; PM, Delivery Lead, Agile Coach, Scrum Master roles across all Greenhouse-hosted job boards</li>
+      <li><strong>Batch 2:</strong> Ashby &amp; Lever &mdash; PM, Agile, AI roles on these ATS platforms</li>
+      <li><strong>Batch 3:</strong> AI-specific &mdash; "AI Project Manager", "AI Program Manager", "AI Transformation", "Digital Transformation"</li>
+      <li><strong>Batch 4:</strong> PMO, Portfolio Manager, Release Manager roles</li>
+      <li><strong>Batch 5:</strong> Contract roles &mdash; C2C, 1099, freelance PM/SM roles on LinkedIn, Dice</li>
+      <li><strong>Batch 6:</strong> Government &mdash; SAFe + Agile in federal/DOT/DOD programs</li>
+      <li><strong>Batch 7:</strong> Construction PM &mdash; Procore-certified roles in NJ/NY</li>
+      <li><strong>Batch 8:</strong> Tracked company APIs &mdash; Direct API calls to Greenhouse boards (Anthropic, Glean, etc.)</li>
+    </ul>
+  </div>
+
+  <div class="flow">
+    <div class="flow-box input">portals.yml<br><span style="font-size:0.7rem;">12 queries</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box process">WebSearch<br><span style="font-size:0.7rem;">parallel batches</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output">Raw URLs<br><span style="font-size:0.7rem;">~50-100 results</span></div>
+  </div>
+
+  <div class="example">
+    <div class="example-title">What comes back from a search</div>
+    <p>Each search returns 10 results with title, URL, and snippet. Example:<br>
+    <code>Job Application for Senior Technical Program Manager at Mercury</code><br>
+    <code>https://job-boards.greenhouse.io/mercury/jobs/5856800004</code><br>
+    <em style="color:var(--text-muted);">"Senior TPM owning delivery sequencing for Revenue Technology... remote within US or Canada..."</em></p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 4: DEDUP -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot cyan"></div>
+  <span class="step-label cyan">Step 4 &mdash; Deduplication</span>
+  <h2>Filter Out What You've Already Seen</h2>
+  <p>Every URL the system has ever processed is stored in <code>data/scan-history.tsv</code>. Before evaluating, it checks each new URL against this file to avoid re-processing old listings.</p>
+
+  <div class="code-block"><span class="comment"># scan-history.tsv format:</span>
+<span class="file">url</span>	<span class="file">title</span>	<span class="file">company</span>	<span class="file">date_seen</span>	<span class="file">status</span>
+<span class="string">https://job-boards.greenhouse.io/kasisto/jobs/8462035002</span>	TPM Agentic AI	Kasisto	2026-04-06	evaluated
+<span class="string">https://careers.leidos.com/jobs/17568628-agile-coach</span>	Agile Coach	Leidos	2026-04-06	rejected-clearance</div>
+
+  <div class="flow">
+    <div class="flow-box output">Raw URLs<br><span style="font-size:0.7rem;">~50-100</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box process">Dedup Filter<br><span style="font-size:0.7rem;">vs scan-history.tsv</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output">New URLs<br><span style="font-size:0.7rem;">~10-25</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box reject">Duplicates<br><span style="font-size:0.7rem;">discarded</span></div>
+  </div>
+
+  <div class="callout info">
+    <span class="callout-icon">&#x1F4CA;</span>
+    <p><strong>Example:</strong> In the May 19, 2026 run, 21 new unique URLs were found, and 10 duplicates (from the April 6 batch) were filtered out.</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 5: TITLE FILTERING -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot cyan"></div>
+  <span class="step-label cyan">Step 5 &mdash; Title Filtering</span>
+  <h2>Apply Title Filters &amp; Quick Triage</h2>
+  <p>Not every URL from a search is worth evaluating. The system applies positive/negative keyword filters and does a quick triage based on the job title, location, and any obvious disqualifiers.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x2702;&#xFE0F;</span> Quick rejection criteria</h3>
+    <ul class="detail-list">
+      <li><strong>Location mismatch</strong> &mdash; Philippines, India, UK-only roles rejected immediately</li>
+      <li><strong>Clearance required</strong> &mdash; Secret/Top Secret clearance roles flagged and usually rejected</li>
+      <li><strong>Wrong seniority</strong> &mdash; Junior, Intern, Entry Level filtered by negative keywords</li>
+      <li><strong>Wrong domain</strong> &mdash; Specific tech requirements that don't match (e.g., "2+ years Google CCAI" or "Market Risk domain")</li>
+      <li><strong>Job closed</strong> &mdash; Listings confirmed as removed or expired</li>
+    </ul>
+  </div>
+
+  <div class="flow">
+    <div class="flow-box output">New URLs<br><span style="font-size:0.7rem;">~10-25</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box decision">Triage</div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output">Evaluate<br><span style="font-size:0.7rem;">~8-15</span></div>
+    <span class="flow-arrow" style="margin-left:10px;">&#x25B6;</span>
+    <div class="flow-box reject">Reject<br><span style="font-size:0.7rem;">~3-8</span></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 6: FETCH JOB DESCRIPTIONS -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot green"></div>
+  <span class="step-label green">Step 6 &mdash; JD Retrieval</span>
+  <h2>Fetch the Full Job Descriptions</h2>
+  <p>For each role that survives filtering, the system tries to retrieve the full job description. It uses multiple methods depending on availability.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F4E5;</span> Retrieval methods (in priority order)</h3>
+    <ul class="detail-list">
+      <li><strong>Method 1: Playwright (preferred)</strong> &mdash; Opens a real browser, navigates to the URL, takes a snapshot. Most accurate. Verifies the listing is still active (title + description + Apply button = active). Not available in batch/headless mode.</li>
+      <li><strong>Method 2: WebFetch</strong> &mdash; HTTP fetch of the URL, converts HTML to markdown. Faster but can be blocked by 403 Forbidden responses from job boards.</li>
+      <li><strong>Method 3: Greenhouse API</strong> &mdash; Direct JSON API calls to <code>boards-api.greenhouse.io/v1/boards/{company}/jobs/{id}</code>. Only works for Greenhouse-hosted jobs.</li>
+      <li><strong>Method 4: WebSearch (fallback)</strong> &mdash; When direct fetching is blocked, uses targeted Google searches to find JD details on third-party aggregators (RemoteRocketship, Himalayas, BuiltIn, Startup.jobs) that mirror job postings.</li>
+    </ul>
+  </div>
+
+  <div class="callout warn">
+    <span class="callout-icon">&#x26A0;&#xFE0F;</span>
+    <p><strong>Reality check:</strong> Many job board sites (Greenhouse, Lever, Ashby) block automated fetching with 403 errors. When this happens, evaluations are based on search snippets and marked <code>**Verification:** unconfirmed (batch mode)</code>.</p>
+  </div>
+
+  <div class="example">
+    <div class="example-title">What a fetched JD looks like (extracted data)</div>
+    <p><strong>Title:</strong> Senior Technical Program Manager<br>
+    <strong>Company:</strong> Mercury<br>
+    <strong>Location:</strong> Remote (US/Canada) or SF/NYC/Portland<br>
+    <strong>Salary:</strong> $131K-$148K (NYC) / $118K-$133K (elsewhere) + equity<br>
+    <strong>Requirements:</strong> 5+ years TPM, SaaS/fintech, Jira or Linear, cross-team delivery, dependency management<br>
+    <strong>Nice to have:</strong> Salesforce experience, Agile/Kanban</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 7: CORE STRENGTH ENGAGEMENT TEST -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot green"></div>
+  <span class="step-label green">Step 7 &mdash; Evaluation</span>
+  <h2>Run the Core Strength Engagement Test</h2>
+  <p>This is the heart of the system. For every job, the evaluator checks how many of the candidate's 7 Core Strengths the role engages. This produces the base score.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F3AF;</span> The 7 Core Strengths tested against every JD</h3>
+    <table class="data-table">
+      <thead><tr><th>ID</th><th>Core Strength</th><th>Weight</th><th>What triggers it</th></tr></thead>
+      <tbody>
+        <tr><td style="color:var(--green)">CS-1</td><td>Enterprise Technical Program Delivery</td><td>HIGH</td><td>Cross-team delivery, program ownership, budget management</td></tr>
+        <tr><td style="color:var(--green)">CS-2</td><td>Cloud &amp; Data Platform (AWS + Snowflake)</td><td>HIGH</td><td>Cloud infrastructure, data platform, migration, modernization</td></tr>
+        <tr><td style="color:var(--green)">CS-3</td><td>DevOps Delivery Governance</td><td>HIGH</td><td>CI/CD, release governance, CAB, infrastructure automation</td></tr>
+        <tr><td style="color:var(--green)">CS-4</td><td>Executive Reporting via Power BI</td><td>HIGH</td><td>Dashboards, KPI reporting, data-driven decisions</td></tr>
+        <tr><td style="color:var(--green)">CS-5</td><td>Cross-Functional Stakeholder Alignment</td><td>HIGH</td><td>Multi-geo coordination, VP-level reporting, regulated environments</td></tr>
+        <tr><td style="color:var(--amber)">CS-6</td><td>SAFe Enterprise Agile (SPC6)</td><td>MED-HIGH</td><td>SAFe, ARTs, PI Planning, Lean Portfolio Management</td></tr>
+        <tr><td style="color:var(--amber)">CS-7</td><td>Regulated &amp; Compliance-Aware Delivery</td><td>MED-HIGH</td><td>Pharma, financial services, government, HIPAA, CAB</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F4CA;</span> How the score is calculated</h3>
+    <table class="data-table">
+      <thead><tr><th>CS Engaged</th><th>Base Score</th><th>Signal</th></tr></thead>
+      <tbody>
+        <tr><td>5&ndash;7</td><td style="color:var(--green)">4.0+</td><td>Excellent fit &mdash; full pipeline</td></tr>
+        <tr><td>3&ndash;4</td><td style="color:var(--amber)">3.0&ndash;3.9</td><td>Evaluate comp + growth</td></tr>
+        <tr><td>1&ndash;2</td><td style="color:var(--red)">Below 3.0</td><td>Low fit &mdash; skip</td></tr>
+        <tr><td>0</td><td style="color:var(--text-muted)">1.0&ndash;2.0</td><td>Do not proceed</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:14px;">
+      <p style="font-size:0.82rem; color:var(--text-muted);"><strong>Modifiers applied after base score:</strong></p>
+      <ul class="detail-list">
+        <li>CS-1 absent &#x2192; <strong style="color:var(--red)">cap at 3.5</strong></li>
+        <li>CS-2 absent &#x2192; <strong style="color:var(--amber)">-0.3</strong></li>
+        <li>CS-4 present &#x2192; <strong style="color:var(--green)">+0.2 bonus</strong></li>
+        <li>CS-6 explicitly required &#x2192; <strong style="color:var(--green)">+0.2 bonus</strong></li>
+        <li>Tier 4 skills primary &#x2192; <strong style="color:var(--red)">cap at 3.0</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="example-title">Example: Mercury Senior TPM &mdash; Score 3.8/5</div>
+    <p>CS-1 &#x2714; (multi-team delivery) + CS-2 partial (SaaS, not cloud infra) + CS-4 &#x2714; (reporting dashboards) + CS-5 &#x2714; (cross-functional)<br>
+    Base: 3.8 | CS-2 partial: -0.15 | CS-4 present: +0.2 | <strong>Final: 3.8/5</strong></p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 8: ROLE CLASSIFICATION -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot amber"></div>
+  <span class="step-label amber">Step 8 &mdash; Classification</span>
+  <h2>Classify Each Role</h2>
+  <p>Every evaluated role is tagged with one of three classifications based on how it maps to the candidate's target roles.</p>
+
+  <div class="flow">
+    <div class="flow-box output" style="border-color:rgba(74,222,128,0.5);">
+      <strong style="color:var(--green);">[PRIMARY]</strong><br>
+      <span style="font-size:0.75rem;">Agile Coach, Scrum Master,<br>SAFe Consultant, RTE</span>
+    </div>
+    <div class="flow-box output" style="border-color:rgba(92,179,255,0.5);">
+      <strong style="color:var(--blue);">[SECONDARY]</strong><br>
+      <span style="font-size:0.75rem;">Senior TPM, Delivery Lead,<br>AI PM, Cloud/Data PM</span>
+    </div>
+    <div class="flow-box reject">
+      <strong>[REJECTED]</strong><br>
+      <span style="font-size:0.75rem;">Clearance req, wrong domain,<br>location, Tier 4 primary</span>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 9: GENERATE REPORTS -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot green"></div>
+  <span class="step-label green">Step 9 &mdash; Report Generation</span>
+  <h2>Generate Evaluation Reports</h2>
+  <p>For every role that's not rejected, the system generates a detailed evaluation report in markdown. Each report follows a standardized structure.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F4DD;</span> Report structure</h3>
+    <ul class="detail-list">
+      <li><strong>Header</strong> &mdash; Date, Archetype, Score, URL, PDF status, Verification status, Classification tag</li>
+      <li><strong>A) Role Summary</strong> &mdash; Table with archetype, domain, function, seniority, remote/hybrid, contract type, salary, TL;DR</li>
+      <li><strong>B) CV Match</strong> &mdash; Side-by-side table: JD requirement vs. candidate's matching experience from cv.md</li>
+      <li><strong>C) Core Strength Engagement Test</strong> &mdash; All 7 CS checked with &#x2714;/&#x26A0;/&#x274C; and notes</li>
+      <li><strong>D) Scoring</strong> &mdash; Base score, modifiers applied, final score</li>
+      <li><strong>E) Strengths</strong> &mdash; What makes this a good fit</li>
+      <li><strong>F) Gaps &amp; Risks</strong> &mdash; Honest assessment of weaknesses</li>
+      <li><strong>G) Recommendation</strong> &mdash; PROCEED / PROCEED WITH CAUTION / SKIP</li>
+      <li><strong>H) Resume Selection</strong> &mdash; Which resume type, why, what to lead with</li>
+    </ul>
+  </div>
+
+  <div class="code-block"><span class="comment"># Report naming convention:</span>
+<span class="file">reports/007-nava-sr-project-manager-2026-05-19.md</span>
+<span class="file">reports/008-mercury-senior-tpm-2026-05-19.md</span>
+<span class="file">reports/009-rula-tpm-2026-05-19.md</span>
+
+<span class="comment"># Format: {###}-{company-slug}-{YYYY-MM-DD}.md</span>
+<span class="comment"># Number: 3-digit zero-padded, sequential (max existing + 1)</span></div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 10: RESUME SELECTION -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot amber"></div>
+  <span class="step-label amber">Step 10 &mdash; Resume Tailoring</span>
+  <h2>Select &amp; Tailor Resume</h2>
+  <p>Each role gets a resume type selected based on the job category. The resume is then tailored using data from cv.md only &mdash; never invented metrics.</p>
+
+  <div class="flow">
+    <div class="flow-box decision">Role Type?</div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output" style="border-color:rgba(74,222,128,0.5);">Agile Coach / SM<br><span style="font-size:0.7rem;">&#x2192; Agile Resume</span></div>
+  </div>
+  <div class="flow" style="margin-top:4px;">
+    <div class="flow-box decision" style="visibility:hidden;">Role Type?</div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output" style="border-color:rgba(92,179,255,0.5);">TPM / PM / Delivery<br><span style="font-size:0.7rem;">&#x2192; Technical PM Resume</span></div>
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <h3><span class="icon">&#x1F4C4;</span> Resume rules (always enforced)</h3>
+    <ul class="detail-list">
+      <li>Summary always opens with <strong>CS-1 + CS-2</strong> (enterprise delivery + cloud/data)</li>
+      <li>Never opens with coaching identity</li>
+      <li>Verisk headline metrics always present: <strong>40% outage reduction, 70% provisioning, 60% stability, ~$3M revenue</strong></li>
+      <li>BTII (current role) listed last, minimized</li>
+      <li>Certifications near top: <strong>PMP, PMI-ACP, SPC6</strong></li>
+      <li>Skills section rewritten per job using cv.md only</li>
+      <li>Tier 4 skills excluded by default</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 11: TRACKER UPDATE -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot cyan"></div>
+  <span class="step-label cyan">Step 11 &mdash; Tracker Update</span>
+  <h2>Write Tracker Entries &amp; Merge</h2>
+  <p>Each evaluated role gets a TSV file written to <code>batch/tracker-additions/</code>. Then <code>merge-tracker.mjs</code> merges them all into the master <code>data/applications.md</code> tracker.</p>
+
+  <div class="code-block"><span class="comment"># TSV format (9 tab-separated columns):</span>
+<span class="file">num</span>	<span class="file">date</span>	<span class="file">company</span>	<span class="file">role</span>	<span class="file">status</span>	<span class="file">score</span>	<span class="file">pdf</span>	<span class="file">report</span>	<span class="file">notes</span>
+
+<span class="comment"># Example:</span>
+<span class="string">8	2026-05-19	Mercury	Senior TPM	Evaluated	3.8/5	&#x274C;	[8](reports/008-mercury-senior-tpm-2026-05-19.md)	SECONDARY; remote US; fintech SaaS; $118K-$148K</span></div>
+
+  <div class="flow">
+    <div class="flow-box input">TSV files<br><span style="font-size:0.7rem;">per evaluation</span></div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box process">merge-tracker.mjs</div>
+    <span class="flow-arrow">&#x25B6;</span>
+    <div class="flow-box output">applications.md<br><span style="font-size:0.7rem;">master tracker</span></div>
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <h3><span class="icon">&#x2705;</span> Pipeline integrity checks (run after merge)</h3>
+    <ul class="detail-list">
+      <li><code>node verify-pipeline.mjs</code> &mdash; Checks canonical statuses, duplicates, report links, score format, row format, pending TSVs</li>
+      <li><code>node normalize-statuses.mjs</code> &mdash; Maps aliases to canonical status labels</li>
+      <li><code>node dedup-tracker.mjs</code> &mdash; Removes duplicate company+role entries</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 12: APPLICATION STATE MACHINE -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot purple"></div>
+  <span class="step-label purple">Step 12 &mdash; State Machine</span>
+  <h2>Track Application States</h2>
+  <p>Each application moves through a defined state machine. Only canonical states are allowed in the tracker.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F504;</span> Canonical state flow</h3>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;">
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(92,179,255,0.1); border:1px solid rgba(92,179,255,0.3); color:var(--blue);">Evaluated</span>
+      <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(74,222,128,0.1); border:1px solid rgba(74,222,128,0.3); color:var(--green);">Applied</span>
+      <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(251,191,36,0.1); border:1px solid rgba(251,191,36,0.3); color:var(--amber);">Responded</span>
+      <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(103,232,249,0.1); border:1px solid rgba(103,232,249,0.3); color:var(--cyan);">Interview</span>
+      <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(192,132,252,0.1); border:1px solid rgba(192,132,252,0.3); color:var(--purple);">Offer</span>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;">
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(248,113,113,0.1); border:1px solid rgba(248,113,113,0.3); color:var(--red);">Rejected</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(122,139,158,0.1); border:1px solid rgba(122,139,158,0.3); color:var(--text-muted);">Discarded</span>
+      <span style="padding:6px 14px; border-radius:20px; font-size:0.78rem; font-weight:600; background:rgba(122,139,158,0.05); border:1px solid rgba(122,139,158,0.2); color:var(--text-muted);">SKIP</span>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 13: SESSION LOG -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot pink"></div>
+  <span class="step-label pink">Step 13 &mdash; Logging</span>
+  <h2>Write Session Log</h2>
+  <p>Every pipeline run produces a structured session log for continuous self-improvement. The log captures what happened, what worked, what failed, and what to do differently next time.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F4C5;</span> Session log structure</h3>
+    <ul class="detail-list">
+      <li><strong>Execution Summary</strong> &mdash; Portals scanned, jobs found, evaluated, prepared</li>
+      <li><strong>Key Decisions</strong> &mdash; Important choices made</li>
+      <li><strong>What Worked / Failed / Friction</strong> &mdash; Honest assessment</li>
+      <li><strong>Missing Context</strong> &mdash; What would have helped</li>
+      <li><strong>Reusable Insight</strong> &mdash; Patterns for future optimization</li>
+      <li><strong>Top Mistake / Improvement Opportunity</strong> &mdash; Highest-leverage learnings</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 14: COMMIT & PUSH -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot red"></div>
+  <span class="step-label red">Step 14 &mdash; Ship It</span>
+  <h2>Commit &amp; Push</h2>
+  <p>All changes are committed with a descriptive message summarizing the entire run, then pushed to the remote branch.</p>
+
+  <div class="code-block"><span class="keyword">git add</span> data/ reports/ logs/ batch/ verify-pipeline.mjs
+<span class="keyword">git commit</span> -m <span class="string">"Daily pipeline scan 2026-05-19: 21 new jobs, 8 evaluated, 5 rejected
+
+Evaluated (8):
+- Rula TPM (3.9/5) -- remote, data platform, healthcare [SECONDARY]
+- Mercury Sr TPM (3.8/5) -- remote, fintech, $118K-$148K [SECONDARY]
+- Nava Sr PM (3.7/5) -- NJ hybrid, government [SECONDARY]
+- Neon One Agile DM (3.5/5) -- remote, leads SMs [PRIMARY]
+..."</span>
+<span class="keyword">git push</span> -u origin claude/feature-branch</div>
+
+  <div class="callout safe">
+    <span class="callout-icon">&#x1F6E1;&#xFE0F;</span>
+    <p><strong>Safety rule:</strong> The pipeline NEVER auto-submits applications. It prepares materials (reports, PDFs, tracker entries) and stops. The candidate always makes the final call on whether to apply.</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════ -->
+<!-- STEP 15: WHAT THE USER SEES -->
+<!-- ════════════════════════════════════════════ -->
+<div class="step">
+  <div class="step-dot green"></div>
+  <span class="step-label green">Result</span>
+  <h2>What Gets Produced</h2>
+  <p>At the end of a daily pipeline run, the user has a complete picture of the job market and actionable materials for every strong-fit role.</p>
+
+  <div class="card">
+    <h3><span class="icon">&#x1F4E6;</span> Pipeline output summary</h3>
+    <table class="data-table">
+      <thead><tr><th>Output</th><th>Location</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Evaluation reports</td><td><code>reports/*.md</code></td><td>Detailed fit analysis per role</td></tr>
+        <tr><td>Application tracker</td><td><code>data/applications.md</code></td><td>Master table of all evaluated roles</td></tr>
+        <tr><td>Pipeline queue</td><td><code>data/pipeline.md</code></td><td>URLs pending, in progress, or done</td></tr>
+        <tr><td>Scan history</td><td><code>data/scan-history.tsv</code></td><td>Dedup log of all URLs ever seen</td></tr>
+        <tr><td>Tailored PDFs</td><td><code>output/*.pdf</code></td><td>Ready-to-submit resumes</td></tr>
+        <tr><td>Session log</td><td><code>logs/*.md</code></td><td>Run summary + improvement insights</td></tr>
+        <tr><td>Micro log</td><td><code>logs/tmp-*.md</code></td><td>Per-job evaluation details</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div><!-- /timeline -->
+</div><!-- /container -->
+
+<div style="text-align:center; padding:40px 20px; border-top:1px solid var(--border); color:var(--text-muted); font-size:0.82rem;">
+  <p>Career-Ops &mdash; AI-powered job search automation built on <a href="https://github.com/santifer/career-ops" style="color:var(--blue); text-decoration:none;">Claude Code</a></p>
+  <p style="margin-top:4px;">Designed for quality, not quantity. Every application a human reads costs someone's attention.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career-Ops — Pipeline Workflow</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface-2: #1c2129;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-2: #3fb950;
+    --accent-3: #d29922;
+    --accent-4: #f85149;
+    --accent-5: #bc8cff;
+    --accent-6: #79c0ff;
+    --gradient-1: linear-gradient(135deg, #58a6ff 0%, #bc8cff 100%);
+    --gradient-2: linear-gradient(135deg, #3fb950 0%, #58a6ff 100%);
+    --gradient-3: linear-gradient(135deg, #d29922 0%, #f85149 100%);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 900px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+  .header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+  }
+  .header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .header .stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .header .stat {
+    text-align: center;
+  }
+  .header .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .header .stat-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+  }
+
+  /* Main layout */
+  .pipeline {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+
+  /* Phase container */
+  .phase {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .phase:last-child { margin-bottom: 0; }
+
+  /* Connector line */
+  .connector {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+  }
+  .connector .line {
+    width: 3px;
+    height: 40px;
+    background: var(--border);
+    position: relative;
+  }
+  .connector .line::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid var(--border);
+  }
+  .connector.active .line {
+    background: var(--accent);
+    box-shadow: 0 0 10px rgba(88,166,255,0.3);
+  }
+  .connector.active .line::after {
+    border-top-color: var(--accent);
+  }
+
+  /* Phase card */
+  .phase-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  .phase-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 28px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .phase-header:hover { background: var(--surface-2); }
+
+  .phase-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  .phase-number.setup { background: var(--accent-5); }
+  .phase-number.scan { background: var(--accent); }
+  .phase-number.evaluate { background: var(--accent-3); }
+  .phase-number.build { background: var(--accent-2); }
+  .phase-number.output { background: var(--accent-4); }
+  .phase-number.safety { background: var(--text-muted); }
+
+  .phase-title {
+    flex: 1;
+  }
+  .phase-title h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .phase-title .subtitle {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+
+  .phase-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+  }
+  .phase-badge.auto { background: rgba(63,185,80,0.15); color: var(--accent-2); }
+  .phase-badge.manual { background: rgba(210,153,34,0.15); color: var(--accent-3); }
+  .phase-badge.critical { background: rgba(248,81,73,0.15); color: var(--accent-4); }
+
+  .expand-icon {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+  }
+  .phase-card.open .expand-icon { transform: rotate(180deg); }
+
+  /* Phase body */
+  .phase-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+  .phase-card.open .phase-body {
+    max-height: 2000px;
+  }
+  .phase-content {
+    padding: 0 28px 28px;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+
+  /* Steps inside phases */
+  .step-list {
+    list-style: none;
+    counter-reset: step;
+  }
+  .step-list li {
+    position: relative;
+    padding: 12px 0 12px 40px;
+    border-bottom: 1px solid rgba(48,54,61,0.5);
+    font-size: 0.92rem;
+  }
+  .step-list li:last-child { border-bottom: none; }
+  .step-list li::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .step-list li strong { color: var(--accent-6); }
+  .step-list li code {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.82rem;
+    color: var(--accent-5);
+  }
+
+  /* File references */
+  .file-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .file-ref {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    transition: border-color 0.2s;
+  }
+  .file-ref:hover { border-color: var(--accent); }
+  .file-ref .icon { font-size: 1rem; }
+  .file-ref .name { color: var(--accent-6); font-family: monospace; }
+
+  /* Decision diamond */
+  .decision-box {
+    margin: 16px 0;
+    padding: 18px 20px;
+    background: rgba(210,153,34,0.08);
+    border: 1px solid rgba(210,153,34,0.25);
+    border-radius: 10px;
+  }
+  .decision-box h4 {
+    font-size: 0.85rem;
+    color: var(--accent-3);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .decision-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  .decision-box ul li {
+    padding: 4px 0 4px 20px;
+    position: relative;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+  .decision-box ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-3);
+  }
+
+  /* Scoring table */
+  .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 0.85rem;
+  }
+  .score-table th {
+    text-align: left;
+    padding: 8px 12px;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--border);
+  }
+  .score-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(48,54,61,0.4);
+    color: var(--text);
+  }
+  .score-table tr:last-child td { border-bottom: none; }
+
+  /* Mode grid */
+  .mode-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .mode-card {
+    padding: 14px 16px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .mode-card:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.05);
+  }
+  .mode-card .mode-name {
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: var(--accent-6);
+    margin-bottom: 4px;
+  }
+  .mode-card .mode-desc {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  /* Status badges in flow */
+  .status-flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .status-pill {
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border: 1px solid;
+  }
+  .status-pill.evaluated { background: rgba(88,166,255,0.1); border-color: rgba(88,166,255,0.3); color: var(--accent); }
+  .status-pill.applied { background: rgba(63,185,80,0.1); border-color: rgba(63,185,80,0.3); color: var(--accent-2); }
+  .status-pill.interview { background: rgba(210,153,34,0.1); border-color: rgba(210,153,34,0.3); color: var(--accent-3); }
+  .status-pill.offer { background: rgba(188,140,255,0.1); border-color: rgba(188,140,255,0.3); color: var(--accent-5); }
+  .status-pill.rejected { background: rgba(248,81,73,0.1); border-color: rgba(248,81,73,0.3); color: var(--accent-4); }
+  .status-pill.discarded { background: rgba(139,148,158,0.1); border-color: rgba(139,148,158,0.3); color: var(--text-muted); }
+
+  /* Architecture diagram */
+  .arch-diagram {
+    margin: 20px 0;
+    padding: 24px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow-x: auto;
+  }
+  .arch-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .arch-row:last-child { margin-bottom: 0; }
+  .arch-box {
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-align: center;
+    min-width: 120px;
+    border: 1px solid;
+  }
+  .arch-box.config { background: rgba(188,140,255,0.1); border-color: rgba(188,140,255,0.3); color: var(--accent-5); }
+  .arch-box.data { background: rgba(88,166,255,0.1); border-color: rgba(88,166,255,0.3); color: var(--accent); }
+  .arch-box.engine { background: rgba(63,185,80,0.1); border-color: rgba(63,185,80,0.3); color: var(--accent-2); }
+  .arch-box.output { background: rgba(210,153,34,0.1); border-color: rgba(210,153,34,0.3); color: var(--accent-3); }
+  .arch-box.script { background: rgba(248,81,73,0.1); border-color: rgba(248,81,73,0.3); color: var(--accent-4); }
+  .arch-arrow {
+    color: var(--text-muted);
+    font-size: 1.2rem;
+  }
+  .arch-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  /* Section dividers */
+  .section-title {
+    text-align: center;
+    margin: 50px 0 30px;
+    position: relative;
+  }
+  .section-title h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 20px;
+    background: var(--bg);
+    position: relative;
+    z-index: 1;
+  }
+  .section-title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* Core strengths mini */
+  .cs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .cs-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.82rem;
+  }
+  .cs-badge {
+    flex-shrink: 0;
+    width: 36px;
+    height: 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: rgba(88,166,255,0.15);
+    color: var(--accent);
+  }
+  .cs-badge.high { background: rgba(63,185,80,0.15); color: var(--accent-2); }
+  .cs-badge.med { background: rgba(210,153,34,0.15); color: var(--accent-3); }
+  .cs-text { color: var(--text-muted); }
+  .cs-text strong { color: var(--text); }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.82rem;
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .header h1 { font-size: 1.8rem; }
+    .header .stats { gap: 20px; }
+    .phase-header { padding: 16px 18px; }
+    .phase-content { padding: 0 18px 18px; padding-top: 16px; }
+    .file-grid { grid-template-columns: 1fr; }
+    .mode-grid { grid-template-columns: 1fr; }
+    .cs-grid { grid-template-columns: 1fr; }
+    .arch-row { flex-direction: column; }
+    .arch-arrow { transform: rotate(90deg); }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<div class="header">
+  <h1>Career-Ops Pipeline</h1>
+  <p>AI-powered job search automation built on Claude Code &mdash; from portal scan to application prep in one autonomous run.</p>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">15</div>
+      <div class="stat-label">Pipeline Steps</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">14</div>
+      <div class="stat-label">Skill Modes</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">7</div>
+      <div class="stat-label">Core Strengths</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">8</div>
+      <div class="stat-label">Canonical States</div>
+    </div>
+  </div>
+</div>
+
+<div class="pipeline">
+
+  <!-- ===== ARCHITECTURE OVERVIEW ===== -->
+  <div class="section-title"><h2>System Architecture</h2></div>
+
+  <div class="arch-diagram">
+    <div class="arch-label">Configuration Layer</div>
+    <div class="arch-row">
+      <div class="arch-box config">skills-model.md</div>
+      <div class="arch-box config">profile.yml</div>
+      <div class="arch-box config">cv.md</div>
+      <div class="arch-box config">portals.yml</div>
+    </div>
+
+    <div class="arch-row"><span class="arch-arrow">&#x25BC;</span></div>
+
+    <div class="arch-label">Processing Engine (Claude Code)</div>
+    <div class="arch-row">
+      <div class="arch-box engine">Portal Scanner</div>
+      <div class="arch-arrow">&#x25B6;</div>
+      <div class="arch-box engine">JD Fetcher</div>
+      <div class="arch-arrow">&#x25B6;</div>
+      <div class="arch-box engine">Evaluator</div>
+      <div class="arch-arrow">&#x25B6;</div>
+      <div class="arch-box engine">Resume Tailor</div>
+      <div class="arch-arrow">&#x25B6;</div>
+      <div class="arch-box engine">PDF Generator</div>
+    </div>
+
+    <div class="arch-row"><span class="arch-arrow">&#x25BC;</span></div>
+
+    <div class="arch-label">Data Layer</div>
+    <div class="arch-row">
+      <div class="arch-box data">pipeline.md</div>
+      <div class="arch-box data">scan-history.tsv</div>
+      <div class="arch-box data">applications.md</div>
+      <div class="arch-box data">reports/</div>
+    </div>
+
+    <div class="arch-row"><span class="arch-arrow">&#x25BC;</span></div>
+
+    <div class="arch-label">Integrity Scripts</div>
+    <div class="arch-row">
+      <div class="arch-box script">merge-tracker.mjs</div>
+      <div class="arch-box script">verify-pipeline.mjs</div>
+      <div class="arch-box script">normalize-statuses.mjs</div>
+      <div class="arch-box script">dedup-tracker.mjs</div>
+    </div>
+  </div>
+
+  <!-- ===== DAILY PIPELINE FLOW ===== -->
+  <div class="section-title"><h2>Daily Pipeline Flow</h2></div>
+
+  <!-- Phase 0: Git Setup -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number setup">0</div>
+        <div class="phase-title">
+          <h3>Git Push Setup</h3>
+          <div class="subtitle">Configure remote URL with authentication token</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Set <code>git remote set-url origin</code> with PAT-authenticated URL</li>
+            <li>Create or switch to designated feature branch</li>
+            <li>Ensure clean working tree before pipeline begins</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 1: Load Context -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number setup">1</div>
+        <div class="phase-title">
+          <h3>Load System Context</h3>
+          <div class="subtitle">Read the decision framework, profile, and canonical CV</div>
+        </div>
+        <span class="phase-badge critical">Critical</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Read <strong>config/skills-model.md</strong> &mdash; primary decision framework with 7 Core Strengths, scoring rules, resume generation rules, interview prep rules</li>
+            <li>Read <strong>config/profile.yml</strong> &mdash; candidate identity, comp targets ($60+/hr C2C, $100K+ FTE), deal-breakers, target archetypes</li>
+            <li>Read <strong>cv.md</strong> &mdash; canonical experience; source of truth for all metrics (never invent data)</li>
+          </ol>
+          <div class="decision-box">
+            <h4>Positioning Lock</h4>
+            <ul>
+              <li>Target: Senior TPM / Delivery Lead</li>
+              <li>Always lead with CS-1 (enterprise delivery) + CS-2 (AWS + Snowflake)</li>
+              <li>Never lead with Agile coaching, Salesforce admin, non-profit work</li>
+              <li>BTII (current role) always listed last in experience</li>
+            </ul>
+          </div>
+          <p style="font-size:0.82rem; color:var(--text-muted); margin-top:12px;"><strong>Core Strengths loaded:</strong></p>
+          <div class="cs-grid">
+            <div class="cs-item"><div class="cs-badge high">CS-1</div><div class="cs-text"><strong>Enterprise Technical Program Delivery</strong> &mdash; Verisk, 5 teams, 50+ engineers</div></div>
+            <div class="cs-item"><div class="cs-badge high">CS-2</div><div class="cs-text"><strong>Cloud &amp; Data Platform (AWS + Snowflake)</strong> &mdash; Verisk + Sanofi</div></div>
+            <div class="cs-item"><div class="cs-badge high">CS-3</div><div class="cs-text"><strong>DevOps Delivery Governance</strong> &mdash; 40% fewer outages, 70% faster provisioning</div></div>
+            <div class="cs-item"><div class="cs-badge high">CS-4</div><div class="cs-text"><strong>Executive Reporting via Power BI</strong> &mdash; VP/R&amp;D dashboards</div></div>
+            <div class="cs-item"><div class="cs-badge high">CS-5</div><div class="cs-text"><strong>Cross-Functional Stakeholder Alignment</strong> &mdash; Regulated environments</div></div>
+            <div class="cs-item"><div class="cs-badge med">CS-6</div><div class="cs-text"><strong>SAFe Enterprise Agile (SPC6)</strong> &mdash; ARTs, PI Planning, portfolio</div></div>
+            <div class="cs-item"><div class="cs-badge med">CS-7</div><div class="cs-text"><strong>Regulated &amp; Compliance-Aware</strong> &mdash; Pharma R&amp;D, financial services</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 2: Install -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number setup">2</div>
+        <div class="phase-title">
+          <h3>Install Dependencies</h3>
+          <div class="subtitle">npm install &mdash; Puppeteer, YAML parser, etc.</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Run <code>npm install</code> to pull Puppeteer (PDF generation), js-yaml, and other dependencies</li>
+            <li>Verify <code>generate-pdf.mjs</code> is ready for HTML-to-PDF conversion</li>
+          </ol>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F4E6;</span><span class="name">package.json</span></div>
+            <div class="file-ref"><span class="icon">&#x2699;&#xFE0F;</span><span class="name">generate-pdf.mjs</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 3: Portal Scan -->
+  <div class="phase">
+    <div class="phase-card open" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number scan">3</div>
+        <div class="phase-title">
+          <h3>Portal Scan</h3>
+          <div class="subtitle">Search 12+ queries across Greenhouse, Lever, Ashby, Dice, LinkedIn, Gov portals</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Read <strong>portals.yml</strong> &mdash; 12 search queries + 30+ tracked companies</li>
+            <li>Execute <strong>WebSearch</strong> in parallel batches covering:
+              <ul style="margin:8px 0 0 20px; list-style:disc; color:var(--text-muted); font-size:0.85rem;">
+                <li>Greenhouse &mdash; PM, Agile, AI roles</li>
+                <li>Lever &mdash; PM, Scrum Master, SAFe</li>
+                <li>Ashby &mdash; PM, Delivery, AI</li>
+                <li>Dice &mdash; Contract TPM, Agile Coach</li>
+                <li>LinkedIn &mdash; C2C, 1099 contract roles</li>
+                <li>Gov portals &mdash; SAFe, DOT, DOD</li>
+                <li>Construction &mdash; Procore-certified PM</li>
+              </ul>
+            </li>
+            <li>Fetch tracked company APIs (Anthropic, Glean Greenhouse boards)</li>
+            <li>Read <strong>data/scan-history.tsv</strong> for deduplication</li>
+            <li>Filter results against <code>title_filter.positive</code> and <code>title_filter.negative</code> keywords</li>
+            <li>Add new unique URLs to <strong>data/pipeline.md</strong> under <em>Pending</em></li>
+            <li>Append new entries to <strong>data/scan-history.tsv</strong></li>
+          </ol>
+          <div class="decision-box">
+            <h4>Title Filters</h4>
+            <ul>
+              <li><strong style="color:var(--accent-2);">Positive:</strong> Project Manager, Program Manager, Agile Coach, Scrum Master, SAFe, RTE, Delivery Lead, AI PM, Construction PM</li>
+              <li><strong style="color:var(--accent-4);">Negative:</strong> Junior, Intern, Entry Level, Java, .NET, iOS, Blockchain, COBOL</li>
+              <li><strong style="color:var(--accent);">Seniority Boost:</strong> Senior, Lead, Principal, Staff, Head, Director, VP</li>
+            </ul>
+          </div>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F50D;</span><span class="name">portals.yml</span></div>
+            <div class="file-ref"><span class="icon">&#x1F4CB;</span><span class="name">data/pipeline.md</span></div>
+            <div class="file-ref"><span class="icon">&#x1F4CA;</span><span class="name">data/scan-history.tsv</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 4: Process Pipeline -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number evaluate">4</div>
+        <div class="phase-title">
+          <h3>Process New Pipeline Entries</h3>
+          <div class="subtitle">Fetch JDs, evaluate with skills-model, generate reports</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:14px;">For each new URL in <code>data/pipeline.md</code>:</p>
+          <ol class="step-list">
+            <li>Retrieve job description via <strong>WebFetch</strong> or <strong>Playwright</strong> (batch mode falls back to WebSearch)</li>
+            <li>Verify offer is still active &mdash; title + description + Apply button = active; footer only = closed</li>
+            <li>Run <strong>Core Strength Engagement Test</strong> against all 7 CS pillars</li>
+            <li>Score the role using skills-model.md scoring rules (CS weighting, de-emphasis rule, bonuses)</li>
+            <li>Generate evaluation report in <code>reports/{###}-{company-slug}-{YYYY-MM-DD}.md</code></li>
+            <li>Write tracker TSV in <code>batch/tracker-additions/{num}-{company-slug}.tsv</code></li>
+            <li>Mark report: <code>**Verification:** unconfirmed (batch mode)</code></li>
+            <li>Move URL from <em>Pending</em> to <em>Done</em> in pipeline.md</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 5: Role Targeting -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number evaluate">5</div>
+        <div class="phase-title">
+          <h3>Role Targeting Logic</h3>
+          <div class="subtitle">Classify each role as PRIMARY, SECONDARY, or REJECTED</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <div class="arch-diagram" style="padding:16px;">
+            <div class="arch-row">
+              <div class="arch-box" style="background:rgba(63,185,80,0.15); border-color:rgba(63,185,80,0.4); color:var(--accent-2); min-width:180px;">
+                <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">Primary Targets</div>
+                Agile Coach<br>Senior Scrum Master<br>Scrum Master<br>SAFe Program Consultant<br>Enterprise Agile Transformation
+              </div>
+              <div class="arch-box" style="background:rgba(88,166,255,0.15); border-color:rgba(88,166,255,0.4); color:var(--accent); min-width:180px;">
+                <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">Secondary Targets</div>
+                Senior TPM<br>Technical Project Manager<br>Delivery Lead<br>Cloud / Data / Platform<br>AI-adjacent PM
+              </div>
+              <div class="arch-box" style="background:rgba(248,81,73,0.15); border-color:rgba(248,81,73,0.4); color:var(--accent-4); min-width:180px;">
+                <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">Reject Only If</div>
+                Clear weak-fit roles<br>Tier 4 primary skills<br>Below comp minimums<br>Location deal-breakers<br>Clearance requirements
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 6: Fit & Application Logic -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number evaluate">6</div>
+        <div class="phase-title">
+          <h3>Fit &amp; Application Logic</h3>
+          <div class="subtitle">Process all genuine-fit roles &mdash; do NOT over-filter</div>
+        </div>
+        <span class="phase-badge manual">Decision</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Include both Agile + TPM roles when aligned with candidate profile</li>
+            <li>Do not cap volume &mdash; process all strong-fit roles</li>
+            <li>Apply ethical guardrails: strongly discourage applications below 4.0/5</li>
+            <li>Respect recruiters' time &mdash; only send what's worth reading</li>
+          </ol>
+          <div class="decision-box">
+            <h4>Quality Gate</h4>
+            <ul>
+              <li>Score 4.0+ &rarr; Strong fit, proceed with full pipeline</li>
+              <li>Score 3.0&ndash;3.9 &rarr; Evaluate comp + growth; may proceed with caveats</li>
+              <li>Score &lt;3.0 &rarr; Skip unless strategic exception</li>
+              <li>Score 1.0&ndash;2.0 &rarr; Do not proceed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 7: Resume Selection -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number build">7</div>
+        <div class="phase-title">
+          <h3>Resume Selection &amp; Tailoring</h3>
+          <div class="subtitle">Match resume type to role, rewrite skills section from cv.md</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li><strong>Do NOT merge resumes</strong> &mdash; select one type per role</li>
+            <li><strong>Agile resume</strong> &rarr; Agile Coach, Scrum Master, RTE, SAFe roles</li>
+            <li><strong>Technical PM resume</strong> &rarr; TPM, Program Manager, Delivery Lead, Cloud/Data/AI roles</li>
+            <li>Tailor resume per job &mdash; rewrite skills section using cv.md only</li>
+            <li>Summary must always open with <strong>CS-1 + CS-2</strong> (never with coaching identity)</li>
+            <li>Verisk metrics always present: 40% outage reduction, 70% provisioning, 60% stability, ~$3M revenue</li>
+            <li>BTII (current role) listed last, minimized</li>
+            <li>Certifications near top: PMP, PMI-ACP, SPC6</li>
+          </ol>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F4C4;</span><span class="name">cv.md</span></div>
+            <div class="file-ref"><span class="icon">&#x1F3A8;</span><span class="name">templates/cv-template.html</span></div>
+            <div class="file-ref"><span class="icon">&#x1F4DD;</span><span class="name">article-digest.md</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 8: Scoring Rules -->
+  <div class="phase">
+    <div class="phase-card open" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number evaluate">8</div>
+        <div class="phase-title">
+          <h3>Scoring Rules</h3>
+          <div class="subtitle">Core Strength Engagement Test + CS weighting modifiers</div>
+        </div>
+        <span class="phase-badge critical">Critical</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <table class="score-table">
+            <thead>
+              <tr><th>CS Engaged</th><th>Min Score</th><th>Signal</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>5&ndash;7</td><td>4.0+</td><td style="color:var(--accent-2)">Excellent fit &mdash; proceed with full pipeline</td></tr>
+              <tr><td>3&ndash;4</td><td>3.0&ndash;3.9</td><td style="color:var(--accent-3)">Evaluate comp + growth; may proceed</td></tr>
+              <tr><td>1&ndash;2</td><td>&lt;3.0</td><td style="color:var(--accent-4)">Low fit &mdash; skip unless strategic</td></tr>
+              <tr><td>0</td><td>1.0&ndash;2.0</td><td style="color:var(--text-muted)">Do not proceed</td></tr>
+            </tbody>
+          </table>
+          <div style="margin-top:16px;">
+            <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:8px;"><strong>CS Weighting Modifiers:</strong></p>
+            <table class="score-table">
+              <thead><tr><th>Condition</th><th>Impact</th></tr></thead>
+              <tbody>
+                <tr><td>CS-1 (Enterprise Delivery) absent</td><td style="color:var(--accent-4)">Cap score at 3.5</td></tr>
+                <tr><td>CS-2 (Cloud/Data) absent</td><td style="color:var(--accent-3)">Reduce score by 0.3</td></tr>
+                <tr><td>CS-4 (Power BI / Reporting) present</td><td style="color:var(--accent-2)">Add 0.2 bonus</td></tr>
+                <tr><td>CS-6 (SPC6) explicitly required</td><td style="color:var(--accent-2)">Add 0.2 bonus</td></tr>
+                <tr><td>Tier 4 skills primary</td><td style="color:var(--accent-4)">Cap score at 3.0</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 9: Output Rules -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number output">9</div>
+        <div class="phase-title">
+          <h3>Output &amp; Report Generation</h3>
+          <div class="subtitle">Reports, PDFs, tracker TSVs with standardized format</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Reports format: <code>{###}-{company-slug}-{YYYY-MM-DD}.md</code> (3-digit zero-padded, sequential)</li>
+            <li>Each report labeled: <strong>[PRIMARY TARGET ROLE]</strong>, <strong>[SECONDARY TARGET ROLE]</strong>, or <strong>[REJECTED]</strong></li>
+            <li>Report sections: Role Summary, CV Match, Core Strength Engagement Test, Scoring, Strengths, Gaps &amp; Risks, Recommendation, Resume Selection</li>
+            <li>All reports include <code>**URL:**</code> in header</li>
+            <li>Tracker TSV: 9 tab-separated columns per evaluation</li>
+            <li>Generate tailored PDF via <code>generate-pdf.mjs</code> (Puppeteer)</li>
+          </ol>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F4DD;</span><span class="name">reports/*.md</span></div>
+            <div class="file-ref"><span class="icon">&#x1F4C1;</span><span class="name">batch/tracker-additions/*.tsv</span></div>
+            <div class="file-ref"><span class="icon">&#x1F4C4;</span><span class="name">output/*.pdf</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 10: Application Prep -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number build">10</div>
+        <div class="phase-title">
+          <h3>Application Prep</h3>
+          <div class="subtitle">Prepare materials for ALL strong-fit roles &mdash; do not cap volume</div>
+        </div>
+        <span class="phase-badge manual">Decision</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Prepare tailored resume PDF for each strong-fit role</li>
+            <li>Draft cover letter / application answers if needed</li>
+            <li>Fill application forms (via <code>apply</code> mode) but <strong>NEVER auto-submit</strong></li>
+            <li>Generate STAR stories from <code>interview-prep/story-bank.md</code> for interview prep</li>
+          </ol>
+          <div class="decision-box">
+            <h4>Safety Rule</h4>
+            <ul>
+              <li>NEVER submit applications without candidate review</li>
+              <li>Only prepare + track &mdash; user makes the final call</li>
+              <li>Quality over speed: 5 targeted beats 50 generic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 11: Tracker Merge -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number output">11</div>
+        <div class="phase-title">
+          <h3>Tracker Merge &amp; Verification</h3>
+          <div class="subtitle">Merge TSVs into applications.md, verify pipeline integrity</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Run <code>node merge-tracker.mjs</code> &mdash; merges all TSVs from <code>batch/tracker-additions/</code> into <code>data/applications.md</code></li>
+            <li>Merged TSVs moved to <code>batch/tracker-additions/merged/</code></li>
+            <li>Run <code>node verify-pipeline.mjs</code> &mdash; checks canonical statuses, duplicate entries, report links, score format, row format</li>
+            <li>Run <code>node normalize-statuses.mjs</code> if needed</li>
+            <li>Run <code>node dedup-tracker.mjs</code> if duplicates found</li>
+          </ol>
+          <p style="font-size:0.82rem; color:var(--text-muted); margin-top:14px;"><strong>Canonical Application States:</strong></p>
+          <div class="status-flow">
+            <span class="status-pill evaluated">Evaluated</span>
+            <span class="status-pill applied">Applied</span>
+            <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+            <span class="status-pill" style="background:rgba(210,153,34,0.1); border-color:rgba(210,153,34,0.3); color:var(--accent-3);">Responded</span>
+            <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+            <span class="status-pill interview">Interview</span>
+            <span style="color:var(--text-muted); align-self:center;">&#x25B6;</span>
+            <span class="status-pill offer">Offer</span>
+          </div>
+          <div class="status-flow" style="margin-top:8px;">
+            <span class="status-pill rejected">Rejected</span>
+            <span class="status-pill discarded">Discarded</span>
+            <span class="status-pill" style="background:rgba(139,148,158,0.05); border-color:rgba(139,148,158,0.2); color:var(--text-muted);">SKIP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 12: Final State Log -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number output">12</div>
+        <div class="phase-title">
+          <h3>Final State &amp; Micro Logging</h3>
+          <div class="subtitle">Append batch summary, per-job evaluations, and resume decisions to micro log</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Append <strong>Portal Scan</strong> summary (portals scanned, new jobs, duplicates, anomalies)</li>
+            <li>Append <strong>Per-Job Evaluation</strong> for each role (classification, resume chosen, strengths, gaps, confidence)</li>
+            <li>Append <strong>Resume Decision</strong> summary (which resume, why, ambiguity, missing data)</li>
+            <li>Append <strong>Batch Summary</strong> (total processed, strong/weak fits, patterns noticed)</li>
+            <li>Append <strong>Final State</strong> (total outputs, reports generated, failed/skipped steps, confidence)</li>
+          </ol>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F4DD;</span><span class="name">logs/tmp-YYYY-MM-DD.md</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 13: Commit & Push -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number safety">13</div>
+        <div class="phase-title">
+          <h3>Commit &amp; Push</h3>
+          <div class="subtitle">Stage all changes, write descriptive commit, push to origin</div>
+        </div>
+        <span class="phase-badge auto">Auto</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li>Stage all modified and new files (reports, tracker, pipeline, scan history, logs)</li>
+            <li>Write commit message summarizing: portals scanned, new jobs found, jobs evaluated, applications prepared, primary vs secondary, rejected</li>
+            <li>Push to designated branch with <code>git push -u origin {branch}</code></li>
+            <li>Retry up to 4 times with exponential backoff on network failure</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="connector active"><div class="line"></div></div>
+
+  <!-- Phase 14: Session Log -->
+  <div class="phase">
+    <div class="phase-card" onclick="this.classList.toggle('open')">
+      <div class="phase-header">
+        <div class="phase-number output">14</div>
+        <div class="phase-title">
+          <h3>Session Logging</h3>
+          <div class="subtitle">Create structured log for continuous self-improvement</div>
+        </div>
+        <span class="phase-badge critical">Critical</span>
+        <span class="expand-icon">&#x25BC;</span>
+      </div>
+      <div class="phase-body">
+        <div class="phase-content">
+          <ol class="step-list">
+            <li><strong>Objective</strong> &mdash; what the pipeline run intended to accomplish</li>
+            <li><strong>Execution Summary</strong> &mdash; portals scanned, jobs found/evaluated/prepared, primary/secondary/rejected counts</li>
+            <li><strong>Key Decisions</strong> &mdash; important choices made during the run</li>
+            <li><strong>What Worked</strong> &mdash; specific successes</li>
+            <li><strong>What Failed</strong> &mdash; issues encountered (or "None")</li>
+            <li><strong>Friction</strong> &mdash; slowdowns (or "None")</li>
+            <li><strong>Missing Context</strong> &mdash; what would have helped</li>
+            <li><strong>What To Do Differently</strong> &mdash; clear improvement</li>
+            <li><strong>Reusable Insight</strong> &mdash; future optimization</li>
+            <li><strong>Top Mistake</strong> &mdash; biggest issue</li>
+            <li><strong>Top Improvement Opportunity</strong> &mdash; highest leverage change</li>
+          </ol>
+          <div class="file-grid">
+            <div class="file-ref"><span class="icon">&#x1F4C5;</span><span class="name">logs/YYYY-MM-DD-career-ops.md</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SKILL MODES ===== -->
+  <div class="section-title"><h2>Skill Modes</h2></div>
+  <p style="text-align:center; color:var(--text-muted); font-size:0.88rem; margin-bottom:20px;">The system routes user intent to the correct mode automatically.</p>
+
+  <div class="mode-grid">
+    <div class="mode-card">
+      <div class="mode-name">auto-pipeline</div>
+      <div class="mode-desc">Paste a JD or URL &rarr; evaluate + report + PDF + tracker</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">oferta</div>
+      <div class="mode-desc">Evaluate a single job offer in detail</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">ofertas</div>
+      <div class="mode-desc">Compare multiple offers side-by-side</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">contacto</div>
+      <div class="mode-desc">Generate LinkedIn outreach messages</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">deep</div>
+      <div class="mode-desc">Deep company research &amp; intel</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">pdf</div>
+      <div class="mode-desc">Generate tailored CV as PDF</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">training</div>
+      <div class="mode-desc">Evaluate a course or certification</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">project</div>
+      <div class="mode-desc">Evaluate a portfolio project idea</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">tracker</div>
+      <div class="mode-desc">Query application status &amp; history</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">apply</div>
+      <div class="mode-desc">Fill out application forms (never auto-submit)</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">scan</div>
+      <div class="mode-desc">Search portals for new job offers</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">pipeline</div>
+      <div class="mode-desc">Process pending URLs in the queue</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">batch</div>
+      <div class="mode-desc">Batch process multiple offers at once</div>
+    </div>
+    <div class="mode-card">
+      <div class="mode-name">_shared</div>
+      <div class="mode-desc">Shared archetypes, framing &amp; config</div>
+    </div>
+  </div>
+
+  <!-- ===== FILE MAP ===== -->
+  <div class="section-title"><h2>File Map</h2></div>
+
+  <div class="arch-diagram">
+    <div class="arch-label">Configuration</div>
+    <div class="arch-row" style="justify-content:flex-start; gap:8px; flex-wrap:wrap;">
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">config/skills-model.md</div>
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">config/profile.yml</div>
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">cv.md</div>
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">portals.yml</div>
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">templates/states.yml</div>
+      <div class="arch-box config" style="min-width:auto; font-size:0.78rem;">templates/cv-template.html</div>
+    </div>
+
+    <div style="height:12px;"></div>
+    <div class="arch-label">Data</div>
+    <div class="arch-row" style="justify-content:flex-start; gap:8px; flex-wrap:wrap;">
+      <div class="arch-box data" style="min-width:auto; font-size:0.78rem;">data/applications.md</div>
+      <div class="arch-box data" style="min-width:auto; font-size:0.78rem;">data/pipeline.md</div>
+      <div class="arch-box data" style="min-width:auto; font-size:0.78rem;">data/scan-history.tsv</div>
+      <div class="arch-box data" style="min-width:auto; font-size:0.78rem;">reports/*.md</div>
+      <div class="arch-box data" style="min-width:auto; font-size:0.78rem;">jds/*.md</div>
+    </div>
+
+    <div style="height:12px;"></div>
+    <div class="arch-label">Scripts</div>
+    <div class="arch-row" style="justify-content:flex-start; gap:8px; flex-wrap:wrap;">
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">generate-pdf.mjs</div>
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">merge-tracker.mjs</div>
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">verify-pipeline.mjs</div>
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">normalize-statuses.mjs</div>
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">dedup-tracker.mjs</div>
+      <div class="arch-box script" style="min-width:auto; font-size:0.78rem;">apply-job.mjs</div>
+    </div>
+
+    <div style="height:12px;"></div>
+    <div class="arch-label">Modes</div>
+    <div class="arch-row" style="justify-content:flex-start; gap:8px; flex-wrap:wrap;">
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/_shared.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/oferta.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/scan.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/batch.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/pdf.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/apply.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/deep.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">modes/contacto.md</div>
+      <div class="arch-box engine" style="min-width:auto; font-size:0.78rem;">+ 6 more</div>
+    </div>
+
+    <div style="height:12px;"></div>
+    <div class="arch-label">Output (gitignored)</div>
+    <div class="arch-row" style="justify-content:flex-start; gap:8px; flex-wrap:wrap;">
+      <div class="arch-box output" style="min-width:auto; font-size:0.78rem;">output/*.pdf</div>
+      <div class="arch-box output" style="min-width:auto; font-size:0.78rem;">batch/tracker-additions/*.tsv</div>
+      <div class="arch-box output" style="min-width:auto; font-size:0.78rem;">batch/tracker-additions/merged/</div>
+      <div class="arch-box output" style="min-width:auto; font-size:0.78rem;">logs/*.md</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p>Career-Ops &mdash; AI-powered job search automation built on <a href="https://github.com/santifer/career-ops">Claude Code</a></p>
+  <p style="margin-top:4px;">Designed for quality, not quantity. Every application a human reads costs someone's attention.</p>
+</div>
+
+<script>
+// Open all phase cards on page load for full visibility, then allow toggling
+document.querySelectorAll('.phase-card').forEach(card => {
+  // Only auto-open cards that aren't already open
+  if (!card.classList.contains('open')) {
+    // leave closed by default for cleaner initial view
+  }
+});
+</script>
+</body>
+</html>
