@@ -9,6 +9,16 @@ Format: one URL per line, optionally with a note after a space.
 https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr PM - Nava - NJ Hybrid
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  TPM - CentralReach - NJ Hybrid
+https://job-boards.greenhouse.io/mercury/jobs/5856800004  Senior TPM - Mercury - Remote/NYC
+https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Senior TPM - Energy Solutions - Remote
+https://job-boards.greenhouse.io/komodohealth/jobs/8321858002  Scrum Master - Komodo Health
+https://jobs.lever.co/thinkahead/23f04565-3c09-483a-bbf1-dad6d89ae698  Senior Scrum Master - AHEAD
+https://job-boards.greenhouse.io/rxr/jobs/5057163008  Project Lead AI Transformation - RXR
+https://job-boards.greenhouse.io/cybermediatechnologies/jobs/5101385008  TPM - CyberMedia Technologies - Remote
+https://jobs.lever.co/tala/ac8583ee-7fa8-42dc-a1b8-176bdbb09121  Senior Program Manager - Tala
+https://jobs.ashbyhq.com/HighlightTA/508ed838-9ccf-4a53-bc0d-ae33055bd3b9  Agile Delivery Manager - HighlightTA
 
 ## In Progress
 
@@ -17,6 +27,14 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (Scrum Master) - HealthVerity (3.4/5) [PRIMARY]
+https://jobs.lever.co/ttecdigital/acfd565c-7367-45aa-8683-f6a5f62d7e4a  Principal Technical PM - TTEC Digital (3.6/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior Scrum Master - Veda Data Solutions (3.2/5) [PRIMARY]
+https://boards.greenhouse.io/toast/jobs/7851279  IT Delivery Manager - Toast (3.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (REJECTED: AI exp gap + 4-day on-site 2.8/5)
+https://jobs.lever.co/bixal/17d0f552-88b5-44fc-bd6c-b97b39a7e1c9  Sr PM/Scrum Master - Bixal (3.4/5) [PRIMARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master - Ardent DHS (3.1/5) [PRIMARY]
+https://job-boards.greenhouse.io/nice/jobs/4865474101  Technical AI PM - NICE (3.0/5) [SECONDARY]
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
