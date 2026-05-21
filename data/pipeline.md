@@ -10,6 +10,8 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- Batch 2026-05-21 — all processed, moved to Done -->
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
@@ -17,6 +19,16 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://jobs.citi.com/job/jersey-city/senior-program-project-manager-vp-nam-issuer-services-technology/287/32531724272  Senior Program/Project Manager VP - Citi (4.3/5) [PRIMARY]
+https://jobs.citi.com/job/new-york/risk-organization-pmo-scrum-master-coach/287/30465301888  Risk Org PMO Scrum Master/Coach - Citi (4.1/5) [PRIMARY]
+https://boards.greenhouse.io/toast/jobs/7851279  IT Delivery Manager - Toast (4.0/5) [SECONDARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. Project Manager - Nava NJ (3.9/5) [PRIMARY]
+https://jobs.ashbyhq.com/HighlightTA/508ed838-9ccf-4a53-bc0d-ae33055bd3b9  Agile Delivery Manager - Neon One (3.8/5) [PRIMARY]
+https://job-boards.greenhouse.io/roku/jobs/7818758  AI Program Manager - Roku (3.7/5) [SECONDARY]
+https://jobs.lever.co/ttecdigital/acfd565c-7367-45aa-8683-f6a5f62d7e4a  Principal TPM - TTEC Digital (3.6/5) [SECONDARY]
+https://job-boards.greenhouse.io/coretelligent/jobs/5177575008  Senior TPM - Coretelligent (3.6/5) [SECONDARY]
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  TPM - CentralReach NJ (3.5/5) [SECONDARY]
+https://job-boards.greenhouse.io/mercury/jobs/5856800004  Senior TPM - Mercury (3.4/5) [SECONDARY]
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
