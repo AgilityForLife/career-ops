@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erick G. Rosa, PMP, PMI-ACP, SPC6 — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header {
+    margin-bottom: 16px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 8px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  .section {
+    margin-bottom: 14px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job {
+    margin-bottom: 12px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 4px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 16px;
+    margin-top: 4px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 2px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 2px;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 2px;
+  }
+
+  .edu-item {
+    margin-bottom: 6px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .edu-org {
+    color: hsl(270, 70%, 45%);
+    font-weight: 500;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+  }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+  }
+
+  .cert-title {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .cert-org {
+    color: hsl(270, 70%, 45%);
+  }
+
+  .cert-year {
+    font-size: 10px;
+    color: #777;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+
+  .skill-item {
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #333;
+    font-size: 10.5px;
+  }
+
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      padding: 0;
+    }
+  }
+
+  .avoid-break {
+    break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Erick G. Rosa, PMP, PMI-ACP, SPC6</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>ErickRosa01@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/erickgrosa">linkedin.com/in/erickgrosa</a>
+      <span class="separator">|</span>
+      <a href="#">862-202-0908</a>
+      <span class="separator">|</span>
+      <span>New Jersey (Greater NYC Metro)</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">SAFe SPC6-certified Agile Coach and Scrum Master with 15+ years of experience driving enterprise-scale Agile transformation, delivery acceleration, and team maturity across regulated financial services and pharma environments. Proven record coaching multiple Agile Release Trains (ARTs) spanning 50+ engineers, facilitating PI Planning at portfolio level, and embedding Lean Portfolio Management across enterprise programs. Deep expertise in stakeholder alignment within compliance-driven organizations, transitioning siloed teams into cross-functional product teams aligned to value streams. Backed by enterprise delivery credentials (PMP, PMI-ACP) with hands-on cloud and DevOps program delivery across AWS, Snowflake, and CI/CD platforms.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">SAFe SPC6</span>
+      <span class="competency-tag">Scrum Master</span>
+      <span class="competency-tag">Agile Coaching</span>
+      <span class="competency-tag">Kanban</span>
+      <span class="competency-tag">PI Planning</span>
+      <span class="competency-tag">Delivery Acceleration</span>
+      <span class="competency-tag">Risk Management</span>
+      <span class="competency-tag">Financial Services</span>
+      <span class="competency-tag">Value Stream Mapping</span>
+      <span class="competency-tag">Lean Portfolio Management</span>
+      <span class="competency-tag">Team Formation</span>
+      <span class="competency-tag">Regulated Environments</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Verisk</span>
+        <span class="job-period">August 2018 &#8211; March 2024</span>
+      </div>
+      <div class="job-role">Senior Technical Project Manager / Delivery Lead & Agile Coach</div>
+      <div class="job-location">Jersey City, NJ</div>
+      <ul>
+        <li><strong>Coached multiple Agile Release Trains (ARTs)</strong> spanning 50+ engineers across Dev, QA, Platform, and Analytics teams, driving adoption of a product-aligned DevOps operating model.</li>
+        <li><strong>Facilitated PI Planning, value stream identification, and portfolio-level roadmap alignment</strong>, partnering with executive leadership to embed Lean Portfolio Management practices.</li>
+        <li><strong>Transitioned siloed infrastructure, operations, and development teams</strong> into cross-functional product teams aligned to value streams, accelerating delivery predictability.</li>
+        <li><strong>Configured Jira (Cloud & Data Center) across enterprise teams</strong>, designing standardized workflows, issue hierarchies, permission schemes, and automation rules to support ART-level governance.</li>
+        <li><strong>Implemented Jira Align portfolio structures</strong> enabling roll-up visibility from story-level delivery to executive reporting dashboards.</li>
+        <li>Drove release governance and CAB processes, reducing production outages by 40% and improving release stability by 40%. Managed annual budgets of $500K&#8211;$3M and enabled ~$3M in incremental revenue through 3 new analytics products.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">Sanofi</span>
+        <span class="job-period">June 2023 &#8211; February 2024</span>
+      </div>
+      <div class="job-role">Technical Project Manager / Scrum Master &#8212; Integrated E2E Portfolio & R&D MDM Program</div>
+      <ul>
+        <li><strong>Coached cross-functional product teams on Agile delivery</strong> and portfolio alignment across US and Europe under pharma R&D governance standards.</li>
+        <li><strong>Owned program cadence</strong> including sprint planning, dependency tracking, backlog refinement, risk management, and executive reporting for multi-workstream delivery.</li>
+        <li><strong>Standardized backlog management and reporting</strong> using Jira & Power BI integration, improving transparency and delivery predictability across teams.</li>
+        <li><strong>Coordinated cross-functional delivery</strong> across data engineering, MDM, analytics, architecture, and business stakeholders spanning geographies.</li>
+        <li>Supported migration from legacy Google Cloud and Oracle data platforms to a Snowflake-based OneMesh data foundation, coordinating UAT, release readiness, and hypercare.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">SilverSearch, Inc. (Client: Vitamin Shoppe)</span>
+        <span class="job-period">January 2017 &#8211; June 2017</span>
+      </div>
+      <div class="job-role">Project Manager / Delivery Lead</div>
+      <ul>
+        <li>Served as Agile transformation lead supporting enterprise retail platform modernization across POS, CRM, OMS, and CMS systems.</li>
+        <li>Facilitated sprint planning, backlog refinement, demos, and retrospectives while embedding metrics-driven continuous improvement practices.</li>
+        <li>Re-architected Jira project configurations, workflows, and board structures to standardize delivery tracking.</li>
+        <li>Conducted root cause analysis workshops and structured requirement elicitation sessions.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">DSG (Client: Comcast)</span>
+        <span class="job-period">October 2009 &#8211; August 2014</span>
+      </div>
+      <div class="job-role">Project Manager / Delivery Lead</div>
+      <div class="job-location">Union, NJ</div>
+      <ul>
+        <li>Led full-cycle delivery of enterprise CRM implementation for 500+ users across a national telecommunications outsourcing operation.</li>
+        <li>Established Agile communities of practice, coaching Scrum Masters, analysts, managers, and executives on Agile adoption.</li>
+        <li>Established delivery standards, release plans, and stakeholder governance for multi-year CRM modernization programs.</li>
+        <li>Implemented analytics dashboards providing operational visibility into customer engagement and service delivery metrics.</li>
+      </ul>
+    </div>
+
+    <div class="job avoid-break">
+      <div class="job-header">
+        <span class="job-company">BTII Institute</span>
+        <span class="job-period">March 2024 &#8211; Present</span>
+      </div>
+      <div class="job-role">Agile & Project Management Instructor</div>
+      <div class="job-location">West Orange, NJ</div>
+      <ul>
+        <li>Deliver SAFe (Leading SAFe, SAFe for Teams, PO/PM) and PMI-aligned Agile certification programs, preparing professionals for enterprise-scale Agile adoption.</li>
+        <li>Coach Scrum Masters, Product Owners, and technical leaders on transitioning from traditional project delivery to product-centric operating models.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- KEY ACHIEVEMENTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Key Achievements</div>
+    <div class="project">
+      <span class="project-title">Enterprise Agile Transformation at Scale</span>
+      <span class="project-badge">Verisk</span>
+      <div class="project-desc">Coached multiple ARTs, facilitated PI Planning at portfolio level, and embedded Lean Portfolio Management. Transitioned siloed teams into cross-functional product teams. Reduced outages 40%, cut provisioning 70%, improved stability 60%.</div>
+    </div>
+    <div class="project">
+      <span class="project-title">Cross-Geo Agile Delivery under R&D Governance</span>
+      <span class="project-badge">Sanofi</span>
+      <div class="project-desc">Coached cross-functional teams spanning US and Europe on Agile delivery under pharma R&D governance. Standardized sprint planning, backlog management, and portfolio reporting via Jira + Power BI integration.</div>
+    </div>
+    <div class="project">
+      <span class="project-title">Enterprise Jira & Portfolio Tooling</span>
+      <span class="project-badge">Verisk</span>
+      <div class="project-desc">Designed enterprise Jira configurations (workflows, hierarchies, automation) and implemented Jira Align portfolio structures enabling story-to-executive rollup visibility across ARTs.</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">SAFe Program Consultant (SPC6)</span> &#8212; Scaled Agile</span>
+      <span class="cert-year">February 2019</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">PMP</span> &#8212; Project Management Professional, PMI</span>
+      <span class="cert-year">License #1793833</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">PMI-ACP</span> &#8212; Agile Certified Practitioner, PMI</span>
+      <span class="cert-year">License #1957875</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">SAFe PO/PM</span> &#8212; Scaled Agile</span>
+      <span class="cert-year">August 2018</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">SAFe Scrum Master (SSM)</span> &#8212; Scaled Agile</span>
+      <span class="cert-year">June 2018</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">Leading SAFe (SA)</span> &#8212; Scaled Agile</span>
+      <span class="cert-year">March 2017</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">AWS Cloud Practitioner</span> &#8212; Amazon Web Services</span>
+      <span class="cert-year">December 2021</span>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-desc">Details available upon request</div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Agile Frameworks:</span> SAFe (SPC6), Scrum, Kanban, Lean Portfolio Management, PI Planning, Value Stream Mapping</span>
+      <span class="skill-item"><span class="skill-category">Program Management:</span> PMP, PMI-ACP, Roadmap Planning, Risk Management, Dependency Tracking, Release Governance</span>
+      <span class="skill-item"><span class="skill-category">Cloud & Data:</span> AWS, Snowflake, Terraform, CI/CD, Informatica IDMC</span>
+      <span class="skill-item"><span class="skill-category">Analytics & Reporting:</span> Power BI (data modeling, DAX, dashboards), Tableau, SQL, Jira Align</span>
+      <span class="skill-item"><span class="skill-category">Tools:</span> Jira (Cloud + Data Center), Confluence, LeanKit, Planview, MS Project, SharePoint</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
