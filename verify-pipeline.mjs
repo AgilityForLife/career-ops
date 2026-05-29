@@ -38,6 +38,8 @@ const ALIASES = {
   'cerrada': 'descartado', 'descartada': 'descartado', 'cancelada': 'descartado',
   'rechazada': 'rechazado',
   'no_aplicar': 'no aplicar', 'skip': 'no aplicar', 'monitor': 'no aplicar',
+  'evaluated': 'evaluada', 'responded': 'respondido', 'interview': 'entrevista',
+  'offer': 'oferta', 'rejected': 'rechazado', 'discarded': 'descartado',
 };
 
 let errors = 0;
