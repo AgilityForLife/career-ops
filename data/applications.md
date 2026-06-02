@@ -8,3 +8,10 @@
 | 4 | 2026-04-06 | Distyl AI | Delivery Manager – Enterprise AI | 3.4/5 | Applied | ✅ | [4](reports/004-distyl-ai-delivery-manager-2026-04-06.md) | SECONDARY; NYC hybrid; $140K-$200K; $10M budget gap; AI experience gap |
 | 5 | 2026-04-06 | Arlo Solutions | Senior Scrum Master | 3.3/5 | Applied | ✅ | [5](reports/005-arlo-solutions-senior-scrum-master-2026-04-06.md) | PRIMARY; gov contractor; location uncertain; Jira+ADO fit; thin JD |
 | 6 | 2026-04-06 | Kasisto | TPM Agentic AI Delivery | 3.0/5 | Applied | ✅ | [6](reports/006-kasisto-tpm-agentic-ai-2026-04-06.md) | SECONDARY; NJ-eligible remote; AI-adjacent; borderline fit; customer-facing gap |
+| 7 | 2026-06-02 | ASSYST | TPM Data Engineering & AI | 4.2/5 | Evaluada | ❌ | [7](reports/007-assyst-tpm-data-ai-2026-06-02.md) | SECONDARY; $90/hr contract; Austin TX hybrid DEAL-BREAKER; strong CS match 5/7; pursue only if remote negotiable |
+| 8 | 2026-06-02 | Edgesource | Scrum Master | 4.0/5 | Evaluada | ❌ | [8](reports/008-edgesource-scrum-master-2026-06-02.md) | PRIMARY; remote; gov contractor DHS; DevSecOps; Public Trust clearance; strong 5 CS match |
+| 9 | 2026-06-02 | Veda Data Solutions | Senior Scrum Master | 3.4/5 | Evaluada | ❌ | [9](reports/009-veda-senior-scrum-master-2026-06-02.md) | PRIMARY; remote US; healthcare data; 3-4 CS; comp unknown |
+| 10 | 2026-06-02 | Toast | Senior TPM | 3.3/5 | Evaluada | ❌ | [10](reports/010-toast-senior-tpm-2026-06-02.md) | SECONDARY; remote; $149-219K; restaurant SaaS domain gap; 3 CS |
+| 11 | 2026-06-02 | HealthVerity | Senior PM / Scrum Master | 3.3/5 | Evaluada | ❌ | [11](reports/011-healthverity-senior-pm-scrum-master-2026-06-02.md) | PRIMARY; Philly hybrid 2x/wk; $65-155K wide range; healthcare; 4 CS; confirm comp first |
+| 12 | 2026-06-02 | Grant Street Group | Senior Project/Program Manager | 3.2/5 | Evaluada | ❌ | [12](reports/012-grant-street-senior-pm-2026-06-02.md) | SECONDARY; remote; $150-225K; gov+financial SaaS; niche domain; 3 CS |
+| 13 | 2026-06-02 | Versana | Senior TPM | 3.0/5 | Evaluada | ❌ | [13](reports/013-versana-senior-tpm-2026-06-02.md) | SECONDARY; NYC; $150-180K; fintech SaaS; SaaS product exp gap; 3 CS |
