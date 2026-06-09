@@ -17,6 +17,18 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior PM - Grant Street Group (4.1/5) [SECONDARY]
+https://jobs.lever.co/thinkahead/23f04565-3c09-483a-bbf1-dad6d89ae698  Senior SM - AHEAD (3.4/5) [PRIMARY]
+https://job-boards.greenhouse.io/growtherapy/jobs/4697750005  PM AI Ops - Grow Therapy (3.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/anaplan/jobs/8536954002  Manager AI Transformation - Anaplan (3.4/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior SM - Veda Data (3.8/5) [PRIMARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  SM DHS - Ardent (3.3/5) [PRIMARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM/SM - HealthVerity (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr Principal PM AI - G-P (REJECTED: CS degree + AI-native exp required)
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  TPM Contract - Flywheel Digital (REJECTED: media/marketing domain mismatch)
+https://job-boards.greenhouse.io/accenturefederalservices/jobs/4681033006  Tech Project Lead - Accenture Federal (REJECTED: too technical/engineering-focused)
+https://jobs.lever.co/applydigital/24a4efca-ff19-406f-86ba-e0d9617163c7  Senior PM/SM - Apply Digital (REJECTED: Pacific Time hours required)
+https://job-boards.greenhouse.io/vonage/jobs/8175050002  PM AI Implementation - Vonage (REJECTED: London-based)
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
