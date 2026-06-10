@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.3/5
 **URL:** https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [PRIMARY TARGET ROLE]
 

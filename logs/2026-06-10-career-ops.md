@@ -11,7 +11,7 @@
   - Portals scanned: 8 search queries (Greenhouse PM/Agile, Ashby, Lever, AI/Transformation, Contract, Dice, Anthropic)
   - New jobs found: 40+ listings surfaced, 10 selected for evaluation after filtering
   - Jobs evaluated: 7 (reports 007-013)
-  - Applications prepared: 7 evaluation reports with resume recommendations
+  - Applications prepared: 7 evaluation reports + 7 tailored PDFs
   - Primary roles: 4 (Veda Data Solutions, Ardent DHS, Black Canyon NIH, HealthVerity)
   - Secondary roles: 3 (Grant Street Group, Wikimedia Foundation, AccuWeather)
   - Rejected: 3 (G-P domain mismatch, Flywheel Digital niche, ASSYST location)
@@ -67,7 +67,7 @@
 | Total tracker entries | 13 |
 | New entries this run | 7 |
 | Reports generated | 7 (007-013) |
-| PDFs generated | 0 (batch mode) |
+| PDFs generated | 7 (system Chromium) |
 | Avg score (new) | 3.4/5 |
 | Highest score (new) | 3.8/5 (Veda Data Solutions) |
 | Lowest score (new) | 3.0/5 (AccuWeather) |

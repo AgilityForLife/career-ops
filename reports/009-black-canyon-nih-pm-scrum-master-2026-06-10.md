@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.5/5
 **URL:** https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/5385417003
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [PRIMARY TARGET ROLE]
 

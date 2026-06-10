@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.3/5
 **URL:** https://job-boards.greenhouse.io/wikimedia/jobs/7908061
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [SECONDARY TARGET ROLE]
 

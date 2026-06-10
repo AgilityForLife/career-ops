@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.8/5
 **URL:** https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [PRIMARY TARGET ROLE]
 

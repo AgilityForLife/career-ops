@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.4/5
 **URL:** https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [SECONDARY TARGET ROLE]
 

@@ -3,7 +3,7 @@
 **Date:** 2026-06-10
 **Score:** 3.0/5
 **URL:** https://boards.greenhouse.io/accuweather/jobs/3405026
-**PDF:** ❌
+**PDF:** ✅
 **Verification:** unconfirmed (batch mode)
 **Classification:** [SECONDARY TARGET ROLE]
 
