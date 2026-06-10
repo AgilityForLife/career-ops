@@ -34,9 +34,13 @@ const CANONICAL_STATUSES = [
 ];
 
 const ALIASES = {
+  'evaluated': 'evaluada',
   'enviada': 'aplicado', 'aplicada': 'aplicado', 'applied': 'aplicado', 'sent': 'aplicado',
-  'cerrada': 'descartado', 'descartada': 'descartado', 'cancelada': 'descartado',
-  'rechazada': 'rechazado',
+  'responded': 'respondido',
+  'interview': 'entrevista',
+  'offer': 'oferta',
+  'cerrada': 'descartado', 'descartada': 'descartado', 'cancelada': 'descartado', 'discarded': 'descartado',
+  'rechazada': 'rechazado', 'rejected': 'rechazado',
   'no_aplicar': 'no aplicar', 'skip': 'no aplicar', 'monitor': 'no aplicar',
 };
 
