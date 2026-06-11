@@ -46,6 +46,8 @@ function validateStatus(status) {
     'no aplicar': 'NO APLICAR', 'no_aplicar': 'NO APLICAR', 'skip': 'NO APLICAR', 'monitor': 'NO APLICAR',
     'condicional': 'Evaluada', 'hold': 'Evaluada', 'evaluar': 'Evaluada', 'verificar': 'Evaluada',
     'geo blocker': 'NO APLICAR',
+    'evaluated': 'Evaluada', 'responded': 'Respondido', 'interview': 'Entrevista',
+    'offer': 'Oferta', 'rejected': 'Rechazado', 'discarded': 'Descartado',
   };
 
   if (aliases[lower]) return aliases[lower];

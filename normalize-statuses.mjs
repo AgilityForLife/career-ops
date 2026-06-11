@@ -85,8 +85,13 @@ function normalizeStatus(raw) {
 
   // Aliases from states.yml
   if (['enviada', 'aplicada', 'applied', 'sent'].includes(lower)) return { status: 'Aplicado' };
-  if (['cerrada', 'descartada'].includes(lower)) return { status: 'Descartado' };
+  if (['cerrada', 'descartada', 'discarded'].includes(lower)) return { status: 'Descartado' };
   if (['no aplicar', 'no_aplicar', 'skip'].includes(lower)) return { status: 'NO APLICAR' };
+  if (lower === 'evaluated') return { status: 'Evaluada' };
+  if (lower === 'responded') return { status: 'Respondido' };
+  if (lower === 'interview') return { status: 'Entrevista' };
+  if (lower === 'offer') return { status: 'Oferta' };
+  if (lower === 'rejected') return { status: 'Rechazado' };
 
   // Unknown — flag it
   return { status: null, unknown: true };
