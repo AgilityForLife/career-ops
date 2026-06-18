@@ -14,6 +14,16 @@ local:jds/company-role-2026.md       Saved JD file
 
 <!-- URLs currently being evaluated -->
 
+## Noted (for future evaluation)
+
+https://job-boards.greenhouse.io/accenturefederalservices/jobs/4681033006  Technical Project Lead/Manager - Accenture Federal (AI/ML cloud, NJ/NY comp)
+https://jobs.lever.co/applydigital/471b8e8a-4f25-4bb4-a14d-f47ebd7b1b6b  Senior Technical PM - Apply Digital (remote/hybrid)
+https://jobs.lever.co/Versana/54822bab-0fa3-4a68-b2b7-c80f56cc993d  Senior TPM - Versana (NY, fintech SaaS)
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Senior Scrum Master - Veda Data Solutions (remote US)
+https://job-boards.greenhouse.io/coretelligent/jobs/5177575008  Senior TPM - Coretelligent (IT infrastructure)
+https://jobs.ashbyhq.com/webai/5f266312-ac67-40ac-9014-d216dba7d59b  TPM Delivery - webAI (AI company)
+https://jobs.ashbyhq.com/hinge-health/1b52c1a5-bf9c-4cfb-828e-03405ef7c1bd  Sr PM AI Implementations - Hinge Health
+
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
@@ -27,3 +37,11 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior Project/Program Manager - Grant Street Group (4.2/5) [PRIMARY]
+https://boards.greenhouse.io/toast/jobs/7851279  IT Delivery Manager - Toast (3.7/5) [SECONDARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (Scrum Master) - HealthVerity (3.6/5) [PRIMARY]
+https://job-boards.greenhouse.io/mercury/jobs/5856800004  Senior TPM - Mercury (3.5/5) [SECONDARY]
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Scrum Master (USCIS) - Capital Technology Group (3.6/5) [PRIMARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr. Principal PM AI Transformation - G-P (3.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/growtherapy/jobs/4697750005  PM AI Operations - Grow Therapy (3.4/5) [SECONDARY]
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  TPM Contract - Flywheel Digital (REJECTED: media/marketing tech low fit 2.8/5)
