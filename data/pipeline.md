@@ -27,3 +27,14 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Sr. Project/Program Manager - Grant Street Group (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/assystinc/jobs/4259859009  TPM Data Engineering & AI - ASSYST Inc (3.7/5) [PRIMARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Sr. PM (Scrum Master) - HealthVerity (3.3/5) [PRIMARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr. Principal PM AI Transformation - G-P (3.2/5) [SECONDARY]
+https://jobs.lever.co/vedadata/7447f87b-7a6d-4757-a809-2dc074f8ef05  Sr. Scrum Master - Veda Data Solutions (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/growtherapy/jobs/4697750005  PM AI Ops Enablement - Grow Therapy (3.0/5) [SECONDARY]
+https://jobs.ashbyhq.com/webai/5f266312-ac67-40ac-9014-d216dba7d59b  TPM Delivery - webAI (3.0/5) [SECONDARY]
+https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  TPM Contract - Omni (REJECTED: short contract 3-6mo)
+https://job-boards.greenhouse.io/ezcaterinc/jobs/5147620007  Principal TPM - ezCater (REJECTED: monolith-to-microservices tech gap)
+https://jobs.ashbyhq.com/synthesia/4358c197-7d4a-45eb-8dd6-4a5c96999534  Delivery PM - Synthesia (REJECTED: London-based)
+https://jobs.ashbyhq.com/crusoe/a0c68e86-ce04-4af4-8b96-bd47dafd9011  Sr. TPM - Crusoe (REJECTED: SF/Sunnyvale location)
