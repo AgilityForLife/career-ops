@@ -5,10 +5,16 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+https://jobs.lever.co/redaptiveinc/0e3614b9-c4fc-47a6-930e-d14e098ed7ed  Agile Coach & Scrum Master - Redaptive (scan 2026-07-02)
+https://job-boards.greenhouse.io/encora10/jobs/4276765007  Scrum Master - Encora (scan 2026-07-02)
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master DHS - Ardent (scan 2026-07-02)
+https://jobs.lever.co/cyara/11648579-66f5-4188-aba1-02d54ef8fd76  Sr. Scrum Master - Cyara (scan 2026-07-02)
+https://jobs.lever.co/thinkahead/23f04565-3c09-483a-bbf1-dad6d89ae698  Senior Scrum Master - AHEAD (scan 2026-07-02)
+https://job-boards.greenhouse.io/growtherapy/jobs/4697750005  PM AI Operations - Grow Therapy (scan 2026-07-02)
+https://jobs.ashbyhq.com/hinge-health/1b52c1a5-bf9c-4cfb-828e-03405ef7c1bd  Sr. PM / AI Implementations - Hinge Health (scan 2026-07-02)
+https://job-boards.greenhouse.io/axle/jobs/5177185007  Senior PM (AI) - Axle (scan 2026-07-02)
+https://job-boards.greenhouse.io/realchemistry/jobs/5276933008  Technical Delivery Manager - Real Chemistry (scan 2026-07-02)
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  TPM Contract - Flywheel Digital JC NJ (scan 2026-07-02)
 
 ## In Progress
 
@@ -17,6 +23,12 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://jobs.lever.co/compassx/f30596ec-bdbc-46f4-8d15-acc3871c2600  Scrum Master & Agile Coach Pharma - CompassX (3.8/5) [PRIMARY]
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Sr. Project/Program Manager Remote - Grant Street Group (3.5/5) [SECONDARY]
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Staff AI Transformation PM - Omada Health (3.4/5) [SECONDARY]
+https://boards.greenhouse.io/toast/jobs/7735834  Sr. TPM - Toast (2.9/5) [SECONDARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr. PM / Contract Lead NJ - Nava (2.8/5) [SECONDARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr. Principal PM AI Transformation - G-P (REJECTED: requires Workday/HRIS expertise)
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
