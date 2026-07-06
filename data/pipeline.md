@@ -27,3 +27,10 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/compassx/f30596ec-bdbc-46f4-8d15-acc3871c2600  SM & Agile Coach Pharma - CompassX (4.3/5) [PRIMARY]
+https://jobs.lever.co/standtogether/836378a6-8892-4c7b-84e6-91ac01c9dd8b  Agile Practice Lead - Stand Together (4.0/5) [PRIMARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Sr PM NJ Hybrid - Nava (3.6/5) [SECONDARY]
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Scrum Master DHS - Ardent (3.6/5) [PRIMARY]
+https://jobs.lever.co/cgsfederal/567a9d48-8821-4b23-a752-d356f98172e6  Agile Coach Federal - CGS (3.3/5) [PRIMARY]
+https://jobs.ashbyhq.com/HighlightTA/508ed838-9ccf-4a53-bc0d-ae33055bd3b9  Agile Delivery Manager - Neon One (3.0/5) [PRIMARY]
+https://boards.greenhouse.io/toast/jobs/7735834  Senior TPM - Toast (3.1/5) [SECONDARY]
