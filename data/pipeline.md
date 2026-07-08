@@ -17,6 +17,16 @@ local:jds/company-role-2026.md       Saved JD file
 ## Done
 
 <!-- Evaluated URLs (moved here after processing) -->
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior Project/Program Manager - Grant Street Group (4.3/5) [SECONDARY]
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Staff AI Transformation PM - Omada Health (3.8/5) [SECONDARY]
+https://jobs.lever.co/compassx/f30596ec-bdbc-46f4-8d15-acc3871c2600  SM & Agile Coach Pharma - CompassX Group (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/assystinc/jobs/4259859009  TPM Data Engineering & AI - ASSYST (3.6/5) [SECONDARY]
+https://job-boards.greenhouse.io/gitlab/jobs/8584282002  Senior PM Enterprise Tech & AI - GitLab (3.5/5) [SECONDARY]
+https://jobs.lever.co/cgsfederal/15b0279d-e7e7-44a2-a24f-61acd27a23e0  Agile Coach - CGS Federal (3.5/5) [PRIMARY]
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Senior PM NJ Hybrid - Nava (3.4/5) [SECONDARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr Principal PM AI Transformation - G-P (3.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  TPM Contract - Flywheel Digital (REJECTED: low CS engagement 2.8/5)
+https://jobs.lever.co/3pillarglobal/57f4adfc-e2f8-4212-9c1e-03c321247d00  Senior SM/Agile Coach - 3Pillar (REJECTED: pure coaching 2.5/5)
 https://jobs.lever.co/TrilogyFederal/002b1cb9-e968-4200-a2b1-bb0c8208f372  Scrum Master - Trilogy Federal (4.0/5) [PRIMARY]
 https://careers.leidos.com/jobs/17492470-scrum-master  Scrum Master - Leidos NJ (3.5/5) [PRIMARY]
 https://jobs.ashbyhq.com/Distyl/5370b67d-3d1c-4f9e-843c-0bf1eb0b71e5  Delivery Manager Enterprise AI - Distyl AI (3.4/5) [SECONDARY]
