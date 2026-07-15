@@ -27,3 +27,11 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/compassx/f30596ec-bdbc-46f4-8d15-acc3871c2600  SM & Agile Coach Pharma - CompassX Group (3.6/5) [PRIMARY]
+https://job-boards.greenhouse.io/nttdatausa/jobs/8318944002  SM/Agile Coach - NTT DATA NYC (3.3/5) [PRIMARY]
+https://jobs.lever.co/nava/0125234d-bc9c-4fc0-90e4-7a14cba1a5d7  Sr. Program Manager - Nava (3.8/5) [SECONDARY]
+https://jobs.merck.com/us/en/job/R303857/IT-Program-Manager-and-Scrum-Master-Hybrid  IT PM & SM - Merck NJ (3.9/5) [PRIMARY]
+https://jobs.lever.co/cgsfederal/15b0279d-e7e7-44a2-a24f-61acd27a23e0  Agile Coach - CGS Federal (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Staff AI Transformation PM - Omada Health (3.2/5) [SECONDARY]
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr. Principal PM AI Transformation - G-P (REJECTED: Workday/HRIS specific requirements)
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (SM) - HealthVerity (REJECTED: low CS engagement 2.8/5)
