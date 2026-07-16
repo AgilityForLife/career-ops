@@ -27,3 +27,16 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://jobs.lever.co/compassx/f30596ec-bdbc-46f4-8d15-acc3871c2600  SM & Agile Coach Pharma - CompassX (4.0/5) [PRIMARY]
+https://job-boards.greenhouse.io/accenturefederalservices/jobs/4622182006  Agile Coach SAFe - Accenture Federal (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Scrum Master USCIS - Capital Tech Group (3.5/5) [PRIMARY]
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior PM - Grant Street Group (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/wikimedia/jobs/7908061  Lead TPM - Wikimedia (3.3/5) [SECONDARY]
+https://boards.greenhouse.io/toast/jobs/7735834  Senior TPM - Toast (3.3/5) [SECONDARY]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM/SM - HealthVerity (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  TPM Contract - Flywheel Digital (REJECTED: media/marketing domain 2.9/5)
+https://job-boards.greenhouse.io/twilio/jobs/8065038  Senior PM DR - Twilio (REJECTED: not eligible NJ/NY)
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  Sr Principal PM AI Transformation - G-P (noted: AI-adjacent, needs deeper eval)
+https://job-boards.greenhouse.io/life360/jobs/8627517002  Staff TPM AI Native - Life360 (noted: AI-adjacent, needs deeper eval)
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Staff AI Transformation PM - Omada Health (noted: AI-adjacent, needs deeper eval)
+https://jobs.lever.co/palantir/7eb0dedb-37ee-4175-b29f-10a9e4340076  TPM - Palantir (noted: needs deeper eval)
