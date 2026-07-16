@@ -67,7 +67,11 @@ async function generatePDF() {
     `file://$1.woff2')`
   );
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    // CHROMIUM_PATH lets sandboxed/CI environments point at a pre-installed browser
+    ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
+  });
   const page = await browser.newPage();
 
   // Set content with file base URL for any relative resources

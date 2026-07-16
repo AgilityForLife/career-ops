@@ -174,8 +174,9 @@ This system is designed to be customized by YOU (Claude). When the user asks you
 
 **This system is designed for quality, not quantity.** The goal is to help the user find and apply to roles where there is a genuine match -- not to spam companies with mass applications.
 
-- **NEVER submit an application without the user reviewing it first.** Fill forms, draft answers, generate PDFs -- but always STOP before clicking Submit/Send/Apply. The user makes the final call.
-- **Strongly discourage low-fit applications.** If a score is below 4.0/5, explicitly recommend against applying. The user's time and the recruiter's time are both valuable. Only proceed if the user has a specific reason to override the score.
+- **Apply threshold: 3.0/5** (candidate authorization, 2026-07-16). Roles scoring 3.0+ are apply-eligible: prepare the full package (tailored resume, form answers) and submit when the environment allows it. Below 3.0, do not apply.
+- **Submission requires a browser environment with job-board access.** In sandboxed/remote sessions where job portals are blocked, prepare + track only and hand the ready-to-submit package to the candidate. When submitting is possible, share what was submitted in the session summary so the candidate has a record.
+- **Discourage low-fit applications.** Between 3.0 and 3.5, note the fit concerns in the report so the candidate can deprioritize. The user's time and the recruiter's time are both valuable.
 - **Quality over speed.** A well-targeted application to 5 companies beats a generic blast to 50. Guide the user toward fewer, better applications.
 - **Respect recruiters' time.** Every application a human reads costs someone's attention. Only send what's worth reading.
 
