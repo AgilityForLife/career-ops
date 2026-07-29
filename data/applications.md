@@ -2,6 +2,13 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 7 | 2026-07-29 | CompassX Group | Scrum Master & Agile Coach – Pharma | 4.1/5 | Evaluated | ❌ | [7](reports/007-compassx-sm-agile-coach-pharma-2026-07-29.md) | PRIMARY; pharma biotech; remote; SM+Agile Coach player-coach; Sanofi experience match; SPC6 differentiator |
+| 8 | 2026-07-29 | Wilson Elser | Senior Scrum Master / Agile PM | 3.9/5 | Evaluated | ❌ | [8](reports/008-wilson-elser-senior-sm-agile-pm-2026-07-29.md) | PRIMARY; NYC; $135K-$150K contractor; SM+PM blend; legal tech; SPC6 exceeds A-CSM req |
+| 9 | 2026-07-29 | Nava PBC | 1099 Project Manager (Scrum Master) | 3.7/5 | Evaluated | ❌ | [9](reports/009-nava-pbc-1099-pm-scrum-master-2026-07-29.md) | PRIMARY; 1099 contract preferred; remote; gov digital services; SAFe+scrum valued; verify rate |
+| 10 | 2026-07-29 | Grant Street Group | Senior Project/Program Manager | 3.5/5 | Evaluated | ❌ | [10](reports/010-grant-street-group-senior-pm-2026-07-29.md) | SECONDARY; remote worldwide; $150K-$225K; gov+financial SaaS; regulated delivery match |
+| 11 | 2026-07-29 | HealthVerity | Senior PM (Scrum Master) | 3.4/5 | Evaluated | ❌ | [11](reports/011-healthverity-senior-pm-scrum-master-2026-07-29.md) | PRIMARY; remote NJ/NY eligible; $65K-$155K+bonus; healthcare data; target upper range |
+| 12 | 2026-07-29 | CentralReach | Technical Project Manager | 3.1/5 | Evaluated | ❌ | [12](reports/012-centralreach-tpm-2026-07-29.md) | SECONDARY; Holmdel NJ hybrid; $140K-$170K; ABA therapy software; borderline fit |
+| 13 | 2026-07-29 | Life360 | Staff TPM AI Native | 3.0/5 | Evaluated | ❌ | [13](reports/013-life360-staff-tpm-ai-native-2026-07-29.md) | SECONDARY; remote US; AI-native company; borderline fit; strategic AI exposure |
 | 1 | 2026-04-06 | System One | Project Manager / Scrum Master | 4.2/5 | Applied | ✅ | [1](reports/001-system-one-pm-scrum-master-2026-04-06.md) | C2C available; remote + Vienna VA; SAFe SSM+SPC6 fit; ADO gap manageable; $65-75/hr ask |
 | 2 | 2026-04-06 | Trilogy Federal | Scrum Master | 4.0/5 | Applied | ✅ | [2](reports/002-trilogy-federal-scrum-master-2026-04-06.md) | PRIMARY; SAFe SSM+PMP fit; VA/federal; remote; strong regulated delivery match |
 | 3 | 2026-04-06 | Leidos | Scrum Master (NJ) | 3.5/5 | Applied | ✅ | [3](reports/003-leidos-scrum-master-nj-2026-04-06.md) | PRIMARY; Egg Harbor NJ hybrid; SAFe env; CS degree req may be gap |
