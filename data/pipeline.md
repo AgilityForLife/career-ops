@@ -27,3 +27,14 @@ https://jobs.lever.co/kandji/f48ff45a-a1fd-41f2-9fb7-dbeae507451a  SM/Agile Coac
 https://jobs.lever.co/accesso/91bdc945-e01f-4399-8574-6ef3121c2dd1  Scrum Master - accesso (REJECTED: insufficient info 2.7/5)
 https://job-boards.greenhouse.io/energyhub/jobs/8216461002  TPM - EnergyHub (REJECTED: low fit 2.9/5)
 https://job-boards.greenhouse.io/neweratech/jobs/8150788002  TPM - New Era Tech (REJECTED: insufficient info 2.6/5)
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  1099 PM (Scrum Master) - Nava PBC (3.7/5) [PRIMARY]
+https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Senior SM/Agile PM - Wilson Elser (3.5/5) [PRIMARY]
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Scrum Master - Capital Technology Group (3.2/5) [PRIMARY]
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  Technical PM - CentralReach NJ (3.0/5) [SECONDARY]
+https://jobs.lever.co/thinkahead/23f04565-3c09-483a-bbf1-dad6d89ae698  Senior SM - AHEAD (3.1/5) [PRIMARY]
+https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior PM - Grant Street Group (3.1/5) [SECONDARY]
+https://job-boards.greenhouse.io/wikimedia/jobs/7908061  Lead TPM - Wikimedia Foundation (2.8/5) [SECONDARY - strategic exception]
+https://jobs.lever.co/healthverity/626fcfa2-61eb-4b2c-95db-58f5d0541898  Senior PM (SM) - HealthVerity (2.9/5) [SECONDARY - borderline]
+https://jobs.ashbyhq.com/webai/5f266312-ac67-40ac-9014-d216dba7d59b  Technical PM Delivery - webAI (REJECTED: low CS engagement 2.7/5)
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  Technical PM - Flywheel Digital (REJECTED: media domain 2.4/5)
+https://job-boards.greenhouse.io/northpointtechnology/jobs/8633815002  Release Manager - North Point Tech (REJECTED: TS/SCI clearance required)
