@@ -47,7 +47,7 @@ target_roles:
       fit: "secondary"
 
 narrative:
-  headline: "Senior TPM — 15+ years delivering cloud, DevOps, and data platform programs at enterprise scale (AWS, Snowflake, SAFe SPC6)"
+  headline: "Senior TPM — 15+ years delivering cloud, DevOps, and data platform programs at enterprise scale (AWS, Azure, Snowflake, SAFe SPC6)"
   exit_story: >
     After 15+ years leading enterprise technical delivery programs — AWS and DevOps
     infrastructure modernization at Verisk, Snowflake OneMesh data platform migration
@@ -58,21 +58,20 @@ narrative:
     at portfolio scale. My differentiator is not process knowledge — it's measurable
     delivery outcomes in regulated, complex enterprise environments.
   superpowers:
-    - "Enterprise program delivery at scale: 5 teams, 50+ engineers, $3M budget, 4 releases/year at Verisk"
+    - "Enterprise program delivery at scale: 15–17 cross-functional teams, $3M budget, 4 releases/year at Verisk"
     - "Cloud & data platform delivery: AWS infrastructure modernization + Snowflake OneMesh migration at Sanofi"
-    - "DevOps governance with results: 40% fewer outages, 70% faster provisioning, 60% better stability"
+    - "DevOps governance with results: 40% fewer outages, 60% better stability, reliable weekly releases"
     - "Power BI executive dashboards used by VP/R&D leadership — built for decisions, not status updates"
     - "SAFe SPC6 at portfolio scale: ARTs, PI Planning, Jira Align — transformation, not certification"
     - "Regulated delivery: pharma R&D (Sanofi) + compliance-aware infrastructure (Verisk)"
   proof_points:
     - name: "Verisk Cloud & DevOps Transformation"
-      context: "Senior TPM/Agile Coach, Aug 2018–Mar 2024"
+      context: "Senior TPM/Delivery Lead, Aug 2018–May 2023"
       hero_metrics:
         - "Enabled launch of 3 new analytics products → ~$3M incremental revenue"
         - "Reduced production outages by 40%"
-        - "Cut environment provisioning 70% (days → overnight) via automation"
         - "Improved environment stability by 60%"
-        - "Led 5 concurrent delivery teams (~50 engineers)"
+        - "Led delivery across 15–17 cross-functional teams at program peak"
     - name: "AFR Wholesale Salesforce Automation"
       context: "Project Manager, Mar–Dec 2016"
       hero_metrics:
@@ -120,7 +119,7 @@ certifications:
   - "SAFe PO/PM"
   - "SAFe Scrum Master (SSM)"
   - "Leading SAFe (SA) — License #98352559-4607"
-  - "AWS Cloud Practitioner"
+  - "AWS Cloud Practitioner"   # off master resume (Jul 2026); retained as optional — surface for AWS-heavy technical roles
   - "Procore PM — Project & Financial Management (2026)"
-  - "Salesforce Administrator — License #2590310"
   - "Microsoft Office Specialist — License #12244443"
+  # Salesforce Administrator (License #2590310) dropped 2026-07-15 to match master resume

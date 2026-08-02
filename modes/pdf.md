@@ -17,7 +17,8 @@
 11. Inyecta keywords naturalmente en logros existentes (NUNCA inventa)
 12. Genera HTML completo desde template + contenido personalizado
 13. Escribe HTML a `/tmp/cv-candidate-{company}.html`
-14. Ejecuta: `node generate-pdf.mjs /tmp/cv-candidate-{company}.html output/cv-candidate-{company}-{YYYY-MM-DD}.pdf --format={letter|a4}`
+14. Ejecuta: `node generate-pdf.mjs /tmp/cv-candidate-{company}.html "output/Erick Rosa Resume - {Company}.pdf" --format={letter|a4}`
+    **Naming rule (Erick, 2026-07-15):** el PDF final SIEMPRE se llama `Erick Rosa Resume - {Company}.pdf` (nombre humano, sin fechas ni slugs — no debe parecer generado por máquina). Si necesitas versionar, guarda el HTML intermedio con fecha, pero el PDF que se sube al ATS lleva solo nombre + empresa.
 15. Reporta: ruta del PDF, nº páginas, % cobertura de keywords
 
 ## Reglas ATS (parseo limpio)

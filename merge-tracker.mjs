@@ -61,11 +61,52 @@ function normalizeCompany(name) {
   return name.toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
+// Generic title words carry no disambiguating signal. Without stripping them,
+// "Technical Program Manager, Core Infrastructure" and "Technical Program Manager,
+// Service Infrastructure" score 4 overlapping words and collapse into one entry —
+// silently discarding a distinct evaluation at the same company.
+const ROLE_STOPWORDS = new Set([
+  'technical', 'program', 'project', 'product', 'manager', 'management',
+  'senior', 'staff', 'principal', 'lead', 'associate', 'director', 'head',
+  'delivery', 'engineer', 'engineering', 'specialist', 'consultant',
+  'remote', 'hybrid', 'contract', 'temporary', 'with',
+]);
+
+function roleTokens(s) {
+  return new Set(
+    s.toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(w => w.length > 3 && !ROLE_STOPWORDS.has(w))
+  );
+}
+
+function normalizeRole(s) {
+  return s.toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
 function roleFuzzyMatch(a, b) {
-  const wordsA = a.toLowerCase().split(/\s+/).filter(w => w.length > 3);
-  const wordsB = b.toLowerCase().split(/\s+/).filter(w => w.length > 3);
-  const overlap = wordsA.filter(w => wordsB.some(wb => wb.includes(w) || w.includes(wb)));
-  return overlap.length >= 2;
+  // Same role reposted → exact match after normalization.
+  if (normalizeRole(a) === normalizeRole(b)) return true;
+
+  const tokensA = roleTokens(a);
+  const tokensB = roleTokens(b);
+
+  // If either title is purely generic ("Program Manager"), only an exact
+  // normalized match counts — otherwise it would swallow every sibling role.
+  if (tokensA.size === 0 || tokensB.size === 0) return false;
+
+  let overlap = 0;
+  for (const w of tokensA) {
+    for (const wb of tokensB) {
+      if (wb === w || wb.includes(w) || w.includes(wb)) { overlap++; break; }
+    }
+  }
+
+  // Require the overlap to cover most of the smaller distinctive token set,
+  // so "Core Infrastructure" and "Service Infrastructure" stay separate.
+  const smaller = Math.min(tokensA.size, tokensB.size);
+  return overlap >= 2 && overlap >= smaller;
 }
 
 function extractReportNum(reportStr) {
@@ -242,10 +283,12 @@ for (const file of tsvFiles) {
     });
   }
 
-  if (!duplicate) {
-    // Exact entry number match
-    duplicate = existingApps.find(app => app.num === addition.num);
-  }
+  // NOTE: deliberately no `app.num === addition.num` check here.
+  // The TSV `num` field carries the *report* number, while applications.md `num`
+  // is an independent tracker sequence — the two drifted apart long ago (report
+  // 023 sits at tracker row 24). Matching them conflated unrelated jobs, e.g.
+  // report 024 (TechTorch) overwriting tracker row 24 (Blink Health).
+  // Report-link matching above already covers genuine re-merges.
 
   if (!duplicate) {
     // Company + role fuzzy match

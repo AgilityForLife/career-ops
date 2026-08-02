@@ -13,14 +13,36 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ## Stories
 
-<!-- Stories will be added here as you evaluate offers -->
 <!-- Format:
 ### [Theme] Story Title
 **Source:** Report #NNN — Company — Role
-**S (Situation):** ...
-**T (Task):** ...
-**A (Action):** ...
-**R (Result):** ...
-**Reflection:** What I learned / what I'd do differently
-**Best for questions about:** [list of question types this story answers]
+**S/T/A/R/Reflection/Best for**
 -->
+
+### [Delivery Ownership] Verisk Cloud & DevOps Modernization
+**Source:** Report #019 — Parloa — Technical Program Manager
+**S:** Siloed infra/dev/ops teams, unstable releases, slow provisioning at Verisk.
+**T:** Own execution of a multi-year AWS/CI-CD infrastructure modernization roadmap across 5 teams (~50 engineers), $500K–$3M budgets.
+**A:** Stood up cross-functional product teams aligned to value streams; CAB-governed releases; delivered golden AMIs, Terraform modules, CI/CD automation, EKS/ECS Fargate; blue/green deployments.
+**R:** 40% fewer production outages, 70% faster provisioning (days → overnight), 60% better stability, 4 major releases/year, ~$3M incremental revenue enabled.
+**Reflection:** Governance rigor (CAB, standardized workflows) is what makes delivery predictable at scale — I bring RAID discipline from day one, not after the first slip.
+**Best for:** end-to-end ownership, scale, budget management, DevOps governance, "most impactful project."
+
+### [Go-Live / Hypercare] Sanofi OneMesh Transition to Operations
+**Source:** Report #019 — Parloa — Technical Program Manager
+**S:** Global Sanofi R&D program migrating legacy Google Cloud + Oracle to a Snowflake OneMesh foundation under pharma R&D governance.
+**T:** Ensure continuity from build to run across 6 workstreams (Snowflake, AWS, Informatica IDMC, Control-M, Tableau, Power BI), US + Europe.
+**A:** Ran UAT, release readiness, hypercare, and transition to operations; coordinated cross-geo dependencies with live risk/dependency logs and escalation cadence.
+**R:** Zero-gap cutover, operational continuity maintained, on-cadence delivery across geographies.
+**Reflection:** Hypercare is a designed phase, not an afterthought — I script it into the plan before kickoff so go-live isn't a cliff.
+**Best for:** go-live, hypercare, UAT, regulated delivery, cross-geo stakeholder management, methodology flexibility.
+
+### [Customer-Facing Delivery] DSG / Comcast External Client Delivery
+**Source:** Report #019 — Parloa — Technical Program Manager
+**S:** Delivered a Salesforce CRM modernization for Comcast as an outsourced partner (DSG), 500+ users, national telecom operation.
+**T:** Be the delivery face to the client — own scope, release plans, delivery standards, and executive governance for a demanding enterprise customer.
+**A:** Established delivery standards, release plans, stakeholder governance; built CRM analytics dashboards for operational visibility; ran Agile communities of practice.
+**R:** Multi-year CRM modernization delivered; operational visibility into sales/service metrics for the client.
+**Reflection:** Being the external delivery contact means over-communicating status and owning escalation — the customer needs to trust the process, not just the outcome.
+**Best for:** customer-facing delivery, external stakeholder management, "have you owned client deployments," escalation ownership.
+

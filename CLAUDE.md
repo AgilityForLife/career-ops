@@ -253,3 +253,115 @@ Write one TSV file per evaluation to `batch/tracker-additions/{num}-{company-slu
 - No markdown bold (`**`) in status field
 - No dates in status field (use the date column)
 - No extra text (use the notes column)
+
+---
+
+## Project Context
+AI-powered job search automation: pipeline tracking, offer evaluation, CV generation, portal scanning, and batch processing for a Senior TPM / Delivery Lead job hunt.
+
+## Tech Stack
+- Runtime: Node.js (ES modules, `.mjs`)
+- Browser automation: Playwright (offer verification + PDF generation)
+- Templating: HTML/CSS for CV templates, Puppeteer for HTML → PDF
+- Config: YAML (`portals.yml`, `config/profile.yml`, `templates/states.yml`)
+- Data: Markdown (reports, applications tracker, pipeline inbox) + TSV (scan history, tracker additions)
+- No database — filesystem is the source of truth
+
+## Key Directories
+- `config/` — `profile.yml`, `skills-model.md` (primary decision framework), archetypes
+- `data/` — `applications.md` tracker, `pipeline.md` inbox, `scan-history.tsv`
+- `modes/` — Per-mode instruction files (oferta, ofertas, contacto, deep, pdf, etc.)
+- `templates/` — `cv-template.html`, `states.yml`, `portals.example.yml`, `profile.example.yml`
+- `reports/` — Evaluation reports: `{###}-{company-slug}-{YYYY-MM-DD}.md`
+- `batch/` — Batch evaluator scripts, `batch-prompt.md`, `tracker-additions/` (TSV stage)
+- `jds/` — Local job description archives
+- `interview-prep/` — STAR+R story bank
+- `output/` — Generated PDFs (gitignored)
+
+## Commands
+- `node merge-tracker.mjs` — Merge `batch/tracker-additions/*.tsv` into `data/applications.md` (run after every batch)
+- `node verify-pipeline.mjs` — Health check (URLs, statuses, report links)
+- `node normalize-statuses.mjs` — Enforce canonical states from `templates/states.yml`
+- `node dedup-tracker.mjs` — Remove duplicate tracker entries
+- `node generate-pdf.mjs` — Render CV HTML → PDF via Puppeteer
+- `/career-ops scan` — Scan configured portals for new offers
+- `/career-ops` — Show all available modes
+
+---
+
+## How I Want You to Work
+
+### Before Coding
+- Ask clarifying questions before starting
+- Draft a plan for complex work and confirm before coding
+- If unsure, ask — don't assume
+
+### While Coding
+- Write complete, working code — no placeholders, no TODOs
+- Keep it simple and readable over clever
+- Follow existing patterns in the codebase
+- One change at a time, verify as you go
+
+### After Coding
+- Run tests to verify your changes work
+- Run linter/formatter before finishing
+- Summarize what you changed and why
+
+---
+
+## Code Style
+- Use ES modules (import/export)
+- Functional components with hooks (if React)
+- Type hints on all functions
+- Descriptive variable names
+- No commented-out code
+
+## Do Not
+- Edit `applications.md` to ADD new entries (use TSV in `batch/tracker-additions/` + merge script)
+- Hardcode CV metrics (always read from `cv.md` / `article-digest.md` at evaluation time)
+- Submit applications without user review (fill forms, but STOP before Submit/Send)
+- Commit directly to main
+- Leave placeholder code or TODOs
+- Make changes outside the scope of the task
+- Assume — ask if unclear
+
+---
+
+## Verification Loop
+After completing a task, verify:
+1. Code compiles without errors
+2. Tests pass
+3. No linting warnings
+4. Changes match the original request
+
+If any fail, fix before marking complete.
+
+---
+
+## Quick Commands
+When I type these shortcuts, do the following:
+
+**"plan"** — Analyze the task, draft an approach, ask clarifying questions, don't write code yet
+
+**"build"** — Implement the plan, run tests, verify it works
+
+**"check"** — Review your changes like a skeptical senior dev. Check for bugs, edge cases, and code quality
+
+**"verify"** — Run all tests and linting, summarize results
+
+**"done"** — Summarize what changed, what was tested, and any notes for me
+
+---
+
+## Success Criteria
+A task is complete when:
+- [ ] Code works as requested
+- [ ] Tests pass
+- [ ] No errors or warnings
+- [ ] Changes are minimal and focused
+- [ ] I can understand what you did without explanation
+
+---
+
+## Notes
+[Add project-specific notes, gotchas, or context here as you work]

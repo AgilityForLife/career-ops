@@ -1,7 +1,7 @@
 # SKILLS MODEL — Erick G. Rosa
 # Primary decision framework for job scoring, resume generation, and interview prep.
 # Source of truth: cv.md + this file. Do NOT override Tier 1 without explicit candidate instruction.
-# Last updated: 2026-04-06 | Version: 1.1
+# Last updated: 2026-07-15 | Version: 1.2 (synced to ErickRosa-Resume-Full-Jul2026.pdf)
 
 ---
 
@@ -9,7 +9,7 @@
 
 **Target:** Senior Technical Program Manager / Delivery Lead
 **Differentiator:** Enterprise cloud + data platform delivery (AWS, Snowflake, DevOps) + Power BI executive reporting + SAFe SPC6 at portfolio scale
-**Evidence base:** Verisk (Aug 2018 – Mar 2024), Sanofi (Jun 2023 – Feb 2024)
+**Evidence base:** Verisk (Aug 2018 – May 2023), Sanofi (Jun 2023 – Feb 2024)
 **Never lead with:** Agile coaching, training/instruction, Salesforce administration, non-profit work
 
 ---
@@ -19,14 +19,14 @@
 
 ### CS-1: Enterprise Technical Program Delivery
 **Evidence source:** Verisk
-- 5 concurrent delivery teams, 50+ engineers across Dev, QA, Platform, Analytics
-- Annual delivery budgets: $500K–$3M
+- 15–17 cross-functional teams at program peak (software engineering, DevOps, infrastructure, DBA, UI/UX, mainframe workstreams)
+- Annual delivery budgets: $500K–$3M with earned-value variance tracking
 - 4 major platform releases/year with continuous sprint-level deployments
 - Enabled ~$3M incremental revenue via 3 new analytics products
 **Score weight:** HIGH — Engage this in EVERY evaluation regardless of role title.
 
 ### CS-2: Cloud & Data Platform Modernization (AWS + Snowflake)
-**Evidence source:** Verisk (AWS infrastructure modernization); Sanofi (Google Cloud + Oracle → Snowflake OneMesh)
+**Evidence source:** Verisk (AWS infrastructure modernization); Sanofi (Google Cloud + Oracle → Snowflake OneMesh on Azure)
 - Delivered: golden AMIs, EKS/ECS Fargate container platforms, Terraform modules, CI/CD automation (Verisk)
 - Coordinated Snowflake OneMesh migration across Informatica IDMC, Control-M, Tableau, Power BI workstreams (Sanofi)
 - US + Europe cross-functional delivery under pharma R&D governance
@@ -35,11 +35,10 @@
 ### CS-3: DevOps Delivery Governance
 **Evidence source:** Verisk
 - Led delivery of immutable infrastructure, blue/green deployments, CAB-governed release processes
-- Chaired Change Advisory Boards
+- Chaired Change Advisory Boards; ran incident postmortems and lessons learned
 - Reduced production outages 40%
-- Cut environment provisioning 70% (days → overnight via automation)
 - Improved environment stability 60%
-- Improved release stability 40%
+- Converted quarterly big-bang releases into reliable weekly increments
 **Score weight:** HIGH — Quantified outcomes of governance, not ceremony facilitation.
 
 ### CS-4: Executive Reporting via Power BI
@@ -163,7 +162,7 @@ If a role primarily values Tier 4 skills (e.g., coaching/training as the core fu
 3. **Verisk bullets lead with CS-2 and CS-3 signals** — cloud platform delivery, DevOps governance metrics. Coaching references go last.
 4. **Sanofi bullets lead with CS-2 and CS-5** — Snowflake migration, cross-geo coordination, MDM platform delivery. Coaching references go last.
 5. **BTII (current role) is de-emphasized** — list last in experience, minimize space; do not use as a proof point in summary or highlights.
-6. **Metrics always appear** — the four Verisk headline numbers must be present on every resume: 40% outage reduction, 70% provisioning improvement, 60% stability improvement, ~$3M revenue enabled.
+6. **Metrics always appear** — the Verisk headline numbers must be present on every resume: 40% outage reduction, 60% stability improvement, ~$3M revenue enabled, 4 major releases/year.
 7. **Tier 4 skills excluded by default** — only include if JD explicitly calls for them.
 8. **ADO depth caveat** — if role requires ADO as primary delivery tool, note familiarity (BTII coaching) but do not overstate.
 
@@ -202,7 +201,7 @@ Bridge: "Applying program delivery discipline to AI adoption and tooling"
 ## NEGOTIATION ANCHORS
 ### Lead with these when negotiating comp.
 
-- CS-1: Enterprise scope — $3M budget ownership, 50+ engineers, 4 releases/year. Not coordinator-level work.
+- CS-1: Enterprise scope — $3M budget ownership, 15–17 cross-functional teams at peak, 4 releases/year. Not coordinator-level work.
 - CS-4: Power BI executive reporting is rare at TPM level and hard to find. This is a force multiplier for leadership.
 - CS-7: Regulated environment experience (pharma R&D + financial services) commands 10–20% premium over general-market TPM.
 
