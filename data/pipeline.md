@@ -74,3 +74,13 @@ https://job-boards.greenhouse.io/fortrobotics/jobs/4716269005  FORT Robotics | T
 https://jobs.ashbyhq.com/openai/713a9469-fb35-49db-809e-36f67c920880  OpenAI | TPM, Rack Delivery (2.5/5) - REJECTED (Ashby label says "Remote - US" but JD body requires SF 3 days/week; manufacturing-ops domain wall)
 https://job-boards.greenhouse.io/anthropic/jobs/5013743008  Anthropic | TPM, Data Center Infrastructure (2.4/5) - REJECTED (7+yr hyperscale DC construction + TPM people-management both hard-required; $365-435K irrelevant)
 https://jobs.ashbyhq.com/openai/e6ddb290-3585-48ec-a331-d4fc4761af20  OpenAI | Program Manager Lead (2.3/5) - REJECTED (Marketing org: campaigns/brand/OOH/experiential, not technical delivery; engages no differentiator)
+
+<!-- Processed 2026-08-03 (daily scan covering since last run 2026-08-02). 8 new postings evaluated; ~27 skipped on location/clearance/domain/aggregator and logged to scan-history. WebFetch blocked by proxy; used WebSearch for JD extraction. -->
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (4.1/5) [PRIMARY] - APPLY; strongest fit of batch; enterprise governance+transformation+exec reporting bullseye; $155-202K remote FTE
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 PM/Scrum Master (3.9/5) [PRIMARY] - APPLY; preferred 1099 contract; SAFe+gov delivery; SPC6 premium; verify comp clears $60/hr floor
+https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.7/5) [SECONDARY] - APPLY w/ caveats; remote US; VP-level partner; product-ops/CoS risk; verify comp
+https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Senior SM/Agile PM (3.5/5) [PRIMARY] - APPLY; $150K at target; SPC6 exceeds A-CSM; NYC commutable; legal regulated domain
+https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.4/5) [SECONDARY] - APPLY w/ caveats; $185-321K exceptional comp; remote US; customer-facing gap is core risk
+https://jobs.citi.com/job/jersey-city/technical-program-management-lead-for-ops-tech/287/95121570624  Citi | TPM Lead Ops Tech VP (3.3/5) [SECONDARY] - APPLY w/ caveats; Jersey City NJ perfect location; $165-248K; banking domain gap
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.1/5) [SECONDARY] - PREPARE ONLY; external PS delivery hard-req gap; hold for referral
+https://job-boards.greenhouse.io/jencapinc/jobs/4365961007  Jencap | Senior PM PMO (2.8/5) - REJECTED (underleveled "basic PM methodology"; too few CS engaged)
