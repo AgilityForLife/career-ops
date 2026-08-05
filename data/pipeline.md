@@ -10,6 +10,8 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- No pending items — all 2026-08-05 scan results triaged and evaluated below -->
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
@@ -59,6 +61,16 @@ https://job-boards.greenhouse.io/blinkhealth/jobs/8608801002  Blink Health | Sen
 https://job-boards.greenhouse.io/cayuse/jobs/8519982002  Cayuse | Technical Program Manager (4.6/5) [PRIMARY] - APPLY; CV generated (cv-cayuse-2026-07-07.pdf); textbook Senior TPM platform-migration; verify comp (not listed) + C2C eligibility
 https://jobs.ashbyhq.com/blooming-health/070cb5b4-176c-45cb-b0e1-5d9fa44c5211  Blooming Health | Senior TPM (3.8/5) [PRIMARY] - APPLY w/ honest AI-adjacent + greenfield framing; CV generated (cv-blooming-health-2026-07-07.pdf); gaps: required hands-on AI/ML+agentic & startup-scaling-from-PMF; verify comp
 https://jobs.ashbyhq.com/spruceid/130c2bb1-35f4-4c19-b252-f64614b4bcb0  Spruce Systems | Technical Program Manager (3.4/5) [SECONDARY] - APPLY w/ caveats; CV generated (cv-spruce-2026-07-07.pdf); customer-ownership + SOW-interpretation gaps; confirm comp clears floor + FTE/C2C (bg check implies W2)
+
+<!-- Processed 2026-08-05 (scan covering since last run 2026-08-02). 8 active postings evaluated from search snippets (proxy blocked JD retrieval); ~50 candidates triaged; skipped on location/clearance/domain/aggregator and logged to scan-history. -->
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.8/5) [SECONDARY] - APPLY; Remote East/NYC $162-222K; CS-1/CS-5 strong
+https://job-boards.greenhouse.io/centralreach/jobs/4195331009  CentralReach | Technical Project Manager (3.6/5) [PRIMARY] - APPLY; Holmdel NJ $140-170K; local NJ; CS-1/4/5/7; Sanofi healthcare bridge
+https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.5/5) [SECONDARY] - APPLY w/ caveats; Remote US $140-209K; planning-system bridge to AI-native; CS-1/4/5
+https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic | TPM Launches (3.5/5) [SECONDARY] - PREPARE ONLY; NYC/SF $365-435K 25% in-office; release governance bridge; HELD for manual review
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.4/5) [SECONDARY] - APPLY w/ caveats; Remote US $155-202K; CS-1/CS-5 + Sanofi healthcare bridge
+https://job-boards.greenhouse.io/anthropic/jobs/5368023008  Anthropic | TPM GTM Systems (3.4/5) [SECONDARY] - PREPARE ONLY; NYC/SF $290-435K; Salesforce-to-GTM bridge; HELD for manual review
+https://jobs.lever.co/voleon/ccfd124f-ba17-481a-8583-1929657db6a9  Voleon | Senior PM (3.3/5) [SECONDARY] - APPLY w/ caveats; Remote/Berkeley $160-200K; verify people-management req
+https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; likely under-leveled (2+yr req); verify location + seniority; HELD for manual review
 
 <!-- Processed 2026-08-02 (scan covering since last run 2026-07-17). 13 active postings evaluated + 8 tailored CVs generated; 7 verified closed via live ATS board APIs; ~15 skipped on location/clearance/aggregator and logged to scan-history. Also backfilled reports 024-034 (2026-07-17 batch) into applications.md — that run wrote reports but never merged the tracker or built PDFs. -->
 https://stripe.com/jobs/search?gh_jid=7589234  Stripe | TPM, Core Infrastructure (4.0/5) [PRIMARY] - APPLY; best CS-2/CS-3 match of batch; CV "Erick Rosa Resume - Stripe (Core Infrastructure).pdf"; HELD for manual review (custom written questions)
