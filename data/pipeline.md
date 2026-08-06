@@ -74,3 +74,14 @@ https://job-boards.greenhouse.io/fortrobotics/jobs/4716269005  FORT Robotics | T
 https://jobs.ashbyhq.com/openai/713a9469-fb35-49db-809e-36f67c920880  OpenAI | TPM, Rack Delivery (2.5/5) - REJECTED (Ashby label says "Remote - US" but JD body requires SF 3 days/week; manufacturing-ops domain wall)
 https://job-boards.greenhouse.io/anthropic/jobs/5013743008  Anthropic | TPM, Data Center Infrastructure (2.4/5) - REJECTED (7+yr hyperscale DC construction + TPM people-management both hard-required; $365-435K irrelevant)
 https://jobs.ashbyhq.com/openai/e6ddb290-3585-48ec-a331-d4fc4761af20  OpenAI | Program Manager Lead (2.3/5) - REJECTED (Marketing org: campaigns/brand/OOH/experiential, not technical delivery; engages no differentiator)
+
+<!-- Processed 2026-08-06 (daily scan covering since last run 2026-08-02). 9 new postings evaluated; ~19 skipped on location/clearance/aggregator/junior/internal/unverified and logged to scan-history. WebFetch blocked by proxy — all evaluations from search snippet data only. -->
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava | Sr. PM Strategic Program Lead (3.5/5) [PRIMARY] - APPLY; strongest new find; NJ hybrid 2-3 days/week; verify comp before submitting
+https://jobs.lever.co/nava/1524bd9c-ace1-4dd2-8826-0e4be7d99295  Nava | Sr. PM General Delivery (3.4/5) [PRIMARY] - APPLY; remote eligible NJ listed; verify comp; same company as above
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.3/5) [SECONDARY] - APPLY w/ caveats; remote $162-221K; PS delivery context gap
+https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Senior SM / Agile PM (3.2/5) [PRIMARY] - APPLY w/ caveats; $150K NYC; verify hybrid vs mandatory on-site (deal-breaker if 4-5 days)
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.2/5) [SECONDARY] - APPLY w/ caveats; remote $155-202K; AI transformation expertise gap
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  G-P | Sr. Principal PM AI Transformation (3.1/5) [SECONDARY] - PREPARE ONLY; remote $176-221K; same company as report 028
+https://job-boards.greenhouse.io/anaplan/jobs/8536954002  Anaplan | Manager AI Transformation & Change Mgmt (3.0/5) [SECONDARY] - PREPARE ONLY; remote; change management specialization gap
+https://job-boards.greenhouse.io/twilio/jobs/8067440  Twilio | Senior TPM Services Tools (2.8/5) - REJECTED (weekly code output required; engineering/PM hybrid; $199-249K NJ but wrong skill family)
+https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  Omni | TPM Contract JC (2.7/5) - REJECTED (3-6mo too short; only 1-2 CS engaged)
