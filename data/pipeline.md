@@ -74,3 +74,13 @@ https://job-boards.greenhouse.io/fortrobotics/jobs/4716269005  FORT Robotics | T
 https://jobs.ashbyhq.com/openai/713a9469-fb35-49db-809e-36f67c920880  OpenAI | TPM, Rack Delivery (2.5/5) - REJECTED (Ashby label says "Remote - US" but JD body requires SF 3 days/week; manufacturing-ops domain wall)
 https://job-boards.greenhouse.io/anthropic/jobs/5013743008  Anthropic | TPM, Data Center Infrastructure (2.4/5) - REJECTED (7+yr hyperscale DC construction + TPM people-management both hard-required; $365-435K irrelevant)
 https://jobs.ashbyhq.com/openai/e6ddb290-3585-48ec-a331-d4fc4761af20  OpenAI | Program Manager Lead (2.3/5) - REJECTED (Marketing org: campaigns/brand/OOH/experiential, not technical delivery; engages no differentiator)
+
+<!-- Processed 2026-08-07 (daily scan covering since last run 2026-08-02). 6 new postings evaluated; ~47 candidates logged to scan-history (rejected/skipped on location/clearance/aggregator/domain/already-evaluated). WebFetch blocked by egress proxy — evaluations based on WebSearch summaries; JDs marked unconfirmed. -->
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 PM / Scrum Master (3.9/5) [PRIMARY] - APPLY; 1099 contract matches preferred comp type; gov-regulated delivery; remote; verify clearance + comp rate
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.7/5) [PRIMARY] - APPLY; $155-202K above target; healthcare/regulated CS-7; remote; AI transformation domain needs careful framing
+https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM, AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; remote-first; Staff level right; AI-native focus needs deeper AI fluency; comp unknown
+https://job-boards.greenhouse.io/anthropic/jobs/5256303008  Anthropic | TPM, API Platform (3.3/5) [SECONDARY] - PREPARE ONLY; $290-385K; NYC 25% office OK; API platform domain gap; 5th Anthropic role evaluated
+https://job-boards.greenhouse.io/jencapinc/jobs/4365961007  Jencap | Senior PM, PMO (3.2/5) [SECONDARY] - PREPARE ONLY; NJ/NY hybrid or remote; $110-175K; insurance domain new; PMO governance fit
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Ardent | Scrum Master DHS (3.2/5) [SECONDARY] - APPLY w/ caveats; DHS gov remote; SAFe/Agile core; VERIFY clearance + comp before applying
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (2.9/5) - REJECTED (only 2 CS; external customer-facing + Airtable platform fluency required; consulting pedigree gap)
+https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (2.7/5) - REJECTED (only 2 CS; 2+ yr min under-levels for senior; AI/ML domain gap)
