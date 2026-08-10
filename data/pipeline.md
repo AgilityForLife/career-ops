@@ -16,6 +16,14 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-08-10 (daily pipeline scan covering since last run 2026-08-02). 6 new active postings evaluated; ~30 candidates logged to scan-history (Anthropic 7, OpenAI 10, other portals 13 — mostly skipped on domain walls, location, or duplicates). WebFetch blocked for job board domains; evaluations based on WebSearch JD extracts. -->
+https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI Solutions (3.5/5) [SECONDARY] - APPLY w/ caveats; Remote US; AI-adjacent PM; verify comp + customer-facing gap
+https://job-boards.greenhouse.io/ardentmc/jobs/6980100  Ardent | Scrum Master DHS (3.6/5) [PRIMARY] - APPLY w/ caveats; Remote; SPC6 differentiator; verify clearance + comp
+https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic | TPM Launches (3.4/5) [SECONDARY] - PREPARE ONLY; $290-365K SF/NYC/SEA; AI-launches domain gap; HELD for manual review
+https://job-boards.greenhouse.io/anthropic/jobs/4989788008  Anthropic | TPM Security (3.5/5) [SECONDARY] - PREPARE ONLY; $290-365K SF/NYC; 5 CS engaged but cybersecurity domain gap; HELD for manual review
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - DO NOT APPLY; consulting delivery + Airtable fluency prerequisites unmet
+https://jobs.ashbyhq.com/edgesource%20corporation/9b60327e-04d2-4372-8802-cfa56f68a2c5  Edgesource | Scrum Master National Security (3.3/5) [PRIMARY] - APPLY w/ caveats; Remote; DevSecOps match; verify clearance + posting active
+
 <!-- Evaluated URLs (moved here after processing) -->
 https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior Project/Program Manager - Grant Street Group (4.5/5) [PRIMARY] - APPLY; CV generated
 https://job-boards.greenhouse.io/6sense/jobs/7984438  Sr TPM Platform & Data - 6sense (4.3/5) [PRIMARY] - APPLY; CV generated
