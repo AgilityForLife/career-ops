@@ -74,3 +74,10 @@ https://job-boards.greenhouse.io/fortrobotics/jobs/4716269005  FORT Robotics | T
 https://jobs.ashbyhq.com/openai/713a9469-fb35-49db-809e-36f67c920880  OpenAI | TPM, Rack Delivery (2.5/5) - REJECTED (Ashby label says "Remote - US" but JD body requires SF 3 days/week; manufacturing-ops domain wall)
 https://job-boards.greenhouse.io/anthropic/jobs/5013743008  Anthropic | TPM, Data Center Infrastructure (2.4/5) - REJECTED (7+yr hyperscale DC construction + TPM people-management both hard-required; $365-435K irrelevant)
 https://jobs.ashbyhq.com/openai/e6ddb290-3585-48ec-a331-d4fc4761af20  OpenAI | Program Manager Lead (2.3/5) - REJECTED (Marketing org: campaigns/brand/OOH/experiential, not technical delivery; engages no differentiator)
+
+<!-- Processed 2026-08-11 (Monday scan, covering since last run 2026-08-02). 5 new active postings evaluated; ~27 candidates logged to scan-history (location/aggregator/backlog/expired/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.6/5) [SECONDARY] - APPLY w/ caveats; strongest CS-4 match (dashboards/KPIs/governance); AI transformation depth gap; remote US; verify comp
+https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Senior SM/Agile PM (3.6/5) [PRIMARY] - APPLY; direct SM/PM hybrid fit; SAFe SSM+PMP exceed CSM bar; NYC $135-150K contractor; verify hybrid/remote + C2C
+https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
+https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
