@@ -81,3 +81,10 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-13 (Wednesday scan, covering since last run 2026-08-11). 5 new active postings evaluated; ~22 candidates logged to scan-history (insufficient info/domain/management roles/aggregators/backlog). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Capital Technology Group | Scrum Master USCIS IAM (3.4/5) [PRIMARY] - APPLY w/ caveats; SAFe+PMI-ACP exceed cert bar; $110-140K; VERIFY citizenship/clearance for USCIS
+https://job-boards.greenhouse.io/jencapinc/jobs/4365961007  Jencap | Senior PM, PMO (3.3/5) [SECONDARY] - APPLY w/ caveats; insurance PMO; NYC/NJ or remote; dashboards/metrics match CS-4; verify comp
+https://job-boards.greenhouse.io/toast/jobs/7592259  Toast | Principal TPM (3.2/5) [SECONDARY] - PREPARE ONLY; remote US; infrastructure initiatives; restaurant-tech domain limits differentiation
+https://boards.greenhouse.io/toast/jobs/7735834  Toast | Senior TPM (3.0/5) [SECONDARY] - PREPARE ONLY low priority; remote US; 2 CS engaged; posted May 2026 may be stale
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  Flywheel Digital | TPM Contract (3.0/5) [SECONDARY] - APPLY w/ caveats; contract Jersey City NJ C2C; VERIFY rate clears $60/hr floor
