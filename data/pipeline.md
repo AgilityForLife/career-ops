@@ -81,3 +81,9 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-19 (Tuesday scan, covering since last run 2026-08-11). 4 new active postings evaluated; ~44 candidates logged to scan-history (location/clearance/aggregator/domain/backlog filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava PBC | Senior Project Manager (3.9/5) [PRIMARY] - APPLY; strongest fit of scan; NJ hybrid gov-tech delivery; CS-1/5/7 strong; ~$154K est; PMP+SPC6 premium in gov space
+https://job-boards.greenhouse.io/adswerveinc/jobs/5117947007  Adswerve | PMO Manager (3.0/5) [SECONDARY] - PREPARE ONLY; PMO leadership transferable but marketing/analytics domain outside core; remote US $120-135K
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  G-P | Sr. Principal PM AI Transformation (3.2/5) [SECONDARY] - PREPARE ONLY; strong comp $176-221K+var; Finance/HRIS/Legal domain miss; same company as report #028
+https://job-boards.greenhouse.io/anthropic/jobs/5251609008  Anthropic | TPM Apps Platform (3.2/5) [SECONDARY] - PREPARE ONLY; consistent Anthropic pattern; platform engineering depth gap; ~$365-435K; NYC 25% office feasible
