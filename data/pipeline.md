@@ -81,3 +81,9 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-21 (Thursday scan, covering since last run 2026-08-11). 4 new active postings evaluated; ~31 candidates logged to scan-history (location/aggregator/backlog/domain/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 Program Manager / Scrum Master (4.1/5) [PRIMARY] - APPLY; best structural fit of batch; 1099 contract = perfect C2C preference match; $157.5-177.3K; SAFe/gov delivery bullseye; remote US
+https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/5385417003  Black Canyon Consulting | PM / Agile SM NIH-NCBI (3.5/5) [PRIMARY] - APPLY w/ caveats; Agile SM + regulated NIH delivery; bridge Sanofi R&D; verify comp; Bethesda MD or remote
+https://boards.greenhouse.io/toast/jobs/7735834  Toast | Senior TPM (3.3/5) [SECONDARY] - PREPARE ONLY; remote US ~$115-161K; decent TPM fundamentals but lacks CS-2/CS-7 differentiators
+https://job-boards.greenhouse.io/sfox/jobs/8715514002  sFOX | TPM (3.2/5) [SECONDARY] - PREPARE ONLY; $145-175K + PMP/SAFe credential match but 2+yr fintech/crypto domain req is material gap
