@@ -81,3 +81,9 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-26 (Tuesday scan, covering since last run 2026-08-11). 4 new active postings evaluated; ~29 candidates logged to scan-history (location/aggregator/backlog/closed/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava | Sr. Project Manager (4.0/5) [PRIMARY] - APPLY; NJ hybrid 2-3 days/week $140-158K; CS-1/4/5/6 strong; Agile+PM hybrid fit; external-customer gap bridgeable via Sanofi
+https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity | Scrum Master AI Delivery (3.5/5) [PRIMARY] - APPLY w/ caveats; remote US 7-month contract; PMP+SPC6 certs match; AI/ML depth gap; verify comp
+https://job-boards.greenhouse.io/anthropic/jobs/4989788008  Anthropic | TPM Security (3.4/5) [SECONDARY] - PREPARE ONLY; NYC $290-365K+equity; CS-3/CS-7 governance bridge (CAB+incident mgmt); security domain depth gap
+https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic | TPM Launches (3.3/5) [SECONDARY] - PREPARE ONLY; NYC $290-365K+equity; CS-1/CS-5 cross-org orchestration; AI research domain gap; posted Jan 2026 verify still open
