@@ -83,3 +83,16 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-27 (Wednesday scan, covering since last run 2026-08-11). 11 new active postings evaluated; ~57 candidates logged to scan-history (location/domain/backlog/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://jobs.ashbyhq.com/iongroup/technical-delivery-manager  ION Group | Technical Delivery Manager/Lead (4.2/5) [PRIMARY] - APPLY; 5+ CS engaged; cloud/data delivery in regulated fintech; NYC/NJ hybrid
+https://jobs.ashbyhq.com/citi/ai-digital-senior-program-lead  Citi | AI & Digital Senior Program Lead (4.1/5) [PRIMARY] - APPLY; 5 CS engaged; AI/digital transformation + regulated finance; NYC hybrid; $170-250K
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava | Sr. Project Manager (3.9/5) [SECONDARY borderline PRIMARY] - APPLY; 4 CS engaged; Power BI required; NJ hybrid; civic tech comp may trail
+https://jobs.ashbyhq.com/hims-and-hers/7e5009e5-e738-4e7c-a780-31b415d7a07c  Hims & Hers | Sr. TPM Data Platform MarTech (3.8/5) [SECONDARY] - APPLY w/ caveats; Snowflake match; MarTech domain gap; remote US; $170-185K+equity
+https://jobs.ashbyhq.com/gitlab/senior-pm-enterprise-tech-ai  GitLab | Senior PM Enterprise Technology & AI (3.3/5) [SECONDARY] - APPLY w/ caveats; CS-1/CS-5/CS-7 engaged; AI transformation depth gap; remote US; $103-220K
+https://jobs.ashbyhq.com/amazon/sr-tpm-ww-tech-partners  Amazon | Sr. TPM WW Tech Partners (3.2/5) [SECONDARY] - APPLY w/ caveats; CS-1/CS-2/CS-5 engaged; partner ecosystem gap; Seattle/Austin relocation risk
+https://jobs.ashbyhq.com/salesforce/tpm  Salesforce | Technical Program Manager (3.0/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-5 engaged but Salesforce platform depth required; SF-based
+https://jobs.ashbyhq.com/rula/07a3f685-d606-47bc-81ce-5ee04c2874aa  Rula | Security TPM (2.7/5) - REJECTED; security domain gap too wide
+https://jobs.ashbyhq.com/Ramp/1db75064-e38c-4b21-8310-21471943d0be  Ramp | TPM Founding (2.5/5) - REJECTED; software eng background required
+https://jobs.ashbyhq.com/anthropic/tpm-launches  Anthropic | TPM Launches (2.5/5) - REJECTED; software eng background required; product launch TPM ≠ enterprise delivery
+https://jobs.ashbyhq.com/harvey/9ea6dcda-7869-4181-b493-2822bbc14097  Harvey | TPM Quality & Reliability (2.3/5) - REJECTED; SF relocation + QA/Test Engineer requirement
