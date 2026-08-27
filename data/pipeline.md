@@ -10,6 +10,8 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- Queued 2026-08-27 scan. 12 postings sent to evaluation; ~56 logged to scan-history as skipped (location/domain/backlog). -->
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
