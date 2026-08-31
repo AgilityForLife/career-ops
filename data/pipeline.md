@@ -81,3 +81,12 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-08-31 (daily scan, covering since last run 2026-08-11). 7 new active postings evaluated; ~20 candidates logged to scan-history (location/aggregator/backlog/comp/domain filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Senior TPM (4.0/5) [PRIMARY] - APPLY; strongest technical match of batch (5 CS engaged); cloud+DevOps+infra modernization mirrors Verisk; remote; comp likely $150-220K+
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 PM/Scrum Master (3.8/5) [PRIMARY] - APPLY; 1099 at $157.5-177.3K with gov agencies (VA/CMS/CDC); SAFe SPC6+PMP exceed requirements; best engagement-type match
+https://job-boards.greenhouse.io/gitlab/jobs/8742113002  GitLab | Senior PM, Enterprise Tech & AI (3.6/5) [SECONDARY] - APPLY w/ caveats; CS-4 executive reporting differentiator; lower priority than GitLab TPM #054
+https://boards.greenhouse.io/toast/jobs/7735834  Toast | Senior TPM (3.3/5) [SECONDARY] - PREPARE ONLY; $149-219K comp but CS-2 absent; restaurant domain gap; remote US
+https://job-boards.greenhouse.io/vantagescore/jobs/4378478009  VantageScore | Agile SM/PM (3.2/5) [PRIMARY] - APPLY w/ caveats; SM/PM hybrid fit; SPC6+PMP exceed CSM bar; verify comp+location+C2C
+https://job-boards.greenhouse.io/kunai/jobs/5215401007  Kunai | TPM Payments (3.0/5) [SECONDARY] - PREPARE ONLY low priority; payments domain gap material; AWS+Jira+regulated hooks; remote US
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  G-P | Sr. Principal PM AI Transformation (2.8/5) - REJECTED (business ops transformation Finance/HRIS/Legal, not technical delivery; 2 CS engaged)
