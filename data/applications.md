@@ -2,6 +2,9 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 56 | 2026-09-02 | Jencap | Senior Project Manager, PMO | 3.2/5 | Evaluada | ❌ | [054](reports/054-jencap-senior-pm-pmo-2026-09-02.md) | SECONDARY; PREPARE ONLY low priority — NY/NJ hybrid or remote; $110-175K insurance PMO; CS-2 absent; safety-net role |
+| 57 | 2026-09-02 | PerfectServe | Manager, Project Management Office | 3.0/5 | Evaluada | ❌ | [055](reports/055-perfectserve-manager-pmo-2026-09-02.md) | SECONDARY; PREPARE ONLY lowest priority — remote US $125-135K; healthcare PMO; comp at bottom of target band; technical depth wasted |
+| 58 | 2026-09-02 | Myriad360 | PMO Manager | 3.4/5 | Evaluada | ❌ | [053](reports/053-myriad360-pmo-manager-2026-09-02.md) | SECONDARY; PREPARE ONLY — CS-1/CS-5 strong fit; $140-160K remote US; gap: PS/SI consulting background vs internal enterprise delivery |
 | 50 | 2026-08-11 | Omada Health | Staff AI Transformation Program Manager | 3.6/5 | Evaluada | ❌ | [048](reports/048-omada-health-staff-ai-transformation-pm-2026-08-11.md) | SECONDARY; APPLY w/ caveats — strongest CS-4 match of batch (dashboards/KPIs/governance); AI transformation depth is the honest gap; remote US; verify comp |
 | 51 | 2026-08-11 | Wilson Elser | Senior Scrum Master / Agile Project Manager | 3.6/5 | Evaluada | ❌ | [049](reports/049-wilson-elser-senior-scrum-master-agile-pm-2026-08-11.md) | PRIMARY; APPLY — direct SM/PM hybrid fit; SAFe SSM+PMP exceed CSM bar; NYC $135-150K contractor clears target; verify hybrid/remote + C2C eligibility |
 | 53 | 2026-08-11 | Snorkel AI | Technical Project Manager - Enterprise AI Solutions | 3.2/5 | Evaluada | ❌ | [051](reports/051-snorkel-ai-tpm-enterprise-ai-2026-08-11.md) | SECONDARY; PREPARE ONLY low priority — customer-facing delivery + AI technical fluency are material gaps; remote US; comp TBD |
