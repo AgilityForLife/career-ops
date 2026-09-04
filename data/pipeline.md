@@ -81,3 +81,10 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-09-04 (Thursday scan, covering since last run 2026-08-11). 5 new active postings evaluated; ~40 candidates logged to scan-history (location/aggregator/backlog/domain/stretch/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 Project Manager / Scrum Master (4.1/5) [PRIMARY] - APPLY; strongest fit of batch; 1099 contract matches preferred comp; SAFe SPC6 premium for gov PM; remote US NJ eligible
+https://jobs.lever.co/nava/0125234d-bc9c-4fc0-90e4-7a14cba1a5d7  Nava | Sr. Program Manager (4.0/5) [PRIMARY] - APPLY; gov digital services modernization; $140-158K FTE at target band; remote US NJ eligible
+https://job-boards.greenhouse.io/nttdatausa/jobs/8318944002  NTT DATA USA | Scrum Master / Agile Coach NYC (3.4/5) [PRIMARY Agile lane] - APPLY w/ caveats; SPC6 premium; onsite NYC concern; comp $90-130K straddles floor
+https://job-boards.greenhouse.io/charlesriverassociates/jobs/7983867  Charles River Associates | PM/Agile Master AI (3.3/5) [SECONDARY] - PREPARE ONLY; $150-170K but product-minded expectations exceed delivery background
+https://jobs.ashbyhq.com/coder/c726c69e-f0cd-45c3-b962-fb74cb207c0e  Coder | Senior TPM (3.5/5) [SECONDARY] - APPLY w/ caveats; CS-1+CS-3 match; remote; ~$170K; gap: developer tools domain
