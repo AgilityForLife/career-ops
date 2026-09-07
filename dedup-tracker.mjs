@@ -48,11 +48,26 @@ function normalizeRole(role) {
     .trim();
 }
 
+// Generic title words carry no disambiguating signal. Without stripping them, two distinct
+// postings at the same company ("Technical Program Manager - Security" vs "GRC Program
+// Manager" vs "Technical Program Manager - US Government" at Palantir) collapse into one row
+// on "program"/"manager" alone, discarding real differences in score and Section-15 flags.
+// Mirrors the equivalent fix applied to merge-tracker.mjs's roleFuzzyMatch on 2026-09-07.
+const ROLE_STOPWORDS = new Set([
+  'technical', 'program', 'project', 'product', 'manager', 'management',
+  'senior', 'staff', 'principal', 'lead', 'associate', 'director', 'head',
+  'delivery', 'engineer', 'engineering', 'specialist', 'consultant',
+  'remote', 'hybrid', 'contract', 'temporary', 'with',
+  'scrum', 'master', 'agile', 'coach',
+]);
+
 function roleMatch(a, b) {
-  const wordsA = normalizeRole(a).split(/\s+/).filter(w => w.length > 3);
-  const wordsB = normalizeRole(b).split(/\s+/).filter(w => w.length > 3);
+  const wordsA = normalizeRole(a).split(/\s+/).filter(w => w.length > 3 && !ROLE_STOPWORDS.has(w));
+  const wordsB = normalizeRole(b).split(/\s+/).filter(w => w.length > 3 && !ROLE_STOPWORDS.has(w));
+  if (wordsA.length === 0 || wordsB.length === 0) return false;
   const overlap = wordsA.filter(w => wordsB.some(wb => wb.includes(w) || w.includes(wb)));
-  return overlap.length >= 2;
+  const smaller = Math.min(wordsA.length, wordsB.length);
+  return overlap.length >= 2 && overlap.length >= smaller;
 }
 
 function parseScore(s) {

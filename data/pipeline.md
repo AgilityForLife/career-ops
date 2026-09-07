@@ -16,6 +16,54 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-07 (scan covering since last run 2026-08-11). 36 candidates surfaced by
+this run's scan; 3 turned out to already be known (Airtable already evaluated as report 052 on
+2026-08-11 — exact same URL, this run's local scan-history.tsv was stale before a mid-run reset
+onto origin/main surfaced the gap; Roboyo and Edgesource were already logged 2026-08-11 as
+skipped_backlog, so re-evaluating them here added real information rather than duplicating it).
+1 further duplicate excluded (Techtorch L2C, same URL as already-evaluated report 034, backfilled
+into scan-history instead of re-evaluated). 2 ClearanceJobs aggregator listings skipped
+(undisclosed employer). Net: 32 new evaluations (reports 053-084). 21 of those turned out
+closed/removed on ATS-API verification since the search-index snapshot was taken; 5 scored 3.0+
+and got tailored resumes (all held per section 15 SUBMISSION GATE — not submitted this run).
+Fixed two real bugs in this run: merge-tracker.mjs and dedup-tracker.mjs both lacked
+"scrum"/"master"/"agile"/"coach" in their generic-word stopword lists, causing distinct postings
+at the same company (Leidos, Palantir, GitLab) to silently collapse into one tracker row. Also
+fixed a markdown-table corruption from an unescaped "|" in a job title (Black Canyon Consulting
+posting). Also flagged and did NOT apply an uncommitted, unverified edit to
+config/skills-model.md that tried to override the CLAUDE.md POSITIONING LOCK. -->
+https://job-boards.greenhouse.io/neweratech/jobs/8659526002  New Era Technology | Technical Project Manager - GTI/RES (2.4/5) [REJECTED] - DO NOT APPLY (1/7 CS engaged, onsite client-site MSP role)
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava | Sr. Project Manager - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.lever.co/skydance/88b76c6f-5bb6-41fc-9840-876024a7eb00  Skydance | Senior Core Tech Project Manager - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.lever.co/insiderone/02c7af40-a326-4d2f-97e4-89cb2ebc4edb  Insider One | Scrum Master (Remote) - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.lever.co/rgi/f3e864d1-a61d-4a00-a5b4-469819a37537  Reinventing Geospatial (RGi) | Senior Release Train Engineer (1.8/5) [REJECTED] - DO NOT APPLY (best skills match in batch but hard-gated by required active TS/SCI clearance + polygraph)
+https://jobs.lever.co/cyara/11648579-66f5-4188-aba1-02d54ef8fd76  Cyara | Sr. Scrum Master - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://job-boards.greenhouse.io/blackcanyonconsulting/jobs/5385417003  Black Canyon Consulting | Project Manager / Agile Scrum Master (3.1/5) [SECONDARY] - APPLY w/ caveats; CV generated; NIH/NCBI regulated-data fit, verify Bethesda MD remote eligibility
+https://jobs.ashbyhq.com/edgesource%20corporation/9b60327e-04d2-4372-8802-cfa56f68a2c5  Edgesource Corporation | Scrum Master - DISCARDED (posting closed/removed, verified 2026-09-07; previously logged 2026-08-11 as skipped_backlog, now confirmed closed rather than just unevaluated)
+https://jobs.ashbyhq.com/riveron/10ff98e3-2660-4c09-893a-fd035656272b/application  Riveron | Sr Associate - Scrum Master - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.ashbyhq.com/PAR%20Technology/cfd176ae-435e-4fa7-9375-9bd310405aa1  PAR Technology | Sr. Manager of Agile Delivery - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://boards.greenhouse.io/adswerveinc/jobs/4100070007  Adswerve, Inc | Project Manager 2 - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://boards.greenhouse.io/embed/job_app?token=4593823006  CoreWeave | Manager, Special Projects - DISCARDED (posting closed/removed, verified 2026-09-07; CoreWeave has other live TPM reqs worth a future look)
+https://boards.greenhouse.io/trace3/jobs/5495832  Trace3 | Manager, Program Management (Remote) - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://www.dice.com/job-detail/f81f6c33-67e4-473b-97b7-419b6b7e0d89  Genesis10 (Dice) | Agile Scrum Master, Jersey City NJ on-site (2.1/5) [REJECTED] - DO NOT APPLY (Tier-4 ceremony-only scope, likely mandatory on-site, W2-agency not 1099)
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 Project Manager (Scrum Master) - DISCARDED (posting closed/removed, verified 2026-09-07; 1099 match lost)
+https://jobs.merck.com/us/en/job/R398333/Associate-Director-Clinical-Supply-Project-Manager-Protocol-Hybrid  Merck | Associate Director, Clinical Supply PM - Protocol (Hybrid Rahway NJ) - DISCARDED (HTTP 410 Gone, verified 2026-09-07; strongest apparent fit of batch, worth re-searching Merck's live site)
+https://careers.leidos.com/jobs/17564960-senior-it-project-manager  Leidos | Senior IT Project Manager (Remote US) (3.4/5) [SECONDARY] - APPLY w/ caveats; CV generated; exact Power BI/SAFe tool match but no CS-2 cloud/data hook, comp unlisted
+https://careers.leidos.com/jobs/17613176-software-technical-manager-and-scrum-master  Leidos | Software Technical Manager & Scrum Master, FAA TFDM (Atlantic City NJ hybrid) (3.4/5) [SECONDARY] - PREPARE ONLY; CV generated; $107.9-195K; Public Trust suitability = Section 15 STOP; commute is a real stretch
+https://jobs.lever.co/palantir/b5362bc1-8a07-44e2-9ddc-cb4236aa0f20  Palantir | Technical Program Manager - Security (3.6/5) [SECONDARY] - PREPARE ONLY; CV generated; NYC hybrid $93-160K; clearance-eligibility question = Section 15 STOP
+https://jobs.lever.co/palantir/d3b2f261-3f10-4edc-8802-8b3b37977d0a  Palantir | Technical Program Manager - US Government (2.2/5) [REJECTED] - DO NOT APPLY (mandatory DC onsite + hard active Secret/TS-SCI requirement candidate does not hold); no resume
+https://jobs.lever.co/palantir/4625019a-479a-41dd-bd5a-21847629772b  Palantir | GRC Program Manager (3.0/5) [SECONDARY] - PREPARE ONLY; CV generated; NYC hybrid $90-160K; borderline (GRC/audit domain stretch); clearance-eligibility = Section 15 STOP
+https://jobs.ashbyhq.com/amplify/5c2110c9-58cb-4c9b-b7b0-bd6f2c89ca20  Amplify | Senior Project Manager - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.ashbyhq.com/amplify/f20fa73f-3647-4948-ade2-402653f70f78  Amplify | Senior Project Manager, Platform - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://jobs.lever.co/InfrastructureandCapitalProjects/f4d9b3a5-d3b7-4db3-80fd-61a271a23ca9  Accenture Infrastructure and Capital Projects | Senior Project Manager, ANS - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://job-boards.greenhouse.io/globalizationpartners/jobs/7733378003  G-P (Globalization Partners) | Sr. Principal PM, AI Transformation - DISCARDED (posting closed/removed, verified 2026-09-07; different req than report 028, which remains open)
+https://job-boards.greenhouse.io/itd/jobs/4308941009  itD Tech | Technical Project Manager III, Speech/Voice AI - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://job-boards.greenhouse.io/itd/jobs/4393004009  itD Tech | Technical Program Manager, AI Research (1.5/5) [REJECTED] - DO NOT APPLY ($45-54/hr W2 below floor + Menlo Park onsite relocation + near-zero CS engagement despite title)
+https://boards.greenhouse.io/seamlessai/jobs/4898399004  Seamless.AI | Program Manager, Business Operations - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://job-boards.greenhouse.io/gitlab/jobs/8548105002  GitLab | AI Transformation Owner, Marketing - DISCARDED (posting closed/removed, verified 2026-09-07)
+https://job-boards.greenhouse.io/gitlab/jobs/8638232002  GitLab | AI Transformation Owner, CRO (1.8/5) [REJECTED] - DO NOT APPLY (strong comp $139-235K but sales-enablement/GTM role, 0/7 CS engaged despite AI title)
+https://jobs.ashbyhq.com/pragmatike/8ee26633-d9e4-40e0-82fc-62576622029e  Pragmatike | Senior Project Manager, Industrial Digitalization - DISCARDED (posting closed/removed, verified 2026-09-07)
+
 <!-- Evaluated URLs (moved here after processing) -->
 https://jobs.lever.co/grantstreet/f2f619ce-61b9-4f82-b131-3ebc23a64f60  Senior Project/Program Manager - Grant Street Group (4.5/5) [PRIMARY] - APPLY; CV generated
 https://job-boards.greenhouse.io/6sense/jobs/7984438  Sr TPM Platform & Data - 6sense (4.3/5) [PRIMARY] - APPLY; CV generated

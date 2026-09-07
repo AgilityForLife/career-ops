@@ -87,6 +87,11 @@ narrative:
 
 compensation:
   preferred_type: "C2C / 1099 (first preference), then W2, then Full Time"
+  # ANCHOR = what to open with. Always lead here. Added 2026-08-31: this block
+  # previously had no anchor field at all, so every negotiation opened at the floor.
+  anchor_rate_contract: "$65+/hr (C2C or 1099)"
+  anchor_salary_fulltime: "$105K+"
+  # FLOOR = walk-away. Never open here, never anchor below it.
   target_rate_contract: "$60+/hr (C2C or 1099)"
   target_salary_fulltime: "$100K+"
   currency: "USD"
@@ -94,9 +99,15 @@ compensation:
   minimum_salary_fulltime: "$100K"
   location_flexibility: "Remote preferred; open to hybrid in Greater NYC Metro"
   notes: >
-    Strong preference for contract roles (C2C or 1099) at $60+/hr.
-    W2 contracts acceptable. Full-time considered at $100K+.
-    Will not accept below minimums unless exceptional strategic opportunity.
+    Open at the ANCHOR ($65+/hr C2C, $105K+ FTE). Never anchor at the floor —
+    a known failure mode is opening at the minimum and negotiating down from it.
+    Floor is $60/hr C2C and $100K FTE; will not accept below it unless the
+    opportunity is exceptionally strategic.
+    Strong preference for contract roles (C2C or 1099). W2 contracts acceptable.
+    Source of truth for these figures is ~/.claude/CLAUDE.md; keep them in sync.
+    A $200K+ FTE / $100hr+ figure appears in
+    Jobs/Claude_Enterprise_Rollout_Jobs_Matched.md — that is ASPIRATIONAL, not a
+    working number. Do not use it as a negotiating position.
 
 location:
   country: "United States"

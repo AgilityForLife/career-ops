@@ -65,11 +65,17 @@ function normalizeCompany(name) {
 // "Technical Program Manager, Core Infrastructure" and "Technical Program Manager,
 // Service Infrastructure" score 4 overlapping words and collapse into one entry —
 // silently discarding a distinct evaluation at the same company.
+// 'scrum'/'master'/'agile'/'coach' added 2026-09-07: this candidate's title vocabulary is
+// concentrated on Agile/Scrum roles, so two *unrelated* postings at the same company ("Scrum
+// Master (NJ)" from one req vs. "Software Technical Manager & Scrum Master" from a different
+// req) were colliding on those two words alone and silently skipping a distinct, already-
+// evaluated posting.
 const ROLE_STOPWORDS = new Set([
   'technical', 'program', 'project', 'product', 'manager', 'management',
   'senior', 'staff', 'principal', 'lead', 'associate', 'director', 'head',
   'delivery', 'engineer', 'engineering', 'specialist', 'consultant',
   'remote', 'hybrid', 'contract', 'temporary', 'with',
+  'scrum', 'master', 'agile', 'coach',
 ]);
 
 function roleTokens(s) {
@@ -107,6 +113,13 @@ function roleFuzzyMatch(a, b) {
   // so "Core Infrastructure" and "Service Infrastructure" stay separate.
   const smaller = Math.min(tokensA.size, tokensB.size);
   return overlap >= 2 && overlap >= smaller;
+}
+
+// A literal "|" in a free-text field (company/role/notes) breaks the markdown table by
+// splitting it into an extra cell, shifting every column after it. Found 2026-09-07: a job
+// title "Project Manager | Agile Scrum Master" corrupted an entire row this way.
+function escapePipe(s) {
+  return String(s).replace(/\|/g, '/');
 }
 
 function extractReportNum(reportStr) {
@@ -307,7 +320,7 @@ for (const file of tsvFiles) {
       console.log(`🔄 Update: #${duplicate.num} ${addition.company} — ${addition.role} (${oldScore}→${newScore})`);
       const lineIdx = appLines.indexOf(duplicate.raw);
       if (lineIdx >= 0) {
-        const updatedLine = `| ${duplicate.num} | ${addition.date} | ${addition.company} | ${addition.role} | ${addition.score} | ${duplicate.status} | ${duplicate.pdf} | ${addition.report} | Re-eval ${addition.date} (${oldScore}→${newScore}). ${addition.notes} |`;
+        const updatedLine = `| ${duplicate.num} | ${addition.date} | ${escapePipe(addition.company)} | ${escapePipe(addition.role)} | ${addition.score} | ${duplicate.status} | ${duplicate.pdf} | ${addition.report} | Re-eval ${addition.date} (${oldScore}→${newScore}). ${escapePipe(addition.notes)} |`;
         appLines[lineIdx] = updatedLine;
         updated++;
       }
@@ -320,7 +333,7 @@ for (const file of tsvFiles) {
     const entryNum = addition.num > maxNum ? addition.num : ++maxNum;
     if (addition.num > maxNum) maxNum = addition.num;
 
-    const newLine = `| ${entryNum} | ${addition.date} | ${addition.company} | ${addition.role} | ${addition.score} | ${addition.status} | ${addition.pdf} | ${addition.report} | ${addition.notes} |`;
+    const newLine = `| ${entryNum} | ${addition.date} | ${escapePipe(addition.company)} | ${escapePipe(addition.role)} | ${addition.score} | ${addition.status} | ${addition.pdf} | ${addition.report} | ${escapePipe(addition.notes)} |`;
     newLines.push(newLine);
     added++;
     console.log(`➕ Add #${entryNum}: ${addition.company} — ${addition.role} (${addition.score})`);
