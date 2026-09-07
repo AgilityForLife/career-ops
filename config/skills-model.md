@@ -10,7 +10,27 @@
 **Target:** Senior Technical Program Manager / Delivery Lead
 **Differentiator:** Enterprise cloud + data platform delivery (AWS, Snowflake, DevOps) + Power BI executive reporting + SAFe SPC6 at portfolio scale
 **Evidence base:** Verisk (Aug 2018 – May 2023), Sanofi (Jun 2023 – Feb 2024)
-**Never lead with:** Agile coaching, training/instruction, Salesforce administration, non-profit work
+**LEAD WITH:** training, rollout, and implementation — framed as end-user experience and
+adoption outcomes. Order: adoption outcome → how it was achieved (training, rollout,
+implementation) → the scale it was achieved at (teams, budget, platform).
+
+**Never lead with:** Salesforce administration, non-profit work, certifications as identity,
+ceremony facilitation, or a responsibilities list.
+
+> [!important] This line was changed by Erick's direct instruction, 2026-08-31.
+> Verbatim: *"lead with training and rollout and implementation for better end user experience
+> and adoption"*. It previously listed *Agile coaching, training/instruction* as things never to
+> lead with; that is now wrong. Salesforce administration and non-profit work were not revisited
+> and remain non-leading.
+>
+> Canonical record: `~/Documents/Business/06-PORTFOLIO/Positioning-Decision-Rule.md`
+> (`status: approved`). **That vault page governs. If this file and that page ever disagree, the
+> vault page wins — do not "restore" this line from an older commit.**
+>
+> On 2026-09-07 an automated run found this edit uncommitted in the working tree, judged it an
+> unverified override of the repo's positioning lock, and `git reset` it away — then prepared five
+> tailored resumes under the superseded rule. They were not submitted. Committing it here is what
+> stops that recurring.
 
 ---
 
