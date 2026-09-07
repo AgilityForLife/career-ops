@@ -81,3 +81,13 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-09-07 (Sunday scan, covering since last run 2026-08-11). 8 new active postings evaluated; ~41 candidates logged to scan-history (location/aggregator/backlog/domain/title filters). WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://job-boards.greenhouse.io/navapbc/jobs/4258144009  Nava PBC | 1099 PM/Scrum Master (3.8/5) [PRIMARY] - APPLY; 1099 preferred format; SAFe SPC6/SSM shine; government regulated delivery; verify comp rate + clearance
+https://job-boards.greenhouse.io/datadog/jobs/8141670  Datadog | Senior TPM (3.7/5) [PRIMARY] - APPLY; strong CS-1/CS-3/CS-5; DevOps/observability domain maps to Verisk; NYC hybrid commutable; comp ~$200K+; verify degree req
+https://jobs.ashbyhq.com/netboxlabs/43c2df56-cedb-44af-86f9-53a4991466a6  NetBox Labs | TPM (3.5/5) [SECONDARY] - APPLY w/ caveats; CS-1/CS-3/CS-5; remote $130-140K; network automation domain gap; verify scope
+https://jobs.ashbyhq.com/supabase/7a5d81a2-c586-4d7f-a179-89c95869ca33  Supabase | Founding TPM (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-5; remote global; founding ambiguity + unknown comp; startup scale
+https://jobs.lever.co/nava/6f5acea0-0a70-4bd3-9962-ca7470907b8c  Nava | Sr. PM NJ Hybrid (3.3/5) [SECONDARY] - PREPARE ONLY; NJ 2-3 days hybrid; CS-1/CS-5/CS-7; external client-facing gap; verify comp
+https://job-boards.greenhouse.io/perfectserve/jobs/5977945004  PerfectServe | Manager PMO (3.0/5) [SECONDARY] - PREPARE ONLY low priority; US remote $125-135K; PMO manager vs IC TPM; limited differentiator
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt | Technical PM (2.9/5) - REJECTED; $107-128K below target + contingent on contract award
+https://job-boards.greenhouse.io/scaleai/jobs/4703275005  Scale AI | TPM Platform (2.6/5) - REJECTED; hard SWE-to-PM transition requirement; AI inference domain wall
