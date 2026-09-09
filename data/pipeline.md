@@ -16,6 +16,27 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-09 (scan covering since last run 2026-09-07). 39 new URLs surfaced by
+portal scans across Greenhouse, Lever, Ashby, Dice. After dedup against scan-history.tsv,
+7 genuine new candidates evaluated (reports 085-091). 32 others logged to scan-history as
+skipped (location, comp below floor, clearance, backlog, aggregator, etc.). WebFetch blocked
+for all job board domains — evaluations based on WebSearch JD summaries only. No strong-fit
+PRIMARY roles found this cycle (all scored 3.0-3.3/5 SECONDARY). Market continues thin for
+enterprise TPM/Delivery Lead roles matching CS-1+CS-2 differentiators. -->
+https://jobs.ashbyhq.com/sift/9548a317-9aaf-4e0f-a720-65563dfaa344  Sift | Technical Program Manager (3.3/5) [SECONDARY] - PREPARE ONLY; remote US, $110-128.5K; CS-1/CS-5/CS-7 engaged; fraud domain gap
+https://jobs.ashbyhq.com/runpod/4da8a8e4-2dee-421d-a23a-b799d944041c  RunPod | Technical Program Manager (3.0/5) [SECONDARY] - PREPARE ONLY; remote, $120-160K; CS-1/CS-2/CS-5; requires CS degree (potential screen-out) + startup depth
+https://jobs.ashbyhq.com/supabase/7a5d81a2-c586-4d7f-a179-89c95869ca33  Supabase | Founding Technical Program Manager (3.2/5) [SECONDARY] - PREPARE ONLY; remote worldwide; first TPM founding role + client-facing = startup gap
+https://jobs.lever.co/thinkahead/6e4c051b-ba29-4c12-9a44-b868cf658f01  AHEAD | Senior Project Manager (3.2/5) [SECONDARY] - PREPARE ONLY; remote/hybrid; IT consulting customer-facing gap; comp unknown
+https://job-boards.greenhouse.io/vantagescore/jobs/4378478009  VantageScore | Agile Scrum Master / Project Manager (3.2/5) [SECONDARY] - PREPARE ONLY; fintech credit scoring; SM-leading = Tier 4 risk; comp unknown
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Capital Technology Group | Scrum Master (3.1/5) [SECONDARY] - PREPARE ONLY; same company as report 026; citizenship/clearance gate likely applies
+https://jobs.lever.co/prelim/4dde2b9b-f370-401d-af73-35d043cf60bc  Prelim | Technical Project Manager (3.3/5) [SECONDARY] - PREPARE ONLY; NY remote; banking startup; customer-facing gap
+
+## In Progress
+
+<!-- URLs currently being evaluated -->
+
+## Done
+
 <!-- Processed 2026-09-07 (scan covering since last run 2026-08-11). 36 candidates surfaced by
 this run's scan; 3 turned out to already be known (Airtable already evaluated as report 052 on
 2026-08-11 — exact same URL, this run's local scan-history.tsv was stale before a mid-run reset
