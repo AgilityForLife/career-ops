@@ -38,13 +38,17 @@ function validateStatus(status) {
     if (valid.toLowerCase() === lower) return valid;
   }
 
-  // Aliases
+  // Aliases — includes templates/states.yml's English canonical ids/labels, since
+  // batch workers are instructed to write those directly (see CLAUDE.md TSV spec).
   const aliases = {
     'enviada': 'Aplicado', 'aplicada': 'Aplicado', 'applied': 'Aplicado', 'sent': 'Aplicado',
-    'cerrada': 'Descartado', 'descartada': 'Descartado', 'cancelada': 'Descartado',
-    'rechazada': 'Rechazado',
+    'cerrada': 'Descartado', 'descartada': 'Descartado', 'cancelada': 'Descartado', 'discarded': 'Descartado',
+    'rechazada': 'Rechazado', 'rejected': 'Rechazado',
     'no aplicar': 'NO APLICAR', 'no_aplicar': 'NO APLICAR', 'skip': 'NO APLICAR', 'monitor': 'NO APLICAR',
-    'condicional': 'Evaluada', 'hold': 'Evaluada', 'evaluar': 'Evaluada', 'verificar': 'Evaluada',
+    'condicional': 'Evaluada', 'hold': 'Evaluada', 'evaluar': 'Evaluada', 'verificar': 'Evaluada', 'evaluated': 'Evaluada',
+    'respondido': 'Respondido', 'responded': 'Respondido',
+    'entrevista': 'Entrevista', 'interview': 'Entrevista',
+    'oferta': 'Oferta', 'offer': 'Oferta',
     'geo blocker': 'NO APLICAR',
   };
 

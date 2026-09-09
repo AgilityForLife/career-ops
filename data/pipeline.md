@@ -16,6 +16,40 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-09 (scan covering since last run 2026-09-07, headless launchd run). 4 parallel
+scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies. 45 candidates
+surfaced; 5 skipped without a report (3 Jobgether aggregator listings + 1 Atrium Staffing agency
+listing, all undisclosed-employer; 1 10x Team freelance gig, not a role-fit) — logged directly to
+scan-history.tsv as skipped_aggregator_employer_undisclosed / skipped_gig_not_role_fit. Remaining 40
+evaluated in 4 parallel batches (reports 085-124): 1 was a duplicate of an already-applied Leidos req
+(101, discarded) and 1 was a near-duplicate of an already-rejected Palantir US-Gov req (119, merge
+skipped as duplicate of tracker row #73) — net 38 genuinely new scored evaluations. 12 scored 3.0+ and
+got tailored resume PDFs; ALL HELD per the section 15 SUBMISSION GATE (still active, not removed this
+run) — nothing submitted. Two real J&J postings (110, 111) turned out to be stale 2023-dated listings
+still surfacing in search results (404 on fetch) — flagged for portals.yml data-quality but not fixed
+this run. Fixed a real latent bug in merge-tracker.mjs: its status-alias table only recognized Spanish
+canonical terms (Evaluada/Descartado/etc.) plus a handful of English ones, but templates/states.yml
+(which CLAUDE.md instructs batch workers to write directly) is English — "Discarded", "Evaluated",
+"Rejected", "Interview", "Offer" were falling through to the "non-canonical → default Evaluada"
+branch, silently mislabeling e.g. two closed/removed AECOM reqs as "Evaluada" instead of "Descartado"
+in applications.md. One instance was already caught and hand-patched by the E4 batch; the alias table
+itself was fixed here so it doesn't recur on every future run. The 12 apply-eligible roles, all
+"Prepared, awaiting Erick's go":
+https://boards.greenhouse.io/twilio/jobs/4298811  Twilio | Sr. Manager, Agile Program Management (3.0/5) [SECONDARY] - APPLY w/ caveats; CV generated
+https://myjobsny.usnlx.com/trenton-nj/program-manager-remote/70AA5DFF0B52400FB02E9740CC4A4764/job/  GovCIO | Program Manager (Remote) (3.6/5) [PRIMARY] - APPLY; CV generated; Public Trust suitability flagged (Section 15)
+https://careers.salesforce.com/en/jobs/jr333198/technical-program-manager/  Salesforce | Technical Program Manager (3.5/5) [PRIMARY] - APPLY; CV generated
+https://www.amazon.jobs/en/jobs/10453167/sr-technical-program-manager-ww-tech-partners-solutions-architecture  Amazon/AWS | Sr. TPM, WW Tech Partners Solutions Architecture (3.6/5) [SECONDARY] - APPLY w/ caveats; CV generated; Jersey City NJ option
+https://careers.cognizant.com/us-en/jobs/00070033171/itot-delivery-manager/  Cognizant | IT/OT Delivery Manager (3.5/5) [SECONDARY] - APPLY w/ caveats; CV generated; Morris Plains NJ
+https://www.careerbuilder.com/job-details/lead-technical-program-manager-new-york-ny--cc627337-c07b-42ab-bc24-d2adb8c677a7  JPMorgan Chase | Lead Technical Program Manager (3.4/5) [SECONDARY] - APPLY w/ caveats; CV generated; mirror listing unconfirmed live
+https://builtin.com/job/embedded-finance-solutions-lead-technical-program-manager/3300033  JPMorgan Chase | Embedded Finance & Solutions Lead TPM (3.6/5) [PRIMARY] - APPLY w/ caveats; CV generated; mirror listing unconfirmed live
+https://careers.unitedhealthgroup.com/job/16606782/technical-project-manager-remote/  UnitedHealth Group | Technical Project Manager (3.1/5) [SECONDARY] - APPLY w/ caveats; CV generated
+https://careers.unitedhealthgroup.com/job/minnetonka/agile-practitioner-4-remote/34088/94311763456  UnitedHealth Group | Agile Practitioner 4 (3.8/5) [PRIMARY] - APPLY; CV generated; best-fit of this run
+https://jobs.lever.co/palantir/bd16f7ad-3bee-48fd-9902-b3ee9698b608  Palantir | TPM - Defense (3.1/5) [SECONDARY] - APPLY w/ caveats; CV generated; clearance-eligibility = Section 15 STOP
+https://jobs.lever.co/palantir/119ff141-1fa7-4466-a154-da57cf17bd52  Palantir | TPM - Autonomous Systems C2 (3.3/5) [SECONDARY] - APPLY w/ caveats; CV generated; NY hybrid; clearance-eligibility = Section 15 STOP; req ID mismatch flagged
+https://jobs.parsons.com/jobs/senior-it-project-manager-remote-virtual-r-175102-jobs--project-program-management--  Parsons | Senior IT Project Manager (Remote) (3.6/5) [PRIMARY] - APPLY; CV generated; best fit of the AECOM/WSP/Parsons group
+The other 28 non-apply-eligible outcomes (rejected/discarded, scores 1.0-2.8) are fully detailed in
+reports 085-124 and data/scan-history.tsv; not repeated here for space. -->
+
 <!-- Processed 2026-09-07 (scan covering since last run 2026-08-11). 36 candidates surfaced by
 this run's scan; 3 turned out to already be known (Airtable already evaluated as report 052 on
 2026-08-11 — exact same URL, this run's local scan-history.tsv was stale before a mid-run reset
