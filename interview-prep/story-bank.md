@@ -21,10 +21,10 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ### [Delivery Ownership] Verisk Cloud & DevOps Modernization
 **Source:** Report #019 — Parloa — Technical Program Manager
-**S:** Siloed infra/dev/ops teams, unstable releases, slow provisioning at Verisk.
-**T:** Own execution of a multi-year AWS/CI-CD infrastructure modernization roadmap across 5 teams (~50 engineers), $500K–$3M budgets.
+**S:** Siloed infra/dev/ops teams, unstable releases at Verisk.
+**T:** Own execution of a multi-year AWS/CI-CD infrastructure modernization roadmap across 15–17 cross-functional teams at program peak, $500K–$3M budgets.
 **A:** Stood up cross-functional product teams aligned to value streams; CAB-governed releases; delivered golden AMIs, Terraform modules, CI/CD automation, EKS/ECS Fargate; blue/green deployments.
-**R:** 40% fewer production outages, 70% faster provisioning (days → overnight), 60% better stability, 4 major releases/year, ~$3M incremental revenue enabled.
+**R:** 40% fewer production outages, 60% better stability, 4 major releases/year, ~$3M incremental revenue enabled.
 **Reflection:** Governance rigor (CAB, standardized workflows) is what makes delivery predictable at scale — I bring RAID discipline from day one, not after the first slip.
 **Best for:** end-to-end ownership, scale, budget management, DevOps governance, "most impactful project."
 

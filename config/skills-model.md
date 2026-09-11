@@ -194,7 +194,7 @@ If a role primarily values Tier 4 skills (e.g., coaching/training as the core fu
 ### By Hiring Context
 
 **Enterprise / Financial Services (JPMorgan, Prudential, Deloitte, KPMG, AECOM, WSP):**
-Lead: CS-1 (Verisk scale — $3M budget, 50 engineers, 4 releases/year) + CS-5 (regulated delivery)
+Lead: CS-1 (Verisk scale — $3M budget, 15-17 cross-functional teams, 4 releases/year) + CS-5 (regulated delivery)
 Close with: CS-4 (Power BI dashboards used by VP-level leadership)
 
 **Cloud / Platform Transformation (IBM, Accenture, Booz Allen, ServiceNow):**

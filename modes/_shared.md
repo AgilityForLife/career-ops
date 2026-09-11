@@ -73,7 +73,7 @@ Use the candidate's exit story from `config/profile.yml` to frame ALL content:
 ### Cross-cutting Advantage
 
 Frame profile as **"Senior TPM who delivers cloud and data platform programs at enterprise scale"** — adapts framing to role context, never to coaching identity:
-- For Senior TPM: "end-to-end delivery owner — roadmap to production, $3M budget, 50 engineers, 4 releases/year"
+- For Senior TPM: "end-to-end delivery owner — roadmap to production, $3M budget, 15-17 cross-functional teams, 4 releases/year"
 - For Program Manager: "multi-workstream program driver with Power BI executive visibility and VP-level stakeholder alignment"
 - For AI PM: "enterprise delivery discipline applied to AI adoption programs — governance, reporting, cross-functional coordination"
 - For Agile Coach / RTE: "SPC6 transformation lead — coached ARTs at portfolio scale, not classroom theory"
