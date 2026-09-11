@@ -16,6 +16,30 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-11 (scan covering since last run 2026-09-09). 3 parallel scan agents covered
+all 12 portals.yml search_queries + all 24 tracked_companies. 58 candidate URLs surfaced; 29 deduped
+or skipped (location, domain mismatch, overlevel, prior low-fit evals, backlog) — logged to
+scan-history.tsv. 29 new unique candidates identified; 9 additional triage skips applied. 20 sent to
+4 parallel evaluation agents. ALL EVALUATIONS LOW CONFIDENCE: egress proxy blocked all job board
+domains (greenhouse.io, lever.co, ashbyhq.com, jobs.citi.com, jobs.jpmorganchase.com,
+apply.deloitte.com, jobs.jnj.com, remotejobs.org) — scores based on title/company analysis and
+web search snippets only. 12 scored 3.0+; no CVs generated this run; no applications submitted.
+Top opportunities (apply-eligible):
+https://jobs.jnj.com/en/jobs/2506238476w/sr-program-manager-medtech-digital/  J&J | Sr. PM MedTech Digital (4.2/5) [PRIMARY] - APPLY; pharma regulated delivery, Sanofi experience transferable, NJ local
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Project-Manager-MMIS/340312  Deloitte | Sr. PM MMIS (4.0/5) [PRIMARY] - PREPARE_ONLY; exceptional CS alignment but 8yr Medicaid-specific hard req
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Capital TG | Scrum Master Remote (3.6/5) [SECONDARY] - APPLY_WITH_CAVEATS; SAFe SPC6 valued
+https://careers.ibm.com/en_US/careers/JobDetail/Senior-Technical-Program-Manager-Confluent-Remote/118449  IBM | Sr. TPM Confluent Remote (3.5/5) [PRIMARY] - APPLY_WITH_CAVEATS; enterprise TPM, $118-203K, remote
+https://remotejobs.org/remote-jobs/agile-project-manager-guidehouse  Guidehouse | Agile PM Remote (3.5/5) [SECONDARY] - PREPARE_ONLY; gov consulting
+https://jobs.jnj.com/en/jobs/2506234991w/project-manager-transact/  J&J | PM TransAct (3.4/5) [SECONDARY] - PREPARE_ONLY; pharma fit but narrower scope
+https://jobs.citi.com/job/jersey-city/it-project-manager-lead-c14/287/16153496736  Citi | IT PM Lead C14 Jersey City (3.4/5) [PRIMARY] - APPLY; financial services enterprise IT
+https://jobs.ashbyhq.com/HighlightTA/508ed838-9ccf-4a53-bc0d-ae33055bd3b9  Neon One | Agile Delivery Manager Remote (3.4/5) [PRIMARY] - APPLY_WITH_CAVEATS; delivery manager framing
+https://jobs.citi.com/job/new-york/senior-project-manager-vice-president/287/90837804128  Citi | Sr PM VP NYC (3.3/5) [PRIMARY] - APPLY_WITH_CAVEATS; VP-level seniority match
+https://jobs.citi.com/job/new-york/program-manager/287/26646143872  Citi | PM NYC (3.2/5) [PRIMARY] - PREPARE_ONLY; lower level than C14/VP roles
+https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Program-Manager/356701  Deloitte | TPM Retail Transformation (3.2/5) [SECONDARY] - DO_NOT_APPLY; retail domain + likely closed (deadline 08/10/2026)
+https://job-boards.greenhouse.io/flywheeldigital/jobs/5195229008  Flywheel Digital | TPM Contract Jersey City (3.0/5) [SECONDARY] - APPLY_WITH_CAVEATS; borderline, JC local
+The other 8 non-apply-eligible outcomes (scores 2.0-2.8) are fully detailed in reports 137-144 and
+scan-history.tsv; not repeated here for space. -->
+
 <!-- Processed 2026-09-09 (scan covering since last run 2026-09-07, headless launchd run). 4 parallel
 scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies. 45 candidates
 surfaced; 5 skipped without a report (3 Jobgether aggregator listings + 1 Atrium Staffing agency
