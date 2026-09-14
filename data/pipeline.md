@@ -16,6 +16,15 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-14 (scan covering since last run 2026-09-11, scheduled remote session).
+3 parallel scan agents (tracked companies + search-based portals + Ashby manual).
+24 new URLs logged to scan-history.tsv (2 skipped: Google Careers JS-render-only, Cognizant
+MES PM deadline passed 6/28). 22 evaluated in 4 parallel batches (reports 256-277).
+All evaluations WebSearch-snippet-only — egress proxy blocks all job board domains.
+All reports marked "unconfirmed (batch mode)".
+Key clusters: 10 Citi roles (financial services, NYC/JC), 2 UHG (remote TPM),
+1 Amazon (NYC), 3 Greenhouse, 2 Ashby, 2 Lever, 2 Greenhouse AI roles. -->
+
 <!-- Processed 2026-09-09 (scan covering since last run 2026-09-07, headless launchd run). 4 parallel
 scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies. 45 candidates
 surfaced; 5 skipped without a report (3 Jobgether aggregator listings + 1 Atrium Staffing agency
