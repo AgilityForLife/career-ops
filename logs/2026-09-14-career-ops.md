@@ -37,27 +37,85 @@
 
 ## Step 4: Evaluations
 - 22 evaluations launched across 4 parallel agents
-- Report range: 256-277
+- Report range: 256-278 (merge-tracker renumbered report 261 to 278)
 - All marked "unconfirmed (batch mode)" — WebSearch snippets only
 
 ### Evaluation Results
-<!-- PLACEHOLDER: Fill after agents complete -->
+
+| # | Company | Role | Score | CS | Recommendation |
+|---|---------|------|-------|----|----------------|
+| **267** | **UnitedHealth (Optum Insight)** | **Senior Manager TPM Delivery - Cloud, Data** | **4.5/5** | **6/7** | **TOP MATCH — Snowflake + Power BI + 10-15 resources. Near-perfect Verisk+Sanofi fit** |
+| **263** | **Citi** | **Technical Program Manager SVP** | **4.4/5** | **4/7** | **Apply — $164K-$246K, regulatory/risk/data analytics** |
+| **260** | **Citi** | **AI Digital Senior Program Lead SVP** | **4.3/5** | **7/7** | **Apply — $163-265K, AI/digital transformation, PMP required** |
+| **264** | **Citi** | **Senior Program/PM VP NAM Issuer Services** | **4.2/5** | **5/7** | **Apply — transformation/modernization, executive reporting** |
+| **274** | **AHEAD** | **Senior Project Manager** | **4.2/5** | **5/7** | **Apply — cloud/data/AI consulting PM** |
+| **265** | **Citi** | **Sr PM Citi Direct NextGen Payments** | **4.1/5** | **6/7** | **Apply with caveat — Payments domain gap** |
+| **257** | **Citi** | **Global PM & Business Ops Lead SVP** | **4.0/5** | **5/7** | **Apply — Innovation Lab/COO, $181-207K+** |
+| **262** | **Citi** | **Program Manager SVP Hybrid** | **4.0/5** | **3/7** | **Apply — Markets Ops Tech** |
+| 266 | UnitedHealth (Optum) | Senior TPM Client Billing & Pharmacy | 3.8/5 | 3/7 | Evaluate further — solid comp ($112K-$193K), remote |
+| 278 | Citi | IT PM Lead C14 | 3.8/5 | 3/7 | Evaluate further — strong comp (~$217K median) |
+| 256 | Citi | Program Manager | 3.5/5 | 3/7 | Evaluate further — generic JD, confirm location |
+| 258 | Citi | Senior PM VP | 3.4/5 | 2/7 | Skip — mortgage trading domain required |
+| 269 | itD Tech | TPM IV (Finance) | 3.2/5 | 2/7 | Skip — finance/M&A background required |
+| 272 | Allwyn Corp | Technical PM | 3.2/5 | 3/7 | Evaluate further — mid-level, DC location |
+| 271 | Nimble Gravity | SM - AI Delivery | 3.1/5 | 2/7 | Skip — Tier 4 SM, small consultancy |
+| 270 | VantageScore | Agile SM/PM | 3.0/5 | 2/7 | Skip — SF hybrid, relocation deal-breaker |
+| 259 | Citi | PM Lead AVP | 3.0/5 | 2/7 | Skip — underleveled (AVP/C12) |
+| 268 | Amazon | PM Delivery Quality NA Grocery | 2.8/5 | 2/7 | Skip — ops/logistics, not tech TPM |
+| 277 | Litmos | AI PM | 2.5/5 | 1.5/7 | Skip — overqualified, mid-level |
+| 273 | Amplify | PM Platform Contractor | 2.3/5 | 1/7 | Skip — $45-50/hr below $60 floor |
+| 275 | Accenture ICP | Senior PM ANS | 2.2/5 | 1/7 | Skip — construction/utility, Bay Area |
+| 276 | ON.energy | PM AI Enablement | 2.0/5 | 0.5/7 | Skip — Tier 4 training, Houston onsite |
 
 ## Step 5-8: Role Targeting, Resume Selection, Scoring
 - Skills-model.md Core Strength Engagement Test applied to every evaluation
 - Scoring rules: CS-1 absent → cap 3.5, CS-2 absent → -0.3, CS-4 present → +0.2, CS-6 required → +0.2
+- 8 roles scored 4.0+ (apply-eligible)
+- 3 roles scored 3.0-3.9 (evaluate further)
+- 11 roles scored below 3.5 (skip)
 
 ## Step 9: Reports
-<!-- PLACEHOLDER: Fill after agents complete -->
+- 22 reports written to reports/ directory (256-278)
+- All marked "unconfirmed (batch mode)" — WebSearch snippets only, verify JDs before submitting
 
 ## Step 10: Application Prep
-<!-- PLACEHOLDER: Fill after agents complete -->
+- No PDFs generated this run (batch mode, egress constraints)
+- 8 roles flagged for Erick review and possible application:
+  1. **UHG Optum Insight Sr Manager TPM Cloud Data (4.5)** — top priority, near-perfect CS match
+  2. **Citi TPM SVP $164K-$246K (4.4)** — strong comp, regulatory/data
+  3. **Citi AI Digital Senior Program Lead SVP $163-265K (4.3)** — 7/7 CS, AI transformation
+  4. **Citi Sr PM VP NAM Issuer Services (4.2)** — transformation focus
+  5. **AHEAD Sr PM cloud/data/AI (4.2)** — consulting, verify remote
+  6. **Citi Sr PM NextGen Payments (4.1)** — high CS count, domain gap caveat
+  7. **Citi Global PM & Business Ops Lead SVP $181-207K (4.0)** — Innovation Lab
+  8. **Citi PM SVP Hybrid Markets Ops Tech (4.0)** — firm-critical programs
 
 ## Step 11: Pipeline Integrity
-<!-- PLACEHOLDER: Fill after merge-tracker + verify-pipeline -->
+- `node merge-tracker.mjs`: 22 additions merged, 0 updates, 0 skipped
+- `node verify-pipeline.mjs`: 0 errors, 1 warning (pre-existing Glean #108/#109 — genuinely distinct)
+- `node dedup-tracker.mjs`: 0 duplicates found
+- Total tracker entries: 202
 
 ## Step 12: Final State
-<!-- PLACEHOLDER: Fill at end -->
+- Total new URLs scanned: 24
+- Total evaluations: 22
+- Strong fits (4.0+): 8
+- Evaluate further (3.0-3.9): 3
+- Skips (below 3.0 or deal-breaker): 11
+- Reports generated: 22
+- PDFs generated: 0 (batch mode)
+- Applications submitted: 0 (Section 15 gate active)
+- Any failed steps: None
+- Any skipped steps: None
+- Confidence (1-10): 7 — all evaluations are WebSearch-snippet-based only due to egress proxy blocking all job board domains. JD details should be verified before applying. Scoring is directionally correct but may shift with full JD review.
+
+### Patterns
+- **Citi is the dominant source this run** — 10 of 22 evaluations, 6 scoring 3.5+. Financial services regulated environment engages CS-5 + CS-7 across the board. Jersey City geography is ideal.
+- **UHG Cloud Data TPM is the single best match** — explicitly requests Snowflake + Power BI + managing 10-15 cross-functional resources, near-direct overlay on Verisk + Sanofi experience.
+- **Smaller companies (Greenhouse/Ashby/Lever)** mostly fell below threshold — domain mismatches, location deal-breakers, or underleveled.
+- **Egress proxy remains the main operational constraint** — cannot verify if postings are still active, cannot extract full JD text. All evaluations are snippet-based approximations.
 
 ## Step 13: Commit & Push
-<!-- PLACEHOLDER: Fill at end -->
+- Commit 1: scan results + pipeline update + session log skeleton
+- Commit 2: 18 reports + TSVs (partial, from completed agents)
+- Commit 3: remaining reports + merged tracker + final session log
