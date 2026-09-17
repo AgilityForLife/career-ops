@@ -16,6 +16,37 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-17 (scan covering since last run 2026-09-11, headless launchd run, 6 days dark).
+4 parallel scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies (1 agent —
+queries 1-6 — needed 2 retries after transient infra failures: a computer-sleep interruption, then a
+stalled/no-progress run, before succeeding on the 3rd launch; no data lost, just delay). 34 raw
+candidates surfaced after title-filter + scan-history dedup. 15 were excluded at scan stage for
+confirmed deal-breaker violations (on-site/hybrid roles requiring relocation outside NJ/NY Metro, or
+non-US locations: Citi x8 - Tampa/Pune/Mumbai/Bogota/Chennai/Irving TX/Mississauga/O'Fallon MO; Booz
+Allen Arlington VA; Leidos Odenton MD; MetLife Cary NC x2; UHG Hyderabad; Palantir UK) — logged
+directly to scan-history.tsv as skipped_location_* rather than spending an eval slot, consistent with
+prior-run precedent. Remaining 19 evaluated in 4 parallel batches (reports 256-274): 1 deduped into an
+existing tracker row mid-evaluation (GitLab, merged into pre-existing #84) rather than creating a
+duplicate. 3 scored 3.0+ and got tailored resume PDFs — Toast IT Delivery Manager (3.7, strong), UHG
+Principal Tech Project/Program Manager (3.6), UHG Senior TPM Client Billing & Pharmacy Payments (3.0,
+low-confidence, JD inaccessible - recommend re-verify before submitting) — ALL HELD per the section 15
+SUBMISSION GATE (still active, not removed this run); nothing submitted. Notable: Rackner TPM (Federal
+Health) scored a strong 4.0 on CS-fit alone but was overridden to REJECTED by the active-Secret-
+clearance hard deal-breaker (candidate holds none) - override logic worked as designed. Amplify PM
+(Contractor) similarly deal-breaker-overridden on confirmed $45-50/hr, below the $60/hr C2C floor.
+Confirmed a recurring data-quality issue: UnitedHealth Group's careers portal 404'd on direct posting
+URLs for the third consecutive scan (2026-09-07, -11, -17) - worth a portals.yml fix, not re-discovering
+each run. Also corrected a stale contradiction in config/skills-model.md's RESUME GENERATION RULES
+(still said "open with CS-1+CS-2", superseded by Erick's 2026-08-31 ruling to lead with adoption/
+rollout/implementation) - the vault's Positioning-Decision-Rule.md flagged this exact edit as required
+and not yet applied; applied it here so this run's resumes followed the correct approved rule. The 3
+apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://boards.greenhouse.io/toast/jobs/7851279  Toast | IT Delivery Manager (3.7/5) [SECONDARY-strong] - APPLY; CV generated; confirm comp zone (Zone A $111-178K clears anchor, Zone C low end $87K below floor)
+https://careers.unitedhealthgroup.com/job/boston/principal-tech-project-program-manager-remote-or-hybrid-in-mn-or-dc/34088/94978224816  UnitedHealth Group | Principal Tech Project/Program Manager (3.6/5) [SECONDARY] - APPLY; CV generated; primary JD 404'd, sourced via aggregation
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-program-manager-client-billing-and-pharmacy-payments/34088/94785175280  UnitedHealth Group | Senior TPM - Client Billing & Pharmacy Payments (3.0/5) [SECONDARY, low-confidence] - APPLY WITH CAVEAT; CV generated; re-verify live JD before submitting
+The other 16 non-apply-eligible outcomes (rejected, scores 1.8-2.7, including 2 hard-deal-breaker
+overrides at higher CS-fit) are fully detailed in applications.md and reports/256-274. -->
+
 <!-- Processed 2026-09-09 (scan covering since last run 2026-09-07, headless launchd run). 4 parallel
 scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies. 45 candidates
 surfaced; 5 skipped without a report (3 Jobgether aggregator listings + 1 Atrium Staffing agency

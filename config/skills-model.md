@@ -177,7 +177,7 @@ If a role primarily values Tier 4 skills (e.g., coaching/training as the core fu
 ## RESUME GENERATION RULES
 ### Applied when building any tailored resume output.
 
-1. **Summary must open with CS-1 + CS-2.** Every resume summary leads with enterprise program ownership and cloud/data delivery. Never open with Agile coaching identity.
+1. **Summary must open with adoption outcome → how it was achieved (training, rollout, implementation) → the scale it was achieved at (CS-1 teams/budget, CS-2 cloud/data platform).** Per Erick's ruling 2026-08-31 (`~/Documents/Business/06-PORTFOLIO/Positioning-Decision-Rule.md`, status: approved — that page governs and supersedes this line if they ever disagree again). Do not open with certifications as identity, ceremony facilitation, Salesforce administration, non-profit work, or a responsibilities list.
 2. **Certifications go near the top** — PMP, PMI-ACP, SPC6 are differentiators. Place in header or just below summary.
 3. **Verisk bullets lead with CS-2 and CS-3 signals** — cloud platform delivery, DevOps governance metrics. Coaching references go last.
 4. **Sanofi bullets lead with CS-2 and CS-5** — Snowflake migration, cross-geo coordination, MDM platform delivery. Coaching references go last.
