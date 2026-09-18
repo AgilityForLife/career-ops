@@ -16,6 +16,38 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-18 (scan covering since last run 2026-09-17, headless launchd run, 1-day gap).
+4 parallel scan agents covered all 12 portals.yml search_queries + all 16 remaining tracked_companies
+(IBM through Parsons). Heavy saturation vs yesterday's scan — most raw results were exact duplicates
+already in scan-history.tsv/applications.md; the queries-7-12 agent found zero new candidates at all.
+10 genuinely new candidates were evaluated in 2 parallel batches (reports 275-284); 22 others were
+pre-filtered at scan stage for confirmed deal-breakers (location/relocation) or low-priority signals
+(weak aggregator sourcing + junior titling, Tier-4 core function, unconfirmed employer) and logged
+directly to scan-history.tsv without spending an eval slot, consistent with prior-run precedent.
+Notable data-quality finding: 4 of the 10 evaluated candidates turned out to be dead/unconfirmable
+before scoring even mattered — both AECOM/BuiltIn listings were explicitly marked "removed" on the
+aggregator page itself (Dec 2025), the JPMorgan TheMuse-mirrored URL 404'd, and the J&J posting was
+confirmed closed — all 4 scored low regardless, but this confirms aggregator-mirror-sourced leads
+(BuiltIn, TheMuse, CareerBuilder) have a materially higher dead/stale rate than direct-ATS leads and
+may not be worth the eval budget going forward. Amazon Senior TPM (276) is a hard-deal-breaker
+override worth noting: CS-fit was strong (~3.6-3.8 pre-override, comp $148.7K-$201.2K excellent) but
+Seattle relocation + Amazon's mandatory on-site policy forced REJECTED — same override pattern as
+Rackner/Amplify in the 2026-09-17 run. 3 of 10 scored 3.0+ and got tailored resume PDFs — ALL HELD
+per the section 15 SUBMISSION GATE (still active, not removed this run); nothing submitted. The 3
+apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://apply.deloitte.com/careers/JobDetail?jobId=50665  Deloitte | Senior Project Manager - ITS PMO (3.3/5) [SECONDARY] - APPLY w/ caveats; CV generated; comp/location unconfirmed, verify before applying
+https://www.themuse.com/jobs/accenture/si-delivery-lead-capital-marketsbanking  Accenture | SI Delivery Lead, Capital Markets/Banking (3.8/5) [SECONDARY] - APPLY; CV generated; strong CS-1/2/5/7 fit; aggregator-sourced (TheMuse), not corroborated on accenture.com — verify live before applying
+https://jobs.citi.com/job/jersey-city/technical-ai-delivery-manager-senior-vice-president/287/99357282288  Citi | Technical AI Delivery Manager, SVP (3.8/5) [SECONDARY] - APPLY; CV generated; live/confirmed JD, strong comp $176.7K-$265K, Jersey City NJ; gap: JD hard-requires hands-on Python coding not evidenced in cv.md
+The other 7 REJECTED outcomes (scores 1.3-2.6) are fully detailed in applications.md and
+reports/275-277 + 281-285. -->
+https://jobs.lever.co/cgsfederal/15b0279d-e7e7-44a2-a24f-61acd27a23e0  Agile Coach - CGS (1.9/5) [REJECTED] - DO NOT APPLY (Tier-4 de-emphasis cap, comp straddles/undercuts $100K floor)
+https://www.amazon.jobs/en/jobs/1456243/senior-technical-program-manager  Amazon/AWS | Senior Technical Program Manager (1.5/5) [REJECTED] - DO NOT APPLY (hard-deal-breaker override: Seattle relocation + mandatory on-site; CS-fit was strong pre-override)
+https://www.careerbuilder.com/job-details/technical-program-manager-dcde-central-operations-partner-programs-ny--14a46e54-1a6d-4d85-8738-862e81b5ce36  Google | TPM, DCDE Central Operations, Partner Programs (2.0/5) [REJECTED] - DO NOT APPLY (data-center construction/facilities domain, not cloud/software delivery)
+https://jobs.jnj.com/en/jobs/2306110110w/r-d-project-manager-vision/  Johnson & Johnson | R&D Project Manager - Vision (1.8/5) [REJECTED] - DO NOT APPLY (posting confirmed closed; medical-device R&D domain mismatch even if open)
+https://builtin.com/job/construction-resident-engineer-project-manager/7348892  AECOM | Construction Resident Engineer/Project Manager (1.3/5) [REJECTED] - DO NOT APPLY (listing marked removed Dec 2025; requires Civil Engineering degree)
+https://builtin.com/job/construction-project-senior-manager/7323932  AECOM | Construction Project Senior Manager (1.8/5) [REJECTED] - DO NOT APPLY (listing marked removed Dec 2025; requires transit/transportation experience not in cv.md)
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-scrum-master  JPMorgan Chase | Lead Technical Program Manager - Scrum Master (2.6/5) [REJECTED] - DO NOT APPLY (URL 404'd, could not confirm posting exists; scored conservatively on title alone)
+
 <!-- Processed 2026-09-17 (scan covering since last run 2026-09-11, headless launchd run, 6 days dark).
 4 parallel scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies (1 agent —
 queries 1-6 — needed 2 retries after transient infra failures: a computer-sleep interruption, then a
