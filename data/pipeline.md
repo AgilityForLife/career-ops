@@ -16,6 +16,28 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-21 (scheduled scan, 3-day gap since 2026-09-18).
+Scanned all 12 portals.yml search_queries. 46 raw candidates surfaced after title-filter pass.
+Cross-referenced against scan-history.tsv: 27 genuinely new URLs after dedup.
+7 pre-filtered at scan stage without evaluation (location deal-breakers, comp risk, closed posting,
+agency duplicates): DKatalis (Indonesia), Nimble Gravity (Latin America C2C), Similarweb (NYC on-site
+$80K), Western Magnetics (manufacturing PM), ON.energy (10-person startup), HighlightTA (agency
+duplicate), Amplify (location duplicate). All 7 logged to scan-history.tsv as skipped.
+20 candidates evaluated in 3 parallel batches (reports 285-305): 7 Greenhouse batch direct,
+5 Citi+Anthropic batch via Agent 1, 9 Lever/Ashby/Dice batch via Agent 2.
+2 of the 20 were confirmed duplicates of prior evaluations (Palantir GRC = Report 073 new req ID,
+Palantir TPM C2 = Report 118/167 triple-duplicate). Both got stub reports for tracking.
+Network egress proxy blocked all job board domains — all evaluations used WebSearch summaries
+and are marked "Verification: unconfirmed (batch mode)".
+
+Results: 1 PRIMARY (3.4), 6 SECONDARY/PREPARE ONLY (3.0-3.4), 14 REJECTED (1.5-2.8).
+The 1 apply-eligible role: Capital Technology Group | Scrum Master (3.4/5) — Gov/DoD, $60-75/hr C2C,
+NJ hybrid, strong CS-6/CS-7. HELD per Section 15 SUBMISSION GATE.
+SECONDARY roles worth monitoring: Citi Global PM SVP (3.4), Citi IT PM C14 (3.4),
+Palantir TPM C2 (3.3 duplicate), Tria Federal SM (3.1), Anthropic TPM Launches (3.0),
+Leidos SM Remote (3.0), Palantir GRC (3.0 duplicate).
+No applications submitted — all held per standing gate. -->
+
 <!-- Processed 2026-09-18 (scan covering since last run 2026-09-17, headless launchd run, 1-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all 16 remaining tracked_companies
 (IBM through Parsons). Heavy saturation vs yesterday's scan — most raw results were exact duplicates

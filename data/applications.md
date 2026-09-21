@@ -2,6 +2,25 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 286 | 2026-09-21 | Capital Technology Group | Scrum Master | 3.4/5 | Evaluada | ❌ | [285](reports/285-capital-technology-group-scrum-master-2026-09-21.md) | PRIMARY - APPLY w/ caveats; Gov/DoD SM, $60-75/hr C2C, NJ hybrid, CS-1/CS-5/CS-6/CS-7 |
+| 287 | 2026-09-21 | Flywheel Digital | Technical Project Manager | 2.3/5 | Evaluada | ❌ | [286](reports/286-flywheel-digital-technical-project-manager-2026-09-21.md) | REJECTED - ecommerce/retail media domain mismatch, 1-2 CS |
+| 288 | 2026-09-21 | itD Tech | TPM IV #6280 | 1.8/5 | Evaluada | ❌ | [287](reports/287-itd-tech-tpm-iv-6280-2026-09-21.md) | REJECTED - junior Tier 4 SM, $45-50/hr below floor |
+| 289 | 2026-09-21 | VantageScore | Agile Scrum Master/PM | 1.5/5 | Evaluada | ❌ | [288](reports/288-vantagescore-agile-scrum-master-pm-2026-09-21.md) | REJECTED - DC relocation deal-breaker, Tier 4 SM, 0-1 CS |
+| 290 | 2026-09-21 | Litmos | AI Program Manager | 2.2/5 | Evaluada | ❌ | [289](reports/289-litmos-ai-program-manager-2026-09-21.md) | REJECTED - AI product management not TPM, 1-2 CS |
+| 291 | 2026-09-21 | Foursquare | Senior Program Manager | 2.8/5 | Evaluada | ❌ | [290](reports/290-foursquare-senior-program-manager-2026-09-21.md) | REJECTED - location data product PM, 2-3 CS, no CS-2/CS-7 |
+| 292 | 2026-09-21 | MojoRank | Technical Program Manager | 2.5/5 | Evaluada | ❌ | [291](reports/291-mojorank-technical-program-manager-2026-09-21.md) | REJECTED - early-stage AI startup, 1-2 CS, comp risk |
+| 293 | 2026-09-21 | Citi | Global Program Manager SVP | 3.4/5 | Evaluada | ❌ | [292](reports/292-citi-global-program-manager-svp-2026-09-21.md) | SECONDARY - PREPARE ONLY; SVP right level, Innovation Lab, CS-1/CS-4/CS-5/CS-7 |
+| 294 | 2026-09-21 | Citi | Program Management Lead AVP | 2.5/5 | Evaluada | ❌ | [293](reports/293-citi-program-management-lead-avp-2026-09-21.md) | REJECTED - AVP level mismatch, seniority downgrade |
+| 295 | 2026-09-21 | Citi | Senior Project Manager VP | 3.1/5 | Evaluada | ❌ | [294](reports/294-citi-senior-project-manager-vp-2026-09-21.md) | REJECTED - mortgage trading hard domain gate |
+| 296 | 2026-09-21 | Anthropic | TPM Launches | 3.0/5 | Evaluada | ❌ | [296](reports/296-anthropic-tpm-launches-2026-09-21.md) | SECONDARY - PREPARE ONLY low priority; ML researcher gap, $290-365K |
+| 297 | 2026-09-21 | AHEAD | Senior Project Manager | 2.5/5 | Evaluada | ❌ | [297](reports/297-ahead-senior-project-manager-2026-09-21.md) | REJECTED - consulting PM, weak CS, location unclear |
+| 298 | 2026-09-21 | Prelim | Technical Project Manager | 2.5/5 | Evaluada | ❌ | [298](reports/298-prelim-technical-project-manager-2026-09-21.md) | REJECTED - SaaS implementation PM, not enterprise delivery |
+| 299 | 2026-09-21 | RainFocus | Technical Project Manager | 2.0/5 | Evaluada | ❌ | [299](reports/299-rainfocus-technical-project-manager-2026-09-21.md) | REJECTED - Salesforce Tier 4, hard AI gate |
+| 300 | 2026-09-21 | SkySlope | Scrum Master | 2.0/5 | Evaluada | ❌ | [300](reports/300-skyslope-scrum-master-2026-09-21.md) | REJECTED - junior (1+ yr), small startup, Tier 4 |
+| 301 | 2026-09-21 | Palantir | PM Commercial Deployments | 2.8/5 | Evaluada | ❌ | [301](reports/301-palantir-pm-commercial-deployments-2026-09-21.md) | REJECTED - client deployment ops, function mismatch |
+| 304 | 2026-09-21 | Leidos | Scrum Master Remote | 3.0/5 | Evaluada | ❌ | [304](reports/304-leidos-scrum-master-remote-2026-09-21.md) | SECONDARY - PREPARE ONLY; FAA NISC IV, remote, Public Trust |
+| 305 | 2026-09-21 | Tria Federal | Scrum Master | 3.1/5 | Evaluada | ❌ | [305](reports/305-tria-federal-scrum-master-2026-09-21.md) | SECONDARY - PREPARE ONLY; VA/DHA, PI Planning, PM dual-hat |
+| 306 | 2026-09-21 | Citi | IT Project Manager Lead C14 | 3.4/5 | Evaluada | ❌ | [295](reports/295-citi-it-project-manager-lead-c14-2026-09-21.md) | SECONDARY - PREPARE ONLY; SVP equivalent, Jersey City, CS-1/CS-5/CS-7 |
 | 276 | 2026-09-18 | CGS Federal | Agile Coach | 2.0/5 | Rechazado | ❌ | [275](reports/275-cgs-federal-agile-coach-2026-09-18.md) | DO NOT APPLY (Tier-4 de-emphasis cap, comp $81.5K-$110.6K below $130K coaching threshold, low CS-fit) |
 | 277 | 2026-09-18 | Amazon/AWS | Senior Technical Program Manager | 1.5/5 | Rechazado | ❌ | [276](reports/276-amazon-senior-technical-program-manager-2026-09-18.md) | DO NOT APPLY (hard-deal-breaker override: Seattle relocation + mandatory on-site; strong CS-1/CS-2 fit otherwise, comp $148.7K-$201.2K) |
 | 278 | 2026-09-18 | Google | Technical Program Manager, DCDE Central Operations, Partner Programs | 2.0/5 | Rechazado | ❌ | [277](reports/277-google-tpm-dcde-central-operations-partner-programs-2026-09-18.md) | DO NOT APPLY (data center construction/facilities TPM, not cloud/software delivery; no matching CS engagement; aggregator-sourced, unconfirmed) |
