@@ -16,6 +16,49 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-21 (scan covering since last run 2026-09-18, headless launchd run, 3-day gap).
+4 parallel scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies (IBM
+through Parsons). As expected given near-daily scanning since April 2026, most raw results were
+exact duplicates already in scan-history.tsv/applications.md. 19 genuinely new candidates surfaced;
+7 were pre-filtered at scan stage without spending an eval slot (2 confirmed deal-breakers — Western
+Magnetics TPM onsite-SF relocation, Metropolitan Commercial Bank title-filter false-positive/lending
+role — plus 5 undisclosed-employer aggregator listings from ClearanceJobs/LinkedIn-ApTask/BuiltIn,
+consistent with prior-run precedent of not spending eval budget on unverifiable employer identity).
+12 were evaluated in 3 parallel batches (reports 285-296). 4 scored 3.0+ and got tailored resume
+PDFs — Element Critical PMO Manager (3.9, strongest of the run — regulated/compliance-delivery fit),
+Anthropic TPM Public Sector (3.5, $365-435K comp, one open question: unconfirmed US-citizenship
+requirement), GovCIO Scrum Master VA Data Modernization (3.3, primary archetype fit, comp
+unconfirmed), GHX Director Enterprise AI Enablement (3.2, hands-on AI/ML depth gap) — ALL HELD per
+the section 15 SUBMISSION GATE (still active, not removed this run); nothing submitted. Notable:
+Cytora Delivery Manager was UK-residency-only with no US eligibility path — deal-breaker REJECTED
+regardless of CS-fit, first time this specific override (foreign-residency-required, not just
+relocation) has appeared in this pipeline. Amazon Sr. TPM again triggered the recurring mandatory
+5-day-RTO override (same pattern as reports 276, 286 this run). Two PMO-manager-as-people-manager
+roles (Myriad360, PerfectServe) confirmed a now-recurring gap first flagged in report 031: cv.md
+evidences cross-functional/influence-based leadership across 15-17 teams at Verisk, not direct
+people-management of a PM team, which these JDs explicitly require. Data-quality note: WebFetch
+failed to render the specific job posting (redirecting to board index pages instead) for roughly
+half of this run's Greenhouse-hosted URLs; all were corroborated via WebSearch fallback per the
+documented headless-mode exception and marked "unconfirmed (batch mode)" in their reports — worth
+flagging if this Greenhouse rendering issue keeps recurring. The 4 apply-eligible roles, all
+"Prepared, awaiting Erick's go":
+https://job-boards.greenhouse.io/elementcritical/jobs/4684866005  Element Critical | PMO Manager (IT/Compliance) (3.9/5) [SECONDARY] - APPLY; CV generated; strong CS-3/CS-5/CS-7 regulated-delivery fit; comp and onsite/remote status unconfirmed for this specific req, verify before applying
+https://job-boards.greenhouse.io/anthropic/jobs/5427834008  Anthropic | Technical Program Manager, Public Sector (3.5/5) [SECONDARY] - APPLY; CV generated; strong CS-1/CS-5/CS-7 fit, $365-435K comp, NYC hybrid-eligible; verify unconfirmed US-citizenship requirement before applying
+https://www.clearancejobs.com/jobs/8989224/scrum-master  GovCIO | Scrum Master, VA Data Modernization (3.3/5) [PRIMARY] - APPLY; CV generated; Public Trust suitability only (not blocking active clearance); comp unconfirmed, verify before applying
+https://job-boards.greenhouse.io/globalhealthcareexchangeinc/jobs/4711853005  GHX | Director, Enterprise AI Enablement & Execution (3.2/5) [SECONDARY] - APPLY w/ caveats; CV generated; remote FTE ~$150-214K; hands-on AI/ML depth gap and Tier-4 training/enablement overlap
+The other 8 evaluated-and-rejected outcomes (scores 1.4-2.9) are fully detailed in applications.md
+and reports/286-293+296-297. -->
+https://jobs.ashbyhq.com/westmag/5af80aa8-0c4c-4088-95aa-10ae6d07aec0  Western Magnetics | Technical Program Manager (skipped) [REJECTED] - DO NOT APPLY (onsite South San Francisco hardware manufacturing; relocation deal-breaker + domain mismatch)
+https://job-boards.greenhouse.io/metropolitancommercialbank/jobs/4697272006  Metropolitan Commercial Bank | AVP Portfolio Manager (C&I) (skipped) [REJECTED] - DO NOT APPLY (title-filter false positive; commercial lending portfolio role, zero delivery/PM relevance)
+https://www.amazon.jobs/en/jobs/2580132/sr-technical-program-manager-lead-management-services  Amazon/AWS | Sr. Technical Program Manager, Lead Management Services (1.4/5) [REJECTED] - DO NOT APPLY (hard-deal-breaker override: mandatory 5-day RTO; weak 1/7 CS-fit)
+https://job-boards.greenhouse.io/myriad360/jobs/8628749002  Myriad360 | PMO Manager (2.5/5) [REJECTED] - DO NOT APPLY (recurring direct-PM-team people-management gap, see report 031)
+https://job-boards.greenhouse.io/perfectserve/jobs/5977945004  PerfectServe | Manager, Project Management Office (2.1/5) [REJECTED] - DO NOT APPLY (weakest CS-fit in batch, no people-mgmt or pre-sales evidence)
+https://job-boards.greenhouse.io/adswerveinc/jobs/5117947007  Adswerve | PMO Manager (2.9/5) [REJECTED] - DO NOT APPLY (client-services consultancy PMO, weak CS-fit despite decent comp)
+https://job-boards.greenhouse.io/jencapinc/jobs/4365961007  Jencap | Senior Project Manager, PMO (2.4/5) [REJECTED] - DO NOT APPLY (generalist insurance-MGA PMO, no cloud/tech-delivery engagement)
+https://job-boards.greenhouse.io/unrealsnacks/jobs/5364645008  Unreal Snacks | Manager, PMO & Continuous Improvement (2.2/5) [REJECTED] - DO NOT APPLY (deal-breaker: comp $82-98K below $100K FTE floor)
+https://jobs.ashbyhq.com/cytora.com/fc1365f8-ff84-4795-ae2d-a1bb44675eae  Cytora | Delivery Manager, German Speaker (1.8/5) [REJECTED] - DO NOT APPLY (UK-residency-only, no US eligibility/sponsorship path)
+https://job-boards.greenhouse.io/anthropic/jobs/5389773008  Anthropic | Lead, Data Center Security Delivery (Construction to Operations) (1.6/5) [REJECTED] - DO NOT APPLY (physical-security/construction domain, zero CS overlap with software/cloud evidence base)
+
 <!-- Processed 2026-09-18 (scan covering since last run 2026-09-17, headless launchd run, 1-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all 16 remaining tracked_companies
 (IBM through Parsons). Heavy saturation vs yesterday's scan — most raw results were exact duplicates
