@@ -16,6 +16,22 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-22 (scan covering since last run 2026-09-21, scheduled remote run, 1-day gap).
+12 search queries + 24 tracked companies scanned via WebSearch (Greenhouse API blocked by egress
+proxy). 29 raw new candidates surfaced after title-filter + scan-history dedup against 449 known
+URLs. 10 pre-filtered at scan stage without spending an eval slot: 2 Amazon Last Mile TPM roles
+(mandatory 5-day RTO deal-breaker), 2 aggregator/undisclosed-employer listings (Jobgether,
+HighlightTA), 3 agency/backlog (Apply Digital, VML/WPP, Strata Info Group), 1 likely expired
+(Accenture ServiceNow), 2 unknown/LATAM-focus (MojoRank, Nimble Gravity). 19 evaluated in 3
+parallel batches (reports 297-315, tracker entries 298-316). CRITICAL LIMITATION: All 19 were
+scored from title/company alone — every job portal domain was blocked by egress proxy, making
+full JD content inaccessible. Confidence: 4/10. No PDFs generated (batch mode, no Playwright).
+No applications submitted (safety rule). 4 scored 3.5+ — Citi TPM Lead Ops Tech (3.7), Deloitte
+Delivery TPM (3.6), Citi TPM SVP (3.5), Deloitte Manager PPM (3.5) — ALL need JD re-verification
+with full content before any application decision. 10 moderate fits (3.0-3.4), 5 rejected
+(<3.0). Patterns: Citi Jersey City posted 4 new TPM/PM roles; Deloitte has 2 promising delivery
+management openings; UHG continues steady PM hiring (2 new). -->
+
 <!-- Processed 2026-09-21 (scan covering since last run 2026-09-18, headless launchd run, 3-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies (IBM
 through Parsons). As expected given near-daily scanning since April 2026, most raw results were
