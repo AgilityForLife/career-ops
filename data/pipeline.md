@@ -16,6 +16,59 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-22 (scan covering since last run 2026-09-21, headless launchd run, 1-day gap).
+4 parallel scan agents covered all 12 portals.yml search_queries + all ~30 tracked_companies (IBM
+through Parsons). Unusually rich yield despite the 1-day gap and near-daily-scan saturation: 61
+genuinely new URLs surfaced, driven mostly by CoreWeave (a company not previously in the tracker —
+GPU cloud infrastructure, 15 live PM/TPM reqs on one Greenhouse board, several NJ/NY-eligible with
+strong comp) plus a good day for IBM/Amazon/Google/Cognizant/Parsons. Given the volume, applied an
+explicit triage step before spending eval slots: of the 61 new URLs, 10 were confirmed deal-breakers
+(onsite outside NJ/NY Metro, comp below floor) or undisclosed-employer aggregators (Jobgether x4) and
+logged straight to scan-history.tsv without an eval slot, consistent with standing practice; a further
+19 were logged as skipped_low_priority_* — same-recruiter recurring underpay pattern (itD Tech x4,
+same issue as reports 079/080), clear domain mismatches (Amazon coding-heavy TPM II, Amazon ML-inference
+Sequence Models, Deloitte SEO PM, Parsons Subcontract PM), or CoreWeave's 13 lowest-differentiation
+reqs out of 15 (kept the 2 best CS-1/CS-3/CS-7 fits, noted the rest as evaluate-on-demand if those two
+don't land — evaluating 15 near-identical infra-TPM postings at one company was judged poor use of
+eval budget per CLAUDE.md's quality-over-volume guidance). Net 19 evaluated in 4 parallel batches
+(reports 297-315). 1 further dedup catch at merge time: OpenAI Sr TPM Security (313) turned out to be
+a same-title repost of existing entry #40 (2026-08-02) at a lower comp band ($130-180K vs $165.4-285K
+original) — merge-tracker.mjs correctly kept the higher-scored existing entry and skipped adding a
+duplicate row; flagged in report 313 so Erick doesn't double-apply to what may be the same req/team.
+Salesforce TPM (302) was a similar case — same company+role as existing #97 (2026-09-09, 3.5/5) at a
+lower score this pass, entry not duplicated. Amazon Principal TPM Sponsored Products & Brands (299)
+triggered the recurring mandatory 5-day-RTO deal-breaker override (same pattern as reports 276, 286,
+299) despite strong stated comp ($194.7-263.4K) — weak underlying CS-fit (1/7) made this an easy call
+either way. Palantir Program Manager - Commercial Deployments (312) is notable as the first Palantir
+req found on the *commercial* track with no clearance requirement at all (all prior Palantir evals
+hit the gov-track clearance wall) — still scored below threshold (2.5/5) on thin CS-fit, but confirms
+commercial-track Palantir postings are worth continued scanning. 7 of 19 scored 3.0+ and got tailored
+resume PDFs — ALL HELD per the section 15 SUBMISSION GATE (still active, not removed this run);
+nothing submitted. verify-pipeline.mjs flagged one pre-existing warning unrelated to this run (#108/
+#109 Glean duplicate rows, predates 2026-09-22) — not fixed this run, noted for a future cleanup pass.
+The 7 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://careers.ibm.com/en_US/careers/JobDetail/Senior-Technical-Program-Manager-Confluent-Remote/118449  IBM | Senior Technical Program Manager - Confluent (3.8/5) [PRIMARY] - APPLY; CV generated; Remote US; IBM careers site is JS-rendered, JD reconstructed via aggregator mirrors + WebSearch, verify live before applying
+https://careers.ibm.com/en_US/careers/JobDetail/Staff-Technical-Program-Manager-Confluent/127137  IBM | Staff Technical Program Manager - Confluent (3.6/5) [PRIMARY] - APPLY w/ caveats; CV generated; Hybrid incl. Armonk NY, $118-203K; exact req text unconfirmed (inferred from sibling Senior req), verify before applying
+https://lensa.com/job-v1/ey/hoboken-nj/technical-project-manager/0a1508cbb0e22bdbe811edb8c8deac51  EY | Technical Project Manager - AI (3.8/5) - APPLY; CV generated; strongest fit of the run, Hoboken NJ $122.9-213.4K clears anchor; sourced via Lensa mirror, verify live on careers.ey.com before applying
+https://job-boards.greenhouse.io/coreweave/jobs/4713653006  CoreWeave | Senior TPM - Fleet Delivery & Capacity Management (3.3/5) - APPLY w/ caveats; CV generated; $182-242K, CS-2 doesn't engage (GPU infra, not AWS/Snowflake named)
+https://job-boards.greenhouse.io/coreweave/jobs/4698147006  CoreWeave | Senior TPM, Enterprise Security & IAM (3.4/5) - APPLY w/ caveats; CV generated; Livingston NJ $157-210K, best location fit of the CoreWeave set; gap: hands-on IAM tooling (Okta/Entra/SAML) not in cv.md
+https://openai.com/careers/senior-technical-program-manager-security-us-remote/  OpenAI | Senior Technical Program Manager - Security (3.4/5) - APPLY WITH CAUTION; CV generated; may be same req/team as existing entry #40 (2026-08-02) at a lower comp band ($130-180K vs $165.4-285K) - check if original Ashby posting is still live before applying to avoid double-applying
+https://jobs.parsons.com/jobs/project-manager-software-administration-gateway-hudson-tunnel-project-new-york-r-181367-jobs--information-technology--  Parsons | Project Manager - Software Administration - Gateway Hudson Tunnel Project (3.7/5) - APPLY; CV generated; NYC, IT/software-governance role (not construction-track), 5/7 CS engaged, $112.2-196.4K, Contract role matches C2C/1099 preference
+The other 12 evaluated-and-rejected outcomes (scores 1.8-2.9) are fully detailed in applications.md
+and reports/299-301+302-305+307+310-312+314. -->
+https://www.amazon.jobs/en/jobs/10430391/principal-technical-program-manager-sponsored-products-and-brands  Amazon/AWS | Principal Technical Program Manager, Sponsored Products and Brands (1.8/5) [REJECTED] - DO NOT APPLY (hard-deal-breaker override: mandatory 5-day RTO; weak 1/7 CS-fit independent of override)
+https://job-boards.greenhouse.io/twilio/jobs/8067440  Twilio | Senior Technical Program Manager, Services Tools & Diagnostics (1.8/5) [SKIP] - DO NOT APPLY (JD hard-requires 7+ yrs production software engineering, no evidence in cv.md)
+https://job-boards.greenhouse.io/highwire/jobs/4374858009  Highwire | Director, Project Manager (1.9/5) [SKIP] - DO NOT APPLY (PR/marketing agency domain, zero overlap with enterprise tech/pharma/finance delivery background)
+https://apply.deloitte.com/en_US/careers/JobDetail/Scrum-Master-Project-Delivery-Senior-Analyst/325977  Deloitte | Scrum Master - Project Delivery Senior Analyst (2.0/5) - DO NOT APPLY (Tier-4 ceremony-facilitation core function + Senior-Analyst downlevel; comp low end $73.1K below floor)
+https://www.google.com/about/careers/applications/jobs/results/113210269915587270-senior-technical-program-manager/  Google | Senior Technical Program Manager, Google for Education (2.0/5) - DO NOT APPLY (people-manager-of-TPMs role, structural mismatch vs individual-delivery-owner track in cv.md)
+https://jobs.parsons.com/jobs/deputy-project-manager-rail-and-transit-new-york-r-171951-jobs--project-program-management--  Parsons | Deputy Project Manager - Rail and Transit (2.3/5) [Discarded] - DO NOT APPLY (requires engineering/construction-management degree + field supervision, same civil-engineering gate as reports 124, 274)
+https://careers.salesforce.com/en/jobs/jr315791/technical-program-manager/  Salesforce | Technical Program Manager (2.5/5) - DO NOT APPLY (JD wants Salesforce Platform/SDLC depth not in cv.md; duplicate of higher-scored existing entry #97)
+https://jobs.lever.co/palantir/32579f9c-0088-40cb-bb0b-ed45a35bcb19  Palantir | Program Manager - Commercial Deployments (2.5/5) [Discarded] - DO NOT APPLY (thin CS-fit, only CS-1 engaged; "3+ yrs preferred" signals mid-level downlevel risk); notable as first clearance-free Palantir commercial-track req seen
+https://www.google.com/about/careers/applications/jobs/results/127103962615554758-technical-program-manager-iii/  Google | Technical Program Manager III, Infrastructure Software Engineering, Core (2.7/5) - DO NOT APPLY (Google-internal platform, not AWS/Snowflake; below apply threshold)
+https://careers.cognizant.com/uki-en/jobs/00065727971/delivery-pmo/  Cognizant | Delivery PMO (2.8/5) - DO NOT APPLY (below threshold; ATS blocked direct fetch, evaluated via WebSearch corroboration only)
+https://www.evenbreak.com/job/1486099/senior-ai-technology-strategy-lead-technical-program-manager/?TrackID=10  JPMorgan Chase | Senior AI Technology Strategy - Lead Technical Program Manager (2.8/5) [SKIP] - DO NOT APPLY (strategy/advisory-focused JD, not technical delivery execution)
+https://careers.cognizant.com/us-en/jobs/00069746511/senior-program-manager/  Cognizant | Senior Program Manager (2.9/5) - DO NOT APPLY (below threshold; Teaneck NJ $89-162.4K low end near floor; ATS blocked direct fetch)
+
 <!-- Processed 2026-09-21 (scan covering since last run 2026-09-18, headless launchd run, 3-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all 24 tracked_companies (IBM
 through Parsons). As expected given near-daily scanning since April 2026, most raw results were
