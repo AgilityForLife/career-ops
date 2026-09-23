@@ -16,6 +16,38 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-23 (scan covering since last run 2026-09-22, scheduled cloud run, 1-day gap).
+4 parallel scan agents covered all 12 portals.yml search_queries + all ~30 tracked_companies.
+~140 raw results, 41 genuinely new URLs after dedup vs scan-history.tsv (now 551 entries).
+Triage: 12 evaluated (reports 316-327 → tracker entries 320-329 after merge renumbering;
+2 Anthropic TPM roles skipped by merge as duplicates of existing #161 and #158), 29 skipped
+at scan stage (8 Booz Allen VA/MD/CA locations, 3 Google Bay Area, 3 Jobgether aggregators,
+3 Anthropic niche roles, plus small cos/staffing agencies/outsourcers/IT services).
+
+JD retrieval note: Greenhouse.io domains were blocked by egress proxy this session; evaluations
+based on title/company/WebSearch mirrors. Reports marked "unconfirmed (batch mode)".
+
+Scoring summary (12 evaluated):
+  3.7/5 — Thumbtack Sr Engineering TPM ($160-207K, remote, 4 CS) [BEST FIT]
+  3.6/5 — J&J Senior Manager Digital Programs PMO (NJ, pharma, 4 CS) [STRONG]
+  3.4/5 — Prudential SM/PM IMO (Newark NJ, regulated, 4 CS) [CONSIDER]
+  3.2/5 — Vanta PM AI Transformation GTM ($154-181K, remote, 2-3 CS) [CONSIDER]
+  3.0/5 — Anthropic TPM Launches (2 CS, SF location risk) [BORDERLINE]
+  3.0/5 — SADA Senior PM (GCP consulting, NY, 2 CS) [CONSIDER]
+  2.8/5 — Mission Lane Delivery Manager (remote fintech, thin JD) [SKIP]
+  2.8/5 — Success Academy AI Technical PM (education sector, 3 CS) [SKIP]
+  2.7/5 — Anthropic TPM Revenue Operations (domain mismatch) [SKIP]
+  2.5/5 — Turing AI Engagement/Delivery Manager (consulting model) [SKIP]
+  2.5/5 — Litmos AI PM (Tier 4 adjacent, 1.5 CS) [SKIP]
+  2.3/5 — ON.energy PM AI Enablement (Houston TX deal-breaker) [SKIP]
+
+4 roles scored 3.0+ — ALL HELD per section 15 SUBMISSION GATE; nothing submitted.
+Top 3 apply-eligible (pending Erick's go and JD re-fetch when egress allows):
+  Thumbtack Sr Engineering TPM — remote, $160-207K, strongest CS match in batch
+  J&J Senior Manager Digital Programs PMO — NJ pharma, Sanofi parallel, 4 CS
+  Prudential SM/PM IMO — Newark NJ, financial services, regulated delivery
+-->
+
 <!-- Processed 2026-09-22 (scan covering since last run 2026-09-21, headless launchd run, 1-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all ~30 tracked_companies (IBM
 through Parsons). Unusually rich yield despite the 1-day gap and near-daily-scan saturation: 61
