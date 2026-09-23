@@ -343,3 +343,10 @@ tracked_companies:
     scan_query: '"parsons" careers "Project Manager" OR "Program Manager" transportation OR infrastructure OR government "New Jersey" OR "New York" OR remote'
     notes: "Gov + infrastructure PM roles."
     enabled: true
+
+  - name: CoreWeave
+    careers_url: https://careers.coreweave.com
+    scan_method: websearch
+    scan_query: 'site:careers.coreweave.com "Technical Program Manager" OR "Program Manager" OR "Delivery" remote OR "New Jersey" OR "New York"'
+    notes: "GPU cloud infra. Discovered 2026-09-22 via generic search; added 2026-09-23 per prior-run flag — high comp, NJ/NY presence, 2 apply-eligible roles on first contact (CS-1/CS-3/CS-7 delivery-governance fit)."
+    enabled: true

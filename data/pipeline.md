@@ -16,6 +16,41 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-23 (scan covering since last run 2026-09-22, headless launchd run, 1-day gap).
+3 parallel scan agents covered all 12 portals.yml search_queries + all ~31 tracked_companies (added
+CoreWeave to tracked_companies this run per 2026-09-22's flagged improvement). ~90 raw candidates
+surfaced by search, but after dedup against scan-history.tsv (521 lines pre-run) only 13 were
+genuinely new — most of the raw yield was re-discovery of postings already logged in the prior
+several days of near-daily scanning. Logged 11 of those 13-adjacent near-misses as skipped
+(downlevel/duplicate/low-priority/clearance-risk/aggregator-unconfirmed) straight to scan-history.tsv
+without spending an eval slot; evaluated the remaining 13 in 3 parallel batches (reports 316-328).
+Citi was the best single-company find (5 new Jersey City/NYC PM/TPM postings in one pass) — evaluated
+the 3 best-differentiated (Technical Program Manager SVP, Global PM/Business Ops Lead SVP, Senior
+Program/Project Manager VP NAM Issuer Services), trimmed the downlevel AVP req and one overlapping
+hybrid-title req to scan-history without eval, same triage pattern used for CoreWeave 2026-09-22.
+Standout result: UnitedHealth Group Senior Manager, Technical Program Delivery - Cloud, Data scored
+4.5/5 (319) — 5 of 7 Core Strengths cleanly engaged, near-exact match to the Sanofi Azure/Snowflake/
+EDW-BI evidence, fully remote for the NJ-based candidate. Allwyn Corp Technical Project Manager (326)
+was a strong surprise find at 4.0/5 — public-sector cloud-modernization contract role, remote,
+Contract type matching profile.yml's stated first preference, 5/7 CS engaged plus a SAFe Agilist
+bonus. PwC Agile Coach, Senior Associate (324) is worth flagging even though it scored below
+threshold (2.8/5): it had the single strongest CS-6 (SPC6/ART-coaching) engagement of the run, but
+skills-model.md's Tier-4 de-emphasis cap applies to Agile-coaching-core roles unless $130K+ comp and
+NJ/NY-Metro location are confirmed — neither was, for this specific req, so the cap was applied
+honestly rather than the coaching-framing exception. 5 of 13 scored 3.0+ and got tailored resume
+PDFs — ALL HELD per the section 15 SUBMISSION GATE (still active, not removed this run); nothing
+submitted. verify-pipeline.mjs re-flagged the same pre-existing #108/#109 Glean warning noted
+2026-09-22 — confirmed a false positive (two distinct sibling reports, SF vs. Mountain View, each
+with its own URL and report), not fixed because there is nothing to fix.
+The 5 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.citi.com/job/jersey-city/technical-program-manager-svp/287/35345668384  Citi | Technical Program Manager, SVP (3.0/5) [PRIMARY] - APPLY w/ caveats; CV generated; VELOCITY/FX Connect platform-bridge program; strong CS-1/CS-5, no banking-domain experience, comp $164-246K; URL 404'd on direct fetch, corroborated via WebSearch mirrors, verify live before applying
+https://jobs.citi.com/job/jersey-city/senior-program-project-manager-vp-nam-issuer-services-technology/287/32531724272  Citi | Senior Program/Project Manager, VP, NAM Issuer Services Technology (3.2/5) [PRIMARY] - APPLY; CV generated; strongest CS-fit of the 3 Citi roles evaluated (CS-1/CS-5/CS-7 all JD-evidenced); URL 404'd on direct fetch, corroborated via WebSearch, verify live before applying
+https://careers.unitedhealthgroup.com/job/belleville/senior-manager-technical-program-delivery-cloud-data-remote/34088/94973583152  UnitedHealth Group | Senior Manager, Technical Program Delivery - Cloud, Data (4.5/5) [PRIMARY] - APPLY; CV generated; best fit of the run, remote, $112.7-193.2K; UHG direct-posting URLs have a confirmed 6-scan 404 pattern, corroborated via WebSearch, verify live before applying
+https://job-boards.greenhouse.io/anthropic/jobs/5391178008  Anthropic | Technical Program Manager, Cloud Partnerships (3.7/5) [PRIMARY] - APPLY w/ caveats; CV generated; on-site SF/NYC/Seattle (not remote, but NYC satisfies NJ/NY-Metro), comp figure ($435-565K) notably higher than a comparable Anthropic TPM band (report #295) - verify before using in negotiation
+https://jobs.ashbyhq.com/allwyn-corp/e287dc47-d38a-4c22-bbf4-9095715ea9f3  Allwyn Corp | Technical Project Manager (4.0/5) [PRIMARY] - APPLY; CV generated; remote, Contract (C2C/1099 preference match); AWS/Snowflake/Azure DevOps/SAFe Agilist all engaged; comp unconfirmed, verify before applying
+The other 8 evaluated-and-rejected outcomes (scores 1.7-2.8) are fully detailed in applications.md
+and reports/317+321-325+327-328. -->
+
 <!-- Processed 2026-09-22 (scan covering since last run 2026-09-21, headless launchd run, 1-day gap).
 4 parallel scan agents covered all 12 portals.yml search_queries + all ~30 tracked_companies (IBM
 through Parsons). Unusually rich yield despite the 1-day gap and near-daily-scan saturation: 61
