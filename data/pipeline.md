@@ -10,6 +10,44 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- Processed 2026-09-24 (scan covering since last run 2026-09-23, scheduled cloud run, 1-day gap).
+3 parallel scan agents covered all 12 portals.yml search_queries + all ~31 tracked_companies. ~90 raw
+candidates surfaced by search across all agents combined; after dedup against scan-history.tsv (521 lines
+pre-run) and cross-referencing pipeline.md/applications.md, 10 genuinely new URLs were queued for
+evaluation. ~80 others were logged to scan-history.tsv with appropriate skip reasons (location
+deal-breakers, domain mismatches, aggregator mirrors, junior-level, security-domain gaps, etc.).
+
+Key data-quality issue: Network egress proxy blocked WebFetch for all major job board domains
+(greenhouse.io, ashbyhq.com, builtinnyc.com, merck.com, citi.com, etc.) — all 10 evaluations are
+marked "JD inaccessible" and scored conservatively from title/company metadata and prior evaluation
+patterns for the same companies. JD verification recommended before applying.
+
+2 of the 10 (Anthropic TPM GTM Systems #334, Anthropic TPM Launches #335) turned out to be
+re-evaluations of postings already tracked as reports #155 and #160 (2026-09-10) — duplicate TSVs
+removed before merge, existing tracker entries preserved.
+
+8 net-new evaluations merged into applications.md (reports 329-338, tracker entries 333-340).
+3 scored 3.0+ and could proceed to application prep once JDs are verified:
+- Merck IT PM & Scrum Master (3.4/5) — strongest of the run, pharma hybrid NJ, dual PM+SM title mirrors Sanofi role
+- Citi AI Digital Senior Program Lead SVP (3.2/5) — AI transformation delivery, NY, $163K-$245K
+- CoreWeave TPM CPU Compute (3.2/5) — infrastructure delivery, NJ/NY hybrid, $157K-$242K
+
+Additional 3.0+ evaluations (borderline):
+- Merck Agile Project Manager (3.1/5) — pharma hybrid NJ, weaker than #331 but still genuine fit
+- VantageScore Agile SM/PM (3.1/5) — fintech regulated context, comp/location unknown
+- Ramp TPM (3.0/5) — fintech NYC, startup culture gap is real
+- Anthropic TPM Launches (3.0/5) — re-evaluation, same score as #160
+
+ALL HELD per section 15 SUBMISSION GATE; nothing submitted.
+verify-pipeline.mjs: 0 errors, 1 pre-existing warning (#108/#109 Glean false positive, unchanged).
+
+The 3 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.merck.com/us/en/job/R303857/IT-Program-Manager-and-Scrum-Master-Hybrid  Merck | IT Program Manager and Scrum Master (3.4/5) [PRIMARY] - APPLY; hybrid NJ pharma; JD inaccessible, verify live before applying (prior Merck reqs went HTTP 410)
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Senior Program Lead, Global Services SVP (3.2/5) [SECONDARY] - APPLY w/ caveats; NY $163K-$245K; JD inaccessible, verify AI/ML coding requirements before applying
+https://www.builtinnyc.com/job/technical-program-manager/9782727  CoreWeave | Technical Program Manager, CPU Compute (3.2/5) [PRIMARY] - APPLY w/ caveats; NJ/NY hybrid $157-$242K; JD inaccessible, scored from prior CoreWeave TPM patterns
+The other 5 evaluated-and-rejected outcomes (scores 2.8-3.1) are fully detailed in applications.md
+and reports/330+332-333+336-337. -->
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
