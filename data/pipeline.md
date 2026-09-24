@@ -16,6 +16,33 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-24 (scan covering since last run 2026-09-23, headless launchd run, 1-day gap).
+5 parallel agents covered the pipeline: 1 direct agent on all 12 portals.yml search_queries
+(did dedup+eval itself, correctly), 4 research-only sub-agents spawned by a "tracked_companies"
+agent that delegated instead of executing (Big Tech / Consulting+Gov / Financial+Healthcare /
+AI+Infra+Gov-Transport company groups — ~28 companies covered), then the orchestrator (this run)
+cross-checked every "new" candidate the 4 research agents surfaced against data/scan-history.tsv
+and data/applications.md directly via grep before spending any eval slot, since several early
+claims of "new" turned out to be exact-URL duplicates already logged (AWS Jersey City TPM #10453167
+from 2026-09-09, all 3 Palantir TPM/Security/GRC reqs from 2026-08-02, Salesforce Director TPM
+jr314681 and Google Privacy PM from 2026-09-09, 3 of 5 Parsons reqs from 2026-09-09/-11/-22) —
+this dedup pass cut a claimed ~25-candidate list down to 13 confirmed-genuine survivors, which a
+final evaluation agent scored and filed as reports 330-342 (plus report 329 from the direct
+search_queries agent = 14 evaluated total). Notable data-quality finding: 7 of the 13 "new"
+candidates in the final batch turned out to be closed/stale (some 6-21 months) despite surfacing
+as fresh hits this scan — Merck, AECOM (builtin.com mirror), and Accenture (themuse/builtin
+mirrors) sources are producing a high stale-listing rate; worth deprioritizing builtin.com/themuse
+mirror sourcing for those three companies specifically in future runs. Also: the delegating
+"tracked_companies" agent pattern (an agent spawning its own sub-agents and reporting "completed"
+before they finished) is a new failure mode worth flagging — it required the orchestrator to catch
+and manually complete the evaluation step rather than the sub-agent's own summary being trustworthy
+end-to-end; watch for this recurring. 1 of 14 scored 3.0+ and got a tailored resume PDF — HELD per
+the section 15 SUBMISSION GATE (still active, not removed this run); nothing submitted. The 1
+apply-eligible role, "Prepared, awaiting Erick's go":
+https://careers.unitedhealthgroup.com/job/eden-prairie/dir-tech-proj-prgm-mgmt-remote-or-hybrid-in-mn-and-dc/34088/95009058816  UnitedHealth Group (Optum Tech CDDO) | Dir, Tech Proj-Prgm Mgmt (3.5/5) [PRIMARY] - APPLY; CV generated; Director-level enterprise-wide multi-domain TPM, strong CS-1/CS-5/CS-7 fit; "Remote or Hybrid in MN and DC" phrasing makes NJ-based remote eligibility uncertain, confirm with recruiter before applying
+The other 13 evaluated-and-rejected outcomes (scores 1.4-2.8, several closed/stale) are fully
+detailed in applications.md and reports/329-338+340-342. -->
+
 <!-- Processed 2026-09-23 (scan covering since last run 2026-09-22, headless launchd run, 1-day gap).
 3 parallel scan agents covered all 12 portals.yml search_queries + all ~31 tracked_companies (added
 CoreWeave to tracked_companies this run per 2026-09-22's flagged improvement). ~90 raw candidates
