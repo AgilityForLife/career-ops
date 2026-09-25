@@ -2,6 +2,8 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 351 | 2026-09-25 | Anthropic | Program Manager, Safeguards Workforce Operations | 1.8/5 | Rechazado | ❌ | [351](reports/351-anthropic-program-manager-safeguards-workforce-operations-2026-09-25.md) | DO NOT APPLY - vendor/BPO workforce-ops role, 0/7 CS engaged despite $245-285K comp + NYC eligibility; domain mismatch not deal-breaker |
+| 361 | 2026-09-25 | PwC | Fixed Term - PwC Tech Sr Project Manager Cloud | 3.2/5 | Evaluada | ✅ | [361](reports/361-pwc-tech-sr-project-manager-cloud-2026-09-25.md) | APPLY-ELIGIBLE, prepared awaiting go — remote cloud Sr PM, CS-1/CS-2 fit; verify comp + fixed-term length before submitting |
 | 333 | 2026-09-24 | Pareto.AI | Project Manager, Global Remote | 1.6/5 | Evaluada | ❌ | [329](reports/329-pareto-ai-project-manager-global-remote-2026-09-24.md) | DO NOT APPLY - AI-training-data-ops PM role, 0/7 CS engaged, title-keyword false positive from AI+Project Manager match; no cloud/DevOps/BI overlap with cv.md |
 | 334 | 2026-09-24 | Merck | Senior Specialist, PMO Support/Scrum Master | 2.3/5 | Descartado | ❌ | [330](reports/330-merck-senior-specialist-pmo-support-scrum-master-2026-09-24.md) | DO NOT APPLY - posting returns HTTP 410 Gone (closed); PMO support + Scrum Master core function triggers Tier-4 cap even if reopened |
 | 335 | 2026-09-24 | Merck | Scrum Master (Branchburg, NJ) | 1.8/5 | Descartado | ❌ | [331](reports/331-merck-scrum-master-branchburg-2026-09-24.md) | DO NOT APPLY - URL redirects to generic careers hub (removed-posting pattern), no verifiable JD content recovered |

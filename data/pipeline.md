@@ -16,6 +16,42 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-25 (scan covering since last run 2026-09-24, headless launchd run, 1-day gap).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). All 4 executed and evaluated directly themselves (no further sub-delegation),
+addressing the exact failure mode flagged in 2026-09-24's log. Headline finding: the static
+search_queries block (all 12 entries) is now fully saturated — all 59 raw candidates it surfaced were
+already known, confirmed identical to results seen as far back as 2026-07-07/2026-08-11. That query
+segment is producing zero marginal value; worth rotating/refreshing portals.yml's search_queries
+(recency operators, niche boards, more direct company Greenhouse/Ashby/Lever slugs) rather than
+continuing to run it unchanged. tracked_companies remained the only productive channel, but yield was
+thin: of ~235 raw candidates across all 31 companies, only 2 were genuinely new and worth a full report.
+Financial+Healthcare group found 17 new-but-unworthy candidates (title/domain mismatches, relocation
+deal-breakers, and — notably — Merck's jobs.merck.com index returning 9 straight 410-Gone req numbers,
+confirming that portal's search index is now stale relative to its live site). Consulting+Gov group
+found 12 new candidates, 11 filtered (2 AECOM civil-engineering-degree domain walls, 1 WSP electrical-
+utility domain wall, 2 EY Hoboken roles that looked promising by title but were closed/facilities-
+scope-mismatch, PwC/Accenture/KPMG location or domain misses) and 1 evaluated: PwC Fixed Term - PwC
+Tech Sr Project Manager Cloud (report 361, 3.2/5, US-Remote, CS-1+CS-2 engaged). Big Tech+AI/Infra
+group found 1 evaluated candidate, Anthropic Program Manager - Safeguards Workforce Operations (report
+351, 1.8/5, REJECTED - 0/7 CS engaged, vendor/BPO workforce-ops scope despite strong comp/location) —
+also surfaced a real dedup-process gap: 7 of 9 initially-flagged "new" Anthropic IDs were dupes only
+recorded inside report files, not scan-history.tsv/applications.md, requiring a `grep -rl` over
+reports/ to catch; recommend a housekeeping pass backfilling scan-history.tsv from all report URLs, or
+making that grep a standing part of the dedup step. Microsoft and Goldman Sachs yielded zero fetchable
+candidates this run (Microsoft: no indexed careers.microsoft.com JD; Goldman: scan_query returns no
+genuine Goldman postings, only JPMorgan/aggregator noise) — both portals.yml scan_query entries likely
+need reconfiguration. IBM continues its ~8-scan-day pattern of near-zero real yield (both leads found
+404'd on direct fetch). 1 of 2 evaluated scored 3.0+ and got a tailored resume PDF — HELD per the
+section 15 SUBMISSION GATE (still active, not removed this run); nothing submitted. The 1 apply-
+eligible role, "Prepared, awaiting Erick's go":
+https://jobs.us.pwc.com/job/remote/fixed-term-pwc-tech-sr-project-manager-cloud/932/17838377392  PwC | Fixed Term - PwC Tech Sr Project Manager Cloud (3.2/5) [PRIMARY] - APPLY w/ caveats; CV generated; US-Remote; CS-1/CS-2 engaged; comp and fixed-term duration unconfirmed, WebFetch returned empty/JS-rendered content (no Playwright available to batch workers), corroborated via multiple WebSearch aggregator mirrors — verify live before applying
+The other evaluated-and-rejected outcome (Anthropic, 1.8/5) is fully detailed in applications.md and
+report 351. -->
+
 <!-- Processed 2026-09-24 (scan covering since last run 2026-09-23, headless launchd run, 1-day gap).
 5 parallel agents covered the pipeline: 1 direct agent on all 12 portals.yml search_queries
 (did dedup+eval itself, correctly), 4 research-only sub-agents spawned by a "tracked_companies"
