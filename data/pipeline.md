@@ -5,16 +5,41 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Added 2026-09-25 scan — lower-priority new candidates for future evaluation -->
+https://careers.ibm.com/job/17024950/project-manager-scrum-master-remote/  IBM PM/Scrum Master, Remote
+https://jobs.careers.microsoft.com/global/en/job/1774343/AI-Technical-Program-Manager  Microsoft AI TPM, location TBD
+https://www.amazon.jobs/en/jobs/1662055/next-chapter-returnship-program-technical-program-manager  Amazon Next Chapter Returnship TPM, NY/Newark NJ
+https://job-boards.greenhouse.io/anthropic/jobs/5431285008  Anthropic PM Safeguards Workforce Ops, NYC
+https://job-boards.greenhouse.io/anthropic/jobs/5406817008  Anthropic TPM Billing, SF/NYC
+https://job-boards.greenhouse.io/anthropic/jobs/5368023008  Anthropic TPM GTM Systems, SF/NYC
+http://us-jobs.kpmg.com/careers/JobDetail/Manager-Program-Delivery-Services/35285  KPMG Manager Program Delivery, location TBD
+http://us-jobs.kpmg.com/careers/JobDetail/Manager-Technical-Project-Management/35176  KPMG Manager Technical PM, location TBD
+https://jobs.jnj.com/en/jobs/2506232612w/enterprise-product-coaching-director/  J&J Enterprise Product Coaching Director, New Brunswick NJ
+https://coreweave.com/careers/job?4595987006=  CoreWeave Senior TPM
+https://coreweave.com/careers?gh_jid=4560354006  CoreWeave Bare Metal TPM
+https://coreweave.com/careers/job?4562394006=  CoreWeave Infrastructure Ops PM
+https://coreweave.com/careers?gh_jid=4557579006  CoreWeave Data Center Capacity PM
+https://www.dice.com/job-detail/d66b32a7-dfa9-4586-b321-a03961a20d9c  IT Associates Sr PM Infra/DC Migration, Remote
+https://www.dice.com/job-detail/78723914-6ecf-4c48-8d81-0f87ad348a86  Tandym Tech TPM Finance ERP, Remote
 
 ## In Progress
 
-<!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-09-25 (scan covering since last run 2026-09-24, 1-day gap).
+5 parallel agents scanned 12 search queries + 31 tracked companies. ~267 raw URLs → ~80 direct
+postings → 48 existing in scan-history → 32 new entries added → 22 genuinely new+relevant (8
+skipped for location/domain mismatch, 2 duplicate URL formats). 15 queued to Pending, 4 evaluated:
+- Anthropic TPM Enterprise Readiness (re-eval, report #343, 4.1/5, MAYBE leaning YES)
+- CoreWeave Staff TPM Reliability (#344, 4.1/5, YES w/ caveats — verify posting active)
+- Google TPM Leadership Cloud (#345, 3.4/5, MAYBE — GCP stack mismatch)
+- PwC Engineering Mgr TPM (#346, 3.5/5, MAYBE leaning NO — low-code stack, low comp)
+All JDs proxy-blocked; reconstructed from aggregator mirrors. No submissions (gate active). -->
+https://careers.google.com/jobs/results/126602216166302406-technical-program-manager-leadership  Google TPM Leadership, NY → Report #345 (3.4/5)
+https://job-boards.greenhouse.io/anthropic/jobs/5413314008  Anthropic TPM Enterprise Readiness, SF/NYC → Report #343 (4.1/5, re-eval of #154)
+https://coreweave.com/careers/job?4576265006=  CoreWeave Staff TPM Reliability → Report #344 (4.1/5)
+https://jobs.us.pwc.com/job/chicago/engineering-manager-technical-program-manager/932/93002511712  PwC Engineering Mgr TPM, NY/NJ → Report #346 (3.5/5)
 
 <!-- Processed 2026-09-24 (scan covering since last run 2026-09-23, headless launchd run, 1-day gap).
 5 parallel agents covered the pipeline: 1 direct agent on all 12 portals.yml search_queries
