@@ -16,6 +16,43 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). All 4 executed directly with no sub-delegation. Consulting+Gov came back with
+zero genuinely new evaluable candidates for the 3rd straight scan — that tracked_companies segment is
+now as saturated as the static search_queries block; worth a query refresh or longer re-scan cadence.
+The search_queries agent tried a fix for that exact problem on its own block: adding a recency qualifier
+("posted this week" / a month name) to 2 of the 12 literal queries surfaced 7 URLs the unmodified
+phrasing didn't reach (all but one turned out closed/dead on verification, but the technique itself
+worked) — worth adopting as standing practice on future scans rather than a one-off. Citi (Jersey City)
+and UnitedHealth Group (remote Director-level roles) were this run's only genuinely productive channels;
+both required broadening past portals.yml's stock scan_query phrasing to surface anything new. 9 of
+~30 genuinely-new candidates were fully evaluated (reports 362, 381-382, 421-426); the rest were
+fast-skipped at scan stage (dead/closed mirrors, title/domain mismatch, CoreWeave low-priority-similar
+reqs under the 2026-09-22 saturation precedent, non-functional scan_query hits) without spending an
+eval slot. Data-quality notes carried forward: jobs.kpmg.us returns zero live hits via websearch two
+scans running (scan_method may need to change); Goldman Sachs scan_query remains non-functional (2+
+scans, zero genuine postings); IBM careers.ibm.com continues 404ing on direct WebFetch; UnitedHealth's
+direct-posting-URL 404 pattern held again (corroborated via 2-3 independent mirrors per lead each time,
+as in prior runs). verify-pipeline.mjs re-flagged the pre-existing #108/#109 Glean warning — still a
+confirmed false positive, unrelated to this run, left as-is. 5 of 9 scored 3.0+ and got tailored resume
+PDFs — ALL HELD per the section 15 SUBMISSION GATE (still active, quoted block present, not removed
+this run); nothing submitted. The 5 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.citi.com/job/jersey-city/technical-project-management-head-for-wealth-operations/287/95421981520  Citi | Technical Project Management Head, Wealth Operations (3.2/5) [PRIMARY] - APPLY w/ caveats; CV generated; Jersey City; CS-1/CS-5/CS-7 engaged; direct fetch 404'd, WebSearch-corroborated, comp unconfirmed for exact req
+https://jobs.citi.com/job/jersey-city/senior-it-project-lead-for-wealth-investment-solutions-technology/287/95287507440  Citi | Senior IT Project Lead, Wealth Investment Solutions Tech (3.1/5) [PRIMARY] - APPLY w/ caveats; CV generated; Jersey City; no direct capital-markets domain experience in cv.md
+https://jobs.citi.com/job/jersey-city/technical-program-management-lead-for-ops-tech/287/95121570624  Citi | Technical Program Management Lead, Ops Tech (3.8/5) [PRIMARY, best of run] - APPLY; CV generated; explicit SAFe/Scrum/Kanban + 12yr enterprise delivery req maps directly to CS-1/CS-6
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-program-management-technology-and-software-engineering-remote/34088/94855101984  UnitedHealth Group | Director, Program Management - Enterprise Imaging Engineering (4.0/5) [PRIMARY, highest score of run] - APPLY; CV generated; fully remote, $134.6-230.8K confirmed via 3 mirrors
+https://careers.mntech.org/jobs/593898298-director-technical-project-program-management-remote-at-unitedhealth-group  UnitedHealth Group | Director, Tech Project-Program Mgmt, IBMi Platform (3.3/5) [PRIMARY] - APPLY w/ caveats; CV generated; remote; legacy IBMi platform is a real gap vs. AWS/Snowflake evidence base
+The other 4 evaluated-and-rejected outcomes (scores 2.4-2.8) are fully detailed in applications.md and
+reports/362+381-382+426. -->
+https://job-boards.greenhouse.io/mercury/jobs/6190280004  Mercury | Senior TPM, Credit & Lending (2.8/5) [REJECTED] - DO NOT APPLY (no fintech/credit-lending domain experience in cv.md; CS-2 cloud/data absent from JD)
+https://careers.ibm.com/ShowJob/Id/941851/CIO-Azure-Active-Directory-Iteration-Manager/  IBM | Iteration Manager, CIO Azure Active Directory (2.4/5) [REJECTED] - DO NOT APPLY (narrow IAM-support scope, weak CS overlap)
+https://www.themuse.com/jobs/ibm/project-manager-complex-programs-e8923c  IBM | Project Manager, Complex Programs (Client Innovation Center, Paramus NJ) (2.6/5) [REJECTED] - DO NOT APPLY (staffing/visa-coordination scope, not technical delivery; no canonical careers.ibm.com URL recoverable)
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-product-and-portfolio-management-remote/34088/99803687488  UnitedHealth Group | Senior Director, Product & Portfolio Management (UM/CM) (2.5/5) [REJECTED] - DO NOT APPLY (product/portfolio-management framing, weak delivery-execution CS overlap)
+
 <!-- Processed 2026-09-25 (scan covering since last run 2026-09-24, headless launchd run, 1-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
