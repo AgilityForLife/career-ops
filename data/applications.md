@@ -2,6 +2,16 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 362 | 2026-09-28 | Trunk Tools | Program Manager, AI Transformation | 3.4/5 | Evaluada | ❌ | [362](reports/362-trunk-tools-2026-09-28.md) | 3 CS engaged; exceptional comp $210K-$261K offsets moderate fit; evaluate further |
+| 363 | 2026-09-28 | ON.energy | Program Manager, AI Enablement | 2.5/5 | Evaluada | ❌ | [363](reports/363-on-energy-2026-09-28.md) | 2 CS engaged; enablement/training Tier 4 proximity; unknown comp; do not apply |
+| 364 | 2026-09-28 | Citi | C15 Lead Program Manager (Finance Transformation) | 4.0/5 | Evaluada | ❌ | [364](reports/364-citi-2026-09-28.md) | 4-5 CS engaged; Tier 1 bank regulated delivery; strong CS-1/CS-5/CS-7 match; apply-eligible |
+| 365 | 2026-09-28 | UnitedHealth/Optum | Senior Technical Data Analytics PM | 4.3/5 | Evaluada | ❌ | [365](reports/365-optum-2026-09-28.md) | 5 CS engaged; Azure+Snowflake direct match; BUT Medicaid domain req is gap; evaluate further |
+| 366 | 2026-09-28 | FutureFit AI | Technical Project Manager | 2.5/5 | Evaluada | ❌ | [366](reports/366-futurefit-ai-2026-09-28.md) | 2 CS engaged; no cloud/data/DevOps component; unknown comp; do not apply |
+| 367 | 2026-09-28 | SADA | Senior Project Manager | 2.5/5 | Evaluada | ❌ | [367](reports/367-sada-senior-project-manager-2026-09-28.md) | Low fit — consultative GCP PM, 1-2 CS engaged, DO NOT APPLY |
+| 368 | 2026-09-28 | Prelim | Technical Project Manager | 2.7/5 | Evaluada | ❌ | [368](reports/368-prelim-technical-project-manager-2026-09-28.md) | Low fit — fintech startup scale, 1-2 CS engaged, DO NOT APPLY |
+| 369 | 2026-09-28 | Neon One | Agile Delivery Manager | 2.8/5 | Evaluada | ❌ | [369](reports/369-neonone-agile-delivery-manager-2026-09-28.md) | Tier 4 cap — coaching/Scrum Master primary function, nonprofit tech, DO NOT APPLY |
+| 370 | 2026-09-28 | Citi | Senior Project Manager VP | 3.5/5 | Evaluada | ❌ | [370](reports/370-citi-senior-project-manager-vp-2026-09-28.md) | 3 CS confirmed (CS-1/CS-5/CS-7), Tier 1 bank VP, EVALUATE FURTHER — retrieve full JD |
+| 371 | 2026-09-28 | Citi | Director Senior Program Manager | 4.0/5 | Evaluada | ❌ | [371](reports/371-citi-director-senior-program-manager-2026-09-28.md) | 4+ CS engaged, Consent Order compliance, APPLY-ELIGIBLE — verify listing not stale |
 | 351 | 2026-09-25 | Anthropic | Program Manager, Safeguards Workforce Operations | 1.8/5 | Rechazado | ❌ | [351](reports/351-anthropic-program-manager-safeguards-workforce-operations-2026-09-25.md) | DO NOT APPLY - vendor/BPO workforce-ops role, 0/7 CS engaged despite $245-285K comp + NYC eligibility; domain mismatch not deal-breaker |
 | 361 | 2026-09-25 | PwC | Fixed Term - PwC Tech Sr Project Manager Cloud | 3.2/5 | Evaluada | ✅ | [361](reports/361-pwc-tech-sr-project-manager-cloud-2026-09-25.md) | APPLY-ELIGIBLE, prepared awaiting go — remote cloud Sr PM, CS-1/CS-2 fit; verify comp + fixed-term length before submitting |
 | 333 | 2026-09-24 | Pareto.AI | Project Manager, Global Remote | 1.6/5 | Evaluada | ❌ | [329](reports/329-pareto-ai-project-manager-global-remote-2026-09-24.md) | DO NOT APPLY - AI-training-data-ops PM role, 0/7 CS engaged, title-keyword false positive from AI+Project Manager match; no cloud/DevOps/BI overlap with cv.md |

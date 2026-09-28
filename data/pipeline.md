@@ -16,6 +16,36 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-28 (scan covering 3-day gap since 2026-09-25, scheduled trigger).
+3 scan channels: 1 agent on 12 portals.yml search_queries, 1 agent on Big Tech + AI tracked
+companies (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/Palantir/Glean/CoreWeave),
+and direct WebSearch for Consulting/Finance/Healthcare group (Deloitte/KPMG/Cognizant/Citi/JPMorgan/
+UHG/EY/Booz Allen/J&J/Merck/Prudential/MetLife). WebFetch blocked by egress proxy for all career
+site domains — all JD retrieval via WebSearch snippets + aggregator mirrors.
+
+Scan results: 55 new URLs logged to scan-history.tsv (595→650 entries).
+- Search queries agent: 17 genuinely new candidates (Greenhouse/Ashby/Lever portals)
+- Big Tech agent: 13 new Anthropic TPM/PM roles + 2 IBM + 3 Microsoft (unconfirmed locations)
+- Direct scans: 3 Citi + 1 UHG/Optum + 5 Deloitte + 1 Cognizant
+
+Top candidates evaluated (reports 362-371):
+- 362: Trunk Tools — Program Manager AI Transformation ($210-261K, NYC) — AI + construction
+- 363: ON.energy — Program Manager AI Enablement — enterprise AI adoption
+- 364: Citi — C15 Lead Program Manager, Finance Transformation (NYC hybrid)
+- 365: UnitedHealth/Optum — Senior Technical Data Analytics PM (Remote) — Azure/Snowflake
+- 366: FutureFit AI — Technical Project Manager — complex implementations
+- 367: SADA — Senior Project Manager — Google Cloud deployments
+- 368: Prelim — Technical Project Manager (NY Remote) — fintech
+- 369: HighlightTA/Neon One — Agile Delivery Manager (Remote) — nonprofit tech
+- 370: Citi — Senior Project Manager VP (NYC)
+- 371: Citi — Director Senior Program Manager Modern and Simple (NYC Hybrid) — possible stale
+
+Bulk-logged without full eval: 13 Anthropic TPM roles (historically 1.5-2.5 for this profile),
+5 Deloitte roles, IBM Scrum Master/Senior Agile Coach, 4 Glean roles, ServiceNow roles (San Diego),
+Cognizant MES PM, and various portal search matches (MojoRank, Omni, Flywheel, Nimble Gravity,
+VantageScore, Capital TG, RainFocus, 3Pillar Global, SkySlope, Mactores, Take-Two Interactive).
+-->
+
 <!-- Processed 2026-09-25 (scan covering since last run 2026-09-24, headless launchd run, 1-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
