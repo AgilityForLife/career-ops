@@ -16,6 +16,35 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-09-30 (scan covering since last run 2026-09-28, scheduled cloud run, 2-day gap).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). All 4 executed directly with no sub-delegation. Consulting+Gov returned zero
+new evaluable candidates for the 4th consecutive scan — fully saturated. Search queries base block also
+saturated; all 6 new candidates from that agent came from recency-modified variant queries (adding
+"2026" or "September 2026"), confirming the standing base queries produce zero marginal value without
+recency operators. Financial+Healthcare produced 1 new candidate (Citi AI Digital Senior Program Lead
+SVP). Big Tech+AI produced 3 new (2 Anthropic, 1 Google). 10 total evaluated in 3 parallel batches
+(reports 427-436); 8 skipped at scan stage (location, domain, Tier 4 coaching) logged to scan-history.
+Data-quality notes: Goldman Sachs scan_query non-functional (3+ scans); Merck stale index continues;
+KPMG jobs.kpmg.us zero hits (4th scan); all direct career portal domains blocked by egress proxy in
+this cloud environment — WebSearch corroboration used as fallback, all reports marked "unconfirmed
+(batch mode)". verify-pipeline.mjs re-flagged the pre-existing #108/#109 Glean warning — confirmed
+false positive, unrelated to this run. 9 of 10 scored 3.0+ — ALL HELD per section 15 SUBMISSION GATE
+(still active); nothing submitted. The 9 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Senior Program Lead, Global Services SVP (4.5/5) [PRIMARY] - APPLY; best fit of run, 6.5/7 CS engaged; NYC hybrid $163.6-245.4K; AI/digital transformation program delivery in regulated financial services; verify banking domain gap
+https://job-boards.greenhouse.io/anthropic/jobs/5017903008  Anthropic | Technical Deployment Lead (4.3/5) [PRIMARY] - APPLY; 5/7 CS engaged; regulated-industry AI agent delivery for financial services + pharma; NYC option $275-380K; founding team building delivery playbooks
+https://jobs.lever.co/pointclickcare/8c607ffa-e08d-4091-9723-66fa16dcad3c  PointClickCare | TPM (PEO) (4.2/5) [PRIMARY] - APPLY; 5.5/7 CS engaged; healthcare SaaS regulated domain; remote US $150-170K + 15% bonus; Jira/Confluence tooling match
+https://boards.greenhouse.io/toast/jobs/7735834  Toast | Senior TPM (4.0/5) [PRIMARY] - APPLY; 4/7 CS engaged; R&D execution focus; remote US; comp estimated $149-219K
+https://jobs.lever.co/pointclickcare/82934221-cc08-4fc9-b4cb-ccb0e4387740  PointClickCare | TPM Technical Services (3.8/5) [SECONDARY] - APPLY WITH CAVEATS; 5.5/7 CS engaged; data migration governance; remote US; 8-month contract (short duration), comp unconfirmed
+https://careers.google.com/jobs/results/126602216166302406-technical-program-manager-leadership  Google | TPM Leadership (3.8/5) [SECONDARY] - APPLY WITH CAVEATS; 3/7 CS engaged; senior TPM with people-mgmt; NYC option $192-278K + bonus + equity
+https://jobs.ashbyhq.com/cytora.com/7a166e66-51a5-4a04-bef7-5c1cf1b9627d  Cytora | Senior Delivery Manager US (3.7/5) [SECONDARY] - APPLY WITH CAVEATS; AI insurtech; verify NJ remote eligibility; comp $110-130K near floor
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  Anthropic | TPM Consumer Engineering (3.5/5) [SECONDARY] - APPLY WITH CAVEATS; consumer product focus, only 2/7 CS but $290-365K NYC option
+https://job-boards.greenhouse.io/humaninterest/jobs/7523351  Human Interest | Senior TPM Security & GRC (3.2/5) [SECONDARY] - APPLY WITH CAVEATS; CS-7 GRC fit but JD requires security-engineer career origin
+The 1 rejected outcome (Tract Capital, 2.8/5, hardware domain mismatch) is detailed in report 435. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
