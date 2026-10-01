@@ -16,6 +16,35 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-01 (scan covering since last run 2026-09-28, scheduled daily pipeline, 3-day gap).
+4 scanning agents parallelized: Search Queries (12 queries), Big Tech+AI (11 companies), Consulting+Gov (10 companies), Financial+Healthcare (7 companies).
+~70 new raw URLs found; after title filter, location filter, and dedup against scan-history.tsv (707 total entries):
+- 25 roles evaluated (#427-#451 + renumbered #452)
+- ~39 location-eligible new URLs from Big Tech+AI alone; 16 from Search Queries; 18 from Consulting+Gov; 1 from Financial+Healthcare
+- Heavy skips: 14 OpenAI SF-only, 4 Amazon 5-day-RTO, 7 Accenture below-floor ($47-57/hr), 3 ServiceNow overlevel
+- WebFetch blocked for all major career sites (proxy restrictions); evaluations assembled from WebSearch snippet data
+
+TOP FINDS:
+#440 FutureFit AI — Technical Project Manager (3.8/5) PRIMARY APPLY — Remote/NYC, $125-165K, 3.5 CS engaged, AI workforce platform, systems integrator framing
+#444 Foursquare — Senior Program Manager (3.8/5) SECONDARY APPLY — Remote/Seattle, $155-200K est, 5 CS engaged, PMO/cross-functional delivery
+#431 Deloitte — Senior Mgr PM DT Product Owner (3.5/5) CONDITIONAL — Chicago hybrid, $148-250K, 4 CS, verify location flexibility
+#449 Deloitte — Digital Release Manager (3.5/5) CONDITIONAL — NYC hybrid, $119-226K, strong CS-3 fit, narrow scope risk
+#435 CoreWeave — TPM SOX Compliance (3.4/5) — Livingston NJ (local), $143-237K, SOX specialization gap
+
+SKIPS (below 3.0 or deal-breakers):
+#428 Cognizant AI Strategy (2.4) HR/recruiting domain
+#429 Citi PM Lead (2.5) investment planning, not tech delivery
+#432 ServiceNow Staff TPM (2.3) product management role
+#437 Delinea SM (2.5) no NJ/NY/remote location
+#438 Redhorse Senior SM (2.8) TS/SCI clearance req + VA onsite
+#439 SkySlope SM (2.9) team-level, Tier 4 territory
+#442 Take-Two Director PMO (2.4) HR IT specialist
+#450 GT Delivery Manager (2.2) telecom domain mismatch
+#451 Volta Project DM (1.5) Nordic relocation + DC construction
+
+Saturation pattern continues: search_queries block fully saturated (all organic results are known). New finds come primarily from tracked_companies career sites and emerging companies. OpenAI confirmed SF-only for all PM/TPM roles.
+-->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
