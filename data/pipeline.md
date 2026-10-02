@@ -53,6 +53,28 @@ https://careers.ibm.com/ShowJob/Id/941851/CIO-Azure-Active-Directory-Iteration-M
 https://www.themuse.com/jobs/ibm/project-manager-complex-programs-e8923c  IBM | Project Manager, Complex Programs (Client Innovation Center, Paramus NJ) (2.6/5) [REJECTED] - DO NOT APPLY (staffing/visa-coordination scope, not technical delivery; no canonical careers.ibm.com URL recoverable)
 https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-product-and-portfolio-management-remote/34088/99803687488  UnitedHealth Group | Senior Director, Product & Portfolio Management (UM/CM) (2.5/5) [REJECTED] - DO NOT APPLY (product/portfolio-management framing, weak delivery-execution CS overlap)
 
+<!-- Processed 2026-10-02 (scan covering since last run 2026-09-28, scheduled cloud run, 4-day gap).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). All 4 executed via subagents with WebSearch fallback (egress proxy blocked
+all job board domains — boards-api.greenhouse.io, jobs.lever.co, jobs.ashbyhq.com, careers sites).
+~230 raw search results processed, 20 genuinely new URLs logged to scan-history, 7 evaluated (reports
+427-433), 13 fast-skipped at scan stage. Anthropic remains the only consistently productive channel in
+Big Tech/AI segment (4 new TPM roles). UHG produced 3 new candidates via broader search terms. Citi
+yielded 1 new but turned out to be communications/marketing role. Consulting+Gov saturated for 4th
+straight scan. Goldman Sachs scan_query still non-functional. JPMorgan/Prudential/MetLife/J&J/Merck
+all saturated (0 new each). All evaluations unconfirmed batch mode (no direct JD fetch possible).
+7 of 7 evaluated: 3 scored 3.0+ (apply-eligible), 4 below 3.0 (do not apply). -->
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  Anthropic | TPM, Consumer Engineering (3.3/5) [SECONDARY] — reach; $290K-365K NYC; CS-1/CS-3/CS-5 engaged; web/mobile/client app experience gap
+https://job-boards.greenhouse.io/anthropic/jobs/5123769008  Anthropic | TPM, Security - CVD (3.5/5) [SECONDARY] — reach; NYC; CS-1/CS-3/CS-5/CS-7 engaged; security domain new but program-building transfers
+https://job-boards.greenhouse.io/anthropic/jobs/5066957008  Anthropic | TPM, Security - Detection & Response (3.3/5) [SECONDARY] — reach; Staff level NYC; CS-1/CS-3/CS-5/CS-7 engaged; Staff seniority stretch + security gap
+https://careers.leidos.com/jobs/17654339  Leidos | Scrum Master FAA (3.4/5) [APPLY-ELIGIBLE] — remote US; CS-1lean/CS-5/CS-6/CS-7 engaged; FAA NAS modernization, Public Trust
+https://careers.unitedhealthgroup.com/job/indianapolis/director-delivery-and-operations-optum-state-government-solutions-indiana-remote/34088/95342534112  UHG | Director, Delivery & Operations - Optum SGS (3.6/5) [APPLY-ELIGIBLE] — remote preferred IN; $134.6-230.8K; CS-1/CS-2lean/CS-5/CS-7 engaged; Medicaid EDW
+https://job-boards.greenhouse.io/oura/jobs/4222800009  Oura | TPM, Commerce (2.9/5) [REJECTED] — DO NOT APPLY; e-commerce domain expertise hard gap; $128-178K
+https://job-boards.greenhouse.io/successacademycharterschool/jobs/5078841008  Success Academy | AI Technical Project Manager (2.8/5) [REJECTED] — DO NOT APPLY; education sector comp ceiling, low CS engagement
+
 <!-- Processed 2026-09-25 (scan covering since last run 2026-09-24, headless launchd run, 1-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
