@@ -635,3 +635,37 @@ https://careers.ibm.com/ShowJob/Id/941851/CIO-Azure-Active-Directory-Iteration-M
 https://builtin.com/job/technical-program-manager-tpm-product-operations/7701903	Technical Program Manager (TPM) - Product Operations	CoreWeave	2026-09-28	skipped_low_priority_similar_coreweave_saturated
 https://builtin.com/job/technical-program-manager-inventory-management/6694105	Technical Program Manager, Inventory Management	CoreWeave	2026-09-28	skipped_low_priority_similar_coreweave_saturated
 https://builtin.com/job/staff-technical-program-manager-tpm-reliability-and-compliance/6434887	Staff Technical Program Manager (TPM) - Reliability and Compliance	CoreWeave	2026-09-28	skipped_low_priority_similar_coreweave_saturated
+https://jobs.citi.com/job/irving/project-management-lead/287/99544988176	Project Management Lead	Citi	2026-10-06	skipped_location_irving_tx
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-project-manager-clinical-care-management/34088/95600666305	Clinical PM Care Management/Utilization Management	UnitedHealth Group	2026-10-06	skipped_clinical_credential_domain_mismatch
+https://careers.salesforce.com/en/jobs/jr283241/project-manager-senior-lead	PM Senior Lead (SF/Seattle only)	Salesforce	2026-10-06	skipped_location_sf_seattle_only
+https://careers.salesforce.com/en/jobs/jr281550/senior-project-manager-talent-development	Senior PM Talent Development (VA/MD/DC)	Salesforce	2026-10-06	skipped_talent_hr_domain_location
+https://openai.com/careers/technical-program-manager-office-of-safety	TPM Office of Safety (SF only)	OpenAI	2026-10-06	skipped_location_sf_only
+https://openai.com/careers/program-manager-security	Program Manager Security (SF only)	OpenAI	2026-10-06	skipped_location_sf_only
+https://openai.com/careers/technical-program-manager-networking	TPM Networking (SF only)	OpenAI	2026-10-06	skipped_location_sf_only
+https://careers.servicenow.com/en/jobs/744000153044500/service-delivery-manager	Service Delivery Manager	ServiceNow	2026-10-06	skipped_service_delivery_domain_mismatch
+https://careers.servicenow.com/en/jobs/744000152044501/digital-customer-success-pm	Digital Customer Success PM	ServiceNow	2026-10-06	skipped_customer_success_domain_mismatch
+https://jobs.saic.com/jobs/18099305/supply-chain-pm	Supply Chain PM (Remote)	SAIC	2026-10-06	skipped_supply_chain_domain_narrow
+https://jobs.pwc.com/us/en/job/76601829184/workday-project-manager	Workday PM	PwC	2026-10-06	skipped_workday_specific_narrow
+https://jobs.pwc.com/us/en/job/77004463200/workday-project-manager-sr	Workday PM Senior	PwC	2026-10-06	skipped_workday_specific_narrow
+https://jobs.citi.com/job/new-york/AI Digital Senior Program Lead	Citi	2026-10-06	evaluated_3.6
+https://jobs.citi.com/job/jersey-city/Generative AI Group Manager	Citi	2026-10-06	skip_ai_engineering_mismatch
+https://apply.deloitte.com/careers/JobDetail/52405	PM ITS PMO M&A	Deloitte	2026-10-06	evaluating
+https://careers.servicenow.com/en/jobs/744000153044499/Program Director	ServiceNow	2026-10-06	evaluated_2.8
+https://careers.servicenow.com/en/jobs/744000143924019/Principal TPM	ServiceNow	2026-10-06	evaluated_3.5
+https://careers.servicenow.com/en/jobs/744000137206440/Director TPM	ServiceNow	2026-10-06	evaluated_3.4
+https://careers.microsoft.com/v2/global/en/job/1225278/Senior TPM	Microsoft	2026-10-06	evaluated_4.2
+https://careers.microsoft.com/v2/global/en/job/870230/Senior PM	Microsoft	2026-10-06	evaluated_3.0
+https://www.amazon.jobs/en/jobs/10564243/TPM Enterprise Data Catalog	Amazon	2026-10-06	evaluated_3.5
+https://www.amazon.jobs/en/jobs/2227995/Security TPM Red Team	Amazon	2026-10-06	skip_security_domain_likely_closed
+https://www.amazon.jobs/en/jobs/10566637/Sr TPM AWS Product Compliance	Amazon	2026-10-06	evaluated_3.0
+https://www.amazon.jobs/en/jobs/10489798/PM II Audible	Amazon	2026-10-06	skip_workforce_hr_pm
+https://openai.com/careers/TPM Demand Planning S&OP	OpenAI	2026-10-06	skip_supply_chain_domain
+https://openai.com/careers/GRC TPM Product Lifecycle	OpenAI	2026-10-06	skip_sf_location_grc_gap
+https://job-boards.greenhouse.io/anthropic/jobs/5368023008	TPM GTM Systems	Anthropic	2026-10-06	skip_salesforce_revops_tier4
+https://job-boards.greenhouse.io/oaborinc/jobs/4222800009	TPM Commerce	Oura	2026-10-06	skip_ecommerce_domain
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002	Principal TPM	GitLab	2026-10-06	evaluated_4.2
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008	Senior AI PM	Real Chemistry	2026-10-06	evaluated_3.2
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-readiness-pm/34088/95600666304	Senior Readiness PM	UnitedHealth Group	2026-10-06	evaluated_3.0
+https://careers.leidos.com/jobs/17654339/scrum-master	Scrum Master (Remote)	Leidos	2026-10-06	evaluated_2.5
+https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/JR-0107167	Principal PM US Federal	Workday	2026-10-06	skip_clearance_location_blocked
+https://job-boards.greenhouse.io/futurefit/jobs/b6c27423	TPM	FutureFit AI	2026-10-06	evaluated_2.8

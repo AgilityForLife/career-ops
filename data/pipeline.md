@@ -16,6 +16,52 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-06 (scan covering since last run 2026-09-28, scheduled automated run, 8-day gap).
+4 parallel scan agents covered the pipeline: search_queries (all 12 entries, fully saturated for 4th
+consecutive scan — zero new evaluable results from static queries) + tracked_companies split into 3
+groups. 34 new URLs identified across all sources; 12 fast-skipped at scan stage (location deal-breakers:
+Irving TX, SF-only, VA/MD/DC, non-US; domain mismatches: clinical/HR/Workday-specific/customer-success/
+service-delivery/supply-chain). 22 URLs sent to 4 parallel evaluation agents. 24 reports written
+(427-450, covering 5 from Agent B which wrote its own + 19 from the orchestrator). Numbering: Agent B
+used 427-431 (ServiceNow x3, Microsoft x2) and self-merged; orchestrator wrote 434-450 (Citi x2,
+Deloitte x1, Amazon x4, OpenAI x2, Anthropic x1, Oura x1, GitLab x1, Real Chemistry x1, UHG x1,
+Leidos x1, Workday x1, FutureFit AI x1) — gap at 432-433 due to numbering collision recovery.
+
+TOP PICKS of this run (4.0+ scores):
+- Microsoft Senior TPM Cloud for Industry / FinServ (4.2/5) [report 430] — NYC hybrid; $158-258K;
+  CS-1/CS-2/CS-5/CS-7; financial services + cloud + AI. Best single fit of the entire scan.
+- GitLab Principal TPM (4.2/5) [report 445] — Remote US; $203-345K; 5/7 CS (CS-1/2/3/5/7); textbook
+  DevSecOps + infra modernization. Principal level stretch but strongest CS alignment.
+
+APPLY-ELIGIBLE (3.0+ scores, 10 roles total):
+https://careers.microsoft.com/us/en/job/1225278/Senior-Technical-Program-Manager  Microsoft | Sr TPM Cloud for Industry/FinServ (4.2/5) [PRIMARY] — NYC hybrid; $158-258K; CS-1/CS-2/CS-5/CS-7
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM (4.2/5) [PRIMARY] — Remote US; $203-345K; 5/7 CS; DevSecOps textbook fit; principal stretch
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead/287/99544988176  Citi | AI Digital Sr Program Lead SVP (3.6/5) [PRIMARY] — NYC hybrid; $163-245K; CS-1/CS-5/CS-7; AI-adjacent PM framing
+https://careers.servicenow.com/jobs/744000143924019/principal-technical-program-manager  ServiceNow | Principal TPM APEX (3.5/5) [SECONDARY] — Remote flex; $221-387K; CS-1 strong; verify NJ remote
+https://www.amazon.jobs/en/jobs/10564243/technical-program-manager-enterprise-data-catalog  Amazon | TPM Enterprise Data Catalog (3.5/5) [SECONDARY] — Remote; $149-201K; CS-1+CS-2; data catalog domain gap
+https://careers.servicenow.com/jobs/744000137206440/director-technical-program-management  ServiceNow | Director TPM APEX (3.4/5) [SECONDARY] — Remote flex; $199-348K; apply alongside #428
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Sr AI PM (3.2/5) [SECONDARY] — Remote/Lambertville NJ; $115-130K; pharma context leverages Sanofi
+https://www.amazon.jobs/en/jobs/10566637/sr-technical-program-manager-aws-product-compliance-engineering  AWS | Sr TPM Product Compliance (3.0/5) [SECONDARY] — NYC; $164-221K; hardware compliance domain pivot
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-readiness-pm/34088/95600666304  UHG | Sr Readiness PM (3.0/5) [SECONDARY] — Remote; $91.7-163.7K; sales readiness Tier 4 adjacent; negotiate upper half
+https://careers.microsoft.com/v2/global/en/job/870230/senior-pm  Microsoft | Sr PM Copilot Acceleration (3.0/5) — NYC; $119-196K; AI product dev mismatch; skip in favor of #430
+
+REJECTED (below 3.0 or blocked, 12 roles):
+https://apply.deloitte.com/careers/JobDetail/52405  Deloitte | PM ITS PMO M&A (2.8/5) — JC; strategic exception for Big 4; no M&A domain
+https://job-boards.greenhouse.io/futurefit/jobs/b6c27423  FutureFit AI | TPM (2.8/5) — Remote; $125-165K; customer-facing SaaS; may be below level
+https://careers.servicenow.com/jobs/744000153044499/program-director  ServiceNow | Program Director (2.8/5) — ServiceNow cert required + 50% travel
+https://jobs.ashbyhq.com/openai/cf1e5c80-f42e-45ab-a937-2a4024b961e1  OpenAI | GRC PM Product Lifecycle (2.7/5) — SF deal-breaker; technical GRC gap
+https://job-boards.greenhouse.io/anthropic/jobs/5368023008  Anthropic | TPM GTM Systems (2.5/5) — Salesforce/RevOps Tier 4 de-emphasis
+https://job-boards.greenhouse.io/oaborinc/jobs/4222800009  Oura | TPM Commerce (2.5/5) — eCommerce domain zero evidence
+https://careers.leidos.com/jobs/17654339/scrum-master  Leidos | Scrum Master FAA (2.5/5) — Remote; $116-210K; gov pipeline; underutilizes CS
+https://openai.com/careers/technical-program-manager-demand-planning-and-sandop-remote-us  OpenAI | TPM Demand Planning (2.3/5) — supply chain mismatch; $257-335K
+https://www.amazon.jobs/en/jobs/2227995/security-technical-program-manager-remote-red-team  Amazon | Security TPM Red Team (2.0/5) — likely closed; offensive security mismatch
+https://amazon.jobs/en/jobs/10489798/program-manager-ii-adbl197  Audible | PM II Newark (2.0/5) — workforce/HR PM; comp low
+https://jobs.citi.com/job/jersey-city/generative-ai-group-manager/287/96604404464  Citi | Gen AI Group Manager (1.5/5) — AI engineering leadership; fundamental skills mismatch
+https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/JR-0107167  Workday | Principal PM Fed (3.8/5 BLOCKED) — TS/SCI clearance + DMV location deal-breakers
+
+ALL HELD per SUBMISSION GATE — nothing submitted. The 9 apply-eligible roles (excluding Microsoft Sr PM
+Copilot which is a skip), all "Prepared, awaiting Erick's go." No CVs generated in this batch run. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
