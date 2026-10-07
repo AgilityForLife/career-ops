@@ -16,6 +16,29 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-07 (scan covering since last run 2026-09-28, scheduled cloud run, 9-day gap).
+Single-agent scan covered all 12 portals.yml search_queries + key tracked_companies (Citi, UHG,
+Anthropic, CoreWeave, IBM, ServiceNow, Microsoft, Deloitte, EY, J&J, Merck, Prudential, MetLife,
+Booz Allen). WebFetch blocked by network egress proxy for ALL job board domains (jobs.citi.com,
+careers.unitedhealthgroup.com, jobs.lever.co, careers.ey.com, etc.) — all evaluations based on
+WebSearch JD summaries only, marked "unconfirmed (batch mode)". npm install also blocked initially
+(credential leakage classifier), resolved with --ignore-scripts. 32 genuinely new candidates
+surfaced after title-filter + scan-history dedup; 27 were pre-filtered at scan stage (thin JD/no
+WebFetch access, aggregator/undisclosed employer, location deal-breakers, Tier-4 core function,
+stale postings from Mar-Apr 2026, CoreWeave saturation from 2026-09-22, digital agency/unknown
+companies, downlevel titling). 5 evaluated in reports 427-431. Headline finding: Citi surfaced 7
+genuinely new URLs in one scan (most not previously seen in any prior run) but ALL direct-URL
+fetches are blocked by the egress proxy, so JD detail is minimal and scores are conservative.
+The static search_queries block continues to return saturated results — same pattern noted
+2026-09-25 and 2026-09-28. 2 of 5 scored 3.0+ — True Tandem PM ($145-157K remote federal
+healthcare IT, 3.4/5) is the best fit of the run, and Citi Program Management Lead ($162-185K NYC,
+3.0/5) is borderline but strong comp. Both HELD per SAFETY RULE (no auto-submit).
+The 2 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.lever.co/truetandem/2e56e4d7-b3b5-4f98-bab1-d4eeb38cb2ec  True Tandem | Project Manager (Remote) (3.4/5) [PRIMARY] - APPLY; CS-1/CS-5/CS-7 engaged; $145-157K; CDC/NIOSH healthcare IT portal; Public Trust clearance (obtainable)
+https://jobs.citi.com/job/new-york/program-management-lead/287/94977560096  Citi | Program Management Lead (NYC) (3.0/5) [PRIMARY] - APPLY w/ caveats; $162-185K hybrid; JD thin/generic, verify scope before applying
+The other 3 evaluated-and-rejected outcomes (scores 2.5-2.8) are detailed in reports 429-431 and
+applications.md. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
