@@ -10,11 +10,47 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- Queued from 2026-10-08 scan — evaluate in next run -->
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY Program Manager Enterprise Technology (Hoboken NJ)
+https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi PM ETD/Cleared OTC (Jersey City)
+https://www.themuse.com/jobs/prudentialfinancial/scrum-masterproject-manager-imo  Prudential SM/PM IMO (Newark NJ, $115-172K)
+https://jobs.metlife.com/sr-agile-pm  MetLife Sr Agile PM (NYC/Bridgewater NJ, $103-130K)
+https://careers.coreweave.com/tpm-security-compliance  CoreWeave TPM Security & Compliance (Livingston NJ — verify URL)
+https://careers.unitedhealthgroup.com/client-service-dm  UHG Client Service Delivery Manager (Remote)
+https://dice.com/phizenix-rte-nyc  Phizenix RTE (NYC $70-75/hr)
+https://jobs.lever.co/forge-global-agile-pm  Forge Global Agile PM ($126-150K — verify URL)
+https://okta.com/careers/staff-tpm  Okta Staff TPM (remote — verify URL)
+https://arine.io/careers/tpm  Arine TPM (remote — verify URL)
+https://acorns.com/careers/tpm-trade-risk  Acorns TPM Trade & Risk ($150-170K — verify URL)
+https://apply-digital.com/careers/delivery-manager  Apply Digital Delivery Manager
+https://wwt.com/careers/agile-coach-remote  WWT Agile Coach (remote contract)
+https://insightglobal.com/jobs/rte-warren-nj  Insight Global RTE (Warren NJ)
+
+<!-- Microsoft batch — 6 roles (URLs need verification via careers.microsoft.com search) -->
+https://careers.microsoft.com/sr-tpm-ai-infrastructure  Microsoft Sr TPM AI Infrastructure ($120-261K remote)
+https://careers.microsoft.com/sr-tpm-azure-storage  Microsoft Sr TPM Azure Storage ($160-261K remote)
+https://careers.microsoft.com/principal-tpm-industry-solutions  Microsoft Principal TPM Industry Solutions ($139-274K NY)
+https://careers.microsoft.com/tpm-ai-ml-superintelligence  Microsoft TPM AI/ML Superintelligence ($188-304K NY)
+https://careers.microsoft.com/tpm-responsible-ai  Microsoft TPM Responsible AI ($119-274K NY)
+https://careers.microsoft.com/sr-tpm-supercomputing-ops  Microsoft Sr TPM Supercomputing Ops (NY)
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-10-08 (scan covering since last run 2026-09-28, scheduled cloud run, 10-day gap).
+4 parallel agents covered the pipeline: 1 on search_queries, 3 on tracked_companies split into
+Big Tech + AI, Consulting + Gov, and Financial + Healthcare segments. ~51 new candidates identified
+across all segments. 5 top candidates evaluated immediately (#427-#431): Google TPM Data & Analytics
+(URGENT Oct 12 deadline), Cognizant Sr TPM/DM (Jersey City $113-181K), EY CT Tech Activation PM
+(Hoboken NJ), Citi SVP PM Markets Derivatives (Jersey City), Microsoft Principal TPM Azure Core
+($166-331K). 20 more queued in Pending for next run. ~15 skipped (CA on-site, SF-only, travel
+deal-breakers, Tier-4 cap risks, near-floor comp). WebSearch egress proxy continues to block direct
+ATS/career site access; mitigated via aggregator cross-referencing. Microsoft first-time scan yielded
+7 TPM roles — promising new source. scan-history.tsv updated from 637 to 674 entries.
+-->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
