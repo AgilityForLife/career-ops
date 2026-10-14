@@ -16,6 +16,33 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-14 (scan covering since last run 2026-09-28, scheduled cloud run, 16-day gap).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). WebFetch DNS resolution failed for ALL external domains during this scan;
+all JD data sourced from WebSearch + aggregator mirrors only. Greenhouse API/board hostnames also
+failed DNS — CoreWeave candidates sourced via BuiltIn mirrors only. 26 genuinely new URLs surfaced
+across all 4 agents after dedup against 637-line scan-history.tsv; 18 evaluated (reports 427-444),
+13 logged as skipped (4 stale Deloitte, 5 location-unconfirmed, 3 ServiceNow remote-unconfirmed,
+1 Parsons construction domain mismatch). Data quality: KPMG (4th scan zero hits), Goldman Sachs
+(4+ scans non-functional), Merck (410-Gone continues), Microsoft/IBM (JS-rendered, zero yield),
+queries 9-12 (zero direct URLs). Consulting+Gov segment produced only 2 actionable candidates
+(SAIC remote PM, Cognizant NJ Delivery Lead) — 4th consecutive near-zero yield. Citi remains the
+single most productive portal (5 new Jersey City/NYC postings). 8 of 18 scored 3.0+ — ALL HELD per
+SUBMISSION GATE; nothing submitted. The 8 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://jobs.saic.com/jobs/18099305-supply-chain-modernization-program-manager  SAIC | Supply Chain Modernization PM (4.2/5) [PRIMARY] - APPLY; Remote; 6/7 CS engaged; federal health IT; Public Trust obtainable; 25% travel
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Senior Program Lead SVP (4.0/5) [PRIMARY] - APPLY; NYC; AI program delivery in banking; PMP preferred; $163-245K
+https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi | CitiDirect Payments TPM/Quality Lead SVP (3.8/5) [PRIMARY] - APPLY; Jersey City; payments platform modernization; $163-245K
+https://builtin.com/job/staff-technical-program-manager-tpm-infrastructure-and-node-delivery/7601793  CoreWeave | Staff TPM, Infrastructure & Node Delivery (3.7/5) [SECONDARY] - APPLY WITH CAVEATS; Hybrid NJ/NY; GPU/NPI gap; $161-237K+equity
+https://careers.cognizant.com/us-en/jobs/00070746661/senior-consulting-manager-business-intelligence-and-project-delivery-lead-communications-media-technology-consulting/  Cognizant | Sr Consulting Mgr, BI & Delivery Lead (3.7/5) [PRIMARY] - APPLY WITH CAVEATS; Bridgewater NJ hybrid; CS-4+CS-6 bonuses
+https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi | IT PM SVP (3.4/5) [SECONDARY] - APPLY WITH CAVEATS; Jersey City; limited JD, verify full posting
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix | RTE (3.0/5) [SECONDARY] - APPLY WITH CAVEATS; NYC 6-month contract; Tier 4 cap applied
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI | TPM (3.0/5) [SECONDARY] - APPLY WITH CAVEATS; US remote; AI delivery
+The other 10 evaluated-and-rejected outcomes (scores 2.5-3.5) are fully detailed in applications.md
+and reports 427+429+432-436+438+440+442. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
