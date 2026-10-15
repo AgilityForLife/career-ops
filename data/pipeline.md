@@ -5,16 +5,43 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Queued from 2026-10-15 scan — Tier B candidates not evaluated this run -->
+https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi VP Tech Lead PM, JC, ~$130-195K
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi Program Mgmt Lead VP, NYC
+https://jobs.citi.com/job/jersey-city/head-of-portfolio-management-and-delivery-payments-technology/287/99856903248  Citi Head Portfolio Mgmt & Delivery, JC
+https://careers.unitedhealthgroup.com/job/22659120  UHG Principal TPM Remote (may be sibling of 22468116)
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UHG Senior TPM Remote (Optum Insight)
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-manager-technical-program-management-remote/34088/96517308336  UHG Senior Manager TPM Remote (AI/ML)
+https://www.themuse.com/jobs/unitedhealthgroup/technical-program-manager-remote  UHG TPM Optum AI (Agentic AI Platform) - aggregator only
+https://builtin.com/job/principal-technology-program-manager/7779392  MetLife Principal Tech PM, NY
+https://builtinnyc.com/job/senior-agile-project-manager/299212  MetLife Senior Agile PM, NY/Bridgewater hybrid
+https://builtin.com/job/technical-program-manager-corporate-technology-vice-president/3605699  JPMorgan TPM Corp Tech VP (BuiltIn mirror, stale risk)
+https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava Principal PM, NJ/Remote federal
+https://jobs.lever.co/nava/9f7e9041-e91e-4314-bd5d-38aea354a285  Nava Program Manager FedCiv, Remote
+https://www.experis.com/en/job/410075/senior-technical-program-manager-technical-delivery-lead  Experis Sr TPM/Delivery Lead, NYC $75-80/hr W2 12mo
+https://www.dice.com/job-detail/09708920-2d01-478c-b5ae-e81a2efd19f7  Senior TPM, Warren NJ C2C option
+https://jobs.lever.co/palantir/301e82dc  Palantir Info Systems PM, NYC
+https://jobs.lever.co/palantir/34e30387  Palantir TPM (new ID)
+https://job-boards.greenhouse.io/coreweaveu/jobs/4562397006  CoreWeave Infra Ops PM
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Deloitte SM/RTE (Tier 4 risk but RTE signal)
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix RTE, NYC hybrid 6mo contract
+https://job-boards.greenhouse.io/teravision/jobs/6628865003  Teravision AI Transformation Lead, Remote contractor
+https://nyc-it-inc.careerplug.com/jobs/3497352  NYC IT Inc Enterprise Agile Coach, primarily remote
 
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-10-15 (scan covering since last run 2026-09-28, scheduled cloud run, 17-day gap).
+4 parallel agents covered: Search Queries (12), Big Tech+AI (11), Consulting+Gov (12), Financial+HC (8).
+~55 new URLs found, ~160+ deduped. 5 evaluated (reports 427-431), 21 queued in Pending for next cycle.
+Best yield: Citi JC (4 new incl $163-245K SVP), UHG remote (5 new), EY Hoboken PM, Cognizant JC Sr TPM/DM.
+Infrastructure blockers: Greenhouse API DNS failure (6 Anthropic IDs unresolved), Goldman/JPMorgan/Merck
+portals still non-functional. Consulting+Gov broke 3-scan zero-yield streak. MetLife first meaningful yield.
+Recommendations: update portals.yml Goldman→higher.gs.com, JPMorgan→eightfold.ai, deprioritize BAH/Leidos/
+SAIC/AECOM/WSP. -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
