@@ -16,6 +16,19 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-16 (scan covering since last run 2026-09-28, 18-day gap, scheduled routine).
+4 parallel scan segments (portal queries, consulting/finance, healthcare/gov/transport, big tech/AI).
+All job board domains DNS-blocked in this environment — evaluations based on WebSearch JD summaries only.
+5 candidates formally evaluated (reports #427-#431), 39 logged to scan-history with skip/reject reasons.
+Top find: GitLab Principal TPM (4.2/5, $203K-$346K, remote) — PREPARE ONLY.
+Only APPLY recommendation: MetLife Senior Agile PM (3.5/5, $103K-$130K, hybrid NY).
+-->
+https://www.purpose.jobs/discover/companies/gitlab-com/jobs/91222158-principal-technical-program-manager  GitLab Principal TPM (4.2/5) [SECONDARY] - PREPARE ONLY; remote $203K-$346K; AI DevSecOps R&D PMO; Principal-level bar concern
+https://careers.unitedhealthgroup.com/job/eden-prairie/ai-governance-program-manager/34088/97176298688  UHG AI Governance PM (3.5/5) [SECONDARY] - PREPARE ONLY; remote US; Optum Responsible AI; comp unlisted
+https://powertofly.com/jobs/detail/2520863  Citi Release & Deployment Manager VP (3.7/5) [SECONDARY] - PREPARE ONLY; onsite Jersey City $142K-$213K; CS-3 CAB match; verify onsite policy
+https://builtinnyc.com/job/senior-agile-project-manager/299212  MetLife Senior Agile PM (3.5/5) [PRIMARY] - APPLY; hybrid NY $103K-$130K; regulated insurance Agile PM
+https://careers.unitedhealthgroup.com/job/minnetonka/senior-project-manager-cardiology-implementation-services-remote/34088/100106456928  UHG Senior PM Cardiology (3.0/5) [SECONDARY] - DO NOT APPLY; remote 25% travel; cardiology domain gap
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
