@@ -12,9 +12,51 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## In Progress
 
-<!-- URLs currently being evaluated -->
+<!-- URLs being evaluated — 2026-10-19 scan -->
+<!-- Wave 1 (agent pending): EY x3, Cognizant, Prudential, Citi x2, Phizenix — reports 427-434 -->
+https://careers.ey.com/ey/job/Atlanta-AI-Technical-Project-Manager-GA-30309/1448144833/  EY | AI Technical Project Manager (Atlanta, remote-eligible) — report 427
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1442933033/  EY | Program Manager, Client Tech Activation (Hoboken NJ) — report 428
+https://careers.ey.com/ey/job/Philadelphia-Program-Manager-PA-19103/1446403833/  EY | Program Manager (Philadelphia, remote-eligible) — report 429
+https://careers.cognizant.com/us-en/jobs/00067578661/srtechnical-program-managerdelivery-manager/  Cognizant | Sr. TPM/Delivery Manager (Jersey City NJ) — report 430
+https://jobs.anitab.org/companies/prudential-financial-2-db32b774-b9c6-430c-9f48-c0533e56157b/jobs/82373181-lead-technical-program-management  Prudential | Lead, Technical Program Management (Newark NJ, $123.7-204.1K) — report 431
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi | Program Management Lead, Product Dev Transformation VP (NYC) — report 432
+https://jobs.citi.com/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528  Citi | Transformation PM Lead, Markets VP (NYC) — report 433
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix | Release Train Engineer (NYC hybrid, $70-75/hr, 6mo contract) — report 434
+<!-- Wave 2 (completed): Anthropic x3, Microsoft x2, CoreWeave x2, Palantir, JPMorgan, UHG — reports 435-444 -->
+https://job-boards.greenhouse.io/anthropic/jobs/4496627008  Anthropic | TPM, Platform (Security) — report 435, 3.4/5
+https://job-boards.greenhouse.io/anthropic/jobs/5157003008  Anthropic | TPM, Platform (API) — report 436, **4.0/5**
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  Anthropic | TPM, Consumer Engineering — report 437, 3.7/5
+https://www.builtinnyc.com/job/principal-technical-program-manager/10218493  Microsoft | Principal TPM, ISE (NYC) — report 438, 3.8/5
+https://www.builtinnyc.com/job/senior-technical-program-manager/10218492  Microsoft | Senior TPM, AI Infra (Remote) — report 439, **4.0/5**
+https://builtinnyc.com/job/technical-program-manager/293928  CoreWeave | TPM, Customer-Facing (Livingston NJ) — report 440, 3.8/5
+https://builtinnyc.com/job/technical-program-manager/291170  CoreWeave | TPM, Program Execution (Roseland NJ) — report 441, 3.9/5
+https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02  Palantir | IS Program Manager (NYC) — report 442, 3.0/5
+https://builtin.com/job/principal-technical-program-manager-global-research-technology/3751294  JPMorgan | Principal TPM, Research Tech (NYC) — report 443, 3.9/5
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208  UHG | Senior TPM (Remote) — report 444, 3.7/5
 
 ## Done
+
+<!-- Processed 2026-10-19 (scan covering since last run 2026-09-28, scheduled cloud run, 21-day gap).
+5 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+(Big Tech + AI/Infra, Consulting + Gov, Financial + Healthcare), plus 1 manual financial/healthcare
+segment after agent launch was blocked by auto-mode classifier. Total genuinely new URLs found: ~55
+across all segments. 16 roles sent to full evaluation (reports 427-442); rest filtered at scan stage
+(location deal-breakers: SF-only OpenAI/Anthropic, Poland Vonage, Toronto Salt, Huntsville Palantir;
+aggregator skips: 3x Jobgether; domain mismatches: Deloitte Tax, Parsons civil; downlevel: Deloitte
+Analyst/Sr Consultant; comp borderline: Dice $55/hr W2 4-day onsite; negative filter: iOS/Android
+mobile PM; unconfirmed/insufficient info: ServiceNow, Google, Amazon RTO likely). Key findings:
+- EY productivity spike: 5 new URLs (3 evaluable) after 0 in prior 3 scans
+- Anthropic: 7 new TPM IDs, 3 have NYC option (evaluable)
+- CoreWeave: 2 new NJ roles (Livingston/Roseland) — strong location match
+- Microsoft: 3 via aggregator mirrors (1 NYC, 1 remote US, 1 TBD)
+- Citi: 2 new NYC VP-level Transformation PM roles
+- Dice was most productive search_query channel (6 new NJ/NY contract postings)
+- site: operator continues non-functional for Ashby, weak for Greenhouse
+- KPMG jobs.kpmg.us: zero hits for 4th consecutive scan
+- Goldman Sachs scan_query: non-functional for 5+ runs
+- Greenhouse API DNS unreachable from cloud environment (new this run)
+- WebFetch DNS failures for all direct career sites (environment network policy)
+Evaluation agents still running at time of logging. -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
