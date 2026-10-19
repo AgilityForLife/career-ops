@@ -4,7 +4,6 @@
 |---|------|---------|------|-------|--------|-----|--------|-------|
 | 449 | 2026-10-19 | Anthropic | TPM, Safeguards | 3.4/5 | Evaluada | ❌ | [448](reports/448-anthropic-tpm-safeguards-2026-10-19.md) | NYC option; safety classifier launches; ML domain gap |
 | 447 | 2026-10-19 | Phizenix | Release Train Engineer | 3.4/5 | Evaluada | ❌ | [434](reports/434-phizenix-release-train-engineer-2026-10-19.md) | NYC hybrid 2d/wk, $70-75/hr 6mo contract, SAFe RTE, C2C eligible |
-| 448 | 2026-10-19 | MetLife | Agile Project Manager | 3.5/5 | Evaluada | ❌ | [447](reports/447-metlife-agile-project-manager-2026-10-19.md) | Re-eval 2026-10-19 (3.4→3.5). NYC/NJ hybrid; $105-120K; comp at floor level |
 | 427 | 2026-10-19 | EY | AI Technical Project Manager | 3.6/5 | Evaluada | ❌ | [427](reports/427-ey-ai-technical-project-manager-2026-10-19.md) | Atlanta remote-eligible; AI delivery + SAFe; sibling of report 306 |
 | 428 | 2026-10-19 | EY | Program Manager, Client Tech Activation | 3.5/5 | Evaluada | ❌ | [428](reports/428-ey-program-manager-client-tech-activation-2026-10-19.md) | Hoboken NJ; client technology commercials |
 | 429 | 2026-10-19 | EY | Program Manager (Philadelphia) | 3.3/5 | Evaluada | ❌ | [429](reports/429-ey-program-manager-philadelphia-2026-10-19.md) | Philadelphia remote-eligible; JD unconfirmed; evaluate w/ caveats |

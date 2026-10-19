@@ -71,8 +71,8 @@
 7. Dice was most productive search_query channel
 
 ## Data Changes
-- scan-history.tsv: 637 → 692 entries (+55 new URLs)
-- applications.md: 294 → 295 entries (+1 net after dedup)
+- scan-history.tsv: 637 → 745 entries (+108 new URLs)
+- applications.md: 292 → 294 entries (+2 net after dedup)
 - reports/: 20 new evaluation reports
 - pipeline.md: updated with scan summary
 - logs/: session log created
