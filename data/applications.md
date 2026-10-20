@@ -2,6 +2,11 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 437 | 2026-10-20 | Deloitte | Senior Consultant - SM/RTE | 2.6/5 | NO APLICAR | ❌ | [437](reports/437-deloitte-sm-rte-2026-10-20.md) | DO NOT APPLY; likely closed Jul 2026; NJ/NY not listed; SM/RTE scope; 1 CS engaged |
+| 438 | 2026-10-20 | Citi | Head of Portfolio Mgmt & Delivery, Payments Tech | 3.7/5 | Evaluada | ❌ | [438](reports/438-citi-head-portfolio-delivery-2026-10-20.md) | APPLY w/ caveats; Jersey City hybrid; 4 CS engaged; payments domain gap; benchmark $176-265K |
+| 439 | 2026-10-20 | Deloitte | Senior Consultant - Agile Coach | 2.4/5 | NO APLICAR | ❌ | [439](reports/439-deloitte-agile-coach-2026-10-20.md) | DO NOT APPLY; likely closed Jul 2026; pure coaching; 1 CS engaged; positioning lock |
+| 440 | 2026-10-20 | Parsons | Design/Build PM Transportation (Virtual) | 2.2/5 | NO APLICAR | ❌ | [440](reports/440-parsons-design-build-pm-2026-10-20.md) | DO NOT APPLY; civil engineering domain wall; 0 CS engaged; title/description mismatch |
+| 441 | 2026-10-20 | Glean | Delivery Excellence Manager East | 2.8/5 | NO APLICAR | ❌ | [441](reports/441-glean-delivery-excellence-east-2026-10-20.md) | DO NOT APPLY; customer deployment role; Mar 2026 likely stale; 1 CS engaged |
 | 427 | 2026-10-20 | Citi | Technical PM, Applied AI & Agents (SVP) | 3.8/5 | Evaluada | ❌ | [427](reports/427-citi-tpm-applied-ai-agents-2026-10-20.md) | APPLY-ELIGIBLE; NYC hybrid; Oct 16 posting; CS-1/CS-4/CS-5/CS-7 engaged; AI/ML domain stretch |
 | 428 | 2026-10-20 | UnitedHealth Group | Prin Cybersecurity Analyst - TPM (Remote) | 3.6/5 | Evaluada | ❌ | [428](reports/428-uhg-cybersecurity-tpm-2026-10-20.md) | APPLY-ELIGIBLE; Remote; Oct 15 posting; $112.7-193.2K; CS-1/CS-4/CS-5/CS-7 engaged; cyber M&A stretch |
 | 429 | 2026-10-20 | EY | Program Manager, Enterprise Technology (Hoboken NJ) | 4.2/5 | Evaluada | ❌ | [429](reports/429-ey-program-manager-hoboken-2026-10-20.md) | APPLY; best fit of scan; Hoboken NJ; $167-301K; 5 CS engaged; PMP match; global scope maps to Verisk+Sanofi |

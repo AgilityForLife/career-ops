@@ -22,8 +22,8 @@ split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/A
 Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
 Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
 J&J/Merck/UnitedHealth). ~337 raw results across all segments, ~228 duplicates filtered, ~30 genuinely
-new candidates after cross-agent deduplication. 10 fully evaluated (reports 427-436), 29 skipped at
-scan stage. scan-history.tsv grew from 637 to 697 entries. All ATS domains remained DNS-blocked in
+new candidates after cross-agent deduplication. 15 fully evaluated (reports 427-441), ~15 skipped at
+scan stage. scan-history.tsv grew from 637 to 667 entries. All ATS domains remained DNS-blocked in
 cloud environment; all JDs sourced via WebSearch aggregator mirrors.
 
 Key findings: EY Hoboken Program Manager ($167-301K, 4.2/5) was best fit of scan — 5 CS engaged,
@@ -40,7 +40,10 @@ https://careers.mntech.org/jobs/625366686-prin-cybersecurity-analyst-technical-p
 https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi | SVP Equities Technology PM (3.5/5) [PRIMARY] - APPLY-ELIGIBLE; Jersey City, CS-1/CS-5/CS-7 engaged
 https://higher.gs.com/roles/172262  Goldman Sachs | VP PM GBM (3.5/5) [PRIMARY] - APPLY-ELIGIBLE; NYC, $157-196K, Agile methods, GS brand value
 Also apply-eligible with caveats: UHG Principal PM Cyber Transformation Remote (4.0/5, report 433); Citi IT PM SVP (3.4/5, report 434).
-Skipped/rejected: Deloitte TPM Remote (3.4/5, likely closed); CoreWeave TPM Enterprise Scale (2.8/5, corporate ops not tech delivery, likely closed); Anthropic TPM Discovery (3.2/5, likely closed). -->
+Skipped/rejected: Deloitte TPM Remote (3.4/5, likely closed); CoreWeave TPM Enterprise Scale (2.8/5, corporate ops not tech delivery, likely closed); Anthropic TPM Discovery (3.2/5, likely closed).
+Reports 437-441 (batch-3): Citi Head of Portfolio Mgmt & Delivery Payments Tech (3.7/5, Jersey City, APPLY w/ caveats);
+Deloitte SM/RTE (2.6/5, likely closed Jul 2026); Deloitte Agile Coach (2.4/5, likely closed Jul 2026);
+Parsons Design/Build PM Transportation (2.2/5, civil engineering domain wall); Glean DEM East (2.8/5, customer deployment not PM). -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
