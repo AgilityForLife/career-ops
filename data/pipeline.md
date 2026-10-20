@@ -16,6 +16,32 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-20 (scan covering 22-day gap since 2026-09-28, scheduled remote cloud session).
+4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra (IBM/ServiceNow/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
+Palantir/Glean/CoreWeave), Consulting + Gov (Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/
+Cognizant/WSP/AECOM/Parsons), and Financial + Healthcare (JPMorgan/Citi/Goldman/Prudential/MetLife/
+J&J/Merck/UnitedHealth). ~337 raw results across all segments, ~228 duplicates filtered, ~30 genuinely
+new candidates after cross-agent deduplication. 10 fully evaluated (reports 427-436), 29 skipped at
+scan stage. scan-history.tsv grew from 637 to 697 entries. All ATS domains remained DNS-blocked in
+cloud environment; all JDs sourced via WebSearch aggregator mirrors.
+
+Key findings: EY Hoboken Program Manager ($167-301K, 4.2/5) was best fit of scan — 5 CS engaged,
+ideal NJ location. UHG Principal PM Cyber Transformation (4.0/5, remote) and Citi TPM Applied AI &
+Agents (3.8/5, NYC) were next strongest. Search query saturation confirmed for 4th consecutive scan.
+Citi, UHG, and EY remain the only reliably productive channels. Data quality notes: J&J migrated ATS
+from jobs.jnj.com to careers.jnj.com; Goldman higher.gs.com is new ATS; KPMG jobs.kpmg.us still
+non-functional (3+ scans); Merck jobs.merck.com still non-functional.
+
+5 apply-eligible roles (all HELD per Section 15 SUBMISSION GATE — nothing auto-submitted):
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1442933033/  EY | Program Manager, Enterprise Technology, Hoboken NJ (4.2/5) [PRIMARY, best of run] - APPLY; 5 CS engaged, $167-301K, Hoboken NJ + remote secondary, PMP match, global enterprise tech scope
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents SVP (3.8/5) [PRIMARY] - APPLY-ELIGIBLE; Oct 16 posting, NYC hybrid, CS-1/CS-4/CS-5/CS-7 engaged, AI/ML domain stretch
+https://careers.mntech.org/jobs/625366686-prin-cybersecurity-analyst-technical-program-manager-remote-at-unitedhealth-group  UHG | Prin Cybersecurity TPM (3.6/5) [PRIMARY] - APPLY-ELIGIBLE; Oct 15 posting, remote, $112.7-193.2K, PMP+PMI-ACP match
+https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi | SVP Equities Technology PM (3.5/5) [PRIMARY] - APPLY-ELIGIBLE; Jersey City, CS-1/CS-5/CS-7 engaged
+https://higher.gs.com/roles/172262  Goldman Sachs | VP PM GBM (3.5/5) [PRIMARY] - APPLY-ELIGIBLE; NYC, $157-196K, Agile methods, GS brand value
+Also apply-eligible with caveats: UHG Principal PM Cyber Transformation Remote (4.0/5, report 433); Citi IT PM SVP (3.4/5, report 434).
+Skipped/rejected: Deloitte TPM Remote (3.4/5, likely closed); CoreWeave TPM Enterprise Scale (2.8/5, corporate ops not tech delivery, likely closed); Anthropic TPM Discovery (3.2/5, likely closed). -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
