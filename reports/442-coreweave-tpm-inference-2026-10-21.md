@@ -1,4 +1,4 @@
-# Report #430 — CoreWeave | Technical Program Manager, Inference
+# Report #442 — CoreWeave | Technical Program Manager, Inference
 
 **Date:** 2026-10-21
 **Score:** 3.0/5

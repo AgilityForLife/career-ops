@@ -18,18 +18,19 @@ local:jds/company-role-2026.md       Saved JD file
 
 <!-- Processed 2026-10-21 (scan covering since last run 2026-09-28, scheduled remote session, 23-day gap — longest in pipeline history).
 Scan ran from a cloud remote-execution environment with outbound HTTPS proxy blocking direct
-job-board fetches (403 policy denial on greenhouse.io, leidos.com, cognizant.com, etc.). All
-evaluations are from WebSearch snippets only — marked "unconfirmed (batch mode)" in reports.
-WebFetch DNS also failed (ENOTFOUND). Background fork agents from the prior context window
-stalled in a recursive output-reading loop and produced no results; all scanning was done
-directly in the main session via 18 parallel extended WebSearch calls covering all 12
-portals.yml search_queries and all 31 tracked_companies.
+job-board fetches (DNS ENOTFOUND on greenhouse.io, openai.com, leidos.com, cognizant.com, etc.).
+All evaluations are from WebSearch snippets only — marked "unconfirmed (batch mode)" in reports.
+Three background fork agents handled company groups in parallel while parent did direct scanning;
+all four completed successfully. 18+ extended WebSearch calls covering all 12 portals.yml
+search_queries and all 31 tracked_companies.
 
-47 new URLs logged to scan-history.tsv (637→684). Of those, 8 were fully evaluated (reports
-427-434); the remaining 39 were fast-skipped at scan stage (domain mismatch, location
+74 new URLs logged to scan-history.tsv (637→711). Of those, 13 were fully evaluated (reports
+427-442); the remaining 61 were fast-skipped at scan stage (domain mismatch, location
 deal-breaker, stale posting, title cap, clearance requirement, saturation precedent, or
-scope mismatch). Merge script processed 12 TSVs (some pre-existing from stalled agents):
-+9 added, 1 updated (Airtable 3.2→3.5), 2 skipped (existing entries scored higher).
+scope mismatch). Merge script processed 13 TSVs: +1 new entry added (#439 OpenAI),
+3 updated (3Cloud 1.8→3.8, Airtable 2.8→3.5, Leidos 3.0→3.4), 9 skipped (existing entries
+scored same or higher). Report number collisions between parent and agent evaluations resolved
+by renumbering parent reports 428→440, 429→441, 430→442.
 
 Data-quality notes carried forward: Goldman Sachs scan_query still non-functional (3+ scans,
 zero genuine postings); jobs.kpmg.us still zero live hits; Merck jobs.merck.com stale index
@@ -38,12 +39,12 @@ returned zero results. New: Deloitte postings mostly closing Aug-Sep 2026 (3 fou
 closed); Prudential job listings appear years old; MetLife returned only Tokyo result.
 Productive channels this run: Greenhouse AI transformation roles (Omada Health), Greenhouse
 delivery/cloud roles (3Cloud, GitLab), Lever/Ashby TPM roles, Cognizant NJ (fresh 15-day-old
-posting), Amazon NYC Principal TPM, Leidos remote PMO Lead.
+posting), Amazon NYC Principal TPM, Leidos remote PMO Lead, CoreWeave NJ inference.
 
-6 of 8 evaluated scored 3.0+ — ALL HELD per section 15 SUBMISSION GATE (active, not removed
-this run); nothing submitted. The 6 apply-eligible roles, all "Prepared, awaiting Erick's go":
+7 of 13 evaluated scored 3.0+ — ALL HELD per section 15 SUBMISSION GATE (active, not removed
+this run); nothing submitted. The 7 apply-eligible roles, all "Prepared, awaiting Erick's go":
 
-https://job-boards.greenhouse.io/3cloud/jobs/8590358002  3Cloud | Delivery Manager - Project Delivery (3.8/5) [PRIMARY, best of run] — APPLY; Remote US; Azure cloud consultancy = strong CS-2/CS-3 fit; delivery governance at scale
+https://job-boards.greenhouse.io/3cloud/jobs/8590358002  3Cloud | Delivery Manager - Project Delivery (3.8/5) [PRIMARY, best of run] — APPLY; Remote US; Azure cloud consultancy = strong CS-2/CS-3 fit (NOTE: same role as #21, already Applied 2026-07-15; may be repost or different req)
 https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM (3.7/5) [PRIMARY] — APPLY; All-remote; DevOps platform = CS-3 sweet spot; 40% outage reduction narrative lands perfectly
 https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.6/5) [PRIMARY] — APPLY; Remote US; AI transformation + healthcare regulated; CS-1/CS-5/CS-6/CS-7 engaged; verify if still open (~145d old)
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.5/5) — APPLY; NYC/Remote; $179-221K excellent comp; CS-1/CS-5 engaged
@@ -51,8 +52,13 @@ https://careers.cognizant.com/global-en/jobs/00070746661/senior-consulting-manag
 https://careers.leidos.com/jobs/17816750-senior-project-manager-slash-pmo-lead  Leidos | Senior PM/PMO Lead (3.4/5) — APPLY; Remote US; $116-210K; gov regulated; PMP matches
 https://www.amazon.jobs/en/jobs/10379630/principal-technical-program-manager-amazon-demand-tech-campaign-creation  Amazon | Principal TPM Demand Tech (3.3/5) — APPLY w/ caveats; NYC; ad-tech domain gap; Principal level $200K+
 
-The 1 evaluated-and-rejected:
-https://job-boards.greenhouse.io/anthropic/jobs/5252793008  Anthropic | PM Responsible Scaling Policy (2.6/5) [REJECTED] — policy ops scope, 2/7 CS engaged -->
+The 6 evaluated-and-rejected:
+#427 Anthropic | TPM Corporate Engineering (2.5/5) — internal IT scope (HR/office buildouts), only 1.5/7 CS
+#434 Anthropic | PM Responsible Scaling Policy (2.6/5) — policy ops, not technical delivery
+#440 Anthropic | TPM Discovery (1.8/5) — requires ML/research background not in cv.md
+#441 Corbalt | TPM (2.8/5) — CMS healthcare contract, mid-level scope, below anchor
+#439 OpenAI | TPM Support Delivery (2.0/5) — SF hybrid 3d/wk location deal-breaker
+#442 CoreWeave | TPM Inference (3.0/5) — borderline; Livingston NJ, $198-264K, but GPU/inference gap -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
