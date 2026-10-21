@@ -16,6 +16,44 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-21 (scan covering since last run 2026-09-28, scheduled remote session, 23-day gap — longest in pipeline history).
+Scan ran from a cloud remote-execution environment with outbound HTTPS proxy blocking direct
+job-board fetches (403 policy denial on greenhouse.io, leidos.com, cognizant.com, etc.). All
+evaluations are from WebSearch snippets only — marked "unconfirmed (batch mode)" in reports.
+WebFetch DNS also failed (ENOTFOUND). Background fork agents from the prior context window
+stalled in a recursive output-reading loop and produced no results; all scanning was done
+directly in the main session via 18 parallel extended WebSearch calls covering all 12
+portals.yml search_queries and all 31 tracked_companies.
+
+47 new URLs logged to scan-history.tsv (637→684). Of those, 8 were fully evaluated (reports
+427-434); the remaining 39 were fast-skipped at scan stage (domain mismatch, location
+deal-breaker, stale posting, title cap, clearance requirement, saturation precedent, or
+scope mismatch). Merge script processed 12 TSVs (some pre-existing from stalled agents):
++9 added, 1 updated (Airtable 3.2→3.5), 2 skipped (existing entries scored higher).
+
+Data-quality notes carried forward: Goldman Sachs scan_query still non-functional (3+ scans,
+zero genuine postings); jobs.kpmg.us still zero live hits; Merck jobs.merck.com stale index
+confirmed again; IBM careers.ibm.com continued 404/proxy-block pattern; EY careers.ey.com
+returned zero results. New: Deloitte postings mostly closing Aug-Sep 2026 (3 found, all likely
+closed); Prudential job listings appear years old; MetLife returned only Tokyo result.
+Productive channels this run: Greenhouse AI transformation roles (Omada Health), Greenhouse
+delivery/cloud roles (3Cloud, GitLab), Lever/Ashby TPM roles, Cognizant NJ (fresh 15-day-old
+posting), Amazon NYC Principal TPM, Leidos remote PMO Lead.
+
+6 of 8 evaluated scored 3.0+ — ALL HELD per section 15 SUBMISSION GATE (active, not removed
+this run); nothing submitted. The 6 apply-eligible roles, all "Prepared, awaiting Erick's go":
+
+https://job-boards.greenhouse.io/3cloud/jobs/8590358002  3Cloud | Delivery Manager - Project Delivery (3.8/5) [PRIMARY, best of run] — APPLY; Remote US; Azure cloud consultancy = strong CS-2/CS-3 fit; delivery governance at scale
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM (3.7/5) [PRIMARY] — APPLY; All-remote; DevOps platform = CS-3 sweet spot; 40% outage reduction narrative lands perfectly
+https://job-boards.greenhouse.io/omadahealth/jobs/7963790  Omada Health | Staff AI Transformation PM (3.6/5) [PRIMARY] — APPLY; Remote US; AI transformation + healthcare regulated; CS-1/CS-5/CS-6/CS-7 engaged; verify if still open (~145d old)
+https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.5/5) — APPLY; NYC/Remote; $179-221K excellent comp; CS-1/CS-5 engaged
+https://careers.cognizant.com/global-en/jobs/00070746661/senior-consulting-manager-business-intelligence-and-project-delivery-lead-communications-media-technology-consulting/  Cognizant | Sr Consulting Manager, BI & Delivery Lead (3.5/5) [PRIMARY] — APPLY; Bridgewater NJ local; CS-4 BI differentiator; fresh ~15d posting
+https://careers.leidos.com/jobs/17816750-senior-project-manager-slash-pmo-lead  Leidos | Senior PM/PMO Lead (3.4/5) — APPLY; Remote US; $116-210K; gov regulated; PMP matches
+https://www.amazon.jobs/en/jobs/10379630/principal-technical-program-manager-amazon-demand-tech-campaign-creation  Amazon | Principal TPM Demand Tech (3.3/5) — APPLY w/ caveats; NYC; ad-tech domain gap; Principal level $200K+
+
+The 1 evaluated-and-rejected:
+https://job-boards.greenhouse.io/anthropic/jobs/5252793008  Anthropic | PM Responsible Scaling Policy (2.6/5) [REJECTED] — policy ops scope, 2/7 CS engaged -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
