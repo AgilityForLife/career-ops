@@ -10,14 +10,14 @@
 
 | Metric | Value |
 |--------|-------|
-| New URLs scanned | 47 |
-| Fully evaluated | 8 (reports 427-434) |
-| Fast-skipped | 39 |
-| Scored 3.0+ (apply-eligible) | 6 |
-| Scored <3.0 (rejected) | 2 |
+| New URLs scanned | 74 |
+| Fully evaluated | 13 (reports 427-439) |
+| Fast-skipped | 61 |
+| Scored 3.0+ (apply-eligible) | 7 |
+| Scored <3.0 (rejected) | 6 |
 | PDFs generated | 0 (proxy blocked JD fetch; unconfirmed batch mode) |
 | Applications submitted | 0 (SUBMISSION GATE active) |
-| scan-history.tsv | 637→684 entries |
+| scan-history.tsv | 637→711 entries |
 | applications.md | 275→284 entries |
 
 ## Scan Method
@@ -77,7 +77,12 @@ directly via 18 parallel extended WebSearch calls.
 
 | # | Company | Role | Score | Reason |
 |---|---------|------|-------|--------|
-| 433 | Anthropic | PM, Responsible Scaling Policy | 2.6/5 | Policy ops ≠ technical delivery; 2/7 CS |
+| 438 | CoreWeave | TPM, Inference | 3.0/5 | APPLY w/ caveats; NJ hybrid $198-264K; domain gap pattern recurs from #308/#309 |
+| 429 | Corbalt | Technical Project Manager | 2.8/5 | CMS healthcare remote; only 2.5/7 CS; comp below anchor |
+| 434 | Anthropic | PM, Responsible Scaling Policy | 2.6/5 | Policy ops ≠ technical delivery; 2/7 CS |
+| 427 | Anthropic | TPM, Corporate Engineering | 2.5/5 | Internal IT scope (HR tools, office buildouts); 1.5/7 CS |
+| 439 | OpenAI | TPM, Support Delivery | 2.0/5 | Support engineering ≠ delivery; re-eval confirms #172 rejection |
+| 436 | Anthropic | TPM, Discovery | 1.8/5 | ML engineering/research background required; hard domain mismatch |
 
 ## Data Quality Notes
 
