@@ -16,6 +16,48 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-22 (scan covering since last run 2026-09-28, scheduled cloud run, 24-day gap).
+Single-session evaluation with 1 background agent (Batch A: 9 candidates) and direct evaluation
+(Batches B+C: 16 candidates). Scanned all 12 search_queries + 31 tracked_companies in portals.yml.
+Infrastructure notes: git remote PAT contamination blocked many bash commands via credential-leakage
+classifier; WebFetch DNS resolution failed for all job board domains (lever, greenhouse, ashby, citi,
+ey, unitedhealthgroup) — all JDs researched via WebSearch aggregator mirrors with "JD inaccessible"
+caveat. The 24-day gap broke search_queries saturation (18 new raw candidates surfaced); Consulting+Gov
+segment remained mostly saturated (only EY productive). 25 candidates fully evaluated (reports 427-451),
+8 quick-skipped at scan stage. Apply-eligible: 3 of 25.
+
+Apply-eligible roles (HELD per submission gate — all "Prepared, awaiting Erick's go"):
+https://job-boards.greenhouse.io/lts/jobs/4284552009  LTS | Technical Project Manager, AI IT Modernization (3.5/5) [PRIMARY] - APPLY; remote, $175K-$215K, VA healthcare AI modernization, CS-1/CS-3/CS-5/CS-7 engaged
+https://jobs.citi.com/job/new-york/it-project-manager-svp/287/74300000000  Citi | IT Project Manager, SVP (3.0/5) [PRIMARY] - APPLY w/ caveats; JD inaccessible, verify live
+https://careers.ey.com/job/hoboken/program-manager-ct-tech-activation/  EY | Program Manager, CT Tech Activation (3.2/5) [PRIMARY] - APPLY; Hoboken NJ, $167K-$301K, CTO coordination, CS-1/CS-5/CS-7 engaged
+
+Rejected (22 of 25, scores 1.8-2.9):
+https://job-boards.greenhouse.io/gitlab/jobs/7644778002  GitLab | Principal TPM (2.5/5) [REJECTED] - DevSecOps platform domain, 1/7 CS
+https://jobs.ashbyhq.com/omni/tpm-contract  Omni | TPM Contract (1.8/5) [REJECTED] - media/marketing, 0/7 CS
+https://jobs.citi.com/job/new-york/head-portfolio-management-delivery-payments/287/74500000000  Citi | Head Portfolio Mgmt & Delivery (2.3/5) [REJECTED] - engineering mgmt, 15yr SWE req
+https://careers.ey.com/job/ai-technical-project-manager/  EY | AI TPM (2.5/5) [REJECTED] - Tier-4 Jira-admin/ceremony core
+https://jobs.ashbyhq.com/ahead/senior-project-manager  AHEAD | Sr PM (2.4/5) [REJECTED] - thin CS, comp below target
+https://jobs.ashbyhq.com/anchorage-digital/mts-tpm  Anchorage Digital | MTS TPM (2.6/5) [REJECTED] - SWE background req, crypto
+https://job-boards.greenhouse.io/filevine/jobs/tpm-los  Filevine | TPM-LOS (2.7/5) [REJECTED] - legal tech, 1-2/7 CS
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-project-manager-i-remote/34088/98884863264  UHG | Sr PM I Remote (2.3/5) [REJECTED] - healthcare payer domain mismatch
+https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02  Palantir | Info Systems PM (2.2/5) [REJECTED] - narrow security scope, comp below floor
+https://jobs.citi.com/job/new-york/genai-group-manager-svp-c14-new-york-new-york-united-states/287/74635000000  Citi | GenAI Group Mgr SVP (2.5/5) [REJECTED] - AI engineering mgmt, on-site NYC
+https://jobs.citi.com/job/new-york/project-manager-exchange-traded-derivatives-c12-new-york-new-york-united-states/287/74219539600  Citi | PM Exchange Traded Derivatives (2.4/5) [REJECTED] - derivatives domain mismatch
+https://job-boards.greenhouse.io/pingidentity/jobs/6257647003  Ping Identity | TPM (N/A) [CLOSED] - offer expired
+https://job-boards.greenhouse.io/gitlab/jobs/7756038002  GitLab | Sr PS PM (2.3/5) [REJECTED] - customer-facing PS role
+https://job-boards.greenhouse.io/litmos/jobs/4509194008  Litmos | AI PM (2.2/5) [REJECTED] - feature-level, Tier-4 training overlap
+https://job-boards.greenhouse.io/anthropic/jobs/4174081008  Anthropic | PM GTM (2.0/5) [REJECTED] - GTM/sales-ops domain, SF on-site, 0/7 CS
+https://job-boards.greenhouse.io/gleanwork/jobs/4534870008  Glean | Delivery Excellence Mgr (2.0/5) [REJECTED] - SaaS deployment/implementation
+https://careers.ey.com/job/philadelphia/project-manager/  EY | PM Philadelphia (2.9/5) [REJECTED] - borderline, 80% travel
+https://careers.nationallife.com/job/montpelier/project-manager-ai/  National Life | PM AI (2.2/5) [REJECTED] - Montpelier VT relocation deal-breaker
+https://careers.unitedhealthgroup.com/job/advisory-services-project-manager/  UHG | Advisory Services PM (2.3/5) [REJECTED] - advisory/consulting healthcare
+https://jobs.ashbyhq.com/futurefit.ai/tpm  FutureFit AI | TPM (2.9/5) [REJECTED] - borderline, customer-facing implementation
+https://jobs.ashbyhq.com/corbalt/tpm  Corbalt | TPM (2.3/5) [REJECTED] - staffing agency, unknown client/domain
+https://jobs.ashbyhq.com/skyslope/scrum-master  SkySlope | SM (2.0/5) [REJECTED] - pure SM ceremony, Tier-4 cap
+
+Quick-skipped at scan stage (8): Thinkific (edtech), PingWind (small gov contractor), Parsons D/B (civil engineering), Myriad360 (MSP narrow), ON.energy (energy storage), Spear AI (defense clearance), JPMorgan x2 (aggregator dupes).
+-->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
