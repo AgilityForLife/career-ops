@@ -2,6 +2,9 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 427 | 2026-10-23 | GitLab | Principal Technical Program Manager | 4.2/5 | Evaluada | ❌ | [427](reports/427-gitlab-principal-tpm-2026-10-23.md) | Remote US/CA. 5/7 CS. DevOps platform = CS-3 home field. APPLY priority. |
+| 428 | 2026-10-23 | Filevine | Technical Program Manager (LOIS) | 4.0/5 | Evaluada | ❌ | [428](reports/428-filevine-tpm-2026-10-23.md) | Remote US $150-165K. AI/ML legal tech. 5/7 CS. APPLY. |
+| 429 | 2026-10-23 | AHEAD | Senior Project Manager | 3.8/5 | Evaluada | ❌ | [429](reports/429-ahead-senior-pm-2026-10-23.md) | Remote US $125-165K. Cloud/DC delivery. 4/7 CS. Evaluate further. |
 | 421 | 2026-09-28 | Citi | Technical Project Management Head for Wealth Operations | 3.2/5 | Evaluada | ✅ | [421](reports/421-citi-technical-project-management-head-wealth-operations-2026-09-28.md) | APPLY-ELIGIBLE; Jersey City; CS-1/CS-5/CS-7 engaged; JD thin (404 on direct fetch, WebSearch-corroborated), comp unconfirmed for this exact req |
 | 422 | 2026-09-28 | Citi | Senior IT Project Lead for Wealth Investment Solutions Technology | 3.1/5 | Evaluada | ✅ | [422](reports/422-citi-senior-it-project-lead-wealth-investment-solutions-2026-09-28.md) | APPLY-ELIGIBLE; Jersey City; CS-1/CS-5/CS-7 engaged; no direct capital-markets domain experience in cv.md, comp unconfirmed for this exact req |
 | 423 | 2026-09-28 | Citi | Technical Program Management Lead for Ops Tech | 3.8/5 | Evaluada | ✅ | [423](reports/423-citi-technical-program-management-lead-ops-tech-2026-09-28.md) | APPLY-ELIGIBLE; best Citi fit this scan; explicit SAFe/Scrum/Kanban + 12yr enterprise delivery requirement matches CS-1/CS-6 directly; comp unconfirmed for exact req |

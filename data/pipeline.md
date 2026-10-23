@@ -10,11 +10,47 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  Omni — Technical PM Contract (Jersey City, NJ)
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt — Technical PM (Remote, CMS healthcare)
+https://jobs.lever.co/pingwind/1b2b4dff-7705-415d-bb87-b3e62c44bc08  PingWind — Program Manager (Remote, Gov)
+https://jobs.lever.co/skyslope/f517c505-fd81-4e0a-9be8-926ea5389af3  SkySlope — Scrum Master (Remote)
+https://jobs.lever.co/agile-defense/7703d460-4ca7-48e4-9e38-0f1f7d4dc58d  Agile Defense — Scrum Master III
+https://job-boards.greenhouse.io/litmos/jobs/4963581101  Litmos — AI Program Manager
+https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4243856009  National Life — PM AI & Automation
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry — Senior AI Project Manager
+https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy — PM AI Enablement
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI — TPM
+https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific — Senior Technical PM
+https://boards.greenhouse.io/gitlab/jobs/6506637002  GitLab — Senior Professional Services PM
+https://job-boards.greenhouse.io/encora10/jobs/5211065007  Encora — AI Scrum Master
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Capital Technology Group — Scrum Master
+https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Agile-Program-Manager--Senior_R0250622  Booz Allen — Agile PM Senior
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-10-23 (automated scan, 25-day gap since 2026-09-28).
+Scanned all 12 search_queries + tracked_companies from portals.yml. DNS resolution for
+job board domains (greenhouse.io, ashbyhq.com, lever.co) failed during WebFetch, so JD
+details gathered via WebSearch only. 22 genuinely new URLs discovered (none in scan-history).
+3 evaluated directly: GitLab Principal TPM (4.2/5, APPLY), Filevine TPM LOIS (4.0/5, APPLY),
+AHEAD Senior PM (3.8/5, evaluate further). 3 skipped: Pencil Lead TPM (EMEA only), Cohere TPM
+(Korea/Canada), Anchorage Digital TPM (Web3/crypto negative filter). 1 closed: Ping Identity
+AI Transformation Director. 15 added to Pending for next-session evaluation. Key findings:
+GitLab Principal TPM is the standout — 5/7 CS, DevOps platform domain = CS-3 home field,
+remote US, principal-level comp. Filevine TPM also strong — AI/ML legal tech, $150-165K,
+5/7 CS. -->
+
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab — Principal TPM → report #427 (4.2/5)
+https://jobs.lever.co/filevine/ebbe11f4-0e03-4cf3-89a5-c06995c62d7c  Filevine — TPM LOIS → report #428 (4.0/5)
+https://jobs.lever.co/thinkahead/6e4c051b-ba29-4c12-9a44-b868cf658f01  AHEAD — Senior PM → report #429 (3.8/5)
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil — Lead TPM → SKIP (EMEA only)
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere — TPM AI Delivery → SKIP (Korea/Canada)
+https://job-boards.greenhouse.io/pingidentity/jobs/8527192002  Ping Identity — AI Transformation Director → CLOSED
+https://jobs.lever.co/anchorage/87b48e15-e589-4936-84e7-514c613deede  Anchorage Digital — TPM → SKIP (Web3/crypto)
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
