@@ -16,6 +16,46 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-26 (scan covering since last run 2026-09-28, scheduled cloud run, 28-day gap).
+4 search vectors: 1 search-queries agent (12 portals.yml queries), 1 consulting+gov agent
+(Accenture/Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/Cognizant/WSP/AECOM/Parsons),
+2 direct search batches (Big Tech/AI/Finance/Healthcare companies). DNS resolution failures
+blocked all WebFetch JD retrieval; evaluations done from search snippets + agent notes
+(batch mode, all marked unconfirmed). search-queries agent produced 6 evaluations (#427-432);
+consulting+gov agent found 22 new listings (13 high, 9 medium priority); main thread evaluated
+5 additional candidates (#433-437).
+
+**New finds (34 total URLs added to scan-history.tsv):**
+- Deloitte: 7 new (1 remote TPM w/ SAFe, 1 NYC PM, ITS PMO roles, Scrum Master roles)
+- EY: 1 new (Program Manager Hoboken NJ — strong location)
+- Leidos: 6 new (2 remote US, 3 NJ locations, 1 VA)
+- Cognizant: 1 new (Sr Consulting Manager BI & Delivery Lead Middletown NJ — best fit this scan)
+- Parsons: 4 new (Sr PM Rail NYC, Transportation PM NYC, Infrastructure PM Remote, Asst PM NYC)
+- PwC: 1 new (Workday PM NY/NJ $100-232K)
+- AECOM: 2 new (Program Mgmt Train Control NYC, Sr PM Transit Rail NYC)
+- OpenAI: 2 new (PM Lead Remote Marketing, TPM Rack Delivery Remote datacenter)
+- Anthropic: 4 new (TPM Research SF/NY, TPM Launches, TPM Compute, TPM Data Center Infra SF/NY)
+- Glean: 1 new (Delivery Excellence Manager East Remote US)
+- ServiceNow: 1 new (Sr Manager TPM Experience Team)
+- UnitedHealth: 2 new (Technical PM Remote Boston, Advisory Services Mgr Remote)
+- Search-queries agent: 6 evaluations (GitLab, FutureFitAI, Litmos, Corbalt, Pingwind x2)
+
+**Top evaluated (this scan):**
+- #435 Cognizant BI & Delivery Lead (Middletown NJ): 4.2/5 — PRIMARY; APPLY
+- #434 Deloitte Technical PM (Remote): 4.0/5 — PRIMARY; APPLY  
+- #433 EY Program Manager (Hoboken NJ): 3.8/5 — Evaluate further
+- #436 Leidos Senior IT PM (Remote): 3.5/5 — SECONDARY
+- #437 OpenAI PM Lead (Remote Marketing): 3.2/5 — SECONDARY; marketing domain mismatch
+
+**Skipped (not evaluated):**
+- Remaining 17 consulting/gov leads: added to scan-history for future evaluation
+- Booz Allen/SAIC: all require security clearances
+- AECOM: PE license required for senior roles
+- Parsons infrastructure roles: domain-specific (NEPA, rail signaling)
+- OpenAI TPM Rack Delivery: datacenter hardware domain
+- Anthropic: SF-only roles skipped; SF/NY roles added but not evaluated this cycle
+-->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
