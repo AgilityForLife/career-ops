@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 438 | 2026-10-26 | Anthropic | Technical Program Manager, Research | 3.9/5 | Evaluada | ❌ | [438](reports/438-anthropic-tpm-research-2026-10-26.md) | SF/NY on-site. Claude AI research org. $200K-$350K est. Strong AI career signal — APPLY. |
 | 427 | 2026-10-26 | GitLab | Senior/Principal TPM | 4.2/5 | Evaluada | ❌ | [427](reports/427-gitlab-principal-tpm-2026-10-26.md) | Remote US/CA. R&D PMO. $203K-$345K + equity. Strong fit — APPLY. |
 | 428 | 2026-10-26 | FutureFit AI | Technical Project Manager | 3.8/5 | Evaluada | ❌ | [428](reports/428-futurefitai-tpm-2026-10-26.md) | Remote US. AI platform. $125K-$165K. Good AI-adjacent fit — APPLY. |
 | 429 | 2026-10-26 | Litmos | AI Program Manager | 3.5/5 | Evaluada | ❌ | [429](reports/429-litmos-ai-program-manager-2026-10-26.md) | Remote US. AI PM title. $120K-$150K. Evaluate further. |

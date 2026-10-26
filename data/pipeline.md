@@ -53,7 +53,7 @@ consulting+gov agent found 22 new listings (13 high, 9 medium priority); main th
 - AECOM: PE license required for senior roles
 - Parsons infrastructure roles: domain-specific (NEPA, rail signaling)
 - OpenAI TPM Rack Delivery: datacenter hardware domain
-- Anthropic: SF-only roles skipped; SF/NY roles added but not evaluated this cycle
+- Anthropic: SF-only roles skipped; SF/NY TPM Research evaluated (#438, 3.9/5 — APPLY)
 -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
