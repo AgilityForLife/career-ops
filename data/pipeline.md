@@ -10,11 +10,113 @@ https://jobs.example.com/posting/123  Senior PM role - looks strong
 local:jds/company-role-2026.md       Saved JD file
 -->
 
+<!-- Scan 2026-10-27: 67 new URLs from portal scan (month gap since 2026-09-28).
+     Top 12 moved to In Progress for evaluation. Remaining queued below. -->
+
+### Queued — AI Companies (evaluate next)
+https://job-boards.greenhouse.io/anthropic/jobs/5406817008  Anthropic — TPM Billing
+https://job-boards.greenhouse.io/anthropic/jobs/5368023008  Anthropic — TPM GTM Systems
+https://job-boards.greenhouse.io/anthropic/jobs/5215124008  Anthropic — TPM Discovery
+https://job-boards.greenhouse.io/anthropic/jobs/4780532008  Anthropic — TPM Strategic Deals
+https://openai.com/careers/technical-program-manager-site-delivery  OpenAI — TPM Site Delivery
+https://openai.com/careers/hardware-operations-technical-program-manager  OpenAI — Hardware Ops TPM Remote US
+
+### Queued — Big Tech TPMs
+https://www.amazon.jobs/en/jobs/10417358  Amazon — TPM Tech Deployment Systems Integration
+https://www.amazon.jobs/en/jobs/10407189  Amazon — TPM III ShopBop Technology
+https://www.amazon.jobs/en/jobs/10372636  Amazon — Senior TPM Items and Offers Platform
+https://www.amazon.jobs/en/jobs/10438002  Amazon — Senior TPM ART19
+https://job-boards.greenhouse.io/gleanwork/jobs/4694768005  Glean — Senior TPM Connectors
+https://boards.greenhouse.io/gitlab/jobs/6506637002  GitLab — Senior Professional Services PM
+
+### Queued — CoreWeave (saturation precedent; evaluate selectively)
+https://builtin.com/job/coreweave/7560906  CoreWeave — TPM SOX Compliance
+https://builtin.com/job/coreweave/7201421  CoreWeave — TPM NW Capacity Delivery
+https://builtin.com/job/coreweave/7642714  CoreWeave — TPM Inference
+https://builtin.com/job/coreweave/7640391  CoreWeave — TPM Security Compliance
+https://builtin.com/job/coreweave/7426975  CoreWeave — Engineering TPM W&B Platform
+
+### Queued — Financial Services
+https://jobs.citi.com/job/jersey-city/svp-program-group-manager-c14/287/74368865136  Citi — SVP Program Group Manager Jersey City
+https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi — IT PM SVP Jersey City
+https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi — SVP Equities Technology PM Jersey City
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth — Technical PM Remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-manager-technical-program-management-remote/34088/96517308336  UnitedHealth — Senior Manager TPM Remote
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth — Senior TPM Remote
+
+### Queued — Consulting & Gov
+https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-M-A-Jersey-City/216310  Deloitte — PM ITS PMO M&A Jersey City
+https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-Consulting-Audit/216425  Deloitte — PM ITS PMO Consulting/Audit
+https://apply.deloitte.com/careers/JobDetail/Manager-GESTC-PM-Digital-Transformation/217001  Deloitte — Manager PM Digital Transformation
+https://apply.deloitte.com/careers/JobDetail/M-A-Business-PM-Manager/216880  Deloitte — M&A Business PM Manager
+https://careers.leidos.com/jobs/senior-project-manager-pmo-lead-remote  Leidos — Senior PM / PMO Lead Remote
+https://careers.cognizant.com/global/en/job/senior-consulting-manager-bi-project-delivery-lead-bridgewater  Cognizant — Senior Consulting Manager BI Delivery Bridgewater NJ
+
+### Queued — Search Query Hits (ATS links)
+https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific — Senior Technical PM
+https://jobs.ashbyhq.com/Vultr/a00e9c3f-f1de-42d3-8aae-50649a9f753e  Vultr — Technical PM GIOC
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil — Lead TPM Remote
+https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E — Technical PM (AI)
+https://jobs.lever.co/veeva/1ce9d335-0b06-4a90-8776-a8348f7a5c46  Veeva Systems — Senior PM
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt — Technical PM
+https://jobs.lever.co/avalerehealth/04ed1a4b-56e5-4cc5-9893-1fc36ad60f5a  Avalere Health — Senior PM
+https://job-boards.greenhouse.io/successacademycharterschool/jobs/5078841008  Success Academy — AI Technical PM
+https://job-boards.greenhouse.io/gomotive/jobs/8300245002  Motive — Senior AI Operations PM
+https://boards.greenhouse.io/addepar1/jobs/4870473002  Addepar — Release Manager
+https://boards.greenhouse.io/inizioevoke/jobs/8159525  Inizio Evoke — Project Manager
+https://job-boards.greenhouse.io/unitedmasterstranslation/jobs/8498317002  UnitedMasters — Program Manager
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry — Senior AI PM
+
+### Skipped — Location Mismatch or Low Fit
+https://job-boards.greenhouse.io/vonage/jobs/8175050002  Vonage — PM AI Implementation (UK) — SKIP: UK location
+https://jobs.ashbyhq.com/openai/aaf9aa75-e782-49a0-8820-79b96f343bb0  OpenAI — PM Critical Harm Ops (Toronto) — SKIP: Canada
+https://jobs.saic.com/jobs/senior-it-project-manager-arlington-va  SAIC — Senior IT PM (Arlington VA) — SKIP: VA location
+https://jobs.lever.co/palantir/e5869901-d578-4229-a856-47af76a8f39a  Palantir — GRC PM (Seattle) — SKIP: Seattle
+https://apply.deloitte.com/careers/JobDetail/Agile-Scrum-Master-New-York/215890  Deloitte — Agile Scrum Master NY — SKIP: Tier 4 positioning risk
+https://jobs.lever.co/jobgether/a3bd9136-51e2-49a5-849c-8603878a7f6d  Jobgether — Sr. Agile Transformation Coach — SKIP: aggregator
+https://jobs.lever.co/jobgether/6cb305ad-41fb-4f04-aa58-45aef41c7c72  Jobgether — Senior Scrum Master — SKIP: aggregator
+https://jobs.ashbyhq.com/airwallex/b82cbd55-7f36-4e6d-8372-d91bd7402428  Airwallex — Implementation Manager — SKIP: not PM title
+https://jobs.ashbyhq.com/tradingspace/55c5eb6f-bd73-4b72-8f07-787d07f7f8a8  Trading Space — Project Manager — SKIP: unknown company, no seniority
+https://jobs.ashbyhq.com/convey/85b51543-dbec-4a17-8777-1c49b4f51f05  Convey — Manager Product Operations — SKIP: not PM title
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI — Technical PM — SKIP: likely early-stage
+https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM Exchange Traded Derivatives — SKIP: May 2026 posting, likely stale
+https://careers.leidos.com/jobs/project-manager-sap-csb-newark-nj  Leidos — PM SAP CSB Newark — SKIP: SAP-specific
+https://jobs.saic.com/jobs/supply-chain-modernization-pm-remote  SAIC — Supply Chain Modernization PM — SKIP: supply chain domain
+
 ## In Progress
 
-<!-- URLs currently being evaluated -->
+<!-- URLs remaining for evaluation — 2026-10-27 scan batch -->
+https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic — TPM Revenue Operations (queued)
+https://job-boards.greenhouse.io/anthropic/jobs/5453548008  Anthropic — TPM Corporate Engineering (queued)
+https://builtin.com/job/coreweave/7601793  CoreWeave — Staff TPM Infrastructure and Node Delivery (queued)
+https://careers.ey.com/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY — CT Tech Activation PM Hoboken NJ (evaluated #432)
 
 ## Done
+
+<!-- Processed 2026-10-27 (scan covering since last run 2026-09-28, scheduled cloud run, 29-day gap).
+4 parallel agents attempted portal coverage: 1 on search_queries, 3 on tracked_companies split into
+Big Tech + AI/Infra, Consulting + Gov, and Financial + Healthcare. Remote execution environment had
+widespread DNS failures (WebFetch could not resolve amazon.jobs, jobs.citi.com, openai.com,
+boards-api.greenhouse.io, etc.) — all JD verification fell back to WebSearch aggregator mirrors.
+Reports marked "Verification: unconfirmed (batch mode)". Consulting+Gov yielded ~12 new URLs
+(Deloitte Jersey City PMO roles, Leidos, SAIC, Cognizant Bridgewater — segment still producing
+after 3-scan drought). Financial+Healthcare yielded ~13 new (Citi Jersey City/NYC SVP roles,
+UnitedHealth Director remote roles, Prudential Newark). Big Tech + AI/Infra yielded ~23 new
+(6 Anthropic TPMs, 6 CoreWeave TPMs, 5 Amazon TPMs, 4 OpenAI TPMs, 1 Glean, 1 Palantir).
+Search queries yielded ~14 new ATS links. Total ~62 genuinely new URLs across all segments.
+6 fully evaluated (reports 427-432); 5 scored 3.0+ (APPLY or APPLY w/ caveats), 1 rejected
+(OpenAI Security PM — M&A domain mismatch, 2.6/5). NO RESUMES GENERATED (batch mode, no Playwright).
+ALL HELD per SUBMISSION GATE. The 5 apply-eligible roles from this scan:
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents SVP NYC (4.3/5) [TOP FIND] - APPLY HIGH PRIORITY; AI factory + governance + dashboards; CS-1/CS-3/CS-4/CS-5/CS-7; posted Oct 16
+https://www.amazon.jobs/en/jobs/10489626  Amazon (Audible) | Senior TPM, Newark NJ (3.6/5) [HIGH PRIORITY] - APPLY; target location; CS-1/CS-2/CS-3; $163K-$221K base + RSUs
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth | Director TPM Remote (3.5/5) - APPLY w/ caveats; CS-1/CS-4/CS-5/CS-7; healthcare regulated; customer-facing gap
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Senior Program Lead SVP NYC (3.4/5) - APPLY w/ caveats; AI governance delivery; CS-1/CS-4/CS-5/CS-7
+https://careers.ey.com/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY | CT Tech Activation PM Hoboken (3.1/5) - APPLY w/ caveats; target NJ location; verify delivery vs commercialization focus
+Plus ~57 URLs queued in Pending for next evaluation cycle (Anthropic TPMs, CoreWeave, more Citi/UHG/Deloitte).
+Data-quality notes: Greenhouse Board API DNS fully broken in this environment; KPMG portal still non-functional;
+Goldman Sachs scan_query still non-functional; IBM careers.ibm.com still 404s on WebFetch. -->
+https://openai.com/careers/security-program-manager-us-remote  OpenAI | Security PM Remote US (2.6/5) [REJECTED] - DO NOT APPLY (M&A security domain mismatch; only ~1.5 CS engaged)
+https://openai.com/careers/technical-program-manager-demand-planning-and-sandop-remote-us  OpenAI | TPM Demand Planning Remote US — SKIP: likely closed per aggregator
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
