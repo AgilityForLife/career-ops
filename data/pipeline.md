@@ -85,11 +85,7 @@ https://jobs.saic.com/jobs/supply-chain-modernization-pm-remote  SAIC — Supply
 
 ## In Progress
 
-<!-- URLs remaining for evaluation — 2026-10-27 scan batch -->
-https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic — TPM Revenue Operations (queued)
-https://job-boards.greenhouse.io/anthropic/jobs/5453548008  Anthropic — TPM Corporate Engineering (queued)
-https://builtin.com/job/coreweave/7601793  CoreWeave — Staff TPM Infrastructure and Node Delivery (queued)
-https://careers.ey.com/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY — CT Tech Activation PM Hoboken NJ (evaluated #432)
+<!-- All 2026-10-27 In Progress items evaluated and moved to Done -->
 
 ## Done
 
@@ -116,7 +112,10 @@ Plus ~57 URLs queued in Pending for next evaluation cycle (Anthropic TPMs, CoreW
 Data-quality notes: Greenhouse Board API DNS fully broken in this environment; KPMG portal still non-functional;
 Goldman Sachs scan_query still non-functional; IBM careers.ibm.com still 404s on WebFetch. -->
 https://openai.com/careers/security-program-manager-us-remote  OpenAI | Security PM Remote US (2.6/5) [REJECTED] - DO NOT APPLY (M&A security domain mismatch; only ~1.5 CS engaged)
-https://openai.com/careers/technical-program-manager-demand-planning-and-sandop-remote-us  OpenAI | TPM Demand Planning Remote US — SKIP: likely closed per aggregator
+https://openai.com/careers/technical-program-manager-demand-planning-and-sandop-remote-us  OpenAI | TPM Demand Planning & S&OP (2.5/5) [REJECTED] - DEAL-BREAKER: SF hybrid despite "Remote" label; requires relocation outside NJ/NY Metro
+https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic | TPM Revenue Operations (3.2/5) [BORDERLINE] - APPLY w/ caveats; $365K-$435K; NYC; GTM/RevOps domain doesn't leverage CS-2/CS-3/CS-7 strengths
+https://job-boards.greenhouse.io/anthropic/jobs/5453548008  Anthropic | TPM Corporate Engineering (3.0/5) [SKIP] - Corporate IT infra (endpoints/AV/network) domain mismatch; $290K-$365K
+https://builtin.com/job/coreweave/7601793  CoreWeave | Staff TPM Infrastructure & Node Delivery (3.4/5) [BORDERLINE] - NYC; hardware NPI domain gap; $161K-$237K; posting may be stale
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
