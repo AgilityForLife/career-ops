@@ -37,20 +37,11 @@ https://builtin.com/job/coreweave/7640391  CoreWeave — TPM Security Compliance
 https://builtin.com/job/coreweave/7426975  CoreWeave — Engineering TPM W&B Platform
 
 ### Queued — Financial Services
-https://jobs.citi.com/job/jersey-city/svp-program-group-manager-c14/287/74368865136  Citi — SVP Program Group Manager Jersey City
-https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi — IT PM SVP Jersey City
-https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi — SVP Equities Technology PM Jersey City
-https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth — Technical PM Remote
-https://careers.unitedhealthgroup.com/job/eden-prairie/senior-manager-technical-program-management-remote/34088/96517308336  UnitedHealth — Senior Manager TPM Remote
-https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth — Senior TPM Remote
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth — Senior TPM Remote (not yet evaluated)
 
 ### Queued — Consulting & Gov
-https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-M-A-Jersey-City/216310  Deloitte — PM ITS PMO M&A Jersey City
-https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-Consulting-Audit/216425  Deloitte — PM ITS PMO Consulting/Audit
-https://apply.deloitte.com/careers/JobDetail/Manager-GESTC-PM-Digital-Transformation/217001  Deloitte — Manager PM Digital Transformation
-https://apply.deloitte.com/careers/JobDetail/M-A-Business-PM-Manager/216880  Deloitte — M&A Business PM Manager
-https://careers.leidos.com/jobs/senior-project-manager-pmo-lead-remote  Leidos — Senior PM / PMO Lead Remote
-https://careers.cognizant.com/global/en/job/senior-consulting-manager-bi-project-delivery-lead-bridgewater  Cognizant — Senior Consulting Manager BI Delivery Bridgewater NJ
+https://apply.deloitte.com/careers/JobDetail/M-A-Business-PM-Manager/216880  Deloitte — M&A Business PM Manager (not yet evaluated)
+https://careers.leidos.com/jobs/senior-project-manager-pmo-lead-remote  Leidos — Senior PM / PMO Lead Remote (not yet evaluated)
 
 ### Queued — Search Query Hits (ATS links)
 https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific — Senior Technical PM
@@ -116,6 +107,15 @@ https://openai.com/careers/technical-program-manager-demand-planning-and-sandop-
 https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic | TPM Revenue Operations (3.2/5) [BORDERLINE] - APPLY w/ caveats; $365K-$435K; NYC; GTM/RevOps domain doesn't leverage CS-2/CS-3/CS-7 strengths
 https://job-boards.greenhouse.io/anthropic/jobs/5453548008  Anthropic | TPM Corporate Engineering (3.0/5) [SKIP] - Corporate IT infra (endpoints/AV/network) domain mismatch; $290K-$365K
 https://builtin.com/job/coreweave/7601793  CoreWeave | Staff TPM Infrastructure & Node Delivery (3.4/5) [BORDERLINE] - NYC; hardware NPI domain gap; $161K-$237K; posting may be stale
+https://jobs.citi.com/job/jersey-city/svp-program-group-manager-c14/287/74368865136  Citi | SVP Program Group Manager (2.8/5) [REJECTED] - generic program management; thin CS engagement
+https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi | IT PM SVP (2.6/5) [REJECTED] - generic IT PM scope; weak CS overlap
+https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi | SVP Equities Technology PM (3.2/5) [APPLY w/ caveats] - Jersey City; CS-1/CS-5 engaged; capital markets domain gap
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth | Technical PM Remote (2.3/5) [REJECTED] - comp risk + downlevel
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-manager-technical-program-management-remote/34088/96517308336  UnitedHealth | Senior Manager TPM AI Patrol Remote (3.1/5) [SECONDARY] - APPLY w/ caveats; AI observability; CS-1/CS-5/CS-7
+https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-M-A-Jersey-City/216310  Deloitte | PM ITS PMO M&A Jersey City (3.1/5) [SECONDARY] - APPLY w/ caveats; CS-1/CS-5; M&A domain gap
+https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-Consulting-Audit/216425  Deloitte | PM ITS PMO Consulting/Audit (2.7/5) [REJECTED] - thin CS; comp unconfirmed
+https://apply.deloitte.com/careers/JobDetail/Manager-GESTC-PM-Digital-Transformation/217001  Deloitte | Manager PM Digital Transformation (2.8/5) [REJECTED] - digital transformation scope, thin CS
+https://careers.cognizant.com/global/en/job/senior-consulting-manager-bi-project-delivery-lead-bridgewater  Cognizant | Senior Consulting Manager BI Delivery Bridgewater NJ (3.3/5) [SECONDARY] - APPLY w/ caveats; strongest CS-4 match; comp near floor
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
