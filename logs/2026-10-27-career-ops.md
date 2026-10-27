@@ -29,7 +29,7 @@
 | 439 | Citi | SVP Equities Technology PM | 3.2/5 | APPLY w/ caveats |
 | 432 | EY | CT Tech Activation PM Hoboken | 3.1/5 | APPLY w/ caveats |
 | 442 | Deloitte | PM ITS PMO M&A Jersey City | 3.1/5 | APPLY w/ caveats |
-| 446 | UnitedHealth | Sr Mgr TPM AI Patrol Remote | 3.1/5 | APPLY w/ caveats |
+| 441 | UnitedHealth | Sr Mgr TPM AI Patrol Remote | 3.1/5 | APPLY w/ caveats |
 | 434 | Anthropic | TPM Corporate Engineering | 3.0/5 | SKIP |
 | 437 | Citi | SVP Program Group Manager | 2.8/5 | REJECTED |
 | 444 | Deloitte | Mgr PM Digital Transformation | 2.8/5 | REJECTED |
@@ -91,6 +91,6 @@ Key groups still to evaluate:
 ## Pipeline Health
 
 - verify-pipeline.mjs: 0 errors, 2 warnings (pre-existing Glean false positives)
-- applications.md: 293 entries (was 284, +9 this scan)
+- applications.md: 294 entries (was 274, +20 this scan)
 - scan-history.tsv: 708 entries (was 637, +71 this scan)
 - Reports generated: 19 (427-445)

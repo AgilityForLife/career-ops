@@ -2,7 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 446 | 2026-10-27 | UnitedHealth Group | Senior Manager Technical Program Management (AI Patrol) | 3.1/5 | Evaluada | ❌ | [441](reports/441-unitedhealth-senior-manager-tpm-ai-patrol-2026-10-27.md) | APPLY w/ caveats; remote US; AI Patrol agent observability; CS-1/CS-5/CS-7; comp unknown; AI/ML depth gap; posted Jun 2026 verify active |
+| 441 | 2026-10-27 | UnitedHealth Group | Senior Manager Technical Program Management (AI Patrol) | 3.1/5 | Evaluada | ❌ | [441](reports/441-unitedhealth-senior-manager-tpm-ai-patrol-2026-10-27.md) | APPLY w/ caveats; remote US; AI Patrol agent observability; CS-1/CS-5/CS-7; comp unknown; AI/ML depth gap; posted Jun 2026 verify active |
 | 437 | 2026-10-27 | Citi | SVP Program Group Manager | 2.8/5 | Evaluada | ❌ | [437](reports/437-citi-svp-program-group-manager-2026-10-27.md) | REJECTED; Jersey City; generic program management, thin CS engagement; comp unconfirmed |
 | 438 | 2026-10-27 | Citi | IT Project Manager SVP | 2.6/5 | Evaluada | ❌ | [438](reports/438-citi-it-project-manager-svp-2026-10-27.md) | REJECTED; Jersey City; generic IT PM scope, weak CS overlap; comp unconfirmed |
 | 439 | 2026-10-27 | Citi | SVP Equities Technology Project Manager | 3.2/5 | Evaluada | ❌ | [439](reports/439-citi-svp-equities-technology-pm-2026-10-27.md) | APPLY w/ caveats; Jersey City; equities tech delivery, CS-1/CS-5 engaged; capital markets domain gap |
@@ -11,6 +11,7 @@
 | 443 | 2026-10-27 | Deloitte | Project Manager ITS PMO Consulting/Audit | 2.7/5 | Evaluada | ❌ | [443](reports/443-deloitte-pm-its-pmo-consulting-audit-2026-10-27.md) | REJECTED; below threshold; scope $150K-$1.5M too small; 1/7 CS engaged |
 | 444 | 2026-10-27 | Deloitte | Manager GESTC PM Digital Transformation | 2.8/5 | Evaluada | ❌ | [444](reports/444-deloitte-manager-gestc-pm-digital-transformation-2026-10-27.md) | REJECTED; Manager title downlevel; GESTC tax/HR domain mismatch; 2/7 CS engaged |
 | 445 | 2026-10-27 | Cognizant | Senior Consulting Manager BI & Project Delivery Lead | 3.3/5 | Evaluada | ❌ | [445](reports/445-cognizant-senior-consulting-manager-bi-delivery-bridgewater-2026-10-27.md) | APPLY w/ caveats; Bridgewater/Middletown NJ hybrid; strongest CS-4 (BI/Power BI) match; comp risk near floor |
+| 433 | 2026-10-27 | Anthropic | TPM Revenue Operations | 3.2/5 | Evaluada | ❌ | [433](reports/433-anthropic-tpm-revenue-operations-2026-10-27.md) | APPLY w/ caveats; quote-to-cash delivery; CS-1/CS-5 engaged; verify SF/NYC location |
 | 434 | 2026-10-27 | Anthropic | TPM Corporate Engineering | 3.0/5 | Evaluada | ❌ | [434](reports/434-anthropic-tpm-corporate-engineering-2026-10-27.md) | NYC; $290K-$365K; corporate IT infra domain mismatch; SKIP recommended |
 | 435 | 2026-10-27 | OpenAI | TPM Demand Planning & S&OP | 2.5/5 | Evaluada | ❌ | [435](reports/435-openai-tpm-demand-planning-2026-10-27.md) | DEAL-BREAKER: SF hybrid despite Remote label; hardware planning domain |
 | 436 | 2026-10-27 | CoreWeave | Staff TPM Infrastructure & Node Delivery | 3.4/5 | Evaluada | ❌ | [436](reports/436-coreweave-staff-tpm-node-delivery-2026-10-27.md) | NYC option; $161K-$237K; hardware NPI domain gap; borderline; possible stale posting |
