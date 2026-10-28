@@ -16,6 +16,22 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-10-28 (scheduled cloud session scan, 30-day gap since 2026-09-28).
+4 parallel fork agents: search_queries (12 queries), Big Tech + AI (Amazon/Anthropic/CoreWeave/Glean/etc.),
+Consulting + Gov (Deloitte x4/Leidos x2/EY/Cognizant), Finance + Healthcare (Citi/UnitedHealth x3/J&J/Prudential).
+WebFetch blocked for all job board domains in cloud session — all JDs recovered via WebSearch extended mode.
+All reports marked "unconfirmed (batch mode)".
+
+Results: 35 new reports (#427-#461), 310 total tracker entries.
+- Apply-eligible (≥3.0): #427 GitLab Principal TPM 3.8, #431 Cognizant BI Lead 3.5,
+  #430 Amazon/Audible Senior TPM 3.2, #440 PingWind Federal PM 3.1,
+  #432 EY PM Hoboken 3.0, #437 National Life AI PM 3.0
+- Below threshold: 29 roles rejected (domain gaps, low CS, likely closed, under-leveled, no US location)
+
+Top finds: GitLab (3.8) strongest — remote Principal TPM, $203-345K, 4/7 CS engaged.
+Cognizant (3.5) best NJ find — BI+SAFe dual engagement, rare CS-4+CS-6 match.
+-->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
