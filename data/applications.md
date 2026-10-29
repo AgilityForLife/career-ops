@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 499 | 2026-10-29 | Agile Six | Sr. Delivery Manager / Project Lead | 3.0/5 | Evaluada | ❌ | [499](reports/499-agile-six-sr-delivery-manager-2026-10-29.md) | Federal modernization, remote, $109K-$165K, CS-1/5/7; secondary priority |
 | 486 | 2026-10-29 | Citi | Technical Program Manager, Applied AI & Agents (SVP) | 3.3/5 | Evaluada | ❌ | [486](reports/486-citi-tpm-applied-ai-agents-2026-10-29.md) | APPLY-ELIGIBLE: Strong CS-1/CS-5/CS-7 fit, $192K-$288K, AI domain gap bridgeable via enterprise delivery discipline |
 | 487 | 2026-10-29 | Citi | AI Digital Senior Program Lead, Global Services (SVP) | 3.1/5 | Descartado | ❌ | [487](reports/487-citi-ai-digital-senior-program-lead-2026-10-29.md) | Posting likely closed (anticipated close Aug 28 2026); would be apply-eligible if still live |
 | 488 | 2026-10-29 | Prudential | Director, AI Product & MarTech Enablement | 2.0/5 | NO APLICAR | ❌ | [488](reports/488-prudential-director-ai-product-martech-2026-10-29.md) | REJECTED: MarTech product management domain wall, 0 CS engaged, hybrid Newark |

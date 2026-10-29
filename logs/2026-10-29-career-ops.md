@@ -22,8 +22,8 @@
 ---
 
 ## Execution Summary
-- **Reports generated:** #427, #486–495 (11 reports total: 1 coordinator + 5 finance-health + 5 consulting-gov)
-- **Jobs evaluated:** 11 (7 scored 3.0+, 4 below threshold or skipped)
+- **Reports generated:** #427, #486–495, #499 (12 reports total: 1 coordinator + 5 finance-health + 5 consulting-gov + 1 search-queries)
+- **Jobs evaluated:** 12 (8 scored 3.0+, 4 below threshold or skipped)
 - **Applications prepared:** 0 (evaluations only — no auto-submit per policy)
 - **Primary roles found:** 4
   - Cognizant Sr. TPM / Delivery Manager, NJ — 3.6/5 (HIGH PRIORITY, exact title match)
@@ -35,6 +35,7 @@
   - Deloitte Technical Project and Program Manager — 3.3/5 (SAFe RTE, location risk)
   - Citi AI Digital Senior Program Lead — 3.1/5 (likely closed)
   - Deloitte IT Program Manager Strategy & Ops — 3.0/5
+  - Agile Six Sr. Delivery Manager / Project Lead (Federal Modernization) — 3.0/5 (remote, $109K-$165K)
 - **Rejected/Skipped:** 14
   - Prudential Director AI Product & MarTech — 2.0/5 (domain wall)
   - UnitedHealth TPM Remote — 2.5/5 (comp below floor)
@@ -50,6 +51,7 @@
   - Glean AI Success Manager East — 2.0/5 (customer success, underlevels)
   - Parsons NEPA/PD&E PM — domain mismatch
   - Deloitte Tax Transformation PM — domain mismatch
+  - Magnet Forensics Sr TPM Engineering — Canada-only location (Waterloo/Toronto/Ottawa)
 
 ---
 
