@@ -13,8 +13,9 @@
 - **05:12 UTC** — Dedup pass: 615 known URLs in scan-history + applications; 342 new after dedup.
 - **05:13 UTC** — Filtered to 45 curated URLs from direct career sites of tracked companies.
 - **05:14 UTC** — Updated pipeline.md with 45 new pending URLs grouped by company.
-- **05:14 UTC** — Appended all 920 scanned URLs to scan-history.tsv (now 1556 entries).
+- **05:14 UTC** — Appended all 920 scanned URLs to scan-history.tsv.
 - **05:15 UTC** — Network verification blocked (session network policy). All URLs marked unconfirmed.
+- **05:25 UTC** — Context restored after summarization. Deduped scan-history.tsv (957 entries after dedup).
 
 ## Scan Results
 
@@ -49,7 +50,7 @@
 
 ## Stats
 
-- Scan-history entries: 636 → 1556
+- Scan-history entries: 636 → 957 (after dedup)
 - Pipeline pending: 0 → 45
 - Reports generated: 0 (network-blocked)
 - Tracker additions: 0 (no evaluations possible)
