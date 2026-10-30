@@ -125,12 +125,31 @@ https://careers.servicenow.com/jobs/744000137736699/sr-manager-technical-program
 Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/Palantir/Glean/CoreWeave), consulting-gov (Accenture/
 Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/Cognizant/WSP/AECOM/Parsons), finance-healthcare
 (JPMorgan/Citi/Goldman/Prudential/MetLife/J&J/Merck/UnitedHealth).
-920 raw URLs collected, 342 survived dedup, 45 curated from direct career sites.
-Network-restricted session: no external URL verification possible. All listings unconfirmed.
-Top finds: 13 new Anthropic Greenhouse listings, 8 UHG remote TPM/PM roles, 5 Citi NY PM/TPM roles,
-10 new Palantir Lever listings, 5 Glean TPM listings.
-Note: external network (boards-api.greenhouse.io, careers.*.com, jobs.*.com) all blocked by session
-network policy. Full evaluations deferred to next session with network access.
+920+ raw URLs collected via WebSearch, 347 net new after dedup against 637-line scan-history.tsv.
+71 URLs queued in pipeline Pending section across 12 company groups + search query finds.
+Network-restricted session: all external job board domains (greenhouse.io, lever.co, dice.com,
+careers.*.com, jobs.*.com, ats.rippling.com) blocked — ENOTFOUND. No direct verification or JD
+extraction possible. All listings marked unconfirmed (batch mode).
+Top finds by source:
+  - Tracked companies: 13 Anthropic, 8 UHG (remote TPM/PM), 10 Palantir, 5 Citi NY, 5 Glean,
+    5 J&J (NJ pharma), 4 Deloitte (NJ), 3 Goldman Sachs (NYC), 3 Accenture (NJ/NYC), 1 Cognizant,
+    1 ServiceNow, 1 MetLife, 1 Amazon PTPM, 1 Merck
+  - Search queries: 9 new (Marqeta remote, LightFeather federal, Hunter Strategy federal,
+    Magnet Forensics, Teravision AI, Salt AI, 3 Dice NJ contract roles)
+Priority for next network-enabled session:
+  1. J&J Director Deployment Lead (r-098999) + Director Program Mgmt (r-069992) — NJ pharma, CS-5/CS-7
+  2. Goldman Sachs VP PM Global Banking (172262) — NYC financial services, CS-5/CS-7
+  3. Deloitte SM/RTE (353916) — NJ, CS-6 SPC6 fit
+  4. Accenture ServiceNow Delivery Lead (14838460) — NJ/NYC, CS-1/CS-3
+  5. Marqeta Senior Manager Transformation — remote USA, CS-1/CS-5 fit
+  6. UHG remote TPM/PM roles — CS-1/CS-2, remote-eligible
+  7. Dice PM/SM/RTE Jersey City (5cd3dfe2) — local contract, CS-6 RTE fit
+  8. LightFeather IO Program Manager — federal remote, CS-1/CS-7
+Data-quality notes: Goldman Sachs scan_query finally productive after 3+ scans of zero yield (3 genuine
+postings via higher.gs.com). jobs.kpmg.us still zero live hits. Merck migrated from jobs.merck.com to
+merck.gr8people.com (explain why prior scan_query was dead). IBM careers.ibm.com pattern unchanged.
+search_queries block: 32-day gap produced 9 genuinely new URLs vs 0 on the prior 1-day-gap scans,
+confirming that longer intervals help this segment yield new results (but many are still aggregators).
 -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
