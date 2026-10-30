@@ -35,22 +35,41 @@
 **Total raw scanned:** 920 URLs
 **Total new (deduped):** 342 URLs
 
+## Orchestrator Pass (post-fork)
+
+After forks completed, orchestrator ran targeted WebSearch for remaining tracked companies not fully covered by fork agents. Found 17 additional URLs:
+
+| Company | New URLs | Notes |
+|---------|----------|-------|
+| Goldman Sachs | 3 | higher.gs.com — VP PM NYC, Assoc PM NYC, Sr TPM Dallas |
+| Johnson & Johnson | 5 | careers.jnj.com — Director Deployment Lead + Director PM (Raritan NJ), PM HCS (Remote), Sr PM Software, Sr Mgr PMO |
+| Deloitte | 4 | apply.deloitte.com — SM PDM Eng II (Morristown), Agile Coach (JC/Morristown/NYC), SM/RTE (JC/Princeton), TPM |
+| Accenture | 3 | accenture.com — PM Team Lead (Morristown), ServiceNow Delivery Lead (Morristown/NYC), Strategic Program Lead |
+| Cognizant | 1 | Sr TPM/Delivery Manager, Jersey City NJ hybrid |
+| ServiceNow | 1 | Sr Manager TPM, Experience Team |
+
+**Updated total curated:** 62 URLs (45 fork + 17 orchestrator)
+
 ## Blockers
 
-- **Network access**: External domains (greenhouse.io, careers.*.com, jobs.*.com) blocked by session network policy. Cannot verify listings or fetch JDs for evaluation.
+- **Network access**: All external career site domains blocked by session network policy (ENOTFOUND). WebSearch worked for snippet collection but WebFetch/Playwright verification impossible.
 - **No evaluations this run**: Full evaluations deferred. Pipeline.md populated for next session with network access.
 
-## Action Items for Next Run
+## Priority Queue for Next Session
 
-1. Verify all 45 pending URLs (are they still active? what are the actual titles?)
-2. Evaluate top candidates against skills model (CS-1 through CS-7)
-3. Focus on: UHG remote TPM roles (strong CS-1 fit), Citi NY PM leads (CS-5/CS-7 regulated delivery), Anthropic PM/TPM roles (AI-adjacent)
-4. Consider adding recency qualifiers to search queries (technique from 2026-09-28 scan)
-5. Enable network access for the cloud session to allow full verification
+1. **J&J Director Deployment Lead** (r-098999, Raritan NJ) — pharma Agile, CS-5/CS-6/CS-7
+2. **J&J Director Program Management** (r-069992, Raritan NJ) — pharma R&D, CS-1/CS-5/CS-7
+3. **Goldman Sachs VP PM** (172262, NYC) — Global Banking & Markets, CS-1/CS-5/CS-7
+4. **Deloitte SM/RTE** (353916, JC/Princeton NJ) — CS-6 SPC6 match
+5. **Accenture ServiceNow Delivery Lead** (14838460, Morristown/NYC) — CS-1/CS-3
+6. **UHG 8 remote TPM/PM roles** — CS-1/CS-2 match, remote-eligible
+7. **Citi Transformation PM Lead** (NYC) — CS-5/CS-7 regulated
+8. **13 Anthropic Greenhouse listings** — AI-adjacent, titles unknown
 
 ## Stats
 
-- Scan-history entries: 636 → 957 (after dedup)
-- Pipeline pending: 0 → 45
+- Scan-history entries: 636 → 974 (957 deduped by fork + 17 from orchestrator)
+- Pipeline pending: 0 → 62
 - Reports generated: 0 (network-blocked)
 - Tracker additions: 0 (no evaluations possible)
+- Companies searched: 31 tracked + 12 portals.yml queries

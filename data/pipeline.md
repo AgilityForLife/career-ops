@@ -7,8 +7,15 @@ Format: one URL per line, optionally with a note after a space.
 
 <!-- Scan 2026-10-30 — 32-day gap from 2026-09-28. Network-restricted session (batch mode).
      920 raw URLs collected across 4 parallel scan forks, 342 survived dedup against scan-history.tsv,
-     45 curated from direct career sites of tracked companies. No verification possible (external
-     network blocked). All URLs unconfirmed. -->
+     45 curated from direct career sites of tracked companies + 17 additional from targeted WebSearch
+     queries (Goldman Sachs, J&J, Deloitte, Accenture, Cognizant, ServiceNow). Total: 62 new URLs queued.
+     No verification possible (external network blocked — all career site domains ENOTFOUND).
+     All URLs unconfirmed. Priority for next network-enabled session:
+     1. J&J Director Deployment Lead (r-098999) + Director Program Mgmt (r-069992) — NJ pharma, CS-5/CS-7
+     2. Goldman Sachs VP PM Global Banking (172262) — NYC financial services, CS-5/CS-7
+     3. Deloitte SM/RTE (353916) — NJ, CS-6 SPC6 fit
+     4. Accenture ServiceNow Delivery Lead (14838460) — NJ/NYC, CS-1/CS-3
+     5. UHG remote TPM/PM roles — CS-1/CS-2 fit, remote-eligible -->
 
 ### Anthropic (13 new Greenhouse listings)
 https://job-boards.greenhouse.io/anthropic/jobs/4496627008
@@ -66,6 +73,46 @@ https://careers.salesforce.com/en/jobs/jr290953/salesforce-project-manager/
 https://jobs.careers.microsoft.com/global/en/job/1802899
 https://jobs.us.pwc.com/job/remote/fixed-term-pwc-tech-sr-project-manager-cloud/932/17838377392
 https://www.amazon.jobs/en/jobs/2604709/principal-technical-program-manager-amazon
+
+### Goldman Sachs (3 new — NYC)
+https://higher.gs.com/roles/172262  VP Project Management, Global Banking & Markets, NYC — $132-157K base
+https://higher.gs.com/roles/177961  Associate Project Management, Office of Regulatory Relations, NYC — Agile/Waterfall delivery
+https://higher.gs.com/roles/161900  Senior TPM, Foundational Platforms, Dallas (non-NJ/NY but strong CS-fit)
+
+### Johnson & Johnson (5 new — NJ/remote)
+https://www.careers.jnj.com/en/jobs/r-098999/director-deployment-lead/  Director Deployment Lead, Raritan NJ — Agile deployment, pharma
+https://www.careers.jnj.com/en/jobs/r-069992/director-program-management/  Director Program Management, Raritan NJ — pharma R&D
+https://www.careers.jnj.com/en/jobs/r-073343/program-manager-hcs/  Program Manager HCS, Remote — Heart Recovery business
+https://www.careers.jnj.com/en/jobs/r-099922/sr-program-manager-software/  Sr Program Manager Software — Ottava surgical system
+https://www.careers.jnj.com/en/jobs/r-086917/sr-mgr-pmo/  Sr Mgr PMO — multiple NJ offices
+
+### Deloitte (4 new — NJ/NYC)
+https://apply.deloitte.com/en_US/careers/JobDetail/Scrum-Master-Project-Delivery-Management-Engineer-II/357992  Scrum Master PDM Eng II, Morristown NJ — 4+ yr Agile delivery
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Senior Consultant Agile Coach, Jersey City/Morristown/NYC — SPC/PMI-ACP valued
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Senior Consultant SM/RTE, Jersey City/Princeton NJ — 6+ yr SM/RTE
+https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Project-and-Program-Manager/357211  Technical Project and Program Manager, Technology PMO
+
+### Accenture (3 new — NJ/NYC)
+https://www.accenture.com/us-en/careers/jobdetails?id=14784873_en  Program & Project Management Team Lead, Morristown NJ
+https://www.accenture.com/us-en/careers/jobdetails?id=14838460_en  ServiceNow Technology Delivery Lead Manager, Morristown NJ/NYC
+https://www.accenture.com/us-en/careers/jobdetails?id=R00361410_en  Strategic Program Lead, Agile delivery focus
+
+### Search Query Finds (9 new — from portals.yml queries)
+https://job-boards.greenhouse.io/marqeta/jobs/7284288  Marqeta | Senior Manager, Transformation — Remote USA, 8+ yr PM, digital transformation + AI implementation
+https://job-boards.greenhouse.io/lightfeatheriollc/jobs/5185469008  LightFeather IO | Program Manager — Federal, remote, Agile delivery
+https://ats.rippling.com/hunterstrategy/jobs/f4027c6a-4adc-4891-847f-5471e312d1da  Hunter Strategy | Deputy IT Project Manager — Federal, remote-first DC, Sept 2026 start
+https://jobs.lever.co/magnetforensics/96925a79-a926-4fe7-989f-afbb590ca0c3  Magnet Forensics | Senior Technical Project Manager — location TBD
+https://job-boards.greenhouse.io/teravision/jobs/6628865003  Teravision Technologies | AI Transformation Lead — remote, nearshore firm
+https://job-boards.greenhouse.io/saltxc/jobs/4790087007  Salt | Director of AI Transformation — 7+ yr PM, AI transformation
+https://www.dice.com/job-detail/5cd3dfe2-36df-464f-a06d-1bd71c3b63d4  Dice | PM/Scrum Master/RTE — Jersey City, W2 12-mo, $55-60/hr
+https://www.dice.com/job-detail/76a77aaf-5127-4bb4-91e3-e27d8217621c  Dice | Scrum Master — Jersey City, W2, $64-74/hr, 10+ yr experience
+https://www.dice.com/job-detail/0526997f-a75a-43c3-8066-7faa82b0b23a  Dice | Technical Project Manager (Agile, Scrum) IV — location TBD
+
+### Cognizant (1 new — Jersey City NJ)
+https://careers.cognizant.com/global-en/jobs/00067578661/srtechnical-program-managerdelivery-manager/  Sr TPM/Delivery Manager, Jersey City NJ hybrid — 10-15 yr experience
+
+### ServiceNow (1 new)
+https://careers.servicenow.com/jobs/744000137736699/sr-manager-technical-program-management-experience-team/  Sr Manager TPM, Experience Team
 
 ## In Progress
 
