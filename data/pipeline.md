@@ -5,16 +5,86 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Scan 2026-10-30 — 32-day gap from 2026-09-28. Network-restricted session (batch mode).
+     920 raw URLs collected across 4 parallel scan forks, 342 survived dedup against scan-history.tsv,
+     45 curated from direct career sites of tracked companies. No verification possible (external
+     network blocked). All URLs unconfirmed. -->
+
+### Anthropic (13 new Greenhouse listings)
+https://job-boards.greenhouse.io/anthropic/jobs/4496627008
+https://job-boards.greenhouse.io/anthropic/jobs/4581428008
+https://job-boards.greenhouse.io/anthropic/jobs/4780532008
+https://job-boards.greenhouse.io/anthropic/jobs/4960417008
+https://job-boards.greenhouse.io/anthropic/jobs/5018714008
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008
+https://job-boards.greenhouse.io/anthropic/jobs/5107763008
+https://job-boards.greenhouse.io/anthropic/jobs/5111783008
+https://job-boards.greenhouse.io/anthropic/jobs/5114705008
+https://job-boards.greenhouse.io/anthropic/jobs/5123849008
+https://job-boards.greenhouse.io/anthropic/jobs/5138044008
+https://job-boards.greenhouse.io/anthropic/jobs/5157003008
+https://job-boards.greenhouse.io/anthropic/jobs/5208193008
+
+### UnitedHealth Group (8 new — remote/US)
+https://careers.unitedhealthgroup.com/job/22468116  Principal TPM Remote
+https://careers.unitedhealthgroup.com/job/22659120  Principal TPM Remote
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800
+https://careers.unitedhealthgroup.com/job/richardson/technical-project-manager-remote/34088/93130764224
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208
+https://careers.unitedhealthgroup.com/job/22194021  Senior PM Remote
+https://careers.unitedhealthgroup.com/job/21395668  Manager TPM
+https://careers.unitedhealthgroup.com/job/21674884  Principal Project PM
+
+### Citi (5 new — NY/NJ)
+https://jobs.citi.com/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528
+https://jobs.citi.com/job/new-york/program-management-lead/287/75826951664
+https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664
+https://jobs.citi.com/job/new-york/project-management-lead/287/81532951088
+https://jobs.citi.com/job/jacksonville/agile-project-manager-learning-and-development/287/83849161136
+
+### Palantir (10 new Lever listings)
+https://jobs.lever.co/palantir/12f1c7e2-9327-4c4d-9640-7aaafd0343f5
+https://jobs.lever.co/palantir/1a53939d-8ffa-4570-b31a-6d0bc53fdb59
+https://jobs.lever.co/palantir/2bfdcb53-7abd-42a4-9eaf-ebe07450f798
+https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02
+https://jobs.lever.co/palantir/44d3394e-003e-4609-b864-ff141e233635
+https://jobs.lever.co/palantir/4e99e055-96c7-497e-8099-3318e1ce0626
+https://jobs.lever.co/palantir/665c140c-c1e0-4f8c-8509-cd3cfcba3c5b
+https://jobs.lever.co/palantir/7fe8d9e5-9c33-4548-8efd-9f0a6c863ec6
+https://jobs.lever.co/palantir/9da1a482-4f3a-4804-8b5f-b9697d85fe61
+https://jobs.lever.co/palantir/bd34525c-6e4e-44ea-88c8-d8dac9747feb
+
+### Glean (5 new Greenhouse listings)
+https://job-boards.greenhouse.io/gleanwork/jobs/4378974005
+https://job-boards.greenhouse.io/gleanwork/jobs/4611652005
+https://job-boards.greenhouse.io/gleanwork/jobs/4625106005
+https://job-boards.greenhouse.io/gleanwork/jobs/4657199005
+https://job-boards.greenhouse.io/gleanwork/jobs/4712434005
+
+### Other Tracked Companies
+https://careers.salesforce.com/en/jobs/jr290953/salesforce-project-manager/
+https://jobs.careers.microsoft.com/global/en/job/1802899
+https://jobs.us.pwc.com/job/remote/fixed-term-pwc-tech-sr-project-manager-cloud/932/17838377392
+https://www.amazon.jobs/en/jobs/2604709/principal-technical-program-manager-amazon
 
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-10-30 (scan covering since last run 2026-09-28, 32-day gap, scheduled cloud session).
+4 parallel scan forks covered: search_queries (12 portals.yml queries), bigtech-ai (IBM/ServiceNow x2/
+Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/Palantir/Glean/CoreWeave), consulting-gov (Accenture/
+Deloitte/KPMG/PwC/EY/Booz Allen/Leidos/SAIC/Cognizant/WSP/AECOM/Parsons), finance-healthcare
+(JPMorgan/Citi/Goldman/Prudential/MetLife/J&J/Merck/UnitedHealth).
+920 raw URLs collected, 342 survived dedup, 45 curated from direct career sites.
+Network-restricted session: no external URL verification possible. All listings unconfirmed.
+Top finds: 13 new Anthropic Greenhouse listings, 8 UHG remote TPM/PM roles, 5 Citi NY PM/TPM roles,
+10 new Palantir Lever listings, 5 Glean TPM listings.
+Note: external network (boards-api.greenhouse.io, careers.*.com, jobs.*.com) all blocked by session
+network policy. Full evaluations deferred to next session with network access.
+-->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
