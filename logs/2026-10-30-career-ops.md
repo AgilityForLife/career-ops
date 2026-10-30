@@ -50,6 +50,24 @@ After forks completed, orchestrator ran targeted WebSearch for remaining tracked
 
 **Updated total curated:** 62 URLs (45 fork + 17 orchestrator)
 
+## Search Query Pass (parallel with forks)
+
+Ran all 12 portals.yml search queries directly via WebSearch. Most site-restricted queries (site:boards.greenhouse.io, site:jobs.ashbyhq.com) returned aggregator results instead. After dedup vs scan-history, found 9 genuinely new URLs:
+
+| Source | Company | Title | Notes |
+|--------|---------|-------|-------|
+| Greenhouse | Marqeta | Senior Manager, Transformation | Remote USA, 8+ yr PM |
+| Greenhouse | LightFeather IO | Program Manager | Federal, remote |
+| Rippling ATS | Hunter Strategy | Deputy IT Project Manager | Federal, remote-first DC |
+| Lever | Magnet Forensics | Senior Technical PM | Location TBD |
+| Greenhouse | Teravision Technologies | AI Transformation Lead | Remote, nearshore firm |
+| Greenhouse | Salt | Director of AI Transformation | 7+ yr PM |
+| Dice | Unknown | PM / Scrum Master / RTE | Jersey City, W2, $55-60/hr |
+| Dice | Unknown | Scrum Master | Jersey City, W2, $64-74/hr |
+| Dice | Unknown | Technical PM (Agile, Scrum) IV | Location TBD |
+
+**Final total curated:** 71 URLs (45 fork + 17 orchestrator + 9 search queries)
+
 ## Blockers
 
 - **Network access**: All external career site domains blocked by session network policy (ENOTFOUND). WebSearch worked for snippet collection but WebFetch/Playwright verification impossible.
@@ -68,8 +86,9 @@ After forks completed, orchestrator ran targeted WebSearch for remaining tracked
 
 ## Stats
 
-- Scan-history entries: 636 → 974 (957 deduped by fork + 17 from orchestrator)
-- Pipeline pending: 0 → 62
+- Scan-history entries: 637 → 984 (957 deduped by forks + 17 orchestrator + 10 search queries)
+- Pipeline pending: 0 → 71 (45 fork + 17 orchestrator + 9 search queries)
 - Reports generated: 0 (network-blocked)
 - Tracker additions: 0 (no evaluations possible)
 - Companies searched: 31 tracked + 12 portals.yml queries
+- New companies found: Marqeta, LightFeather IO, Hunter Strategy, Magnet Forensics, Teravision, Salt
