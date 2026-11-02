@@ -75,3 +75,11 @@ All held per SUBMISSION GATE — awaiting Erick's review:
 - Secondary: 11 roles
 - Pipeline verify: PASS (1 pre-existing warning: Glean #108/#109 duplicate)
 - All reports marked: **Verification:** unconfirmed (batch mode)
+- Unevaluated backlog: 25 URLs remain in pipeline.md Pending (9 moderate, 16 lower priority)
+- Notable unevaluated: Cohere AI TPM (remote), Omni JC contract, MEMX NJ/NY, Citi XVA Data Engineering
+
+## Commits
+
+- `ee10d52` career-ops scan 2026-11-02: 24 evaluated, 5 apply-eligible
+- `cf4d3e2` Update pipeline.md: mark all scan agents completed
+- Final commit: pipeline.md Done section updated, evaluated entries moved from Pending
