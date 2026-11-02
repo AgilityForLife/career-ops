@@ -12,10 +12,10 @@
 |---------|-----------|----------------|--------|
 | Consulting + Gov | 12 (Accenture, Deloitte, KPMG, PwC, EY, Booz Allen, Leidos, SAIC, Cognizant, WSP, AECOM, Parsons) | 14 | Complete |
 | Finance + Healthcare | 8 (JPMorgan, Citi, Goldman, Prudential, MetLife, J&J, Merck, UnitedHealth) | 16 | Complete |
-| Big Tech + AI/Infra | 12 (IBM, ServiceNow x2, Salesforce, Microsoft, AWS, Google, Anthropic, OpenAI, Palantir, Glean, CoreWeave) | TBD | Running |
-| Search Queries | 12 portals.yml queries | TBD | Running |
+| Big Tech + AI/Infra | 12 (IBM, ServiceNow x2, Salesforce, Microsoft, AWS, Google, Anthropic, OpenAI, Palantir, Glean, CoreWeave) | 3 (GitLab, Tessera Labs, Ping Identity) | Complete |
+| Search Queries | 12 portals.yml queries | 0 (saturated since 2026-09-25) | Complete |
 
-## Evaluations (Reports 427-446)
+## Evaluations (Reports 427-450)
 
 | # | Company | Role | Score | Recommendation |
 |---|---------|------|-------|---------------|
@@ -39,6 +39,10 @@
 | 444 | Prudential | Lead TPM (Newark) | 3.5/5 | PRIMARY — APPLY |
 | 445 | Prudential | Enterprise Agile Coach (Newark) | 2.8/5 | SKIP — Tier 4 |
 | 446 | Prudential | Director RTE (Newark) | 3.3/5 | PRIMARY — APPLY w/ caveats |
+| 447 | Tessera Labs | TPM Enterprise Modernization | 2.8/5 | SKIP — SF hybrid, ERP domain gap |
+| 448 | GitLab | Principal TPM | 3.4/5 | APPLY-ELIGIBLE — remote $203-346K |
+| 449 | Ping Identity | AI Transformation Director | 2.5/5 | SKIP — AI engineering mismatch |
+| 450 | Citi | Head Portfolio Mgmt & Delivery, Payments | 3.2/5 | SECONDARY — payments domain gap |
 
 ## Apply-Eligible Roles (Score 3.0+ and PRIMARY)
 
@@ -48,7 +52,8 @@ All held per SUBMISSION GATE — awaiting Erick's review:
 2. **Cognizant — BI & Project Delivery Lead (3.6/5)** — Bridgewater NJ; CS-4 Power BI direct match
 3. **Prudential — Lead TPM (3.5/5)** — Newark NJ $124-204K; 4 CS engaged; ideal geography
 4. **Citi — Sr IT PM CGW Technology (3.4/5)** — Jersey City hybrid $152-228K; direct Verisk parallel
-5. **Prudential — Director RTE (3.3/5)** — Newark NJ; SPC6 at director level avoids Tier 4 cap
+5. **GitLab — Principal TPM (3.4/5)** — remote US/CA $203-346K; CS-1/CS-3 DevOps governance
+6. **Prudential — Director RTE (3.3/5)** — Newark NJ; SPC6 at director level avoids Tier 4 cap
 
 ## Data Quality Notes
 
@@ -61,7 +66,12 @@ All held per SUBMISSION GATE — awaiting Erick's review:
 
 ## Pipeline Statistics
 
-- Scan history: 637 → 703 entries (+66)
-- Applications tracker: 275 → 295 entries (+20)
-- Reports: 426 → 446 (+20)
+- Scan history: 638 → 704+ entries (+66+)
+- Applications tracker: 280 → 303 entries (+24 evaluations, reports 427-450)
+- Reports: 426 → 450 (+24)
 - Score distribution: 2.5-3.8/5 (mean ~3.1)
+- Apply-eligible (held): 6 roles
+- SKIP: 7 roles
+- Secondary: 11 roles
+- Pipeline verify: PASS (1 pre-existing warning: Glean #108/#109 duplicate)
+- All reports marked: **Verification:** unconfirmed (batch mode)
