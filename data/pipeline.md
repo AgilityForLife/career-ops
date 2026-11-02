@@ -64,8 +64,13 @@ https://jobs.citi.com/job/-/director-technical-program-manager-production-manage
 
 ## In Progress
 
-<!-- Scan agents still running for Big Tech + AI/Infra and search_queries segments.
-     Results from these segments will be added when agents complete. -->
+<!-- All scan agents completed 2026-11-02. Search queries agent found additional candidates
+     (Tessera Labs, GitLab, Cohere, FutureFit AI, Omni, Energy Solutions, MEMX, Real Chemistry,
+     Litmos, 3E, Pencil, Corbalt, MustardSeed, Bounteous, ON.energy, itD Tech, Nimble Gravity,
+     VantageScore, Pivot Point, PingWind, CGS Federal) — URLs logged to pipeline.md Pending and
+     scan-history.tsv. Reports exist for Tessera Labs (2.8/5 SKIP) and GitLab (3.4/5 APPLY-ELIGIBLE)
+     but were orphaned from tracker due to report-number collision with consulting/gov agent entries.
+     Remaining URLs in Pending await evaluation in next interactive or scheduled session. -->
 
 ## Done
 
