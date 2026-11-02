@@ -5,16 +5,106 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Scan 2026-11-02: 36 new candidates from 12 search queries + 31 tracked companies (35-day gap since last scan 2026-09-28) -->
+
+### HIGH PRIORITY — Evaluate first
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-Consulting-NJ-07030/1442933033/  EY Program Manager Consulting Hoboken NJ $167K-$301K
+https://careers.ey.com/ey/job/Anywhere-in-Country-AI-Technical-Project-Manager-Technology-Consulting/1448144833/  EY AI Technical PM Remote $150K-$251K
+https://jobs.citi.com/job/-/technical-program-manager-applied-ai-agents-svp/287/102161077472  Citi TPM Applied AI & Agents SVP NYC $192K-$288K
+https://jobs.citi.com/job/-/head-portfolio-management-delivery-payments-technology/287/102161077472  Citi Head Portfolio Mgmt & Delivery Payments Tech JC $170K-$300K
+https://jobs.citi.com/job/-/sr-it-program-manager-cgw-technology/287/35533479168  Citi Sr IT Program Manager CGW Tech JC $152K-$228K
+https://careers.cognizant.com/global/en/job/00070746661/  Cognizant Sr Consulting Manager BI & Project Delivery Lead Bridgewater NJ
+https://jobs.prudential.com/director-rte-newark  Prudential Director RTE Newark
+https://jobs.prudential.com/lead-technical-program-management-newark  Prudential Lead TPM $124K-$204K Newark
+https://jobs.ashbyhq.com/tessera-labs/cc07bf2d-089d-4a8d-a6e9-516ef640ae99  Tessera Labs Senior TPM Enterprise Modernization & AI Delivery Remote
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab Principal TPM Remote US/Canada
+https://careers.unitedhealthgroup.com/job/93815078800  UnitedHealth Senior Technical Program Management Remote
+https://job-boards.greenhouse.io/pingidentity/jobs/8527192002  Ping Identity Engineering AI Transformation Director Remote
+
+### MODERATE PRIORITY
+https://apply.deloitte.com/careers/JobDetail/52405  Deloitte Program Manager ITS PMO M&A JC/NYC/Parsippany NJ
+https://apply.deloitte.com/careers/JobDetail/62931  Deloitte Project Manager ITS PMO JC/NYC/Parsippany NJ
+https://apply.deloitte.com/careers/JobDetail/75416  Deloitte Program Manager GPS NYC
+https://apply.deloitte.com/careers/JobDetail/118547  Deloitte M&A Business PM Manager JC/Morristown NJ/NYC
+https://www.parsons.com/careers/jobs/R-184103/  Parsons Deputy PM Hudson Tunnel Project Newark NJ
+https://www.parsons.com/careers/jobs/R-183154/  Parsons PM Virtual FAA Remote
+https://jobs.citi.com/job/-/project-manager-exchange-traded-derivatives/287/95000211888  Citi PM Exchange Traded Derivatives JC
+https://jobs.citi.com/job/-/senior-technology-lead-xva-data-engineering-ai-enablement/287/101664343216  Citi Sr Tech Lead XVA Data Engineering AI JC
+https://careers.unitedhealthgroup.com/job/101367705200  UnitedHealth Technical PM Remote
+https://careers.leidos.com/jobs/17470043  Leidos Program Manager
+https://careers.leidos.com/jobs/17286300  Leidos Agile PM
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere TPM AI Delivery Remote
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI Technical PM Remote
+https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  Omni Technical PM Contract Jersey City NJ
+https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Energy Solutions Senior TPM Remote
+https://job-boards.greenhouse.io/memx/jobs/4627058008  MEMX Technical PM Remote NJ/NY
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry Senior AI PM Remote
+https://job-boards.greenhouse.io/litmos/jobs/4963581101  Litmos AI Program Manager
+
+### LOWER PRIORITY / QUICK-SKIP CANDIDATES
+https://apply.deloitte.com/careers/JobDetail/54247  Deloitte Agile Scrum Master NYC (Tier-4 cap risk)
+https://jobs.prudential.com/enterprise-agile-coach-newark  Prudential Enterprise Agile Coach Newark (Tier-4 cap risk)
+https://jobs.prudential.com/scrum-master-newark  Prudential Scrum Master Newark (Tier-4 cap)
+https://jobs.prudential.com/lead-scrum-master-newark  Prudential Lead Scrum Master Newark (Tier-4 cap risk)
+https://careers.leidos.com/jobs/17779914  Leidos Scrum Master PM (clearance risk)
+https://jobs.lever.co/pingwind/1b2b4dff-7705-415d-bb87-b3e62c44bc08  PingWind PM Federal (clearance)
+https://jobs.lever.co/pingwind/099dddf7-57be-43fa-b24a-fadd1f0e0fe3  PingWind TPM Federal IAM (clearance)
+https://jobs.lever.co/cgsfederal/fca3feaf-3473-44cc-a136-d09260f19bf5  CGS Federal Agile Coach (clearance risk)
+https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity Scrum Master AI Delivery Remote
+https://job-boards.greenhouse.io/vantagescore/jobs/4378478009  VantageScore Agile SM/PM
+https://job-boards.greenhouse.io/pivotpointsolutions/jobs/4390035009  Pivot Point Solutions SM
+https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E Technical PM AI Remote
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil Lead TPM Remote
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt Technical PM Remote
+https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed PMO Senior PM Remote
+https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous Senior PM Remote
+https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy PM AI Enablement
+https://job-boards.greenhouse.io/itd/jobs/4109016009  itD Tech TPM Anaplan Remote/NYC
+https://jobs.citi.com/job/-/director-technical-program-manager-production-management/287/0  Citi Director TPM Production Mgmt
 
 ## In Progress
 
-<!-- URLs currently being evaluated -->
+<!-- Scan agents still running for Big Tech + AI/Infra and search_queries segments.
+     Results from these segments will be added when agents complete. -->
 
 ## Done
+
+<!-- Processed 2026-11-02 (scan covering since last run 2026-09-28, scheduled headless run, 35-day gap).
+4 parallel scan agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
+split into Big Tech + AI/Infra, Consulting + Gov, and Finance + Healthcare.
+Consulting + Gov completed: 14 new candidates (EY 2, Deloitte 5, Cognizant 1, Parsons 2, Leidos 3, WSP 1).
+Finance + Healthcare completed: 16 new candidates (Citi 6, UnitedHealth 5, Prudential 5).
+Big Tech + AI/Infra and search_queries agents still running at time of initial commit.
+
+20 roles fully evaluated (reports 427-446):
+- 427 Citi TPM Applied AI & Agents SVP (3.8/5) — PRIMARY APPLY w/ caveats; NYC $192-288K; 5 CS engaged
+- 428 EY CT Tech Activation PM Hoboken (3.2/5) — SECONDARY; $167-301K; internal ops PM
+- 429 EY AI Technical PM Remote (3.5/5) — SECONDARY; $150-251K; AI domain gap
+- 430 Cognizant Sr Consulting Manager BI & Delivery (3.6/5) — PRIMARY; Bridgewater NJ; CS-4 Power BI match
+- 431 Parsons Deputy PM Hudson Tunnel (2.5/5) — SKIP; construction domain mismatch
+- 432 UnitedHealth Senior TPM ABM Remote (3.4/5) — SECONDARY; healthcare domain gap
+- 433 Deloitte Program Manager ITS PMO M&A JC (3.3/5) — SECONDARY; M&A gap
+- 434 Deloitte Agile Scrum Master NYC (2.8/5) — SKIP; Tier 4 de-emphasis cap
+- 435 Deloitte Project Manager ITS PMO NJ/NYC (3.1/5) — SECONDARY; marginal
+- 436 Deloitte M&A Business PM Manager NJ/NYC (3.2/5) — SECONDARY; M&A gap
+- 437 Deloitte Program Manager GPS NYC (3.3/5) — SECONDARY; government sector
+- 438 Parsons PM FAA Remote (2.7/5) — SKIP; aviation domain mismatch
+- 439 Leidos Program Manager (3.0/5) — SECONDARY; needs verification
+- 440 Leidos Agile PM (3.0/5) — SECONDARY; needs verification
+- 441 Leidos Scrum Master / PM (2.8/5) — SKIP unless verified
+- 442 Citi PM Exchange Traded Derivatives JC (3.1/5) — SECONDARY; capital markets gap
+- 443 Citi Sr IT PM CGW Technology JC (3.4/5) — PRIMARY; $152-228K
+- 444 Prudential Lead TPM Newark (3.5/5) — PRIMARY APPLY; $124-204K; 4 CS engaged
+- 445 Prudential Enterprise Agile Coach Newark (2.8/5) — SKIP unless comp $130K+; Tier 4
+- 446 Prudential Director RTE Newark (3.3/5) — PRIMARY APPLY w/ caveats
+
+Apply-eligible (score 3.0+ and PRIMARY recommendation), ALL HELD per SUBMISSION GATE:
+- 427 Citi TPM Applied AI & Agents SVP (3.8/5) — strongest lead this cycle
+- 430 Cognizant Sr Consulting Manager BI & Delivery (3.6/5) — CS-4 Power BI unique match
+- 443 Citi Sr IT PM CGW Technology JC (3.4/5) — direct Verisk TPM parallel
+- 444 Prudential Lead TPM Newark (3.5/5) — NJ ideal, regulated finserv
+- 446 Prudential Director RTE Newark (3.3/5) — SPC6 differentiator at director level
+-->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
