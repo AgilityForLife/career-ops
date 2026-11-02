@@ -2,6 +2,30 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 451 | 2026-11-02 | Citi | Director TPM Production Management | 3.6/5 | Evaluada | ❌ | [451](reports/451-citi-director-tpm-production-management-2026-11-02.md) | PRIMARY — APPLY w/ caveats; NYC hybrid; 4 CS engaged; production platform transformation; verify comp $180K+ |
+| 452 | 2026-11-02 | Cohere | TPM AI Delivery | 3.2/5 | Evaluada | ❌ | [452](reports/452-cohere-tpm-ai-delivery-2026-11-02.md) | SECONDARY; SF/remote $140-220K; AI domain premium but only 2 CS engaged; ML delivery depth gap |
+| 453 | 2026-11-02 | FutureFit AI | Technical Project Manager | 2.7/5 | Evaluada | ❌ | [453](reports/453-futurefit-ai-technical-pm-2026-11-02.md) | SKIP; remote $125-165K; startup scale; limited CS engagement |
+| 454 | 2026-11-02 | Omni | Technical PM Contract | 2.5/5 | Evaluada | ❌ | [454](reports/454-omni-technical-pm-jersey-city-2026-11-02.md) | SKIP; Jersey City contract; no verifiable JD; unconfirmed |
+| 455 | 2026-11-02 | Energy Solutions | Senior Technical PM | 2.8/5 | Evaluada | ❌ | [455](reports/455-energy-solutions-senior-tpm-2026-11-02.md) | SKIP; remote; energy domain mismatch; listing may be closed |
+| 456 | 2026-11-02 | MEMX | Technical PM | 2.8/5 | Evaluada | ❌ | [456](reports/456-memx-technical-pm-2026-11-02.md) | SKIP — likely closed; NJ/NY fintech exchange; no active listing found |
+| 457 | 2026-11-02 | Real Chemistry | Senior AI Project Manager | 2.9/5 | Evaluada | ❌ | [457](reports/457-real-chemistry-senior-ai-pm-2026-11-02.md) | SKIP; remote; healthcare marketing not R&D; limited CS engagement |
+| 458 | 2026-11-02 | Litmos | AI Program Manager | 2.7/5 | Evaluada | ❌ | [458](reports/458-litmos-ai-program-manager-2026-11-02.md) | SKIP; remote $120-150K; EdTech domain mismatch; mid-level |
+| 459 | 2026-11-02 | Citi | Sr Tech Lead XVA Data Engineering AI | 2.0/5 | Evaluada | ❌ | [459](reports/459-citi-sr-tech-lead-xva-data-engineering-2026-11-02.md) | SKIP; JC $176-265K; IC engineering role not PM/TPM; domain mismatch |
+| 460 | 2026-11-02 | UnitedHealth | Technical PM | 2.8/5 | Evaluada | ❌ | [460](reports/460-unitedhealth-technical-pm-remote-2026-11-02.md) | SKIP — unverifiable; job ID not found; may duplicate #432 |
+| 461 | 2026-11-02 | Prudential | Scrum Master | 2.5/5 | Evaluada | ❌ | [461](reports/461-prudential-scrum-master-newark-2026-11-02.md) | SKIP; Newark; Tier 4 cap; pure SM role |
+| 462 | 2026-11-02 | Prudential | Lead Scrum Master | 2.8/5 | Evaluada | ❌ | [462](reports/462-prudential-lead-scrum-master-newark-2026-11-02.md) | SKIP unless comp $130K+; Newark; Tier 4 cap risk |
+| 463 | 2026-11-02 | PingWind | PM Federal | 2.0/5 | Evaluada | ❌ | [463](reports/463-pingwind-pm-federal-2026-11-02.md) | SKIP; clearance required; deal-breaker |
+| 464 | 2026-11-02 | PingWind | TPM Federal IAM | 2.0/5 | Evaluada | ❌ | [464](reports/464-pingwind-tpm-federal-iam-2026-11-02.md) | SKIP; clearance required; deal-breaker |
+| 466 | 2026-11-02 | Nimble Gravity | Scrum Master AI Delivery | 2.7/5 | Evaluada | ❌ | [466](reports/466-nimble-gravity-scrum-master-ai-2026-11-02.md) | SKIP; Tier 4 cap; small consultancy |
+| 467 | 2026-11-02 | VantageScore | Agile SM/PM | 2.7/5 | Evaluada | ❌ | [467](reports/467-vantagescore-agile-sm-pm-2026-11-02.md) | SKIP; SM Tier 4 risk; credit scoring regulated but insufficient fit |
+| 468 | 2026-11-02 | Pivot Point Solutions | Scrum Master | 2.5/5 | Evaluada | ❌ | [468](reports/468-pivot-point-solutions-sm-2026-11-02.md) | SKIP; pure SM; small consultancy; no strategic value |
+| 470 | 2026-11-02 | Pencil | Lead TPM | 2.8/5 | Evaluada | ❌ | [470](reports/470-pencil-lead-tpm-2026-11-02.md) | SKIP; AdTech domain mismatch; startup |
+| 471 | 2026-11-02 | Corbalt | Technical PM | 2.6/5 | Evaluada | ❌ | [471](reports/471-corbalt-technical-pm-2026-11-02.md) | SKIP; small consultancy; no domain alignment |
+| 472 | 2026-11-02 | MustardSeed | PMO Senior PM | 2.6/5 | Evaluada | ❌ | [472](reports/472-mustardseed-pmo-senior-pm-2026-11-02.md) | SKIP; small firm PMO; limited CS engagement |
+| 473 | 2026-11-02 | Bounteous | Senior PM | 2.7/5 | Evaluada | ❌ | [473](reports/473-bounteous-senior-pm-2026-11-02.md) | SKIP; digital experience consulting; domain mismatch |
+| 474 | 2026-11-02 | ON.energy | PM AI Enablement | 2.6/5 | Evaluada | ❌ | [474](reports/474-onenergy-pm-ai-enablement-2026-11-02.md) | SKIP; energy storage startup; domain mismatch |
+| 475 | 2026-11-02 | itD Tech | TPM Anaplan | 2.8/5 | Evaluada | ❌ | [475](reports/475-itd-tech-tpm-anaplan-2026-11-02.md) | SKIP; Anaplan-specific; no Anaplan experience; small consultancy |
+| 476 | 2026-11-02 | 3E | Technical PM AI | 2.8/5 | Evaluada | ❌ | [469](reports/469-3e-technical-pm-ai-2026-11-02.md) | SKIP; EH&S domain mismatch; small company |
 | 447 | 2026-11-02 | Tessera Labs | TPM Enterprise Modernization | 2.8/5 | Evaluada | ❌ | [447](reports/447-tessera-labs-tpm-enterprise-modernization-2026-11-02.md) | DO NOT APPLY; SF hybrid; $200K-$263K; ERP/SAP/Oracle domain hard gap |
 | 448 | 2026-11-02 | GitLab | Principal Technical Program Manager | 3.4/5 | Evaluada | ❌ | [448](reports/448-gitlab-principal-tpm-2026-11-02.md) | APPLY-ELIGIBLE; remote US/CA; $203K-$346K; CS-1/CS-3/CS-2p; DevOps governance alignment |
 | 449 | 2026-11-02 | Ping Identity | Engineering AI Transformation Director | 2.5/5 | Evaluada | ❌ | [449](reports/449-ping-identity-ai-transformation-director-2026-11-02.md) | SKIP; remote; AI engineering domain mismatch; director-level but AI depth insufficient |

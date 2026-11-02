@@ -5,46 +5,39 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- 25 URLs from 2026-11-02 scan not evaluated this run due to subagent nesting limit.
-     Evaluate in next interactive or scheduled session. Moderate-priority entries may have
-     strong fits (Cohere AI TPM, Omni JC contract, MEMX NJ/NY). Lower-priority entries have
-     clearance/Tier-4/small-company risk flags — quick-skip or evaluate on demand. -->
-
-### MODERATE PRIORITY — Evaluate next session
-https://jobs.citi.com/job/-/senior-technology-lead-xva-data-engineering-ai-enablement/287/101664343216  Citi Sr Tech Lead XVA Data Engineering AI JC
-https://careers.unitedhealthgroup.com/job/101367705200  UnitedHealth Technical PM Remote
-https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere TPM AI Delivery Remote
-https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI Technical PM Remote
-https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  Omni Technical PM Contract Jersey City NJ
-https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Energy Solutions Senior TPM Remote
-https://job-boards.greenhouse.io/memx/jobs/4627058008  MEMX Technical PM Remote NJ/NY
-https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry Senior AI PM Remote
-https://job-boards.greenhouse.io/litmos/jobs/4963581101  Litmos AI Program Manager
-
-### LOWER PRIORITY / QUICK-SKIP CANDIDATES
-https://jobs.prudential.com/scrum-master-newark  Prudential Scrum Master Newark (Tier-4 cap)
-https://jobs.prudential.com/lead-scrum-master-newark  Prudential Lead Scrum Master Newark (Tier-4 cap risk)
-https://careers.leidos.com/jobs/17779914  Leidos Scrum Master PM (clearance risk)
-https://jobs.lever.co/pingwind/1b2b4dff-7705-415d-bb87-b3e62c44bc08  PingWind PM Federal (clearance)
-https://jobs.lever.co/pingwind/099dddf7-57be-43fa-b24a-fadd1f0e0fe3  PingWind TPM Federal IAM (clearance)
-https://jobs.lever.co/cgsfederal/fca3feaf-3473-44cc-a136-d09260f19bf5  CGS Federal Agile Coach (clearance risk)
-https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity Scrum Master AI Delivery Remote
-https://job-boards.greenhouse.io/vantagescore/jobs/4378478009  VantageScore Agile SM/PM
-https://job-boards.greenhouse.io/pivotpointsolutions/jobs/4390035009  Pivot Point Solutions SM
-https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E Technical PM AI Remote
-https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil Lead TPM Remote
-https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt Technical PM Remote
-https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed PMO Senior PM Remote
-https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous Senior PM Remote
-https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy PM AI Enablement
-https://job-boards.greenhouse.io/itd/jobs/4109016009  itD Tech TPM Anaplan Remote/NYC
-https://jobs.citi.com/job/-/director-technical-program-manager-production-management/287/0  Citi Director TPM Production Mgmt
+(empty — all entries from 2026-11-02 scan evaluated)
 
 ## In Progress
 
 <!-- Empty — no active evaluations. -->
 
 ## Done
+
+https://jobs.citi.com/job/-/director-technical-program-manager-production-management/287/100500716432  Citi | Director TPM Production Management (3.6/5) [PRIMARY] - APPLY w/ caveats; NYC hybrid; 4 CS; production platform transformation
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere | TPM AI Delivery (3.2/5) [SECONDARY] - SF/remote $140-220K; AI domain but 2 CS only
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI | Technical PM (2.7/5) [REJECTED] - startup scale; low comp
+https://job-boards.greenhouse.io/omnicareers/jobs/5187107008  Omni | Technical PM Contract (2.5/5) [REJECTED] - JC NJ; unverifiable listing
+https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Energy Solutions | Senior TPM (2.8/5) [REJECTED] - likely closed; energy domain gap
+https://job-boards.greenhouse.io/memx/jobs/4627058008  MEMX | Technical PM (2.8/5) [REJECTED] - likely closed; NJ/NY fintech
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Senior AI PM (2.9/5) [REJECTED] - healthcare marketing; limited CS
+https://job-boards.greenhouse.io/litmos/jobs/4963581101  Litmos | AI Program Manager (2.7/5) [REJECTED] - EdTech; low comp
+https://jobs.citi.com/job/-/senior-technology-lead-xva-data-engineering-ai-enablement/287/101664343216  Citi | Sr Tech Lead XVA (2.0/5) [REJECTED] - IC engineering role
+https://careers.unitedhealthgroup.com/job/101367705200  UnitedHealth | Technical PM (2.8/5) [REJECTED] - unverifiable job ID
+https://jobs.prudential.com/scrum-master-newark  Prudential | Scrum Master (2.5/5) [REJECTED] - Tier 4 cap
+https://jobs.prudential.com/lead-scrum-master-newark  Prudential | Lead SM (2.8/5) [REJECTED] - Tier 4 risk
+https://jobs.lever.co/pingwind/1b2b4dff-7705-415d-bb87-b3e62c44bc08  PingWind | PM Federal (2.0/5) [REJECTED] - clearance required
+https://jobs.lever.co/pingwind/099dddf7-57be-43fa-b24a-fadd1f0e0fe3  PingWind | TPM Federal IAM (2.0/5) [REJECTED] - clearance required
+https://jobs.lever.co/cgsfederal/fca3feaf-3473-44cc-a136-d09260f19bf5  CGS Federal | Agile Coach (2.0/5) [REJECTED] - clearance + Tier 4
+https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity | SM AI Delivery (2.7/5) [REJECTED] - Tier 4 cap
+https://job-boards.greenhouse.io/vantagescore/jobs/4378478009  VantageScore | Agile SM/PM (2.7/5) [REJECTED] - Tier 4 risk
+https://job-boards.greenhouse.io/pivotpointsolutions/jobs/4390035009  Pivot Point Solutions | SM (2.5/5) [REJECTED] - pure SM
+https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E | Technical PM AI (2.8/5) [REJECTED] - EH&S domain gap
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil | Lead TPM (2.8/5) [REJECTED] - AdTech domain gap
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt | Technical PM (2.6/5) [REJECTED] - small consultancy
+https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed | PMO Senior PM (2.6/5) [REJECTED] - small firm
+https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous | Senior PM (2.7/5) [REJECTED] - CX consulting domain gap
+https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy | PM AI Enablement (2.6/5) [REJECTED] - energy startup
+https://job-boards.greenhouse.io/itd/jobs/4109016009  itD Tech | TPM Anaplan (2.8/5) [REJECTED] - Anaplan specialist; no experience
 
 https://jobs.citi.com/job/-/technical-program-manager-applied-ai-agents-svp/287/102161077472  Citi | TPM Applied AI & Agents SVP (3.8/5) [PRIMARY] - APPLY w/ caveats; NYC hybrid $192-288K; 5 CS engaged; closes Nov 30 2026
 https://careers.cognizant.com/global/en/job/00070746661/  Cognizant | Sr Consulting Manager BI & Delivery (3.6/5) [PRIMARY] - APPLY w/ caveats; Bridgewater NJ; CS-4 Power BI unique match
