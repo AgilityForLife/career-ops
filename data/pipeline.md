@@ -5,16 +5,68 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- 2026-11-03 scan: 17 new URLs added. Portal domains (jobs.citi.com, careers.unitedhealthgroup.com)
+blocked by session network policy — JDs could not be fetched for full evaluation. All URLs verified
+as not in scan-history.tsv or applications.md. Prioritized by title/level/location/comp metadata
+from WebSearch results. Erick should evaluate these when portal access is available. -->
+
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | Technical PM, Applied AI & Agents, SVP, NYC — HIGH PRIORITY: AI-adjacent TPM, SVP level, strong CS-1/CS-2/CS-5 fit potential
+https://jobs.citi.com/job/jersey-city/delivery-tech-lead-vp/287/86037209696  Citi | Delivery Tech Lead, VP, Jersey City — HIGH PRIORITY: delivery lead title maps directly to CS-1, local JC
+https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi | IT Project Manager, SVP, Jersey City ($163.6K-$245.4K) — HIGH PRIORITY: SVP level, strong comp, local JC
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi | PM Lead, Product Dev Transformation, VP, NYC ($129.8K-$194.8K) — transformation + PM lead, VP level
+https://jobs.citi.com/job/new-york/program-management-senior-lead-wealth-lending-senior-vice-president/287/99451029312  Citi | PM Senior Lead, Wealth Lending, SVP, NYC — SVP level, wealth domain (similar to prior evaluated Citi wealth roles)
+https://jobs.citi.com/en/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528  Citi | Transformation PM Lead, Markets, VP, NYC — may overlap with #148 entry (different URL)
+https://jobs.citi.com/job/jersey-city/svp-program-group-manager-c14/287/74368865136  Citi | SVP Program Group Manager, Jersey City — very senior, program management, local JC
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-management-remote/34088/92872151872  UnitedHealth | Director, Technical Project Management, Remote (AI-enabled) — HIGH PRIORITY: director level, AI mention, remote, strong CS-1 potential
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth | Director, Technical Project/Program Management, Remote — HIGH PRIORITY: director level, remote
+https://careers.unitedhealthgroup.com/job/21615121  UnitedHealth | Sr Principal Project-Program Manager, Remote — Sr Principal level, remote
+https://careers.unitedhealthgroup.com/job/22468116  UnitedHealth | Principal TPM, Remote — principal level, remote
+https://careers.unitedhealthgroup.com/job/22659120  UnitedHealth | Principal TPM, Remote (different req) — principal level, remote
+https://careers.unitedhealthgroup.com/job/22619350  UnitedHealth | Principal Project-Program Manager, Remote — principal level, remote
+https://careers.unitedhealthgroup.com/job/austin/senior-manager-of-technical-project-and-program-management-remote/34088/97613515552  UnitedHealth | Senior Manager TPM, Remote — senior manager level, remote
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth | Senior TPM, Remote (Minneapolis hybrid option) — senior level, remote eligible
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208  UnitedHealth | Senior Technical Project Manager — senior level
+https://careers.unitedhealthgroup.com/job/22194021  UnitedHealth | Senior Project Manager, Remote — senior level, remote
 
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-03 (scan covering since last run 2026-09-28, scheduled cloud session, 36-day gap).
+4 parallel agents launched: 2 forks for search_queries + finance/healthcare tracked_companies, 2 forks
+for bigtech-ai + consulting-gov tracked_companies. The bigtech-ai and consulting-gov forks failed to
+write results (sub-delegation failure mode, same as flagged in 2026-09-24 log). Direct WebSearch
+compensated for the failed agents, covering Anthropic, CoreWeave, Citi, UnitedHealth Group directly.
+Finance/healthcare fork completed successfully with 14 candidates.
+
+Key finding: 17 genuinely new URLs confirmed across Citi (7) and UnitedHealth Group (10). All added to
+scan-history.tsv and pipeline.md Pending section. Portal domains (jobs.citi.com,
+careers.unitedhealthgroup.com) were BLOCKED by session network policy — JDs could not be fetched for
+full Core Strength Engagement Test evaluation. All 17 URLs are queued in Pending for evaluation when
+portal access is available.
+
+Aggregator-sourced finds without direct URLs (not added to pipeline — need URL resolution):
+- Prudential: Lead TPM, Newark NJ ($123.7K-$204.1K) — via anitab.org
+- Merck: Agile PM, Rahway NJ ($111.4K-$175.3K) — via aggregator
+- JPMorgan: 3 roles (Lead TPM Trust & Safety SM, Lead TPM Agility Coach Payments Tech,
+  Principal TPM Corporate Oversight & Governance Technology) — via aggregator
+
+Highest-priority new finds (by title/level/location metadata):
+1. Citi Technical PM Applied AI & Agents SVP NYC — AI-adjacent, SVP, strong CS-1/CS-5 potential
+2. Citi IT Project Manager SVP Jersey City ($163.6K-$245.4K) — SVP, top comp, local
+3. Citi Delivery Tech Lead VP Jersey City — delivery lead maps to CS-1, local
+4. UnitedHealth Director TPM Remote (AI-enabled) — director, AI, fully remote
+5. UnitedHealth Director TPM Remote — director, fully remote
+
+Data-quality notes: search_queries block remains fully saturated (no new finds from any of 12 queries,
+consistent with 2026-09-25 and 2026-09-28 findings). Consulting+Gov tracked companies yielded zero new
+evaluable candidates for the 4th consecutive scan. Greenhouse API (boards-api.greenhouse.io) still
+blocked by network policy. The 36-day gap since last scan produced meaningful new inventory only from
+Citi and UnitedHealth Group — suggesting these two employers are the most active PM/TPM hirers in the
+target market. CoreWeave refs mostly matched existing scan-history entries from 2026-09-22/28 saturation.
+-->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
