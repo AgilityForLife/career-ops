@@ -13,9 +13,9 @@
 - **Marked "added" (queue for review):** ~15
 - **Skipped (with reason):** ~25 (location-only, domain mismatch, clearance required, marketing/HR roles, CoreWeave saturation)
 - **Duplicate entries removed:** 35 (overlap between search queries and tracked-company agents)
-- **Reports generated:** 16 (427-444; background agents evaluated via WebSearch-based JD reconstruction)
-- **Apply-eligible (score 3.0+):** 12 of 16
-- **Top leads (score 3.5+):** 5 — Citi AI (4.1), Tessera Labs (3.9), Anthropic (3.8), UnitedHealth (3.5), GitLab (3.4)
+- **Reports generated:** 19 (427-447; main agent + background agents evaluated via WebSearch-based JD reconstruction)
+- **Tracker entries added:** 427-451 (19 reports, some tracker numbering offset from report numbering)
+- **Top leads (score 3.5+):** 4 — Citi AI (4.1), Tessera Labs (3.9), GitLab (3.8), UnitedHealth (3.5)
 - **Applications submitted:** 0 (NEVER auto-submit)
 
 ## Network Policy Limitation
@@ -90,8 +90,8 @@ All 12 executed via WebSearch in 3 parallel batches of 4:
 ## Files Modified
 - `data/scan-history.tsv` — 43 net new entries (78 found, 35 deduped)
 - `data/pipeline.md` — 28+ URLs queued in Pending section
-- `data/applications.md` — 16 new evaluated entries (427-448)
-- `reports/` — 16 new evaluation reports
+- `data/applications.md` — 19 new evaluated entries (427-451)
+- `reports/` — 19 new evaluation reports (427-447)
 - `batch/tracker-additions/` — TSV additions merged
 - `logs/2026-11-04-career-ops.md` — this file
 
