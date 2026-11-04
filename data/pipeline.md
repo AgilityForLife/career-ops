@@ -13,10 +13,7 @@ Format: one URL per line, optionally with a note after a space.
 <!-- Remaining from 2026-11-04 scan — not yet evaluated, pending JD verification -->
 
 <!-- HIGH PRIORITY — Strong title signals, need full JD -->
-https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere | TPM AI Delivery — major AI company
 https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific | Senior TPM — ed-tech platform
-https://jobs.lever.co/veeva/1ce9d335-0b06-4a90-8776-a8348f7a5c46  Veeva Systems | Senior PM (NJ Lyndhurst) — life-sciences/pharma = CS-5/CS-7
-https://job-boards.greenhouse.io/pingidentity/jobs/8527192002  Ping Identity | Engineering AI Transformation Director — security = CS-7
 https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Senior AI PM — healthcare analytics
 
 <!-- MEDIUM PRIORITY — Good title match, needs JD verification -->
@@ -29,7 +26,6 @@ https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy | PM AI Ena
 https://job-boards.greenhouse.io/humanagency/jobs/7809991003  Human Agency | Director AI Transformation
 https://jobs.ashbyhq.com/neural-earth/f2fd1931-dda8-40e1-830e-64f4d63392a8  Neural Earth | TPM II
 https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI | TPM
-https://boards.greenhouse.io/gitlab/jobs/6506637002  GitLab | Senior Professional Services PM
 https://job-boards.greenhouse.io/successacademycharterschool/jobs/5078841008  Success Academy | AI TPM
 https://job-boards.greenhouse.io/gomotive/jobs/8300245002  Motive | Senior AI Ops PM
 
@@ -52,21 +48,25 @@ Consulting/Gov, Financial/Healthcare), and second-pass evaluation agents for dee
 Network policy blocked WebFetch to all job board domains — all evaluations based on WebSearch
 snippets only. Marked "Verification: unconfirmed (batch mode)". No PDFs generated.
 
-FINAL SCAN YIELD: 53 new scan-history entries. 19 fully evaluated (reports 427-447).
-293 total entries in applications.md after merge. 25+ URLs remain in Pending for future eval.
+FINAL SCAN YIELD: 78 new scan-history entries (692 total). 23 fully evaluated (reports 427-451).
+297 total entries in applications.md after merge. ~20 URLs remain in Pending for future eval.
 
 APPLY-ELIGIBLE (score >= 3.5, all HELD for Erick's review):
 - #427 Citi | TPM Applied AI & Agents SVP (4.1/5) [PRIMARY] — NYC hybrid; $192-288K est
 - #443 Tessera Labs | Senior TPM Enterprise Modernization & AI (3.9/5) [PRIMARY] — US Remote; $170-250K
 - #429 Anthropic | TPM Enterprise Readiness (3.8/5) — re-posting of #155 (4.0/5); $365-435K; still active
 - #430 GitLab | Principal TPM (3.8/5) [PRIMARY] — all-remote; $203-346K; principal bar is stretch
-- #431 Amazon/Audible | Senior TPM (3.3/5) — Newark NJ local; $189-201K
+- #449 Cohere | TPM AI Delivery (3.7/5) — frontier AI co; CS-1+CS-2+CS-5; verify US remote
+- #450 Ping Identity | AI Transformation Director (3.6/5) — $175-200K remote; may be closed
+- #448 Veeva Systems | Senior PM NJ (3.5/5) — Lyndhurst NJ; pharma/life sciences
 - #432 UnitedHealth | TPM Remote (3.5/5) [PRIMARY] — remote; $72.8-130K (floor risk)
+- #431 Amazon/Audible | Senior TPM (3.3/5) — Newark NJ local; $189-201K
 
 PREPARE ONLY (3.0-3.4):
-- #437 CoreWeave TPM (3.4/5), #435 MetLife Sr Agile PM (3.4/5), #447 Deloitte Technical PM (3.4/5),
-  #444 Deloitte SM/PM/BA (3.3/5), #445 EY PM Hoboken (3.3/5), #446 EY PM Remote (3.2/5),
-  #433 MustardSeed PMO (3.1/5), #436 ServiceNow Release Mgr (3.1/5), #434 Accenture SM (3.0/5)
+- #437 CoreWeave TPM (3.4/5), #451 GitLab Sr PS PM (3.4/5), #435 MetLife Sr Agile PM (3.4/5),
+  #447 Deloitte Technical PM (3.4/5), #444 Deloitte SM/PM/BA (3.3/5), #445 EY PM Hoboken (3.3/5),
+  #446 EY PM Remote (3.2/5), #433 MustardSeed PMO (3.1/5), #436 ServiceNow Release Mgr (3.1/5),
+  #434 Accenture SM (3.0/5)
 
 SKIP (<3.0 or deal-breaker):
 - #442 MetLife Jr Agile PM (2.9/5), #439 Glean DEM (2.7/5), #441 Leidos GIS (2.5/5),
@@ -76,9 +76,9 @@ Data-quality notes: job board direct-fetch blocked in cloud sessions; Consulting
 4th-straight saturated scan; Goldman Sachs scan_query non-functional; jobs.kpmg.us zero live hits;
 OpenAI SF-only for all PM roles (skipped); CoreWeave BuiltIn mirrors low-priority-saturated.
 
-Next actions for Erick: (1) Review 19 reports (#427-447) and decide apply/skip,
+Next actions for Erick: (1) Review 23 reports (#427-451) and decide apply/skip,
 (2) Run from local/unrestricted session to fetch full JDs + generate PDFs for APPLY-eligible,
-(3) Clear remaining Pending queue (25+ URLs for future evaluation). -->
+(3) Clear remaining Pending queue (~20 URLs for future evaluation). -->
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102161077472  Citi | TPM Applied AI & Agents SVP (3.6/5) [PRIMARY] — APPLY w/ caveats; NYC; JD unconfirmed
 https://jobs.ashbyhq.com/tessera-labs/cc07bf2d-089d-4a8d-a6e9-516ef640ae99  Tessera Labs | Senior TPM Enterprise Modernization & AI (3.8/5) [PRIMARY] — APPLY; US Remote; best match
 https://job-boards.greenhouse.io/anthropic/jobs/5413314008  Anthropic | TPM Enterprise Readiness (3.2/5) [SECONDARY] — CONDITIONAL APPLY; location risk
@@ -100,6 +100,10 @@ https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM 
 https://careers.ey.com/job/hoboken/program-manager-enterprise-technology  EY | PM Enterprise Technology Hoboken (3.3/5) — APPLY w/ caveats; NJ
 https://careers.ey.com/job/anywhere/program-manager  EY | PM Remote (3.2/5) — PIPELINE; verify JD
 https://apply.deloitte.com/careers/JobDetail/Technical-Project-Program-Manager  Deloitte | Technical Project & Program Manager (3.4/5) — APPLY w/ caveats
+https://jobs.lever.co/veeva/1ce9d335-0b06-4a90-8776-a8348f7a5c46  Veeva Systems | Senior PM NJ Lyndhurst (3.5/5) — APPLY w/ caveats; pharma/life sciences CS-7
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere | TPM AI Delivery (3.7/5) — APPLY; frontier AI; verify US remote
+https://job-boards.greenhouse.io/pingidentity/jobs/8527192002  Ping Identity | AI Transformation Director (3.6/5) — APPLY w/ caveats; may be closed; $175-200K
+https://boards.greenhouse.io/gitlab/jobs/6506637002  GitLab | Senior PS PM (3.4/5) — APPLY w/ caveats; all-remote; Grade 7
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies

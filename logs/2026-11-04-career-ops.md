@@ -13,9 +13,9 @@
 - **Marked "added" (queue for review):** ~15
 - **Skipped (with reason):** ~25 (location-only, domain mismatch, clearance required, marketing/HR roles, CoreWeave saturation)
 - **Duplicate entries removed:** 35 (overlap between search queries and tracked-company agents)
-- **Reports generated:** 19 (427-447; main agent + background agents evaluated via WebSearch-based JD reconstruction)
-- **Tracker entries added:** 427-451 (19 reports, some tracker numbering offset from report numbering)
-- **Top leads (score 3.5+):** 4 — Citi AI (4.1), Tessera Labs (3.9), GitLab (3.8), UnitedHealth (3.5)
+- **Reports generated:** 23 (427-451; main agent + background agents evaluated via WebSearch-based JD reconstruction)
+- **Tracker entries added:** 297 total (was 274; 23 new evaluated entries)
+- **Top leads (score 3.5+):** 8 — Citi AI (4.1), Tessera Labs (3.9), Anthropic (3.8), GitLab Principal TPM (3.8), Cohere (3.7), Ping Identity (3.6), Veeva Systems (3.5), UnitedHealth (3.5)
 - **Applications submitted:** 0 (NEVER auto-submit)
 
 ## Network Policy Limitation
@@ -102,6 +102,10 @@ All 12 executed via WebSearch in 3 parallel batches of 4:
 | 439 | Glean | Delivery Excellence Manager | 2.7/5 | $120-180K | SKIP |
 | 441 | Leidos | Sr PM GIS | 2.5/5 | — | SKIP |
 | 438 | Glean | TPM Connectors | 3.0/5 | — | SKIP (Palo Alto) |
+| 448 | Veeva Systems | Senior PM (NJ Lyndhurst) | 3.5/5 | $130-170K+ | APPLY w/ caveats |
+| 449 | Cohere | TPM AI Delivery | 3.7/5 | $160-220K+ | APPLY |
+| 450 | Ping Identity | AI Transformation Director | 3.6/5 | $175-200K | APPLY w/ caveats (may be closed) |
+| 451 | GitLab | Senior PS Project Manager | 3.4/5 | $130-180K+ | APPLY w/ caveats |
 
 ## Recommendations
 
@@ -115,8 +119,8 @@ All 12 executed via WebSearch in 3 parallel batches of 4:
 ## Files Modified
 - `data/scan-history.tsv` — 43 net new entries (78 found, 35 deduped)
 - `data/pipeline.md` — 28+ URLs queued in Pending section
-- `data/applications.md` — 19 new evaluated entries (427-451)
-- `reports/` — 19 new evaluation reports (427-447)
+- `data/applications.md` — 23 new evaluated entries (427-455, renumbered by merge script)
+- `reports/` — 23 new evaluation reports (427-451)
 - `batch/tracker-additions/` — TSV additions merged
 - `logs/2026-11-04-career-ops.md` — this file
 

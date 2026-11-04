@@ -2,6 +2,10 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 452 | 2026-11-04 | Veeva Systems | Senior Project Manager (NJ) | 3.5/5 | Evaluada | ❌ | [448](reports/448-veeva-senior-pm-nj-lyndhurst-2026-11-04.md) | Lyndhurst NJ; pharma/life sciences cloud platform; CS-1+CS-5+CS-7; verify JD scope |
+| 453 | 2026-11-04 | Cohere | TPM AI Delivery | 3.7/5 | Evaluada | ❌ | [449](reports/449-cohere-tpm-ai-delivery-2026-11-04.md) | Frontier AI company; CS-1+CS-2+CS-5; customer-facing enterprise AI delivery; verify US remote |
+| 454 | 2026-11-04 | Ping Identity | Engineering AI Transformation Director | 3.6/5 | Evaluada | ❌ | [450](reports/450-ping-identity-ai-transformation-director-2026-11-04.md) | $175-200K remote; 5-6 CS engaged; may be closed; significant AI domain gap |
+| 455 | 2026-11-04 | GitLab | Senior PS Project Manager | 3.4/5 | Evaluada | ❌ | [451](reports/451-gitlab-senior-ps-pm-remote-2026-11-04.md) | All-remote; DevOps platform (CS-3); Grade 7; may prefer Principal TPM (#429-430) |
 | 449 | 2026-11-04 | EY | Program Manager, Enterprise Technology | 3.3/5 | Evaluada | ❌ | [445](reports/445-ey-program-manager-hoboken-enterprise-tech-2026-11-04.md) | APPLY w/ caveats; Hoboken NJ; CS-1/CS-5; comp ~$120-160K est; JD unverified — confirm scope on careers.ey.com |
 | 450 | 2026-11-04 | EY | Program Manager (Anywhere in Country) | 3.2/5 | Evaluada | ❌ | [446](reports/446-ey-program-manager-anywhere-in-country-2026-11-04.md) | PIPELINE — verify before applying; remote eligible Oct 2026 posting; extremely thin JD data |
 | 451 | 2026-11-04 | Deloitte | Technical Project and Program Manager | 3.4/5 | Evaluada | ❌ | [447](reports/447-deloitte-technical-project-program-manager-2026-11-04.md) | APPLY w/ caveats; 48 locations — confirm NJ/NY; "Technical" title is strong; consulting staffing model; JD unverified |
