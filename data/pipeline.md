@@ -86,6 +86,20 @@ https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM 
 https://amazon.jobs/en/jobs/10489626/senior-technical-program-manager-adbl176  Amazon/Audible | Senior TPM (3.3/5) [SECONDARY] — APPLY w/ caveats; Newark NJ
 https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth | TPM Remote (3.5/5) [PRIMARY] — APPLY; Life Sciences data
 https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed PMO | Senior PM (3.1/5) [SECONDARY] — CONDITIONAL APPLY; verify firm
+https://apply.deloitte.com/careers/JobDetail/Technical-Scrum-Master-Project-Manager-Business-Analyst-Remote/65324  Deloitte | Technical SM/PM/BA (3.3/5) — Remote; PREPARE ONLY
+https://www.accenture.com/us-en/careers/jobdetails?id=14855532_en  Accenture | Scrum Master Morristown (3.0/5) — DO NOT APPLY; under-leveled
+https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Agile-Project-Manager/5256  MetLife | Senior Agile PM (3.4/5) — PREPARE ONLY
+https://www.metlifecareers.com/en_US/ml/JobDetail/Agile-Project-Manager/20651  MetLife | Agile PM NYC (2.9/5) — SKIP; under-leveled
+https://builtin.com/job/technical-program-manager/3658985  CoreWeave | TPM (3.4/5) — under-leveling risk
+https://job-boards.greenhouse.io/gleanwork/jobs/4657199005  Glean | TPM Connectors (3.0/5) — SKIP; Palo Alto location deal-breaker
+https://job-boards.greenhouse.io/gleanwork/jobs/4661878005  Glean | Delivery Excellence Manager (2.7/5) — SKIP; customer-facing SaaS role
+https://careers.leidos.com/jobs/17286300-sr-project-manager-gis  Leidos | Sr PM GIS (2.5/5) — SKIP; GIS domain mismatch
+https://smartrecruiters.com/ServiceNow/744000035926507  ServiceNow | Sr Portfolio Release Manager (3.1/5) — PREPARE ONLY
+https://jobs.ashbyhq.com/tessera-labs/cc07bf2d-089d-4a8d-a6e9-516ef640ae99  Tessera Labs | Senior TPM Enterprise Modernization & AI (3.9/5) [PRIMARY] — APPLY; US Remote; $170-250K
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM (3.8/5) [PRIMARY] — APPLY w/ caveats; all-remote; $203-346K
+https://careers.ey.com/job/hoboken/program-manager-enterprise-technology  EY | PM Enterprise Technology Hoboken (3.3/5) — APPLY w/ caveats; NJ
+https://careers.ey.com/job/anywhere/program-manager  EY | PM Remote (3.2/5) — PIPELINE; verify JD
+https://apply.deloitte.com/careers/JobDetail/Technical-Project-Program-Manager  Deloitte | Technical Project & Program Manager (3.4/5) — APPLY w/ caveats
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies

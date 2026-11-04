@@ -79,13 +79,38 @@ All 12 executed via WebSearch in 3 parallel batches of 4:
 | 15 | Leidos | Sr PM GIS (Newark NJ) | Gov contractor, NJ |
 | 16 | CoreWeave | TPM | AI infra (saturated) |
 
+## Final Scores (after full evaluation)
+
+| # | Company | Role | Score | Comp | Recommendation |
+|---|---------|------|-------|------|----------------|
+| 427 | Citi | TPM Applied AI & Agents (SVP) | 4.1/5 | $192-288K est | APPLY w/ caveats |
+| 443 | Tessera Labs | Senior TPM Enterprise Modernization & AI | 3.9/5 | $170-250K | APPLY w/ caveats |
+| 430 | GitLab | Principal TPM | 3.8/5 | $203-346K | APPLY w/ caveats |
+| 432 | UnitedHealth | TPM Remote | 3.5/5 | $72.8-130K | APPLY w/ caveats |
+| 155 | Anthropic | TPM Enterprise Readiness (re-posting) | 4.0/5 | $365-435K | Still active, already tracked |
+| 447 | Deloitte | Technical Project & Program Manager | 3.4/5 | — | PREPARE ONLY |
+| 435 | MetLife | Senior Agile PM | 3.4/5 | — | PREPARE ONLY |
+| 437 | CoreWeave | TPM | 3.4/5 | — | PREPARE ONLY |
+| 444 | Deloitte | Technical SM/PM/BA (Remote) | 3.3/5 | — | PREPARE ONLY |
+| 445 | EY | PM Enterprise Technology Hoboken | 3.3/5 | ~$120-160K | APPLY w/ caveats |
+| 431 | Amazon/Audible | Senior TPM Newark | 3.3/5 | $189-201K | APPLY w/ caveats |
+| 446 | EY | PM Remote | 3.2/5 | — | PIPELINE |
+| 433 | MustardSeed | PMO Senior PM | 3.1/5 | — | PREPARE ONLY |
+| 436 | ServiceNow | Sr Portfolio Release Manager | 3.1/5 | — | PREPARE ONLY |
+| 434 | Accenture | Scrum Master Morristown | 3.0/5 | $65-75/hr | DO NOT APPLY |
+| 442 | MetLife | Agile PM NYC | 2.9/5 | $105-120K | SKIP |
+| 439 | Glean | Delivery Excellence Manager | 2.7/5 | $120-180K | SKIP |
+| 441 | Leidos | Sr PM GIS | 2.5/5 | — | SKIP |
+| 438 | Glean | TPM Connectors | 3.0/5 | — | SKIP (Palo Alto) |
+
 ## Recommendations
 
-1. **Run next evaluation in a session with broader network access** — the 16 evaluate-priority URLs need JD fetching to score against CS-1 through CS-7
-2. **Top 5 to evaluate first:** Citi SVP AI, Anthropic Enterprise Readiness, Tessera Labs, GitLab Principal TPM, Amazon/Audible Senior TPM
-3. **Contract/Gov/Construction queries remain low-yield** — only return aggregator category pages; consider disabling or refreshing query phrasing
-4. **37-day gap produced significant new leads** — suggests weekly scan cadence is sufficient; the market refreshes meaningfully over 4+ weeks
-5. **Add network domains to session allowlist** for future automated scans: `jobs.ashbyhq.com`, `job-boards.greenhouse.io`, `boards.greenhouse.io`, `jobs.lever.co`, `jobs.citi.com`, `amazon.jobs`, `smartrecruiters.com`
+1. **Priority: Review top 5 leads** — Citi AI (4.1), Anthropic re-post (4.0), Tessera Labs (3.9), GitLab (3.8), UnitedHealth (3.5)
+2. **Run from local/unrestricted session** to fetch full JDs and generate PDFs for APPLY-eligible roles
+3. **Clear Pending queue** — 22 URLs remain for future evaluation
+4. **Contract/Gov/Construction queries remain low-yield** — consider disabling or refreshing query phrasing
+5. **37-day gap produced significant leads** — suggests weekly scan cadence is sufficient
+6. **Add network domains to session allowlist** for future automated scans
 
 ## Files Modified
 - `data/scan-history.tsv` — 43 net new entries (78 found, 35 deduped)
