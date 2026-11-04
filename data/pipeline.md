@@ -5,16 +5,107 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Scan 2026-11-04: 78 new URLs found across 12 search queries + 31 tracked companies (37-day gap
+     since last scan 2026-09-28). JD fetch blocked by network policy — ALL external job sites outside
+     allowed domains. Queued for manual evaluation. Ranked by title-signal CS engagement.
+     16 marked "evaluate" by background agents, rest "added" or "found". -->
+
+<!-- HIGHEST PRIORITY — Tracked-company agent-vetted, marked "evaluate" -->
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102161077472  Citi | TPM Applied AI & Agents (SVP) — NYC; AI-adjacent + financial services = CS-1/CS-5/CS-7; SVP-level title
+https://job-boards.greenhouse.io/anthropic/jobs/5413314008  Anthropic | TPM Enterprise Readiness — premium AI company; enterprise delivery focus = CS-1 anchor
+https://amazon.jobs/en/jobs/10489626/senior-technical-program-manager-adbl176  Amazon/Audible | Senior TPM — big tech, strong CS-1 signal
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth | Technical PM (Remote) — follow-up to prior UHG evaluations; healthcare = CS-7
+https://job-boards.greenhouse.io/gleanwork/jobs/4657199005  Glean | TPM Connectors — AI search platform, connector delivery
+https://job-boards.greenhouse.io/gleanwork/jobs/4661878005  Glean | Delivery Excellence Manager (Remote US) — delivery-focused at AI company
+https://smartrecruiters.com/ServiceNow/744000035926507  ServiceNow | Sr Portfolio Release Manager (Remote) — release management = CS-3; portfolio = CS-1
+https://apply.deloitte.com/careers/JobDetail/Technical-Scrum-Master-Project-Manager-Business-Analyst-Remote/65324  Deloitte | Technical SM/PM/BA (Remote) — major consulting, remote
+https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Agile-Project-Manager/5256  MetLife | Senior Agile PM — insurance/financial services = CS-5/CS-7; NJ/NY employer
+https://www.metlifecareers.com/en_US/ml/JobDetail/Agile-Project-Manager/20651  MetLife | Agile PM (New York) — insurance/financial services
+https://www.accenture.com/us-en/careers/jobdetails?id=14855532_en  Accenture | Scrum Master (Morristown NJ) — major consulting, NJ location
+https://careers.leidos.com/jobs/17286300-sr-project-manager-gis  Leidos | Sr PM GIS (Newark NJ Hybrid) — gov contractor, NJ, infrastructure
+https://builtin.com/job/technical-program-manager/3658985  CoreWeave | TPM — AI infra, but CoreWeave saturated from prior scans
+
+<!-- HIGH PRIORITY — Strong CS-1/CS-2/CS-3 title signals (search-query finds) -->
+https://jobs.ashbyhq.com/tessera-labs/cc07bf2d-089d-4a8d-a6e9-516ef640ae99  Tessera Labs | Senior TPM Enterprise Modernization & AI Delivery — enterprise modernization + AI = CS-1/CS-2 fit
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere | TPM AI Delivery — major AI company, delivery-focused TPM
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM — principal-level at major DevOps platform, strong CS-3 signal
+https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific | Senior TPM — senior TPM at ed-tech platform
+https://jobs.lever.co/veeva/1ce9d335-0b06-4a90-8776-a8348f7a5c46  Veeva Systems | Senior PM (NJ Lyndhurst) — NJ location, life-sciences/pharma platform = CS-5/CS-7 fit
+https://jobs.ashbyhq.com/neural-earth/f2fd1931-dda8-40e1-830e-64f4d63392a8  Neural Earth | TPM II — TPM role
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI | TPM — AI-adjacent TPM
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Senior AI PM — AI PM at healthcare analytics firm
+https://job-boards.greenhouse.io/gomotive/jobs/8300245002  Motive | Senior AI Ops PM — AI operations PM
+https://job-boards.greenhouse.io/pingidentity/jobs/8527192002  Ping Identity | Engineering AI Transformation Director — director-level, identity/security = CS-7 signal
+
+<!-- MEDIUM PRIORITY — Good title match, needs JD verification -->
+https://job-boards.greenhouse.io/memx/jobs/4627058008  MEMX | Technical Project Manager — fintech exchange, possible CS-7 regulated fit
+https://jobs.lever.co/corbalt/92755410-5f95-46de-a35a-d2d7ab2463cd  Corbalt | Technical PM
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil | TPM
+https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E | TPM AI
+https://jobs.ashbyhq.com/truelogic/1dbad249-314e-4408-9b2f-b4c2dba54825  Truelogic | Senior PM AI Governance
+https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy | PM AI Enablement
+https://job-boards.greenhouse.io/humanagency/jobs/7809991003  Human Agency | Director AI Transformation
+https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed | PMO Senior PM
+https://boards.greenhouse.io/gitlab/jobs/6506637002  GitLab | Senior Professional Services PM
+https://job-boards.greenhouse.io/successacademycharterschool/jobs/5078841008  Success Academy | AI TPM
+
+<!-- LOWER PRIORITY — Scrum Master titles (primary target but often lower comp) -->
+https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity | Scrum Master AI Delivery — AI delivery angle
+https://job-boards.greenhouse.io/capitaltg/jobs/5142942007  Capital Technology Group | Scrum Master
+https://job-boards.greenhouse.io/awetomaton/jobs/5385823008  Awetomaton | Scrum Master
+https://jobs.lever.co/skyslope/f517c505-fd81-4e0a-9be8-926ea5389af3  SkySlope | Scrum Master
+https://job-boards.greenhouse.io/aclu/jobs/8497100002  ACLU | Technical Project Manager (Term-Limited) — non-profit, term-limited = risk
 
 ## In Progress
 
-<!-- URLs currently being evaluated -->
+<!-- URLs still pending full JD verification — 2026-11-04 scan, network-restricted session -->
+https://apply.deloitte.com/careers/JobDetail/Technical-Scrum-Master-Project-Manager-Business-Analyst-Remote/65324  Deloitte Technical SM/PM/BA — Remote — PENDING JD VERIFICATION
+https://www.accenture.com/us-en/careers/jobdetails?id=14855532_en  Accenture Scrum Master Morristown NJ $65-75/hr — PENDING JD VERIFICATION
+https://www.metlifecareers.com/en_US/ml/JobDetail/Senior-Agile-Project-Manager/5256  MetLife Senior Agile PM — NY/NJ — PENDING JD VERIFICATION
+https://www.metlifecareers.com/en_US/ml/JobDetail/Agile-Project-Manager/20651  MetLife Agile PM — NYC — PENDING JD VERIFICATION
+https://builtin.com/job/technical-program-manager/3658985  CoreWeave TPM — Hybrid — PENDING JD VERIFICATION
+https://job-boards.greenhouse.io/gleanwork/jobs/4657199005  Glean TPM Connectors — Palo Alto — PENDING JD VERIFICATION
+https://job-boards.greenhouse.io/gleanwork/jobs/4661878005  Glean Delivery Excellence Manager — Remote US — PENDING JD VERIFICATION
+https://careers.leidos.com/jobs/17286300-sr-project-manager-gis  Leidos Sr PM GIS — Newark NJ Hybrid — PENDING JD VERIFICATION
+https://smartrecruiters.com/ServiceNow/744000035926507  ServiceNow Sr Portfolio Release Manager — Remote — PENDING JD VERIFICATION
 
 ## Done
+
+<!-- Processed 2026-11-04 (scan covering since last run 2026-09-28, cloud session, 37-day gap).
+4 parallel fork agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on
+tracked_companies split into Big Tech + AI/Infra, Consulting + Gov, and Financial + Healthcare.
+Network policy blocked WebFetch to all job board domains (greenhouse.io, ashbyhq.com, lever.co,
+citi.com, unitedhealthgroup.com, amazon.jobs, etc.), so all evaluations are based on WebSearch
+snippets only — marked as "Verification: unconfirmed (cloud session)". No PDFs generated.
+
+Scan yield: 43 new URLs across all 4 agents. 34 new entries in scan-history.tsv (my batch) +
+~40 entries from fork agents. 7 fully evaluated (reports 427-433), 6 merged to applications.md
+(#429 Anthropic skipped — collision with existing entry #155). 25 URLs queued in Pending for
+future evaluation when JD fetch is available. ~10 URLs left in In Progress pending verification.
+
+Apply-eligible roles (all HELD for Erick's review, no PDFs generated):
+- Tessera Labs | Senior TPM Enterprise Modernization & AI Delivery (3.8/5) [PRIMARY] — best match
+- Citi | TPM Applied AI & Agents SVP (3.6/5) [PRIMARY] — NYC, SVP-level AI delivery
+- UnitedHealth | TPM Remote (3.5/5) [PRIMARY] — Life Sciences data, Sanofi parallel
+- GitLab | Principal TPM (3.4/5) [PRIMARY] — all-remote, DevOps company
+- Amazon/Audible | Senior TPM (3.3/5) [SECONDARY] — Newark NJ local
+- Anthropic | TPM Enterprise Readiness (3.2/5) [SECONDARY] — location/domain risk
+- MustardSeed PMO | Senior PM (3.1/5) [SECONDARY] — regulated industries, unknown firm
+
+Data-quality notes carried forward: job board direct-fetch remains blocked in cloud sessions;
+Consulting+Gov segment continues fully saturated (zero new evaluable candidates, 4th straight scan);
+Goldman Sachs scan_query remains non-functional; jobs.kpmg.us returns zero live hits. OpenAI is
+SF-only for all PM roles (4 skipped). CoreWeave BuiltIn mirrors continue low-priority-saturated.
+
+Next actions for Erick: (1) Review 7 reports and decide apply/skip, (2) Run from local machine
+or unrestricted session to fetch full JDs and generate PDFs, (3) Clear Pending queue (25 URLs). -->
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102161077472  Citi | TPM Applied AI & Agents SVP (3.6/5) [PRIMARY] — APPLY w/ caveats; NYC; JD unconfirmed
+https://jobs.ashbyhq.com/tessera-labs/cc07bf2d-089d-4a8d-a6e9-516ef640ae99  Tessera Labs | Senior TPM Enterprise Modernization & AI (3.8/5) [PRIMARY] — APPLY; US Remote; best match
+https://job-boards.greenhouse.io/anthropic/jobs/5413314008  Anthropic | TPM Enterprise Readiness (3.2/5) [SECONDARY] — CONDITIONAL APPLY; location risk
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM (3.4/5) [PRIMARY] — APPLY w/ caveats; all-remote
+https://amazon.jobs/en/jobs/10489626/senior-technical-program-manager-adbl176  Amazon/Audible | Senior TPM (3.3/5) [SECONDARY] — APPLY w/ caveats; Newark NJ
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UnitedHealth | TPM Remote (3.5/5) [PRIMARY] — APPLY; Life Sciences data
+https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed PMO | Senior PM (3.1/5) [SECONDARY] — CONDITIONAL APPLY; verify firm
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
