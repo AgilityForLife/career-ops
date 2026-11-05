@@ -16,6 +16,48 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-11-05 (scan covering since last run 2026-09-28, 38-day gap, scheduled autonomous run).
+4 parallel scan agents launched for search_queries + tracked_companies (Big Tech+AI, Consulting+Gov,
+Financial+Healthcare) but all stalled in nested delegation loops; parent recovered and ran all scans
+directly via WebSearch. WebFetch blocked by cloud session network policy for all career sites — all
+evaluations marked "unconfirmed (batch mode)" per CLAUDE.md exception. 23 genuinely new URLs found
+across all channels (660 total scan-history entries after dedup against 637 prior). 22 evaluations
+produced (10 full reports + 12 fast-skips). merge-tracker.mjs merged 16 new entries, updated 1,
+skipped 5 (pre-existing). verify-pipeline.mjs clean except pre-existing #108/#109 Glean false positive.
+
+Productive channels this run:
+- UnitedHealth Group: 5 new roles (2 Principal TPM remote, 1 Senior TPM remote/ABM, 1 Senior TPM
+  Eden Prairie, 1 Senior PM remote) — most productive single company, consistent with prior scans
+- Citi: 1 new role (Transformation PM Lead, Markets VP — NYC hybrid, 3.8/5)
+- Cognizant: 2 new roles (Sr TPM/DM Jersey City, Senior PM NYC)
+- Deloitte: 3 new roles (Technical PM, Agile Coach, SM/RTE — all NJ/NY)
+- Anthropic: 4 new roles (TPM Launches/Enterprise Readiness/Platform/Security — mostly SF on-site)
+- CoreWeave: 1 new role (TPM Product Engineering, Livingston NJ)
+- Marqeta: 1 new role (Senior Manager Transformation, remote)
+- Nava: 2 new roles (Principal PM remote, Sr PM remote)
+- OpenAI: 1 new role (PM Lead remote — hardware domain, SKIP)
+- Accenture: 2 new roles (SM Morristown, SM Jersey City — Tier 4, SKIP)
+
+Top 5 apply-eligible roles (score 3.4+), ALL HELD per section 15 SUBMISSION GATE:
+https://jobs.citi.com/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528  Citi | Transformation PM Lead, Markets VP (3.8/5) [PRIMARY] - APPLY; NYC hybrid; CS-1/CS-5/CS-7
+https://careers.unitedhealthgroup.com/job/22468116  UHG | Principal TPM Remote A (3.8/5) [PRIMARY] - APPLY; remote; CS-1/CS-5/CS-7
+https://careers.unitedhealthgroup.com/job/22659120  UHG | Principal TPM Remote B (3.7/5) [PRIMARY] - APPLY; remote; apply alongside A
+https://careers.cognizant.com/us-en/jobs/00067578661/srtechnical-program-managerdelivery-manager/  Cognizant | Sr TPM/DM Jersey City (3.6/5) [PRIMARY] - APPLY; SPC6 differentiator; onsite
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UHG | Senior TPM ABM Remote (3.5/5) [PRIMARY] - APPLY; client-facing delivery
+No resumes generated this run (WebFetch blocked — full JDs unavailable for tailoring). -->
+
+<!-- Processed 2026-11-05 (automated scan, 38-day gap since 2026-09-28).
+6 WebSearch queries run directly from main session after fork agents failed to execute.
+Career sites blocked by network policy (jobs.citi.com, careers.unitedhealthgroup.com,
+job-boards.greenhouse.io) — JD details sourced from WebSearch aggregator mirrors.
+4 genuinely new URLs evaluated (reports #430-433): 2 Citi Jersey City PM roles (SVP level),
+1 UnitedHealth remote Senior Manager TPM, 1 Phizenix RTE contract NYC.
+CoreWeave saturated (20 existing entries). Vonage RTE skipped (Poland).
+Reports 427-429 also created this session (Citi Markets VP, 2 UnitedHealth Principal TPM).
+Total new evaluations: 7 (#427-433). Apply-eligible: #430, #432, #433.
+Consulting+Gov segment continues at zero yield (4th consecutive scan).
+-->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
