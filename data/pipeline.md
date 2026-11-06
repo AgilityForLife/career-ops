@@ -14,10 +14,6 @@ https://apply.deloitte.com/careers/JobDetail/Agile-Scrum-Master/54247  Deloitte 
 https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-Consulting-Audit/62931  Deloitte PM ITS PMO Consulting/Audit (NJ/NY)
 https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY AI PM (verify remote)
 https://careers.leidos.com/jobs/17286300-sr-project-manager-gis  Leidos Sr PM GIS (Newark NJ Hybrid)
-https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UHG Technical PM (Remote)
-https://careers.unitedhealthgroup.com/job/22046030/lead-technical-product-manager-analytics-or-observability-remote-eden-prairie-mn/  UHG Lead Tech Product Mgr Analytics (Remote)
-https://careers.unitedhealthgroup.com/job/18357851/analytics-scrum-master-remote-remote/  UHG Analytics Scrum Master (Remote)
-https://jobs.merck.com/us/en/job/R334108/Associate-Director-US-Oncology-SCRUM-Master  Merck Assoc Dir Oncology SM (North Wales PA)
 https://job-boards.greenhouse.io/coreweave/jobs/4435058006  CoreWeave TPM Product Engineering (Livingston NJ/NYC)
 https://job-boards.greenhouse.io/altevarcm/jobs/4381009009  Alteva RCM Technical PM (Queens NY Remote)
 https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous Sr PM (Remote)
@@ -33,15 +29,16 @@ https://jobs.lever.co/compassx/c99a4d42-7d0c-45a2-a7f4-0362f86534d3  CompassX Ag
 
 <!-- Processed 2026-11-06 (scan covering since last run 2026-09-28, 39-day gap, automated scheduled run).
 3 scan groups launched: Consulting+Gov (completed — EY, Deloitte, Leidos surfaced new URLs; KPMG
-non-functional for 4th consecutive scan), Financial+Healthcare (completed — Citi, UHG found new roles;
-JPMorgan/Goldman/MetLife zero useful results), Big Tech+AI/Search Queries (stuck mid-execution, partial).
-Direct searches covered Greenhouse, Ashby, Lever portals and Anthropic/CoreWeave.
-23 new URLs added to scan-history.tsv. 5 evaluated (reports #427-431). 18 remain in Pending for JD
-verification — network restrictions prevented WebFetch of career sites in this batch run.
-Top finds: Citi TPM Applied AI & Agents SVP NYC (4.2/5), EY PM Hoboken NJ $167-301K (4.0/5),
-Deloitte Technical SM/PM Remote (3.9/5 PRIMARY), EY AI TPM (3.8/5), Leidos Sr PM Newark (3.6/5).
-NOTE: All evaluations marked "unconfirmed (batch mode)" — JDs were not fetched due to network policy.
-Candidate should verify JDs before applying.
+non-functional for 4th consecutive scan), Financial+Healthcare (completed — Citi, UHG, Merck found
+new roles; JPMorgan/Goldman/MetLife zero useful results), Big Tech+AI/Search Queries (completed —
+Anthropic, Cohere, GitLab surfaced new URLs). Direct searches covered Greenhouse, Ashby, Lever
+portals. 34 new URLs added to scan-history.tsv. 15 evaluated (reports #427-441): 7 Tier A + 8 from
+parallel agent scans. 12 remain in Pending for JD verification — network restrictions prevented
+WebFetch of career sites in this batch run.
+Top finds: GitLab Principal TPM Remote (4.2/5 APPLY), EY PM Hoboken NJ (4.0/5), Deloitte Technical
+SM/PM Remote (3.9/5), Anthropic TPM Life Sciences NYC (3.8/5 APPLY), EY AI TPM (3.8/5), Citi TPM
+Applied AI & Agents SVP NYC (3.7/5), Leidos Sr PM Newark (3.6/5). 3 SKIPped (Cohere no US location,
+UHG under-level roles). NOTE: All evaluations "unconfirmed (batch mode)" — verify JDs before applying.
 -->
 
 
