@@ -16,10 +16,10 @@
 - **Network restriction**: WebFetch blocked for all career site domains (citi, ey, deloitte, leidos, etc.). All JD evaluations marked "unconfirmed (batch mode)".
 
 ### Results
-- **23 new URLs** added to scan-history.tsv (637 → 660+ entries)
-- **14 evaluations** completed (reports #427–#440)
-- **18 URLs** remain in pipeline.md Pending section for manual JD verification
-- **289 total entries** in applications tracker (275 → 289)
+- **57 new URLs** added to scan-history.tsv (637 → 694 entries)
+- **15 evaluations** completed (reports #427–#441, plus #447–#448)
+- **14 URLs** remain in pipeline.md Pending section for manual JD verification
+- **290 total entries** in applications tracker (275 → 290, after dedup)
 
 ### Top Finds (score ≥ 3.5)
 
@@ -51,10 +51,17 @@
 - **JPMorgan Chase**: Returns only student program pages
 - **AECOM**: Zero live postings
 
+### Additional Evaluations (post-scan)
+| # | Company | Role | Score | Notes |
+|---|---------|------|-------|-------|
+| 445 | Cohere | TPM, AI Delivery | 3.0/5 | SKIP — US location unconfirmed |
+| 446 | Accenture Federal | Agile Delivery Lead | 3.4/5 | DC/VA, clearance unknown |
+
 ### Action Items for Candidate
-1. **Verify JDs** for top finds — network restrictions prevented JD fetching
-2. **Deloitte SM/PM Remote (#434)** — PRIMARY match, verify comp and apply if ≥ $105K
-3. **GitLab Principal TPM (#428)** — 4.2/5 score, verify still open and apply
-4. **EY Hoboken PM (#431)** — $167K+ comp, verify scope is tech/delivery
-5. **18 Pending URLs** in pipeline.md need manual evaluation
-6. Consider removing KPMG, Goldman Sachs from portals.yml or reconfiguring queries
+1. **GitLab Principal TPM (#427)** — 4.2/5 score, highest match. Remote US/Canada, $203-346K. Verify still open and apply.
+2. **EY Program Manager Hoboken (#431)** — 4.0/5, NJ local, $167-301K. Verify JD scope is tech/delivery.
+3. **Deloitte SM/PM Remote (#433)** — 3.9/5, PRIMARY match, SAFe SPC6 directly valued. Verify comp and apply if >= $105K.
+4. **Anthropic TPM Life Sciences (#429)** — 3.8/5, NYC, $290-365K. Sanofi pharma experience is a unique differentiator. APPLY.
+5. **EY AI Technical PM (#432)** — 3.8/5, confirm remote eligibility (Atlanta base).
+6. **14 Pending URLs** in pipeline.md need manual evaluation (Deloitte x6, EY, Leidos, CoreWeave, Alteva, Bounteous, CGS x2, CompassX).
+7. Consider removing KPMG, Goldman Sachs from portals.yml or reconfiguring queries.
