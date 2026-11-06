@@ -5,16 +5,46 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Remaining URLs from 2026-11-06 scan — need JD verification (network-restricted batch mode) -->
+https://apply.deloitte.com/careers/JobDetail/Program-Manager/75416  Deloitte Program Manager (Remote/NY)
+https://apply.deloitte.com/careers/JobDetail/Program-Manager-ITS-PMO-M-A/52405  Deloitte PM ITS PMO M&A (Jersey City/Parsippany NJ)
+https://apply.deloitte.com/careers/JobDetail/Agile-Project-Manager/89543  Deloitte Agile PM
+https://apply.deloitte.com/careers/JobDetail/Application-Modernization-Innovation-Program-Management-Manager/32437  Deloitte App Modernization PM Manager
+https://apply.deloitte.com/careers/JobDetail/Agile-Scrum-Master/54247  Deloitte Agile Scrum Master (NY)
+https://apply.deloitte.com/careers/JobDetail/Project-Manager-ITS-PMO-Consulting-Audit/62931  Deloitte PM ITS PMO Consulting/Audit (NJ/NY)
+https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY AI PM (verify remote)
+https://careers.leidos.com/jobs/17286300-sr-project-manager-gis  Leidos Sr PM GIS (Newark NJ Hybrid)
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UHG Technical PM (Remote)
+https://careers.unitedhealthgroup.com/job/22046030/lead-technical-product-manager-analytics-or-observability-remote-eden-prairie-mn/  UHG Lead Tech Product Mgr Analytics (Remote)
+https://careers.unitedhealthgroup.com/job/18357851/analytics-scrum-master-remote-remote/  UHG Analytics Scrum Master (Remote)
+https://jobs.merck.com/us/en/job/R334108/Associate-Director-US-Oncology-SCRUM-Master  Merck Assoc Dir Oncology SM (North Wales PA)
+https://job-boards.greenhouse.io/coreweave/jobs/4435058006  CoreWeave TPM Product Engineering (Livingston NJ/NYC)
+https://job-boards.greenhouse.io/altevarcm/jobs/4381009009  Alteva RCM Technical PM (Queens NY Remote)
+https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous Sr PM (Remote)
+https://jobs.lever.co/cgsfederal/ed9c3eaa-a1d0-426f-9e56-340a899018ea  CGS Agile Coach (Remote Federal)
+https://jobs.lever.co/cgsfederal/24e43bf1-f71f-43bb-b063-ee896f61a6c3  CGS IT PM (NY/Remote)
+https://jobs.lever.co/compassx/c99a4d42-7d0c-45a2-a7f4-0362f86534d3  CompassX Agile Product Coach (Remote Travel)
 
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-06 (scan covering since last run 2026-09-28, 39-day gap, automated scheduled run).
+3 scan groups launched: Consulting+Gov (completed — EY, Deloitte, Leidos surfaced new URLs; KPMG
+non-functional for 4th consecutive scan), Financial+Healthcare (completed — Citi, UHG found new roles;
+JPMorgan/Goldman/MetLife zero useful results), Big Tech+AI/Search Queries (stuck mid-execution, partial).
+Direct searches covered Greenhouse, Ashby, Lever portals and Anthropic/CoreWeave.
+23 new URLs added to scan-history.tsv. 5 evaluated (reports #427-431). 18 remain in Pending for JD
+verification — network restrictions prevented WebFetch of career sites in this batch run.
+Top finds: Citi TPM Applied AI & Agents SVP NYC (4.2/5), EY PM Hoboken NJ $167-301K (4.0/5),
+Deloitte Technical SM/PM Remote (3.9/5 PRIMARY), EY AI TPM (3.8/5), Leidos Sr PM Newark (3.6/5).
+NOTE: All evaluations marked "unconfirmed (batch mode)" — JDs were not fetched due to network policy.
+Candidate should verify JDs before applying.
+-->
+
+
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
@@ -457,3 +487,41 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Scan 2026-11-06 (Thursday automated scan, covering since last run 2026-09-28 — 39-day gap). Portal queries + tracked company scans across 3 parallel forks (Big Tech, Consulting+Gov, Finance+Healthcare). 34 new URLs logged to scan-history; 2 skipped on location/negative filter (Vonage Poland, MoonPay crypto). 7 top candidates evaluated below. Portal yield: Greenhouse+Ashby+Lever queries returned strong AI-adjacent TPM/PM results; Citi and UHG produced new remote postings; JPMorgan/Goldman/MetLife portals remain non-functional for direct job search. -->
+
+<!-- TIER A — Evaluated 2026-11-06 -->
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102161077472  Citi | Technical Program Manager, Applied AI & Agents (SVP) — pending eval
+https://job-boards.greenhouse.io/anthropic/jobs/5453548008  Anthropic | TPM, Corporate Engineering — pending eval
+https://job-boards.greenhouse.io/anthropic/jobs/5439391008  Anthropic | TPM, Life Sciences — pending eval
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-project-manager-technology-enablement-and-quality-transformation-remote/34088/102642021136  UHG | Senior PM, Technology Enablement & Quality Transformation (Remote) — pending eval
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal TPM — pending eval
+https://jobs.ashbyhq.com/cohere/41cb2a12-e33a-4368-a9f8-0ae0d19c023e  Cohere | TPM, AI Delivery — pending eval
+https://job-boards.greenhouse.io/accenturefederalservices/jobs/4702195006  Accenture Federal | Agile Delivery Lead — pending eval
+
+<!-- TIER B — Added to pipeline, not yet evaluated -->
+https://careers.unitedhealthgroup.com/job/boston/technical-project-manager-remote/34088/101367705200  UHG | Technical PM (Remote)
+https://careers.unitedhealthgroup.com/job/minnetonka/senior-project-manager-cardiology-implementation-services-remote/34088/100106456928  UHG | Senior PM, Cardiology Implementation (Remote)
+https://job-boards.greenhouse.io/energysolutions/jobs/5044867007  Energy Solutions | Senior Technical PM (Remote US)
+https://job-boards.greenhouse.io/nimblegravity/jobs/4726723005  Nimble Gravity | Scrum Master AI Delivery
+https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4243856009  National Life Insurance | PM, AI & Automation
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Senior AI PM
+https://job-boards.greenhouse.io/onenergy/jobs/4248218009  ON.energy | PM, AI Enablement
+https://jobs.ashbyhq.com/thinkific/79029f88-3a8a-43af-8d9d-6af868538cd0  Thinkific | Senior Technical PM
+https://jobs.ashbyhq.com/futurefitai/b6c27423-5e4d-4b69-bad3-01c4d1f50d36  FutureFit AI | TPM
+https://jobs.ashbyhq.com/pencil/aaa17cb3-5eb7-4096-aee2-d0d9f0e95ee5  Pencil | Lead TPM (Remote)
+https://jobs.ashbyhq.com/3E/f56cd9a7-04b6-4f1a-8d71-43be6ca5eb53  3E | TPM (AI)
+https://jobs.lever.co/veeva/1ce9d335-0b06-4a90-8776-a8348f7a5c46  Veeva Systems | Senior PM
+https://jobs.lever.co/leantaas/b9e0d16e-177a-40ef-854a-9fd10692356a  LeanTaaS | Sr. Program Mgr
+https://jobs.lever.co/cgsfederal/ed9c3eaa-a1d0-426f-9e56-340a899018ea  CGS Federal | Agile Coach
+https://jobs.merck.com/us/en/job/R334108/Associate-Director-US-Oncology-SCRUM-Master  Merck | Associate Director, US Oncology SCRUM Master
+https://careers.unitedhealthgroup.com/job/18357851/analytics-scrum-master-remote-remote/  UHG | Analytics Scrum Master (Remote)
+https://job-boards.greenhouse.io/altevarcm/jobs/4381009009  Alteva RCM | Technical PM
+https://job-boards.greenhouse.io/memx/jobs/4627058008  MEMX | Technical PM
+https://jobs.ashbyhq.com/neural-earth/f2fd1931-dda8-40e1-830e-64f4d63392a8  Neural Earth | TPM II
+https://jobs.ashbyhq.com/mustardseed/05b83b58-5ceb-451e-91e5-fa5e76691763  MustardSeed PMO | Senior PM
+https://jobs.ashbyhq.com/megazone/d84fa9c6-9615-449d-bdd5-fc20b69f76f8  Megazone Cloud | Sr. Cloud PM
+https://jobs.lever.co/bounteous/7ffa39d5-c9d5-42bd-9a0d-bceaa4ec9748  Bounteous | Senior PM
+https://jobs.lever.co/pingwind/1b2b4dff-7705-415d-bb87-b3e62c44bc08  PingWind | Program Mgr
+https://job-boards.greenhouse.io/neweratech/jobs/8526175002  New Era Tech | Scrum Master
+https://job-boards.greenhouse.io/pivotpointsolutions/jobs/4390035009  Pivot Point Solutions | Scrum Master
