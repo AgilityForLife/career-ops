@@ -16,6 +16,15 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-11-09 (automated scan, 42-day gap since 2026-09-28). Session network policy
+blocked all direct job board domains (greenhouse, ashby, lever, citi, servicenow, deloitte).
+All JDs sourced via WebSearch aggregator mirrors only; all reports marked "unconfirmed (batch mode)".
+Portal scan covered all 12 search_queries + all tracked_companies. 15 new candidates evaluated
+(reports 427-441). 3 scored >= 3.0 (apply-eligible): Citi Applied AI SVP 3.4, Tessera Labs
+Senior TPM 3.4, CoreWeave TPM Product Engineering 3.2. Remaining 12 below threshold (domain
+mismatch, location deal-breakers, weak CS engagement, or insufficient JD). No resumes generated
+this run — apply-eligible candidates need user review first. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
