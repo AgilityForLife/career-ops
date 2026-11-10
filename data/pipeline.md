@@ -5,25 +5,27 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Scan 2026-11-10: 12 search queries + 31 tracked companies scanned. 34 new URLs added to
-scan-history.tsv (28 from prior context window + 6 additional). Prior context also added 28
-entries. Total new URLs this scan: ~62. Highest-priority evaluable leads queued below.
-43-day gap since last scan (2026-09-28). -->
+<!-- Scan 2026-11-10 Pending: URLs needing full JD fetch (blocked by cloud session network policy).
+Evaluate on next local-machine run with Playwright access. -->
 
-https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs, Remote US — AI adoption + enterprise delivery (CS-1/CS-4) — PENDING: need full JD
-https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry — AI Program Manager, SF+NYC — AI transformation fit (CS-1/CS-2) — PENDING: need full JD
-https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664  Citi — Program Management Lead, NYC — enterprise delivery, financial services (CS-1/CS-5)
+https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs, Remote US — AI adoption + enterprise delivery (CS-1/CS-4)
+https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry — AI Program Manager, SF+NYC — AI transformation fit (CS-1/CS-2)
+https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664  Citi — Program Management Lead, NYC — enterprise delivery (CS-1/CS-5)
 https://jobs.citi.com/job/new-york/program-management-lead/287/94977560096  Citi — Program Management Lead, NYC — enterprise delivery (CS-1/CS-5)
-https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM ETD/Cleared OTC, JC Hybrid — regulated financial services (CS-1/CS-5/CS-7)
-https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success, Raritan NJ — pharma regulated delivery (CS-1/CS-5/CS-7)
-https://www.careers.jnj.com/en/jobs/r-084008/sr-project-manager-medtech-deliver/  J&J — Sr PM MedTech Deliver, New Brunswick NJ — pharma + project delivery (CS-1/CS-7)
-https://www.careers.jnj.com/en/jobs/r-096342/med-tech-supply-chain-pmo-excellence-lead/  J&J — MedTech PMO Excellence Lead, NJ — PMO + delivery governance (CS-1/CS-3/CS-7)
-https://job-boards.greenhouse.io/anthropic/jobs/5252781008  Anthropic — PM Communications, SF/NYC — AI company, comms program delivery
+https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM ETD/Cleared OTC, JC Hybrid — regulated FS (CS-1/CS-5/CS-7)
+https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success, NJ — pharma regulated (CS-1/CS-5/CS-7)
+https://www.careers.jnj.com/en/jobs/r-084008/sr-project-manager-medtech-deliver/  J&J — Sr PM MedTech Deliver, NJ — pharma + delivery (CS-1/CS-7)
+https://www.careers.jnj.com/en/jobs/r-096342/med-tech-supply-chain-pmo-excellence-lead/  J&J — MedTech PMO Excellence Lead, NJ — PMO governance (CS-1/CS-3/CS-7)
+https://www.careers.jnj.com/en/jobs/r-082849/director-projectprogram-management-wound-closure-and-healing-medtech/  J&J — Director, Project/PM MedTech — NJ director-level (CS-1/CS-5/CS-7)
+https://job-boards.greenhouse.io/anthropic/jobs/5252781008  Anthropic — PM Communications, SF/NYC — comms program delivery
 https://job-boards.greenhouse.io/anthropic/jobs/5067443008  Anthropic — TPM API — AI platform delivery (CS-1/CS-2)
 https://job-boards.greenhouse.io/anthropic/jobs/5150653008  Anthropic — TPM Platform — cloud platform deployment (CS-1/CS-2/CS-3)
 https://job-boards.greenhouse.io/anthropic/jobs/5080796008  Anthropic — TPM Product — model/product launch delivery (CS-1)
-https://job-boards.greenhouse.io/anthropic/jobs/5062968008  Anthropic — TPM Enterprise Readiness — enterprise adoption + delivery (CS-1/CS-5)
 https://job-boards.greenhouse.io/anthropic/jobs/5067441008  Anthropic — TPM Strategic Deals — technical integration delivery (CS-1/CS-2/CS-5)
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix — Agile Coach, Financial Services (Remote EST) — CS-5/CS-6/CS-7
+https://job-boards.greenhouse.io/phizenix/jobs/4607292008  Phizenix — Release Train Engineer (NYC Hybrid) — CS-6 SAFe fit
+https://careers.servicenow.com/jobs/744000137206440/director-technical-program-management/  ServiceNow — Director, TPM — senior leadership role
+https://careers.servicenow.com/jobs/744000137983950/senior-director-technical-program-management/  ServiceNow — Senior Director, TPM — executive-level
 
 ## In Progress
 
