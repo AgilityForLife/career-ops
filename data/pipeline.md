@@ -35,34 +35,44 @@ https://careers.servicenow.com/jobs/744000137983950/senior-director-technical-pr
 
 <!-- Processed 2026-11-10 (scan covering since last run 2026-09-28, 43-day gap, scheduled headless run).
 Scanned all 12 portals.yml search_queries + 31 tracked companies via WebSearch (WebFetch blocked by
-network policy for job board domains). Prior context window added 28 new scan-history entries; this
-context added 34 more for 62 total new URLs logged. Dedup against 614 existing scan-history URLs.
+network policy for job board domains). 78 new URLs logged to scan-history.tsv. Dedup against 614
+existing entries.
 
-Evaluated 5 leads (reports 427-431):
-- #427 Citi Program Mgmt Lead, Product Dev Transformation VP (4.0/5) — PRIMARY, 5 CS
-- #428 Citi AI Digital Senior Program Lead SVP (3.5/5) — SECONDARY, 4 CS
-- #429 EvolutionIQ TPM AI/Insurtech (4.0/5) — PRIMARY, 4 CS, $180-200K
-- #430 EY Program Manager Hoboken NJ (3.7/5) — SECONDARY, 3 CS, Big 4
-- #431 Anthropic TPM Enterprise Readiness (4.2/5) — PRIMARY (if NYC), 4-5 CS
+Evaluated 14 leads (reports 427-440):
+- #436 Deloitte TPM DevOps/Git/Cloud Senior Manager (4.3/5) — HIGHEST, CS-1/2/3 bullseye
+- #434 Anthropic TPM Enterprise Readiness (4.2/5) — BEST FIT, enterprise adoption mandate. Verify NYC.
+- #427 Citi Program Mgmt Lead, Product Dev Transformation VP (4.0/5) — 5 CS engaged, NYC hybrid
+- #430 EvolutionIQ TPM AI/Insurtech SaaS (4.0/5) — AI-adjacent, $180-200K NYC
+- #429 EY CT Tech Activation PM Hoboken (3.8/5) — 4 CS, local NJ
+- #435 Deloitte Delivery Leader Core Financial Systems (3.8/5) — 6/7 CS engaged
+- #431 UnitedHealth Director Tech Project/PM Remote (3.7/5) — director stretch, fully remote
+- #432 EY Program Manager Hoboken (3.7/5) — 3 CS, Big 4 consulting
+- #433 Goldman Sachs Digital Transformation PM AI VP (3.6/5) — 4 CS, AI transformation
+- #428 Citi AI Digital Senior Program Lead SVP (3.5/5) — 4 CS, AI/digital scope
+- #439 UnitedHealth Senior Manager Tech Project PM Remote (3.5/5) — 3+2 CS, remote
+- #438 Citi Direct Payments Tech PM/Quality Lead SVP JC (3.4/5) — quality-lead stretch
+- #440 Deloitte Sr Manager Lead Delivery Leader (3.3/5) — tax domain stretch
+- #437 Accenture Project Delivery Management Lead Morristown NJ (3.2/5) — 2+1 CS only
 
-Top finding: Anthropic TPM Enterprise Readiness (#431, 4.2/5) is best new lead — enterprise adoption
-mandate is near-perfect positioning match. MUST verify NYC location before applying (SF = deal-breaker).
+18 remaining Pending URLs need full JD fetch (blocked by network policy this session):
+Airtable, Real Chemistry, 3 Citi, 4 J&J, 5 Anthropic TPMs, 2 Phizenix, 2 ServiceNow.
 
-10 remaining Pending URLs need full JD fetch (blocked by network policy this session) before evaluation:
-Airtable AI Programs, Real Chemistry AI PM, 5 Citi NJ/NY leads, 3 J&J NJ leads, several Anthropic TPMs.
-
-OpenAI: 6 new SF-only roles all rejected (relocation pattern). Only Program Manager Lead Remote US was
-previously added (scan-history #656) — that's the sole OpenAI remote lead; prior context may have
-evaluated it.
-
-Data quality: Merck continues high 410-Gone rate; KPMG zero live hits; Goldman scan_query functional
-this time (2 leads found); consulting+gov segment slightly more productive than last 3 scans (EY Hoboken
-+ Deloitte Agile Coach + Cognizant Sr PM are genuine new leads). -->
-https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  → Report #429 (4.0/5)
-https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  → Report #430 (3.7/5)
-https://job-boards.greenhouse.io/anthropic/jobs/5062968008  → Report #431 (4.2/5)
+OpenAI: 6 new SF-only roles rejected (relocation). KPMG zero hits. Merck high 410-Gone rate.
+Goldman scan_query functional (2 leads found). Consulting+gov slightly more productive. -->
 https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  → Report #427 (4.0/5)
 https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  → Report #428 (3.5/5)
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1442933033/  → Report #429 (3.8/5)
+https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  → Report #430 (4.0/5)
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  → Report #431 (3.7/5)
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  → Report #432 (3.7/5)
+https://higher.gs.com/roles/179569  → Report #433 (3.6/5)
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  → Report #434 (4.2/5)
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financial-Systems/360482  → Report #435 (3.8/5)
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-with-DevOps-Git-Cloud-Senior-Manager/322186  → Report #436 (4.3/5)
+https://www.accenture.com/us-en/careers/jobdetails?id=14784873_en  → Report #437 (3.2/5)
+https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  → Report #438 (3.4/5)
+https://careers.unitedhealthgroup.com/job/austin/senior-manager-of-technical-project-and-program-management-remote/34088/97613515552  → Report #439 (3.5/5)
+https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360485  → Report #440 (3.3/5)
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies

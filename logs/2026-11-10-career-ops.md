@@ -56,7 +56,7 @@ size of scanning + evaluation work.
 
 ## Recommendations for Next Scan
 
-1. **Verify Anthropic #431 NYC location** before applying — this is the highest-priority action.
-2. **Fetch full JDs** for the 10 remaining Pending leads when WebFetch is available.
+1. **Verify Anthropic #434 NYC location** before applying — this is the highest-priority action.
+2. **Fetch full JDs** for the 18 remaining Pending leads when WebFetch is available.
 3. **Consider query refresh** for consulting+gov segment (KPMG, Goldman) — 4th scan with low/zero yields.
 4. **Re-scan cadence:** 2-week interval is sufficient given 43-day gap showed moderate yield. Weekly would catch fast-closing roles.
