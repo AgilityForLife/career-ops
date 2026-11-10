@@ -15,11 +15,11 @@ size of scanning + evaluation work.
 | 1. Load context | ✅ | skills-model.md, profile.yml, cv.md, portals.yml, scan-history.tsv (638→700 entries), pipeline.md, applications.md |
 | 2. Install deps | ✅ | Node.js available, merge/verify scripts functional |
 | 3. Portal scan | ✅ | 12 search queries + 31 tracked companies scanned via WebSearch. WebFetch blocked by network policy (job board domains not in allowed list). ~62 new URLs logged in scan-history.tsv. |
-| 4. Evaluate | ✅ | 5 reports generated (#427-431). Top: Anthropic TPM Enterprise Readiness (4.2/5). |
+| 4. Evaluate | ✅ | 14 reports generated (#427-440) across 3 context windows. Top: Deloitte TPM DevOps/Git/Cloud (4.3/5), Anthropic TPM Enterprise Readiness (4.2/5). |
 | 5-10. Score/PDF | ✅ | Scores computed using CS Engagement Test. No PDFs generated (WebFetch blocked). |
-| 11. Merge/verify | ✅ | `merge-tracker.mjs`: +5 added, 1 updated. `verify-pipeline.mjs`: 0 errors, 2 warnings (false positive duplicates). |
+| 11. Merge/verify | ✅ | `merge-tracker.mjs`: 14 added, 2 updated. `verify-pipeline.mjs`: 0 errors, 1 warning (false positive Glean duplicate). |
 | 12. State log | ✅ | This file |
-| 13. Commit/push | ✅ | Committed and pushed to `claude/magical-gauss-v90ql9` (2 commits: 893f64f + 243af66) |
+| 13. Commit/push | ✅ | Committed and pushed to `claude/magical-gauss-v90ql9` (3 commits: 893f64f + 243af66 + b52e466) |
 | 14. Session log | ✅ | This file |
 | 15. Safety check | ✅ | No applications auto-submitted |
 
@@ -28,18 +28,20 @@ size of scanning + evaluation work.
 **Total new URLs found:** ~62
 **Added to scan-history.tsv:** 62 (28 from prior context + 34 from this context)
 **Added to pipeline (Pending):** 16 leads queued
-**Evaluated:** 5 reports generated
-**Remaining Pending:** 10 leads need full JD (WebFetch blocked)
+**Evaluated:** 14 reports generated (#427-440)
+**Remaining Pending:** 20 leads need full JD (WebFetch blocked)
 
 ## Top Leads (Apply-Eligible)
 
 | # | Company | Role | Score | Location | Comp | Notes |
 |---|---------|------|-------|----------|------|-------|
-| 431 | Anthropic | TPM, Enterprise Readiness | 4.2/5 | NYC (verify!) | ~$200-300K | BEST FIT — enterprise adoption mandate matches positioning perfectly. MUST verify NYC. |
+| 436 | Deloitte | TPM DevOps/Git/Cloud (Senior Manager) | 4.3/5 | TBD (verify) | ~$150-250K | HIGHEST SCORE — CS-1/2/3 bullseye; verify location |
+| 434 | Anthropic | TPM, Enterprise Readiness | 4.2/5 | NYC (verify!) | ~$200-300K | BEST POSITIONING FIT — enterprise adoption mandate. MUST verify NYC. |
 | 427 | Citi | Program Mgmt Lead, Product Dev Transformation VP | 4.0/5 | NYC hybrid | $129-195K | 5 CS engaged; regulated FS transformation delivery |
-| 429 | EvolutionIQ | TPM AI/Insurtech SaaS | 4.0/5 | NYC | $180-200K+equity | First TPM hire; AI + security/compliance governance |
-| 430 | EY | Program Manager | 3.7/5 | Hoboken NJ | ~$130-180K | Big 4 consulting; verify posting still live |
-| 428 | Citi | AI Digital Senior Program Lead SVP | 3.5/5 | NYC hybrid | ~$175-275K | AI transformation but thin JD |
+| 430 | EvolutionIQ | TPM AI/Insurtech SaaS | 4.0/5 | NYC | $180-200K+equity | First TPM hire; AI + security/compliance governance |
+| 429 | EY | CT Tech Activation PM | 3.8/5 | Hoboken NJ | $138-302K | 4 CS engaged; local commute |
+| 435 | Deloitte | Delivery Leader Core Financial Systems | 3.8/5 | TBD | $144-296K | 6/7 CS; consulting pedigree gap |
+| 432 | UHG | Director, Tech Project/PM (Remote) | 3.8/5 | Remote | $134-231K | Director stretch; fully remote |
 
 ## Scan Quality Notes
 
