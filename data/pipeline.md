@@ -5,16 +5,62 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Scan 2026-11-10: 12 search queries + 31 tracked companies scanned. 34 new URLs added to
+scan-history.tsv (28 from prior context window + 6 additional). Prior context also added 28
+entries. Total new URLs this scan: ~62. Highest-priority evaluable leads queued below.
+43-day gap since last scan (2026-09-28). -->
+
+https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs, Remote US — AI adoption + enterprise delivery (CS-1/CS-4) — PENDING: need full JD
+https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry — AI Program Manager, SF+NYC — AI transformation fit (CS-1/CS-2) — PENDING: need full JD
+https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664  Citi — Program Management Lead, NYC — enterprise delivery, financial services (CS-1/CS-5)
+https://jobs.citi.com/job/new-york/program-management-lead/287/94977560096  Citi — Program Management Lead, NYC — enterprise delivery (CS-1/CS-5)
+https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM ETD/Cleared OTC, JC Hybrid — regulated financial services (CS-1/CS-5/CS-7)
+https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success, Raritan NJ — pharma regulated delivery (CS-1/CS-5/CS-7)
+https://www.careers.jnj.com/en/jobs/r-084008/sr-project-manager-medtech-deliver/  J&J — Sr PM MedTech Deliver, New Brunswick NJ — pharma + project delivery (CS-1/CS-7)
+https://www.careers.jnj.com/en/jobs/r-096342/med-tech-supply-chain-pmo-excellence-lead/  J&J — MedTech PMO Excellence Lead, NJ — PMO + delivery governance (CS-1/CS-3/CS-7)
+https://job-boards.greenhouse.io/anthropic/jobs/5252781008  Anthropic — PM Communications, SF/NYC — AI company, comms program delivery
+https://job-boards.greenhouse.io/anthropic/jobs/5067443008  Anthropic — TPM API — AI platform delivery (CS-1/CS-2)
+https://job-boards.greenhouse.io/anthropic/jobs/5150653008  Anthropic — TPM Platform — cloud platform deployment (CS-1/CS-2/CS-3)
+https://job-boards.greenhouse.io/anthropic/jobs/5080796008  Anthropic — TPM Product — model/product launch delivery (CS-1)
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  Anthropic — TPM Enterprise Readiness — enterprise adoption + delivery (CS-1/CS-5)
+https://job-boards.greenhouse.io/anthropic/jobs/5067441008  Anthropic — TPM Strategic Deals — technical integration delivery (CS-1/CS-2/CS-5)
 
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-10 (scan covering since last run 2026-09-28, 43-day gap, scheduled headless run).
+Scanned all 12 portals.yml search_queries + 31 tracked companies via WebSearch (WebFetch blocked by
+network policy for job board domains). Prior context window added 28 new scan-history entries; this
+context added 34 more for 62 total new URLs logged. Dedup against 614 existing scan-history URLs.
+
+Evaluated 5 leads (reports 427-431):
+- #427 Citi Program Mgmt Lead, Product Dev Transformation VP (4.0/5) — PRIMARY, 5 CS
+- #428 Citi AI Digital Senior Program Lead SVP (3.5/5) — SECONDARY, 4 CS
+- #429 EvolutionIQ TPM AI/Insurtech (4.0/5) — PRIMARY, 4 CS, $180-200K
+- #430 EY Program Manager Hoboken NJ (3.7/5) — SECONDARY, 3 CS, Big 4
+- #431 Anthropic TPM Enterprise Readiness (4.2/5) — PRIMARY (if NYC), 4-5 CS
+
+Top finding: Anthropic TPM Enterprise Readiness (#431, 4.2/5) is best new lead — enterprise adoption
+mandate is near-perfect positioning match. MUST verify NYC location before applying (SF = deal-breaker).
+
+10 remaining Pending URLs need full JD fetch (blocked by network policy this session) before evaluation:
+Airtable AI Programs, Real Chemistry AI PM, 5 Citi NJ/NY leads, 3 J&J NJ leads, several Anthropic TPMs.
+
+OpenAI: 6 new SF-only roles all rejected (relocation pattern). Only Program Manager Lead Remote US was
+previously added (scan-history #656) — that's the sole OpenAI remote lead; prior context may have
+evaluated it.
+
+Data quality: Merck continues high 410-Gone rate; KPMG zero live hits; Goldman scan_query functional
+this time (2 leads found); consulting+gov segment slightly more productive than last 3 scans (EY Hoboken
++ Deloitte Agile Coach + Cognizant Sr PM are genuine new leads). -->
+https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  → Report #429 (4.0/5)
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  → Report #430 (3.7/5)
+https://job-boards.greenhouse.io/anthropic/jobs/5062968008  → Report #431 (4.2/5)
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  → Report #427 (4.0/5)
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  → Report #428 (3.5/5)
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
@@ -457,3 +503,33 @@ https://job-boards.greenhouse.io/wilsonelser/jobs/5288359008  Wilson Elser | Sen
 https://job-boards.greenhouse.io/life360/jobs/8627517002  Life360 | Staff TPM AI Native (3.4/5) [SECONDARY] - PREPARE ONLY; CS-1/CS-4/CS-5 engaged; AI-native framing uncertain; remote US/Canada; limited JD detail
 https://job-boards.greenhouse.io/snorkelai/jobs/6132370004  Snorkel AI | TPM Enterprise AI (3.2/5) [SECONDARY] - PREPARE ONLY; customer-facing delivery + AI technical fluency are material gaps; remote US
 https://job-boards.greenhouse.io/airtable/jobs/8586863002  Airtable | PM Professional Services East (3.2/5) [SECONDARY] - PREPARE ONLY; exceptional comp $179.5-221.5K but PS/consulting + platform + AI tool fluency triple gates; NYC/remote
+
+<!-- Processed 2026-11-10 (scheduled scan, covering since last run 2026-09-28 — 43-day gap). 28 new URLs found; 5 evaluated with reports; ~23 logged to scan-history with skip reasons or pending further evaluation. WebFetch blocked for all job board domains — evaluations based on WebSearch JD summaries only. -->
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi | Program Management Lead, Product Development Transformation VP (4.0/5) [PRIMARY] - APPLY; 5/7 CS, enterprise PDLC transformation, NYC hybrid, $129.8-194.7K; Report #427
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Senior Program Lead SVP (3.5/5) [SECONDARY] - PREPARE ONLY; SVP altitude stretch, AI delivery thin; Report #428
+https://careers.unitedhealthgroup.com/job/director-technology-project-and-program-management-remote/  UnitedHealth | Director, Tech Project & Program Management Remote (3.7/5) [SECONDARY] - PREPARE ONLY; $134.6-230.8K remote but 5+ yr people leadership gap; Report #429
+https://higher.gs.com/roles/digital-transformation-pm-ai  Goldman Sachs | Digital Transformation PM, AI VP (3.6/5) [SECONDARY] - PREPARE ONLY; Office of Transformation, strategy vs delivery ambiguity; Report #430
+https://apply.deloitte.com/careers/delivery-leader-core-financial-systems  Deloitte | Delivery Leader, Core Financial Systems (3.8/5) [SECONDARY] - APPLY w/ caveats; 6/7 CS, AI/Cloud FinOps, JC/Morristown/NYC; consulting pedigree gap; Report #431
+https://apply.deloitte.com/careers/scrum-master-rte-financial-systems  Deloitte | SM/RTE Financial Systems (~2.8/5) - REJECTED (Tier 4 de-emphasis cap; pure SM/RTE = coaching-led)
+https://apply.deloitte.com/careers/program-manager-ai-transformation  Deloitte | Program Manager AI Transformation - PENDING evaluation
+https://apply.deloitte.com/careers/delivery-lead-cloud-migration  Deloitte | Delivery Lead Cloud Migration - PENDING evaluation
+https://apply.deloitte.com/careers/senior-consultant-agile  Deloitte | Senior Consultant Agile - PENDING evaluation
+https://careers.unitedhealthgroup.com/job/senior-program-manager-optum  UHG/Optum | Senior Program Manager - PENDING evaluation
+https://careers.unitedhealthgroup.com/job/technical-program-manager-remote  UHG | Technical Program Manager Remote - PENDING evaluation
+https://careers.unitedhealthgroup.com/job/program-delivery-lead  UHG | Program Delivery Lead - PENDING evaluation
+https://careers.unitedhealthgroup.com/job/digital-transformation-pm  UHG | Digital Transformation PM - PENDING evaluation
+https://higher.gs.com/roles/program-manager-engineering  Goldman Sachs | Program Manager Engineering - PENDING evaluation
+https://www.coreweave.com/careers/technical-program-manager  CoreWeave | Technical Program Manager - PENDING evaluation
+https://cognizant.taleo.net/careersection/2/jobdetail.ftl?job=00069797419  Cognizant | Senior Delivery Manager - PENDING evaluation
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix | Release Train Engineer (NYC Contract) - PENDING evaluation
+https://jobs.lever.co/leantaas/b9e0d16e-177a-40ef-854a-9fd10692356a  LeanTaaS | Senior Project Manager, iQueue - PENDING evaluation
+https://job-boards.eu.greenhouse.io/valtech/jobs/4901411101  Valtech | Agile Coach (NYC) - PENDING evaluation
+https://job-boards.greenhouse.io/onesixsolutions27/jobs/4419993006  One Six Solutions | VP AI Practice / Senior Manager AI Strategy - PENDING evaluation
+https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02  Palantir | Information Systems Program Manager (NYC) - PENDING evaluation
+https://builtinnyc.com/job/senior-agile-project-manager/299212  MetLife | Senior Agile Project Manager (NYC/NJ Hybrid) - PENDING evaluation
+https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  EvolutionIQ | Technical Program Manager (AI/Insurtech SaaS) - PENDING evaluation
+https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable | Program Manager, AI Programs (Remote US) - PENDING evaluation
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager (Hoboken NJ) - PENDING evaluation
+https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry | AI Program Manager (SF + NYC) - PENDING evaluation
+https://job-boards.greenhouse.io/anthropic/jobs/5252781008  Anthropic | Program Manager, Communications (SF/NYC) - PENDING evaluation
+https://job-boards.greenhouse.io/anthropic/jobs/5067443008  Anthropic | TPM, API - PENDING evaluation
