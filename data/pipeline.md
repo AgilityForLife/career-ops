@@ -16,6 +16,28 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-11-11 (scan covering since last run 2026-09-28, scheduled cloud run, 44-day gap).
+Session ran search_queries scan (12 queries) + partial tracked_companies scan (13 of 31 companies
+covered: Amazon, Citi, CoreWeave, J&J, Merck, Microsoft, OpenAI, Palantir, Salesforce, ServiceNow,
+UnitedHealth Group, Deloitte, Cognizant + EY). Network policy blocked direct JD fetches to
+greenhouse.io/ashbyhq.com/lever.co — all evaluations used WebSearch aggregator data and are marked
+"unconfirmed (batch mode)". 22 new entries merged into applications.md (reports 450-455, 475-479,
+500-510). Search queries yielded 8 genuinely new evaluated candidates (reports 503-510) from ~20
+raw URLs; the rest were location/fit skips (Taiwan, Korea, Canada-only, LATAM, downlevel, hybrid
+non-NJ). Tracked companies yielded 14 evaluated candidates across Amazon (3), CoreWeave (2),
+Palantir (1), Deloitte (3+EY 1), Cognizant (1), Citi (2), UnitedHealth (1). Amazon roles all
+rejected on RTO deal-breaker. Top finds this run:
+- GitLab Principal TPM (3.8/5, remote US, $203K-$345K) — best of run, strong CS-1/CS-3/CS-5
+- Deloitte Delivery Leader Core Financial Systems (3.5/5, Jersey City+remote, CS-1/CS-5)
+- FutureFit AI TPM (3.3/5, remote US, $125-165K, AI company)
+- AHEAD Senior PM (3.3/5, remote US, $140-160K, cloud infra)
+6 roles scored 3.0+ and are apply-eligible, all HELD per SUBMISSION GATE. Remaining 18 tracked
+companies not scanned this run (IBM, Google, Accenture, KPMG, PwC, Booz Allen, Leidos, SAIC,
+JPMorgan, Goldman Sachs, Prudential, MetLife, Anthropic, Glean, WSP, AECOM, Parsons, ServiceNow
+duplicate entry) — recommend scanning in next run. Query saturation continues: all 12 static
+search_queries returned mostly known URLs, confirming the pattern from 2026-09-25/2026-09-28
+scans; recency qualifiers ("November 2026", "October 2026") helped surface some new results. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
