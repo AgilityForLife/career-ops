@@ -16,6 +16,34 @@ local:jds/company-role-2026.md       Saved JD file
 
 ## Done
 
+<!-- Processed 2026-11-12 (scan covering since last run 2026-09-28, scheduled cloud run, 45-day gap).
+4 parallel scan agents covered all 12 portals.yml search_queries + all 31 tracked_companies (split into
+Big Tech + AI/Infra, Consulting + Gov, Financial + Healthcare segments). ~86 raw new URLs surfaced — the
+45-day gap broke the heavy saturation pattern that persisted across the prior 1-3 day gap scans. After
+dedup against scan-history.tsv (637 entries pre-run) and title/location/domain pre-filtering: 34 URLs
+skipped (location/clearance/domain/stale/aggregator), 20 evaluated in 4 parallel batches (reports
+427-446), 19 logged as evaluate-on-demand for future runs. Data-quality notes carried forward:
+jobs.kpmg.us zero live hits (4th consecutive scan), Goldman Sachs scan_query non-functional (4th+),
+IBM careers near-zero yield, WSP/AECOM permanent domain mismatch (PE/civil engineering). The 45-day gap
+made Greenhouse/Ashby/Lever search queries productive again (22 new URLs from queries 1-8, vs. zero
+across prior 3 scans). Consulting+Gov segment produced 18 new URLs after 3 straight zero-yield scans —
+EY and Cognizant were the productive channels. UnitedHealth Group remains the single most productive
+tracked company (7 new this run). boards-api.greenhouse.io was blocked by network policy in this
+environment; used WebSearch fallback for Anthropic/Glean API queries. 8 of 20 scored 3.0+ and are
+apply-eligible — ALL HELD per safety rule (NEVER auto-submit); nothing submitted. verify-pipeline.mjs
+re-flagged the pre-existing #108/#109 Glean false positive — unchanged, not this run's issue.
+The 8 apply-eligible roles, all "Prepared, awaiting Erick's go":
+https://job-boards.greenhouse.io/gitlab/jobs/8693068002  GitLab | Principal Technical Program Manager (3.5/5) [PRIMARY] - APPLY w/ caveats; all-remote $203-346K; CS-1/CS-3/CS-5 engaged; DevOps governance strong match
+https://careers.cognizant.com/global-en/jobs/00070746661  Cognizant | Sr Consulting Mgr, BI & Project Delivery Lead (3.5/5) [PRIMARY] - APPLY; Bridgewater NJ; CS-1/CS-4/CS-5/CS-6; Power BI + SAFe direct match
+https://job-boards.greenhouse.io/anthropic/jobs/5453550008  Anthropic | TPM, SOX Compliance (3.4/5) [SECONDARY] - APPLY w/ caveats; NYC; CS-1/CS-5/CS-7; $290-365K; SOX-specific gap bridgeable
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102161077472  Citi | TPM, Applied AI & Agents SVP (3.4/5) [SECONDARY] - APPLY w/ caveats; NYC; CS-1/CS-5/CS-7; $192-288K; AI/agentic delivery
+https://careers.unitedhealthgroup.com/job/prin-cybersecurity-tpm  UHG | Prin Cybersecurity TPM (3.4/5) [SECONDARY] - APPLY w/ caveats; Remote; CS-1/CS-5/CS-7; $112.7-193.2K; M&A cybersecurity due diligence
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1442933033/  EY | Program Manager Hoboken NJ (3.3/5) [PRIMARY] - APPLY; NJ location; CS-1/CS-5; $167-301K
+https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY | AI Project Manager Remote (3.1/5) [SECONDARY] - APPLY w/ caveats; Anywhere-US remote; AI-adjacent PM
+https://job-boards.greenhouse.io/realchemistry/jobs/5287103008  Real Chemistry | Senior AI PM (3.1/5) [SECONDARY] - APPLY w/ caveats; Remote; CS-1/CS-5; healthcare/pharma adjacent
+The other 12 evaluated-and-rejected outcomes (scores 2.0-2.8) are fully detailed in applications.md
+and reports/428-429+431+438-440+442-446. -->
+
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
 split into Big Tech + AI/Infra (IBM/ServiceNow x2/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/
