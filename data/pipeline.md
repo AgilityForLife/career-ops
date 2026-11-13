@@ -5,10 +5,67 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Add URLs below, one per line. Example:
-https://jobs.example.com/posting/123  Senior PM role - looks strong
-local:jds/company-role-2026.md       Saved JD file
--->
+<!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
+
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi — AI Digital Sr Program Lead, SVP — NYC — HIGH PRIORITY
+https://jobs.citi.com/job/new-york/director-technical-program-manager-production-management/287/100500716432  Citi — Director TPM Production Management — NYC
+https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi — PM Lead Product Dev Transformation, VP — NYC
+https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi — Payments Tech PM/Quality Lead, SVP — JC
+https://jobs.citi.com/job/jersey-city/low-latency-infrastructure-senior-program-manager/287/95863915072  Citi — Low-Latency Infra Sr PM — JC
+https://jobs.citi.com/job/new-york/program-management-lead-alumni-network-vice-president/287/102261625120  Citi — PM Lead Alumni Network, VP — NYC — lower priority domain
+https://higher.gs.com/roles/172262  Goldman Sachs — VP Project Management, GBM — NYC
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Deloitte — Senior Consultant Agile Coach — JC/Morristown/NY
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financial-Systems/360482  Deloitte — Delivery Leader Core Financial Systems — JC/Morristown/NY — remote tag
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Deloitte — Senior Consultant SM/RTE — JC/Morristown/NY
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY — Program Manager — Hoboken NJ
+https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY — Project Manager — Hoboken NJ
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth — Director Tech Project/PM, Remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/principal-technical-project-program-manager/34088/97439879232  UnitedHealth — Principal Tech Project/PM
+https://careers.unitedhealthgroup.com/job/austin/senior-manager-of-technical-project-and-program-management-remote/34088/97613515552  UnitedHealth — Sr Manager TPM, Remote
+https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02  Palantir — IS Program Manager — NYC
+https://jobs.lever.co/palantir/34e30387-4469-41e4-9e69-6cc8a179af3b  Palantir — TPM — NYC
+https://www.themuse.com/jobs/jpmorganchase/technical-project-manager-executive-director-ai-product-management-team  JPMorgan — Technical PM Exec Dir AI Product Mgmt — NYC
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-strategic-initiatives-and-delivery-office  JPMorgan — Lead TPM Strategic Initiatives & Delivery Office — NYC/JC
+https://jobs.citi.com/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528  Citi — Transformation PM Lead Markets, VP — NYC — Agile/Scrum mentioned
+https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — JC — Cash Equities
+https://careers.unitedhealthgroup.com/job/eden-prairie/technical-program-leader/34088/100045687744  UnitedHealth — Technical Program Leader — Remote?
+https://careers.unitedhealthgroup.com/job/eden-prairie/sr-tech-project-manager-remote/34088/93369671408  UnitedHealth — Sr Tech Project Manager — Remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/97581065728  UnitedHealth — Senior Technical Project Manager
+https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-management-remote/34088/92872151872  UnitedHealth — Director Tech Project Management — Remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/agile-practitioner-3-remote/34088/95017291216  UnitedHealth — Agile Practitioner 3 — Remote
+https://job-boards.greenhouse.io/coreweave/jobs/4435058006  CoreWeave — TPM Product Engineering — Livingston NJ/NYC — Hybrid
+https://job-boards.greenhouse.io/coreweave/jobs/4433363006  CoreWeave — Ops PM Maintenance & RMAs — Hybrid
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-with-DevOps-Git-Cloud-Senior-Manager/322186  Deloitte — Delivery Mgmt TPM DevOps/Cloud Sr Manager — NJ/NY — CS-1/CS-3
+https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Program-Manager/356701  Deloitte — Technical Program Manager — NYC
+https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Project-and-Program-Manager/357211  Deloitte — Tech Project & Program Manager — 48 locs incl NY
+https://apply.deloitte.com/en_US/careers/JobDetail/IT-Program-Manager-Strategy-Operations/367126  Deloitte — IT PM Strategy & Ops — Remote-friendly
+https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360485  Deloitte — Sr Manager Lead Delivery Leader — Morristown/NYC — #LI-Remote
+https://apply.deloitte.com/en_US/careers/JobDetail/Technology-Strategy-Innovation-and-Delivery-Transformation-Manager/355545  Deloitte — Tech Strategy Delivery Transformation Mgr — NJ/NY
+https://careers.cognizant.com/us-en/jobs/00071127041/  Cognizant — Sr Consulting PM — Teaneck NJ — Hybrid — $134.5-158.5K — Closes Nov 27
+https://openai.com/careers/security-program-manager-us-remote/  OpenAI — Security PM (M&A focus) — Remote US
+https://jobs.lever.co/palantir/def1573d-c2b6-42a7-963b-e13c3587b5e9  Palantir — GRC Program Manager — DC hybrid
+https://jobs.lever.co/palantir/9da1a482-4f3a-4804-8b5f-b9697d85fe61  Palantir — TPM Autonomous Systems C2
+https://careers.boozallen.com/jobs/JobDetail/McLean-AI-Project-Manager-R0228219/116919  Booz Allen — AI Project Manager — McLean VA — SAFe/Agile cert req
+https://www.careers.jnj.com/en/jobs/r-096342/med-tech-supply-chain-pmo-excellence-lead/  J&J — Med Tech Supply Chain PMO Excellence Lead — NJ
+https://www.careers.jnj.com/en/jobs/r-073343/program-manager-hcs/  J&J — Program Manager HCS — Remote US
+https://www.careers.jnj.com/en/jobs/r-084008/sr-project-manager-medtech-deliver/  J&J — Sr Project Manager MedTech Deliver — NJ
+https://www.careers.jnj.com/en/jobs/r-082849/director-projectprogram-management-wound-closure-and-healing-medtech/  J&J — Director Project/Program Mgmt MedTech — Raritan NJ Hybrid
+https://www.careers.jnj.com/en/jobs/r-099953/director-project-portfolio-management-biosurgery-ppmg-medtech-surgery/  J&J — Director Project Portfolio Mgmt Biosurgery — NJ Hybrid
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager-remote-or-hybrid-in-mn-or-dc/34088/92872144384  UnitedHealth — Senior TPM Remote/Hybrid MN or DC — Cybersecurity
+https://www.dice.com/job-detail/aeff164d-f8f4-4050-95a8-4984f13ffe2a  JPMorgan — Lead Technology PM — Jersey City — $142K-190K
+https://www.themuse.com/jobs/jpmorganchase/principal-technical-program-manager-e633e6  JPMorgan — Principal Technical PM — NYC/JC
+https://www.ihireengineering.com/jobs/view/523189677  JPMorgan — Data Modernization Technical PM — Jersey City
+https://www.builtinnyc.com/job/senior-agile-project-manager/299212  MetLife — Senior Agile Project Manager — NYC/NJ Hybrid — $103K-130K
+https://builtinnyc.com/job/project-manager-system-migrations/310842  MetLife — Project Manager System Migrations — NYC Remote — $66K-112K
+https://builtinnyc.com/job/iam-program-manager/291377  MetLife — IAM Program Manager — Remote — $100K-155K
+https://jobs.insightglobal.com/find_a_job/new-jersey/job-565371/  Insight Global — Project Manager — Remote Cranbury NJ — Contract
+https://wellfound.com/jobs/4689860-program-manager  Nava/QBA — Program Manager Gov SAFe — Remote — $157K-177K
+https://careers-govcio.icims.com/jobs/6808/program-manager-%28remote%29/job  GovCIO — Program Manager — Remote — Federal
+https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://job-boards.greenhouse.io/anthropic/jobs/5138044008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — Jersey City — Cash Equities
 
 ## In Progress
 
