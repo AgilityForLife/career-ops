@@ -4,11 +4,11 @@
 
 - **Scan gap:** 46 days since last scan (2026-09-28)
 - **New URLs found:** 153 (across all segments, including skipped/filtered)
-- **URLs evaluated:** 12 (reports #427-#438)
-- **Reports generated:** 12
+- **URLs evaluated:** 18 (reports #427-#438 + #439-#444)
+- **Reports generated:** 18
 - **PDFs generated:** 0 (batch mode — no Playwright)
 - **Applications submitted:** 0 (NEVER auto-submit rule enforced)
-- **Pipeline pending:** 49 URLs queued for manual review/evaluation
+- **Pipeline pending:** ~43 URLs queued for manual review/evaluation
 
 ## Scan Coverage
 
@@ -37,18 +37,36 @@
 **Apply-eligible (score >= 3.5):** All 12 roles scored 3.5+.
 **HIGH PRIORITY:** #429 (Deloitte DevOps/Cloud TPM, 4.2/5) and #433 (Citi TPM Applied AI, 4.0/5)
 
-## Top Pipeline Leads (Not Yet Evaluated — Pending JD Fetch)
+## Additional Evaluations (6 reports, second pass)
 
-1. **Citi — TPM Applied AI & Agents, SVP** — Already evaluated (#433, 4.0/5)
-2. **JPMorgan — Technical PM Exec Dir, AI Product Mgmt** — NYC — HIGH PRIORITY
-3. **CoreWeave — TPM Product Engineering** — Livingston NJ/NYC Hybrid
-4. **UnitedHealth — Director Tech Project/PM** — Remote — multiple postings
-5. **Deloitte — Delivery Mgmt TPM DevOps/Cloud Sr Manager** — Already evaluated (#429, 4.2/5)
-6. **J&J — Director Project/Program Mgmt MedTech** — Raritan NJ Hybrid
-7. **Palantir — IS Program Manager / TPM** — NYC
-8. **Nava — Program Manager Gov SAFe** — Remote — $157K-177K
-9. **MetLife — IAM Program Manager** — Remote — $100K-155K
-10. **Anthropic — 16 new job IDs** — Needs JD verification (PM/TPM titles unconfirmed)
+| # (tracker) | Company | Role | Score | Priority |
+|---|---------|------|-------|----------|
+| 444 | JPMorgan Chase | Lead TPM — Strategic Initiatives & Delivery Office | **4.2/5** | HIGHEST — 6 CS engaged, Delivery Office exact match |
+| 442 | JPMorgan Chase | Technical PM Exec Dir, AI Product Mgmt | **4.1/5** | HIGH — AI-adjacent, $166K-$260K, NYC hybrid |
+| 443 | CoreWeave | TPM Product Engineering | **4.0/5** | HIGH — CS-2/CS-3, Livingston NJ hybrid |
+| 445 | UnitedHealth Group | Director Tech Project/PM | 3.8/5 | Remote, $134K-$230K, healthcare regulated |
+| 447 | Nava PBC | Program Manager Gov SAFe | 3.7/5 | Remote, $157K-$177K, SPC6 differentiator |
+| 446 | Cognizant | Senior Consulting PM | 3.5/5 | Teaneck NJ, $134K-$158K, deadline Nov 27 |
+
+**All 18 evaluations scored 3.5+ (apply-eligible).**
+**Top 5 HIGH PRIORITY roles (score >= 4.0):**
+1. #441/tracker 444 — JPMorgan Lead TPM Delivery Office (4.2/5)
+2. #429 — Deloitte DevOps/Cloud TPM (4.2/5)
+3. #439/tracker 442 — JPMorgan AI PM Exec Dir (4.1/5)
+4. #433 — Citi TPM Applied AI & Agents (4.0/5)
+5. #440/tracker 443 — CoreWeave TPM Product Engineering (4.0/5)
+
+## Remaining Pipeline Leads (Not Yet Evaluated)
+
+1. **J&J — Director Project/Program Mgmt MedTech** — Raritan NJ Hybrid
+2. **Palantir — IS Program Manager / TPM** — NYC
+3. **MetLife — IAM Program Manager** — Remote — $100K-155K
+4. **JPMorgan — Principal Technical PM / Data Modernization TPM** — NYC/JC
+5. **Anthropic — 3 job IDs** — Needs JD verification (PM/TPM titles unconfirmed)
+6. **Citi — 5+ VP/SVP PM roles** — NYC/JC
+7. **UnitedHealth — 5+ additional PM roles** — Remote
+8. **Deloitte — 3 additional TPM/PM roles** — NJ/NY
+9. **EY / Booz Allen / Palantir — 4 additional roles**
 
 ## Data Quality Notes
 
@@ -63,23 +81,24 @@
 ## Pipeline Health
 
 - verify-pipeline.mjs: 0 errors, 1 warning (pre-existing: Glean #108/#109 confirmed false positive)
-- merge-tracker.mjs: all additions merged, 2 duplicates removed via dedup-tracker.mjs
+- merge-tracker.mjs: all additions merged (18 TSVs total), 3 duplicates removed via dedup-tracker.mjs
 - scan-history.tsv: 790 lines (was 637, +153 new entries from today)
-- applications.md: 287 entries (was 275, +12 net new after dedup)
+- applications.md: 292 entries (was 275, +17 net new after dedup)
 
 ## Files Modified
 
-- `data/applications.md` — 12 new evaluated entries (#427-#438)
-- `data/pipeline.md` — 49 pending URLs for next session
+- `data/applications.md` — 18 evaluated entries (#427-#438 + #439-#444, tracker #427-#447)
+- `data/pipeline.md` — ~43 pending URLs for next session
 - `data/scan-history.tsv` — 153 new entries (date_seen: 2026-11-13)
-- `reports/427-438*.md` — 12 evaluation reports
-- `batch/tracker-additions/merged/` — 16 TSVs processed
+- `reports/427-444*.md` — 18 evaluation reports
+- `batch/tracker-additions/merged/` — 22 TSVs processed
 - `logs/2026-11-13-career-ops.md` — this file
 
 ## Run Status
 
 - **Completed:** All 4 scan segments (search queries, Big Tech+AI, Consulting+Gov, Financial+Healthcare) finished
-- **Evaluation agent:** Launched for 8 top pending URLs; network policy blocked JD fetch for most — no additional reports beyond #438
-- **Final pipeline state:** 287 tracker entries, 790 scan-history lines, 49 pending URLs, 12 reports generated
+- **Second-pass evaluations:** 6 additional reports (#439-#444) for top pending leads using WebSearch JD snippets
+- **Final pipeline state:** 292 tracker entries, 790 scan-history lines, ~43 pending URLs, 18 reports generated
 - **Pipeline health:** 0 errors, 1 known false-positive warning (Glean #108/#109)
 - **Git:** All changes committed and pushed to `claude/magical-gauss-2nrnz1`
+- **Applications submitted:** 0 (NEVER auto-submit rule enforced)
