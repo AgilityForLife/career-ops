@@ -8,7 +8,7 @@
 - **Reports generated:** 12
 - **PDFs generated:** 0 (batch mode — no Playwright)
 - **Applications submitted:** 0 (NEVER auto-submit rule enforced)
-- **Pipeline pending:** ~60 URLs queued for manual review/evaluation
+- **Pipeline pending:** 49 URLs queued for manual review/evaluation
 
 ## Scan Coverage
 
@@ -65,13 +65,21 @@
 - verify-pipeline.mjs: 0 errors, 1 warning (pre-existing: Glean #108/#109 confirmed false positive)
 - merge-tracker.mjs: all additions merged, 2 duplicates removed via dedup-tracker.mjs
 - scan-history.tsv: 790 lines (was 637, +153 new entries from today)
-- applications.md: 289 entries (was 275, +14 net new after dedup)
+- applications.md: 287 entries (was 275, +12 net new after dedup)
 
 ## Files Modified
 
-- `data/applications.md` — 14 new evaluated entries (#427-#441, minus 2 deduped)
-- `data/pipeline.md` — ~60 new URLs in Pending section
+- `data/applications.md` — 12 new evaluated entries (#427-#438)
+- `data/pipeline.md` — 49 pending URLs for next session
 - `data/scan-history.tsv` — 153 new entries (date_seen: 2026-11-13)
 - `reports/427-438*.md` — 12 evaluation reports
 - `batch/tracker-additions/merged/` — 16 TSVs processed
 - `logs/2026-11-13-career-ops.md` — this file
+
+## Run Status
+
+- **Completed:** All 4 scan segments (search queries, Big Tech+AI, Consulting+Gov, Financial+Healthcare) finished
+- **Evaluation agent:** Launched for 8 top pending URLs; network policy blocked JD fetch for most — no additional reports beyond #438
+- **Final pipeline state:** 287 tracker entries, 790 scan-history lines, 49 pending URLs, 12 reports generated
+- **Pipeline health:** 0 errors, 1 known false-positive warning (Glean #108/#109)
+- **Git:** All changes committed and pushed to `claude/magical-gauss-2nrnz1`
