@@ -11,7 +11,6 @@ https://jobs.citi.com/job/new-york/program-management-lead-product-development-t
 https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi — Payments Tech PM/Quality Lead, SVP — JC
 https://jobs.citi.com/job/jersey-city/low-latency-infrastructure-senior-program-manager/287/95863915072  Citi — Low-Latency Infra Sr PM — JC
 https://jobs.citi.com/job/new-york/program-management-lead-alumni-network-vice-president/287/102261625120  Citi — PM Lead Alumni Network, VP — NYC — lower priority domain
-https://higher.gs.com/roles/172262  Goldman Sachs — VP Project Management, GBM — NYC
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY — Program Manager — Hoboken NJ
 https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY — Project Manager — Hoboken NJ
 https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth — Director Tech Project/PM, Remote
@@ -70,12 +69,12 @@ search queries in 4 batches of 6 parallel WebSearch calls. Network policy blocke
 (apply.deloitte.com, careers.ey.com, jobs.citi.com, job-boards.greenhouse.io, etc.) — all evaluations
 operated in batch mode exception per CLAUDE.md, marking reports with "**Verification:** unconfirmed
 (batch mode)". 27 new entries appended to scan-history.tsv after dedup against 637 existing entries.
-11 evaluations completed (reports 427-437): highest score 4.2/5 (Deloitte DevOps/Cloud TPM, report 429
+12 evaluations completed (reports 427-438): highest score 4.2/5 (Deloitte DevOps/Cloud TPM, report 429
 — near-exact CS-2/CS-3 match to Verisk evidence), followed by Citi TPM Applied AI & Agents 4.0/5
 (report 433). ~50 additional URLs remain in Pending for next session — mostly Citi VP-level, UnitedHealth
 remote, JPMorgan, Palantir, CoreWeave, and additional Deloitte roles. No PDFs generated this run
 (batch mode). All reports HELD per section 15 SUBMISSION GATE — nothing submitted.
-The 11 apply-eligible roles, all "Evaluated, awaiting Erick's review":
+The 12 apply-eligible roles, all "Evaluated, awaiting Erick's review":
 https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-with-DevOps-Git-Cloud-Senior-Manager/322186  Deloitte | Delivery Mgmt TPM DevOps/Cloud Sr Manager (4.2/5) [HIGH PRIORITY] - near-exact CS-2/CS-3 match to Verisk story; verify req 322186 still open
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents, SVP (4.0/5) [HIGH PRIORITY] - AI-adjacent; NYC hybrid; 4/7 CS engaged
 https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Deloitte | Senior Consultant AGILE Coach (3.9/5) - JC/NYC; SPC6 differentiator; ~$176K clears Tier-4 exception
@@ -86,7 +85,8 @@ https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financia
 https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360485  Deloitte | Sr Manager Lead Delivery Leader (3.7/5) - JC/Morristown/NYC; title matches target "Delivery Lead"
 https://apply.deloitte.com/en_US/careers/JobDetail/IT-Program-Manager-Strategy-Operations/367126  Deloitte | IT PM Strategy & Ops (3.6/5) - remote; 0-10% travel
 https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Sr Program Lead, SVP (3.6/5) - NYC; AI-adjacent; SVP level
-https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY | AI Project Manager (3.5/5) - remote "Anywhere in Country"; AI-adjacent -->
+https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY | AI Project Manager (3.5/5) - remote "Anywhere in Country"; AI-adjacent
+https://higher.gs.com/roles/172262  Goldman Sachs | VP Project Management, GBM (3.6/5) - NYC; $157-196K base; capital markets domain gap -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
