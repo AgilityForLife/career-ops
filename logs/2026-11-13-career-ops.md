@@ -3,58 +3,75 @@
 ## Summary
 
 - **Scan gap:** 46 days since last scan (2026-09-28)
-- **New URLs found:** 40
-- **URLs evaluated:** 0 (blocked — see below)
-- **Reports generated:** 0
-- **PDFs generated:** 0
+- **New URLs found:** 153 (across all segments, including skipped/filtered)
+- **URLs evaluated:** 12 (reports #427-#438)
+- **Reports generated:** 12
+- **PDFs generated:** 0 (batch mode — no Playwright)
 - **Applications submitted:** 0 (NEVER auto-submit rule enforced)
+- **Pipeline pending:** ~60 URLs queued for manual review/evaluation
 
 ## Scan Coverage
 
 - **Search queries:** 12/12 executed via WebSearch
-- **Tracked companies:** 31/31 scanned via WebSearch
-- **Scan method:** WebSearch only (cloud session; Greenhouse API and all career site domains blocked by network policy — ENOTFOUND)
+- **Tracked companies:** 31/31 scanned via WebSearch (2 passes — initial + expanded)
+- **Scan method:** WebSearch only (cloud session; career site domains blocked by network policy)
+- **Verification:** All evaluations marked "unconfirmed (batch mode)"
 
-## New URLs by Company
+## Evaluations Completed (12 reports)
 
-| Company | Count | Notes |
-|---------|-------|-------|
-| Citi | 9 | 2x SVP Applied AI/Digital (HIGH PRIORITY), 3x Director/VP NYC, 4x JC/NYC |
-| UnitedHealth | 7 | 2x Director Remote, 1x Principal, 1x Sr Manager, 3x Sr TPM/Program Leader |
-| Deloitte | 9 | 1x Delivery Mgmt TPM DevOps Sr Mgr (CS-1/CS-3), 1x Delivery Leader, 6x PM/TPM various, 1x SM/RTE |
-| Palantir | 4 | 2x TPM NYC, 1x IS PM, 1x GRC PM DC |
-| JPMorgan | 2 | 1x Exec Dir AI Product Mgmt (HIGH PRIORITY), 1x Lead TPM Strategic Initiatives |
-| CoreWeave | 2 | 1x TPM Product Engineering NJ/NYC (HIGH PRIORITY), 1x Ops PM |
-| EY | 2 | 1x Program Manager Hoboken, 1x Project Manager Hoboken |
-| Goldman Sachs | 1 | VP Project Management GBM NYC |
-| Cognizant | 1 | Sr Consulting PM Teaneck NJ — $134.5-158.5K — closes Nov 27 |
-| OpenAI | 1 | Security PM Remote (M&A focus — lower fit) |
-| Booz Allen | 1 | AI Project Manager McLean VA — SAFe req |
-| Anthropic | 0 | Many open roles but none PM/TPM-titled |
+| # | Company | Role | Score | Priority |
+|---|---------|------|-------|----------|
+| 429 | Deloitte | Delivery Mgmt TPM DevOps/Cloud Sr Manager | **4.2/5** | HIGH — CS-2/CS-3 near-exact match |
+| 433 | Citi | TPM Applied AI & Agents SVP | **4.0/5** | HIGH — AI-adjacent, CS-1/CS-5/CS-7 |
+| 436 | Deloitte | Senior Consultant — AGILE Coach | 3.9/5 | Tier 4 cap risk but CS-6 strong |
+| 439 | Deloitte | Senior Consultant — SM/RTE | 3.8/5 | SPC6 differentiator; RTE direct fit |
+| 427 | EY | CT Tech Activation PM | 3.8/5 | Hoboken NJ; $165.8-302.3K |
+| 435 | Citi | Director TPM Production Management | 3.8/5 | NYC; CS-3 strong |
+| 431 | Deloitte | Sr Manager Lead Delivery Leader | 3.7/5 | JC/Morristown/NYC |
+| 437 | Deloitte | Delivery Leader, Core Financial Systems | 3.7/5 | JC/NYC; #LI-Remote |
+| 430 | Deloitte | IT Program Manager Strategy & Ops | 3.6/5 | Remote; 0-10% travel |
+| 432 | Citi | AI Digital Senior Program Lead SVP | 3.6/5 | NYC; AI-adjacent |
+| 441 | Goldman Sachs | VP Project Management — GBM | 3.6/5 | NYC; $157-196K base |
+| 428 | EY | AI Project Manager | 3.5/5 | Remote; AI-adjacent |
 
-## Top Priority Leads (estimated CS alignment)
+**Apply-eligible (score >= 3.5):** All 12 roles scored 3.5+.
+**HIGH PRIORITY:** #429 (Deloitte DevOps/Cloud TPM, 4.2/5) and #433 (Citi TPM Applied AI, 4.0/5)
 
-1. **Citi — TPM Applied AI & Agents, SVP** — NYC — AI + delivery + enterprise scale (CS-1/CS-2/CS-5)
-2. **JPMorgan — Technical PM Exec Dir, AI Product Mgmt** — NYC — AI + TPM leadership (CS-1/CS-5)
-3. **CoreWeave — TPM Product Engineering** — Livingston NJ/NYC — GPU infra + NJ hybrid (CS-1/CS-3)
-4. **UnitedHealth — Director Tech Project/PM** — Remote — $134K-230K range if similar to prior postings (CS-1/CS-5/CS-7)
-5. **Deloitte — Delivery Mgmt TPM DevOps/Cloud Sr Manager** — NJ/NY — DevOps + Cloud (CS-1/CS-3)
-6. **Cognizant — Sr Consulting PM** — Teaneck NJ — $134.5-158.5K confirmed — closes Nov 27 (URGENT)
+## Top Pipeline Leads (Not Yet Evaluated — Pending JD Fetch)
 
-## Blocking Issue
+1. **Citi — TPM Applied AI & Agents, SVP** — Already evaluated (#433, 4.0/5)
+2. **JPMorgan — Technical PM Exec Dir, AI Product Mgmt** — NYC — HIGH PRIORITY
+3. **CoreWeave — TPM Product Engineering** — Livingston NJ/NYC Hybrid
+4. **UnitedHealth — Director Tech Project/PM** — Remote — multiple postings
+5. **Deloitte — Delivery Mgmt TPM DevOps/Cloud Sr Manager** — Already evaluated (#429, 4.2/5)
+6. **J&J — Director Project/Program Mgmt MedTech** — Raritan NJ Hybrid
+7. **Palantir — IS Program Manager / TPM** — NYC
+8. **Nava — Program Manager Gov SAFe** — Remote — $157K-177K
+9. **MetLife — IAM Program Manager** — Remote — $100K-155K
+10. **Anthropic — 16 new job IDs** — Needs JD verification (PM/TPM titles unconfirmed)
 
-All career site domains (jobs.citi.com, careers.unitedhealthgroup.com, apply.deloitte.com, job-boards.greenhouse.io, careers.cognizant.com, etc.) return ENOTFOUND in this cloud execution environment. JDs cannot be fetched, so no evaluations, scoring, reports, or resume generation could be performed.
+## Data Quality Notes
 
-**Action needed:** Process the 40 pending URLs in a local session or update the cloud environment's network policy to allow career site access.
+- Network policy blocks: jobs.citi.com, careers.unitedhealthgroup.com, apply.deloitte.com, job-boards.greenhouse.io, boards-api.greenhouse.io, careers.jnj.com, jobs.prudential.com, jobs.metlife.com, careers.microsoft.com, amazon.jobs, careers.boozallen.com — all ENOTFOUND
+- JDs for evaluated roles were obtained from WebSearch snippets and aggregator mirrors (TheMuse, BuiltIn, Dice)
+- Goldman Sachs direct-query still non-functional (3+ scans); found via alternate aggregator
+- IBM careers site still JS-rendered/404 pattern
+- UHG direct-posting-URL 404 pattern continues
+- jobs.kpmg.us returns zero results (3+ scans)
+- Consulting+Gov segment produced results this scan (Deloitte, EY, Booz Allen) after 3-scan saturation streak — the 46-day gap helped
 
 ## Pipeline Health
 
-- verify-pipeline.mjs: 0 errors, 2 warnings (pre-existing: Glean #108/#109 and Deloitte #437/#438 duplicates)
-- merge-tracker.mjs: no pending additions
-- scan-history.tsv: 749 lines (was 638, +40 new + header)
+- verify-pipeline.mjs: 0 errors, 1 warning (pre-existing: Glean #108/#109 confirmed false positive)
+- merge-tracker.mjs: all additions merged, 2 duplicates removed via dedup-tracker.mjs
+- scan-history.tsv: 790 lines (was 637, +153 new entries from today)
+- applications.md: 289 entries (was 275, +14 net new after dedup)
 
 ## Files Modified
 
-- `data/pipeline.md` — 40 new URLs added to Pending section
-- `data/scan-history.tsv` — 40 new entries appended (date_seen: 2026-11-13, status: added)
+- `data/applications.md` — 14 new evaluated entries (#427-#441, minus 2 deduped)
+- `data/pipeline.md` — ~60 new URLs in Pending section
+- `data/scan-history.tsv` — 153 new entries (date_seen: 2026-11-13)
+- `reports/427-438*.md` — 12 evaluation reports
+- `batch/tracker-additions/merged/` — 16 TSVs processed
 - `logs/2026-11-13-career-ops.md` — this file
