@@ -5,19 +5,13 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
+<!-- Scan 2026-11-13: Remaining unevaluated leads from this and prior scans. Evaluate in next session. -->
 
-https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
-https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi — AI Digital Sr Program Lead, SVP — NYC — HIGH PRIORITY
-https://jobs.citi.com/job/new-york/director-technical-program-manager-production-management/287/100500716432  Citi — Director TPM Production Management — NYC
 https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi — PM Lead Product Dev Transformation, VP — NYC
 https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi — Payments Tech PM/Quality Lead, SVP — JC
 https://jobs.citi.com/job/jersey-city/low-latency-infrastructure-senior-program-manager/287/95863915072  Citi — Low-Latency Infra Sr PM — JC
 https://jobs.citi.com/job/new-york/program-management-lead-alumni-network-vice-president/287/102261625120  Citi — PM Lead Alumni Network, VP — NYC — lower priority domain
 https://higher.gs.com/roles/172262  Goldman Sachs — VP Project Management, GBM — NYC
-https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Deloitte — Senior Consultant Agile Coach — JC/Morristown/NY
-https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financial-Systems/360482  Deloitte — Delivery Leader Core Financial Systems — JC/Morristown/NY — remote tag
-https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Deloitte — Senior Consultant SM/RTE — JC/Morristown/NY
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY — Program Manager — Hoboken NJ
 https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY — Project Manager — Hoboken NJ
 https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth — Director Tech Project/PM, Remote
@@ -36,11 +30,8 @@ https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-projec
 https://careers.unitedhealthgroup.com/job/eden-prairie/agile-practitioner-3-remote/34088/95017291216  UnitedHealth — Agile Practitioner 3 — Remote
 https://job-boards.greenhouse.io/coreweave/jobs/4435058006  CoreWeave — TPM Product Engineering — Livingston NJ/NYC — Hybrid
 https://job-boards.greenhouse.io/coreweave/jobs/4433363006  CoreWeave — Ops PM Maintenance & RMAs — Hybrid
-https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-with-DevOps-Git-Cloud-Senior-Manager/322186  Deloitte — Delivery Mgmt TPM DevOps/Cloud Sr Manager — NJ/NY — CS-1/CS-3
 https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Program-Manager/356701  Deloitte — Technical Program Manager — NYC
 https://apply.deloitte.com/en_US/careers/JobDetail/Technical-Project-and-Program-Manager/357211  Deloitte — Tech Project & Program Manager — 48 locs incl NY
-https://apply.deloitte.com/en_US/careers/JobDetail/IT-Program-Manager-Strategy-Operations/367126  Deloitte — IT PM Strategy & Ops — Remote-friendly
-https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360485  Deloitte — Sr Manager Lead Delivery Leader — Morristown/NYC — #LI-Remote
 https://apply.deloitte.com/en_US/careers/JobDetail/Technology-Strategy-Innovation-and-Delivery-Transformation-Manager/355545  Deloitte — Tech Strategy Delivery Transformation Mgr — NJ/NY
 https://careers.cognizant.com/us-en/jobs/00071127041/  Cognizant — Sr Consulting PM — Teaneck NJ — Hybrid — $134.5-158.5K — Closes Nov 27
 https://openai.com/careers/security-program-manager-us-remote/  OpenAI — Security PM (M&A focus) — Remote US
@@ -72,6 +63,30 @@ https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/951
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-13 (scan covering since last run 2026-09-28, cloud session, 46-day gap).
+Scan executed directly in a single session (no sub-delegation) across all 31 tracked companies and 12+
+search queries in 4 batches of 6 parallel WebSearch calls. Network policy blocked all career site domains
+(apply.deloitte.com, careers.ey.com, jobs.citi.com, job-boards.greenhouse.io, etc.) — all evaluations
+operated in batch mode exception per CLAUDE.md, marking reports with "**Verification:** unconfirmed
+(batch mode)". 27 new entries appended to scan-history.tsv after dedup against 637 existing entries.
+11 evaluations completed (reports 427-437): highest score 4.2/5 (Deloitte DevOps/Cloud TPM, report 429
+— near-exact CS-2/CS-3 match to Verisk evidence), followed by Citi TPM Applied AI & Agents 4.0/5
+(report 433). ~50 additional URLs remain in Pending for next session — mostly Citi VP-level, UnitedHealth
+remote, JPMorgan, Palantir, CoreWeave, and additional Deloitte roles. No PDFs generated this run
+(batch mode). All reports HELD per section 15 SUBMISSION GATE — nothing submitted.
+The 11 apply-eligible roles, all "Evaluated, awaiting Erick's review":
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-with-DevOps-Git-Cloud-Senior-Manager/322186  Deloitte | Delivery Mgmt TPM DevOps/Cloud Sr Manager (4.2/5) [HIGH PRIORITY] - near-exact CS-2/CS-3 match to Verisk story; verify req 322186 still open
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents, SVP (4.0/5) [HIGH PRIORITY] - AI-adjacent; NYC hybrid; 4/7 CS engaged
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Deloitte | Senior Consultant AGILE Coach (3.9/5) - JC/NYC; SPC6 differentiator; ~$176K clears Tier-4 exception
+https://careers.ey.com/ey/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY | CT Tech Activation Program Manager (3.8/5) - Hoboken NJ; $165.8-302.3K; CS-1/CS-5 strong
+https://jobs.citi.com/job/new-york/director-technical-program-manager-production-management/287/100500716432  Citi | Director TPM Production Management (3.8/5) - NYC; CS-1/CS-3/CS-5/CS-7 engaged; SRE focus
+https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Deloitte | Senior Consultant SM/RTE (3.8/5) - JC/NYC; CS-6 RTE exact match; +0.2 bonus
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financial-Systems/360482  Deloitte | Delivery Leader Core Financial Systems (3.7/5) - JC/NYC remote; CS-1/CS-5/CS-7; finance transformation
+https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360485  Deloitte | Sr Manager Lead Delivery Leader (3.7/5) - JC/Morristown/NYC; title matches target "Delivery Lead"
+https://apply.deloitte.com/en_US/careers/JobDetail/IT-Program-Manager-Strategy-Operations/367126  Deloitte | IT PM Strategy & Ops (3.6/5) - remote; 0-10% travel
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Sr Program Lead, SVP (3.6/5) - NYC; AI-adjacent; SVP level
+https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY | AI Project Manager (3.5/5) - remote "Anywhere in Country"; AI-adjacent -->
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
