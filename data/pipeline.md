@@ -6,6 +6,7 @@ Format: one URL per line, optionally with a note after a space.
 ## Pending
 
 <!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
+<!-- Scan 2026-11-17: 7 new URLs found via targeted WebSearch (Citi, UHG). Evaluated in batch mode. -->
 
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
 https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi — AI Digital Sr Program Lead, SVP — NYC — HIGH PRIORITY
@@ -67,11 +68,35 @@ https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic — Unknow
 https://job-boards.greenhouse.io/anthropic/jobs/5138044008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — Jersey City — Cash Equities
 
+<!-- Scan 2026-11-17: 42 new URLs found across Citi, EY, Deloitte, UnitedHealth, GS, Cognizant, J&J, Anthropic, JPMorgan, Palantir. Best new finds below. -->
+
+https://jobs.citi.com/job/jersey-city/application-program-manager-emerging-payment-director/287/103092979168  Citi — Application PM Emerging Payments, Director — JC — Nov 2026 — HIGH PRIORITY
+https://higher.gs.com/roles/179077  Goldman Sachs — Transaction Banking Delivery PM, VP — NYC
+https://careers.ey.com/ey/job/Hoboken-Service-Delivery-Manager-NJ-07030/1434451633/  EY — Service Delivery Manager — Hoboken NJ
+https://apply.deloitte.com/en_US/careers/JobDetail/Manager-Delivery-Manager/360059  Deloitte — Manager Delivery Manager — Product Engineering
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-Senior-Consultant/320043  Deloitte — Delivery Mgmt TPM/PM Senior Consultant
+https://careers.unitedhealthgroup.com/job/eden-prairie/principal-tech-proj-prgm-mgr-remote-or-hybrid-in-mn-and-dc/34088/95009058480  UnitedHealth — Principal Tech PM Remote/Hybrid
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth — Sr Technical Program Mgmt Remote
+https://careers.cognizant.com/us-en/jobs/00067578661/srtechnical-program-managerdelivery-manager/  Cognizant — Sr TPM/Delivery Manager — Jersey City NJ Hybrid
+https://www.careers.jnj.com/en/jobs/r-101320/compliance-project-manager/  J&J — Compliance Project Manager — New Brunswick NJ
+https://www.careers.jnj.com/en/jobs/r-091226/sr-program-manager-cyber-strategy-pmo/  J&J — Sr PM Cyber Strategy PMO — NJ
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-chief-of-staff-services  JPMorgan — Lead TPM Chief of Staff Services — NYC/JC
+https://www.themuse.com/jobs/jpmorganchase/principal-technical-program-manager-479cc6  JPMorgan — Principal TPM — NYC/JC
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-17: Scan batch — 7 new URLs evaluated -->
+https://jobs.citi.com/job/jersey-city/application-program-manager-emerging-payment-director/287/103092979168  Citi — App PM Emerging Payment (Director) — JC — #442
+https://careers.unitedhealthgroup.com/job/-/-/34088/99226763664  UHG — Delivery Manager (Remote) — #443
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208  UHG — Senior TPM (Cloud Build) — #444
+https://careers.unitedhealthgroup.com/job/richardson/technical-project-manager-remote/34088/93130764224  UHG — Technical PM (Remote) — #445
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UHG — Senior Tech Program Mgmt (Remote) — #446
+https://careers.unitedhealthgroup.com/job/22659120  UHG — Principal TPM (Remote) — #447
+https://careers.unitedhealthgroup.com/job/23145548  UHG — Director TPM (Remote) — #448
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
