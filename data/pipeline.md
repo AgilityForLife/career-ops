@@ -5,6 +5,8 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-18: 31 tracked companies, 12 search queries + Greenhouse API (blocked by network). 6 new URLs added, rest deduped against Nov 13 scan. Tracked-companies segment continues saturated pattern. -->
+
 <!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
 
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
@@ -62,6 +64,12 @@ https://builtinnyc.com/job/iam-program-manager/291377  MetLife — IAM Program M
 https://jobs.insightglobal.com/find_a_job/new-jersey/job-565371/  Insight Global — Project Manager — Remote Cranbury NJ — Contract
 https://wellfound.com/jobs/4689860-program-manager  Nava/QBA — Program Manager Gov SAFe — Remote — $157K-177K
 https://careers-govcio.icims.com/jobs/6808/program-manager-%28remote%29/job  GovCIO — Program Manager — Remote — Federal
+https://careers.ey.com/ey/job/new-york-financial-services-technology-consulting-product-operating-model-transformation-manager-nyc-ny-10001-8604/1440729333/  EY — FS Tech Product Operating Model Transformation Mgr — NYC — Sep 2026 — Agile delivery practices
+https://higher.gs.com/roles/179077  Goldman Sachs — Transaction Banking Delivery Program Manager VP — NYC
+https://jobs.anitab.org/companies/goldman-sachs/jobs/87154214-office-of-transformation-digital-transformation-project-manager-ai-driven-strategic-initiatives-vice-president-new-york-city  Goldman Sachs — VP Digital Transformation PM AI-Driven — NYC — Jul 2026
+https://apply.deloitte.com/en_US/careers/JobDetail/Agility-Engineering-Lead/329146  Deloitte — Agility & Engineering Lead — 80 locs incl NJ/NY — Agile coaching/transformation
+https://careers.unitedhealthgroup.com/job/richardson/technical-project-manager-remote/34088/93130764224  UnitedHealth — Technical Project Manager — Remote — posted Mar 2026
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208  UnitedHealth — Senior Technical Project Manager — Cloud Build Initiatives
 https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://job-boards.greenhouse.io/anthropic/jobs/5138044008  Anthropic — Unknown PM/TPM Role — Needs verification
