@@ -5,6 +5,28 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-19: 32 tracked companies, 12 search queries. New findings below. -->
+
+https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs — US Remote — AI-adjacent
+https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  EvolutionIQ — TPM AI/Insurtech SaaS — NYC
+https://job-boards.greenhouse.io/realchemistry/jobs/5173330008  Real Chemistry — Tech PM — Remote US
+https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix — RTE — NYC — 6-month contract
+https://job-boards.greenhouse.io/xebiausa/jobs/5505019004  Xebia — Agile/PM role — needs verification
+https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM Exchange Traded Derivatives — JC Hybrid
+https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664  Citi — Program Management Lead — NYC
+https://jobs.citi.com/job/new-york/program-management-lead/287/94977560096  Citi — Program Management Lead — NYC (different req)
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96111357696  UnitedHealth — Sr Tech PM — check if remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/99677568752  UnitedHealth — Sr Tech PM — check if remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/principal-tech-proj-prgm-mgr-remote-or-hybrid-in-mn-and-dc/34088/95009058480  UnitedHealth — Principal Tech TPM — Remote/Hybrid MN/DC
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager-remote-or-hybrid-in-mn-or-dc/34088/92872145632  UnitedHealth — Sr TPM Remote/Hybrid — Cybersecurity
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Engineer-III/350274  Deloitte — Delivery Management Engineer III — NJ/NY
+https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Management-Technical-Program-Project-Manager-Senior-Consultant/320043  Deloitte — Delivery Mgmt TPM Sr Consultant — NJ/NY
+https://apply.deloitte.com/en_US/careers/JobDetail/Scrum-Master-Project-Delivery-Management-Engineer-II/357992  Deloitte — SM/Project Delivery Mgmt Engineer II — NJ/NY
+https://apply.deloitte.com/en_US/careers/JobDetail/Agility-Engineering-Lead/329146  Deloitte — Agility & Engineering Lead — NJ/NY
+https://careers.ey.com/ey/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY — CT Tech Activation PM — Hoboken NJ
+https://careers.ey.com/ey/job/Atlanta-AI-Technical-Project-Manager-GA-30309/1448144833/  EY — AI Technical PM — Anywhere in Country
+https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  EY — AI PM — Anywhere in Country
+
 <!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
 
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
@@ -66,6 +88,42 @@ https://job-boards.greenhouse.io/anthropic/jobs/5390964008  Anthropic — Unknow
 https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://job-boards.greenhouse.io/anthropic/jobs/5138044008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — Jersey City — Cash Equities
+
+<!-- Scan 2026-11-19: 4 search groups (Big Tech+AI, Consulting+Gov, Financial+Healthcare, 12 portals queries). New findings below. -->
+
+https://jobs.citi.com/job/new-york/program-management-senior-lead-wealth-lending-senior-vice-president/287/99451029312  Citi — PM Senior Lead Wealth Lending SVP — NYC
+https://jobs.citi.com/job/new-york/program-management-senior-lead/287/102193201712  Citi — PM Senior Lead ($203-240K) — NYC
+https://jobs.citi.com/job/jersey-city/svp-equities-technology-project-manager/287/101052288096  Citi — SVP Equities Tech PM — JC
+https://jobs.citi.com/job/jersey-city/it-project-manager-senior-vice-president/287/98804307744  Citi — IT PM SVP ($163.6-245.4K) — JC
+https://jobs.citi.com/job/new-york/program-management-lead/287/93676913664  Citi — PM Lead — NYC
+https://jobs.citi.com/job/new-york/program-management-lead/287/94977560096  Citi — PM Lead (2nd posting) — NYC
+https://jobs.citi.com/job/new-york/program-sr-group-manager-director/287/95630920048  Citi — Program Sr Group Mgr Director — NYC
+https://careers.unitedhealthgroup.com/job/richardson/technical-project-manager-remote/34088/93130764224  UnitedHealth — TPM Remote
+https://careers.unitedhealthgroup.com/job/minneapolis/senior-technical-program-management-remote/34088/93815078800  UnitedHealth — Sr TPM Remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/principal-tech-proj-prgm-mgr-remote-or-hybrid-in-mn-and-dc/34088/95009058480  UnitedHealth — Principal TPM Remote/Hybrid MN/DC
+https://job-boards.greenhouse.io/coreweave/jobs/4560354006  CoreWeave — Bare Metal TPM — Sunnyvale/Bellevue (not NJ/NY)
+https://job-boards.greenhouse.io/xebiausa/jobs/5505019004  Xebia — Agile Coach — Remote/EST — Needs verification
+https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry — AI Program Manager — SF/NYC
+https://jobs.lever.co/palantir/bd34525c-6e4e-44ea-88c8-d8dac9747feb  Palantir — TPM US Government — Huntsville AL — clearance req
+https://higher.gs.com/roles/179077  Goldman Sachs — Transaction Banking Delivery PM VP — NYC — $125-250K
+https://higher.gs.com/roles/176759  Goldman Sachs — Engineering Associate PM — NYC — $103-153K
+https://openai.com/careers/technical-program-manager-global-programs-applied-ai-engineering-san-francisco/  OpenAI — TPM Global Programs Applied AI Engineering — SF — $216-240K
+https://www.accenture.com/us-en/careers/jobdetails?id=14784874_en  Accenture — Scrum Master — JC/Pennington NJ — 4 day onsite
+https://careers.servicenow.com/jobs/744000152543649/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible — 10+ yrs
+https://careers.servicenow.com/jobs/744000161057189/technical-program-manager-research/  ServiceNow — TPM Research
+https://careers.servicenow.com/jobs/744000143924019/principal-technical-program-manager/  ServiceNow — Principal TPM
+https://jobs.parsons.com/jobs/project-manager-ai-and-transportation-consultancy-r-184075-jobs--project-program-management--  Parsons — PM AI & Transportation Consultancy
+https://jobs.parsons.com/jobs/senior-project-manager-intelligent-transportation-systems-its-smart-mobility-virtual-r-183922-jobs--project-program-management--  Parsons — Sr PM ITS & Smart Mobility — Virtual
+https://job-boards.greenhouse.io/anthropic/jobs/5112640008  Anthropic — TPM (unidentified role) — Needs verification
+https://job-boards.greenhouse.io/gleanwork/jobs/4657199005  Glean — Delivery Excellence Manager
+https://job-boards.greenhouse.io/gleanwork/jobs/4661884005  Glean — Senior Technical Program Manager
+https://www.dice.com/job-detail/c8a3bae0-4af3-4ca7-b144-cbaac5ded14b  Dice — Program Manager NJ — W2 Contract
+https://www.dice.com/job-detail/a4ef8e21-0bf6-4522-bcb4-5d906394114e  Dice — Senior TPM Enterprise Digital Transformation
+https://www.dice.com/job-detail/04a97288-1540-4756-aebe-182136a15b71  Dice — AI Sr Program Manager — Remote
+https://www.dice.com/job-detail/56a94362-1253-43ab-9434-14f18aa6cfec  Dice — Technical PM / Scrum Master — Jersey City
+https://www.dice.com/job-detail/760632ab-2275-4c2d-8ba9-3b9dbd9dcd1a  Dice — Technical Project Manager
+https://www.monster.com/job-openings/sr-technical-program-manager-ai-avenel-nj--14e8b6c0-14b4-4264-ab23-f659f1c65363  Monster — Sr TPM AI — Avenel NJ
+https://builtin.com/job/technical-program-delivery-product-management-lead/7236631  BuiltIn — Technical Program Delivery & Product Mgmt Lead — Bounteous
 
 ## In Progress
 
