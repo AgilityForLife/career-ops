@@ -106,9 +106,52 @@
 
 ---
 
+## Second Scan Wave (context continuation)
+
+Extended scan added 53 more candidates across all portals. After dedup against 734 known URLs:
+- **36 genuinely new URLs** identified
+- **20 added to pipeline** (high/medium fit)
+- **16 skipped** (domain mismatch, wrong location, clearance required, etc.)
+- **scan-history.tsv** updated: 791 → 859 entries
+
+### Additional pipeline entries (second wave):
+- **Citi:** 7 new roles (PM Lead, SVP Equities Tech PM, IT PM SVP $163-245K, etc.)
+- **UnitedHealth:** 3 new remote TPM roles
+- **JPMorgan:** 3 roles (Lead Tech PM JC $142-190K, Principal TPM NYC, Data Modernization TPM JC)
+- **MetLife:** 3 roles (Sr Agile PM NYC/NJ $103-130K, PM System Migrations, IAM PM Remote $100-155K)
+- **Deloitte:** 6 roles (Delivery Mgmt TPM, Tech PM, IT PM Strategy, Sr Delivery Leader, etc.)
+- **Dice contracts:** 5 roles (Sr TPM Digital Transformation, AI Sr PM Remote, TPM/SM JC, etc.)
+- **Monster:** Sr TPM AI Avenel NJ
+- **BuiltIn:** Technical Program Delivery Lead (Bounteous)
+- **Misc:** Insight Global PM NJ contract, Nava/QBA Gov PM $157-177K, GovCIO PM Remote
+
+---
+
+## Evaluations Completed (2)
+
+| # | Company | Role | Score | Notes |
+|---|---------|------|-------|-------|
+| 439 | CoreWeave | TPM Product Engineering | 3.8/5 | Livingston NJ / NYC hybrid; GPU cloud infra |
+| 440 | Nava PBC | Program Manager (Gov/SAFe) | 3.9/5 | Remote US; $157-177K; SAFe-heavy |
+
+Both reports unconfirmed (batch mode — network-restricted session).
+
+---
+
+## Final Pipeline State
+
+- **Total pending URLs in pipeline.md:** ~127 (existing backlog + 35 new from both scan waves)
+- **Tracker entries:** 287 in applications.md (no new TSVs to merge)
+- **Reports generated:** 2 new (#439, #440)
+- **Next report number:** 441
+- **scan-history.tsv:** 864 entries
+
+---
+
 ## Recommendations for Next Run
 
 1. **Enable network access** for: job-boards.greenhouse.io, boards-api.greenhouse.io, careers.servicenow.com, higher.gs.com, jobs.parsons.com, jobs.citi.com, careers.cognizant.com, openai.com
 2. **Priority evaluations:** ServiceNow Senior Staff TPM, GS Transaction Banking Delivery PM, Cognizant Sr PM (closes Nov 27!)
 3. **Time-sensitive:** Cognizant Sr Consulting PM in Teaneck closes Nov 27 — only 8 days away
-4. **Backlog:** ~96 pending pipeline URLs need evaluation — consider batch processing
+4. **Backlog:** ~127 pending pipeline URLs need evaluation — consider batch processing
+5. **High-value new finds:** Citi SVP roles ($163-245K), JPMorgan Lead Tech PM ($142-190K), MetLife IAM PM ($100-155K Remote)
