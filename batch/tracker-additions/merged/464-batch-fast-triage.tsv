@@ -1,0 +1,46 @@
+464	2026-11-20	Citi	PM Lead Product Dev Transformation (VP)	Evaluated	3.5/5	❌	[464](reports/464-batch-triage-2026-11-20.md)	NYC; Product Dev Transformation VP; CS-1+CS-5+CS-7; needs JD verification
+465	2026-11-20	Citi	Low-Latency Infra Sr PM	Evaluated	2.5/5	❌	[465](reports/464-batch-triage-2026-11-20.md)	JC; low-latency infra = HFT domain; no CS-2 cloud/data match; niche domain gap
+466	2026-11-20	Citi	PM Lead Alumni Network (VP)	SKIP	2.0/5	❌	[466](reports/464-batch-triage-2026-11-20.md)	NYC; alumni/HR network domain; zero CS overlap; DO NOT APPLY
+467	2026-11-20	Citi	Transformation PM Lead Markets (VP)	Evaluated	3.6/5	❌	[467](reports/464-batch-triage-2026-11-20.md)	NYC; Agile/Scrum mentioned; Markets transformation; CS-1+CS-5+CS-6+CS-7
+468	2026-11-20	Citi	VP Technology Lead PM (Cash Equities)	Evaluated	3.2/5	❌	[468](reports/464-batch-triage-2026-11-20.md)	JC; Cash Equities domain; CS-1+CS-5+CS-7; niche equities trading gap
+469	2026-11-20	Citi	Program Sr Group Manager (Director)	Evaluated	3.5/5	❌	[469](reports/464-batch-triage-2026-11-20.md)	NYC; Director-level program mgmt; CS-1+CS-5+CS-7; needs JD detail
+470	2026-11-20	Citi	PM Exchange Traded Derivatives	Evaluated	3.0/5	❌	[470](reports/464-batch-triage-2026-11-20.md)	JC hybrid; derivatives domain; CS-1+CS-7; niche financial instruments gap
+471	2026-11-20	EY	Program Manager (Hoboken NJ)	Evaluated	3.3/5	❌	[471](reports/464-batch-triage-2026-11-20.md)	Hoboken NJ; CS-1+CS-5; EY brand; needs JD verification for scope
+472	2026-11-20	EY	Project Manager (Hoboken NJ)	Evaluated	3.2/5	❌	[472](reports/464-batch-triage-2026-11-20.md)	Hoboken NJ; CS-1+CS-5; may be under-leveled; needs JD verification
+473	2026-11-20	EY	AI Project Manager	Evaluated	2.8/5	❌	[473](reports/464-batch-triage-2026-11-20.md)	Anywhere in Country; similar to AI Technical PM; under-leveled; DO NOT APPLY
+474	2026-11-20	Palantir	IS Program Manager (NYC)	Evaluated	2.8/5	❌	[474](reports/464-batch-triage-2026-11-20.md)	NYC; Info Security PM; niche domain; likely clearance-adjacent; thin CS overlap
+475	2026-11-20	Palantir	TPM (NYC)	Evaluated	3.0/5	❌	[475](reports/464-batch-triage-2026-11-20.md)	NYC; Palantir TPM; product/deployment focus; CS-1 partial; needs JD verification
+476	2026-11-20	Palantir	GRC Program Manager (DC)	SKIP	2.3/5	❌	[476](reports/464-batch-triage-2026-11-20.md)	DC hybrid; GRC compliance niche; location deal-breaker; DO NOT APPLY
+477	2026-11-20	Palantir	TPM Autonomous Systems C2	SKIP	2.0/5	❌	[477](reports/464-batch-triage-2026-11-20.md)	Huntsville AL; defense/clearance required; location+clearance deal-breaker
+478	2026-11-20	ServiceNow	TPM Research	Evaluated	3.2/5	❌	[478](reports/464-batch-triage-2026-11-20.md)	Remote possible; R&D TPM; CS-1+CS-5; research focus different from delivery
+479	2026-11-20	OpenAI	Security PM (Remote US)	Evaluated	2.5/5	❌	[479](reports/464-batch-triage-2026-11-20.md)	Remote US; M&A security focus; niche domain; 1/7 CS; DO NOT APPLY
+480	2026-11-20	OpenAI	TPM Global Programs Applied AI (SF)	SKIP	2.8/5	❌	[480](reports/464-batch-triage-2026-11-20.md)	SF only; $216-240K excellent but SF relocation; DO NOT APPLY (location)
+481	2026-11-20	Accenture	Scrum Master (JC/Pennington NJ)	SKIP	2.5/5	❌	[481](reports/464-batch-triage-2026-11-20.md)	4-day onsite = deal-breaker; JC/Pennington; Tier 4 coaching; DO NOT APPLY
+482	2026-11-20	Booz Allen	AI Project Manager (McLean VA)	Evaluated	3.0/5	❌	[482](reports/464-batch-triage-2026-11-20.md)	McLean VA; SAFe/Agile cert req matches; AI PM; location concern (VA commute)
+483	2026-11-20	J&J	Med Tech Supply Chain PMO Lead	SKIP	2.3/5	❌	[483](reports/464-batch-triage-2026-11-20.md)	NJ; supply chain/med-tech domain mismatch; no CS-2/CS-3; DO NOT APPLY
+484	2026-11-20	J&J	Program Manager HCS (Remote US)	Evaluated	3.0/5	❌	[484](reports/464-batch-triage-2026-11-20.md)	Remote US; healthcare solutions; CS-1+CS-5; needs JD for scope verification
+485	2026-11-20	J&J	Sr Project Manager MedTech Deliver	Evaluated	2.8/5	❌	[485](reports/464-batch-triage-2026-11-20.md)	NJ; MedTech delivery; CS-1 partial; device/med-tech domain gap
+486	2026-11-20	J&J	Director Project/PM MedTech (Raritan NJ)	Evaluated	3.0/5	❌	[486](reports/464-batch-triage-2026-11-20.md)	Raritan NJ hybrid; Director level; CS-1+CS-5; MedTech domain gap
+487	2026-11-20	J&J	Director PPM Biosurgery (NJ)	SKIP	2.5/5	❌	[487](reports/464-batch-triage-2026-11-20.md)	NJ hybrid; biosurgery portfolio mgmt; heavy domain-specific; DO NOT APPLY
+488	2026-11-20	MetLife	Senior Agile PM (NYC/NJ)	Evaluated	3.2/5	❌	[488](reports/464-batch-triage-2026-11-20.md)	NYC/NJ hybrid; $103-130K; CS-6 match; Agile PM; comp at floor level
+489	2026-11-20	MetLife	PM System Migrations (NYC Remote)	Evaluated	3.3/5	❌	[489](reports/464-batch-triage-2026-11-20.md)	NYC remote; $66-112K; system migrations = CS-2 partial; comp below floor
+490	2026-11-20	MetLife	IAM Program Manager (Remote)	Evaluated	3.2/5	❌	[490](reports/464-batch-triage-2026-11-20.md)	Remote; $100-155K; IAM security domain; CS-1+CS-7; niche but above floor
+491	2026-11-20	Insight Global	PM (Remote Cranbury NJ)	Evaluated	3.0/5	❌	[491](reports/464-batch-triage-2026-11-20.md)	Remote NJ; contract; needs JD verification; staffing agency
+492	2026-11-20	Parsons	PM AI & Transportation Consultancy	Evaluated	2.5/5	❌	[492](reports/464-batch-triage-2026-11-20.md)	Location TBD; AI+transportation; niche domain; needs verification
+493	2026-11-20	Parsons	Sr PM ITS Smart Mobility (Virtual)	Evaluated	2.5/5	❌	[493](reports/464-batch-triage-2026-11-20.md)	Virtual; ITS/smart mobility domain mismatch; already triaged similar in prior reports
+494	2026-11-20	GovCIO	Program Manager (Remote Federal)	Evaluated	3.2/5	❌	[494](reports/464-batch-triage-2026-11-20.md)	Remote federal; CS-1+CS-6+CS-7; clearance may be required; needs verification
+495	2026-11-20	Dice	Program Manager NJ (W2 Contract)	Evaluated	3.0/5	❌	[495](reports/464-batch-triage-2026-11-20.md)	NJ; W2 contract; needs JD from aggregator; staffing role
+496	2026-11-20	Dice	Sr TPM Enterprise Digital Transformation	Evaluated	3.4/5	❌	[496](reports/464-batch-triage-2026-11-20.md)	Remote possible; digital transformation = CS-1+CS-2; needs JD verification
+497	2026-11-20	Dice	AI Sr Program Manager (Remote)	Evaluated	3.3/5	❌	[497](reports/464-batch-triage-2026-11-20.md)	Remote; AI PM; CS-1+CS-5; needs JD verification for scope/comp
+498	2026-11-20	Dice	Technical PM / Scrum Master (JC)	Evaluated	3.2/5	❌	[498](reports/464-batch-triage-2026-11-20.md)	Jersey City; PM+SM dual; CS-1+CS-6; needs JD verification
+499	2026-11-20	Dice	Technical Project Manager	Evaluated	3.0/5	❌	[499](reports/464-batch-triage-2026-11-20.md)	Location TBD; generic TPM listing; needs JD verification
+500	2026-11-20	Monster	Sr TPM AI (Avenel NJ)	Evaluated	3.5/5	❌	[500](reports/464-batch-triage-2026-11-20.md)	Avenel NJ; AI TPM; CS-1+CS-5; NJ location ideal; needs JD verification
+501	2026-11-20	BuiltIn/Bounteous	Technical Program Delivery & Product Mgmt Lead	Evaluated	3.3/5	❌	[501](reports/464-batch-triage-2026-11-20.md)	Location TBD; delivery+product mgmt lead; CS-1+CS-5; needs verification
+502	2026-11-20	Cognizant	Sr Consulting PM (Teaneck NJ)	Evaluated	3.5/5	❌	[502](reports/464-batch-triage-2026-11-20.md)	Teaneck NJ hybrid; $134.5-158.5K; CS-1+CS-5; closes Nov 27; ACT FAST
+503	2026-11-20	Real Chemistry	Tech PM (Remote US)	Evaluated	2.8/5	❌	[503](reports/464-batch-triage-2026-11-20.md)	Remote US; pharma-adjacent; CS-1 partial; niche healthtech domain
+504	2026-11-20	Real Chemistry	AI Program Manager (SF/NYC)	Evaluated	3.0/5	❌	[504](reports/464-batch-triage-2026-11-20.md)	SF/NYC; AI PM in healthtech; CS-1 partial; niche but NYC option
+505	2026-11-20	Phizenix	RTE (NYC 6-mo contract)	Evaluated	3.0/5	❌	[505](reports/464-batch-triage-2026-11-20.md)	NYC; 6-month contract RTE; CS-6 direct match; short-term; Tier 4 cap
+506	2026-11-20	Xebia	Agile Coach/PM (Remote EST)	Evaluated	3.0/5	❌	[506](reports/464-batch-triage-2026-11-20.md)	Remote EST; Agile/PM; CS-6 match; needs JD verification; Tier 4 cap
+507	2026-11-20	CoreWeave	TPM Product Engineering (NJ/NYC)	Evaluated	3.5/5	❌	[507](reports/464-batch-triage-2026-11-20.md)	Livingston NJ/NYC hybrid; GPU cloud; CS-1+CS-2+CS-3; NJ location ideal
+508	2026-11-20	CoreWeave	Ops PM Maintenance & RMAs	Evaluated	2.5/5	❌	[508](reports/464-batch-triage-2026-11-20.md)	Hybrid; ops/maintenance focus; under-utilizes CS profile; DO NOT APPLY
+509	2026-11-20	CoreWeave	Bare Metal TPM (Sunnyvale/Bellevue)	SKIP	2.0/5	❌	[509](reports/464-batch-triage-2026-11-20.md)	Sunnyvale/Bellevue; location deal-breaker (not NJ/NY); DO NOT APPLY
