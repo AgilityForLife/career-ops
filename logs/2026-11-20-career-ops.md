@@ -159,3 +159,53 @@ Executed 4 WebSearch batches covering all 12 portals.yml queries and tracked com
 1. **ServiceNow Sr Staff TPM — Data & Analytics (#453)** — 4.2/5, remote, $191-334K
 2. **Goldman Sachs Delivery PM VP — TxB (#447/150)** — 4.0/5, NYC, $125-250K
 3. **ServiceNow Principal TPM — Strategic Programs (#455)** — 4.0/5, remote, AI-native
+
+---
+
+## Run 4 — Final Context Window (session wrap-up)
+
+### Consolidated Run Totals (all 4 context windows)
+
+| Metric | Value |
+|--------|-------|
+| Reports Created | 36 (reports 445-463, with overlapping numbers across context windows) |
+| New URLs Found & Added | 18 genuinely new across 3 scan passes |
+| Tracker Entries | 303 → 307 lines (net adds after merges/dedup) |
+| Scan-History | ~913 entries |
+| Pipeline Pending | ~77 remaining unprocessed URLs |
+| Errors | 0 |
+| Warnings | 1 (known Glean #108/#109 dup) |
+| Applications Submitted | 0 (per SUBMISSION GATE rule) |
+| Git Commits | 3 (a14bb11, 5df467c, 902fe6d) |
+| Push Status | All changes on main |
+
+### HIGH PRIORITY Roles (4.0+ score)
+
+| # | Company | Role | Score | Location | Comp |
+|---|---------|------|-------|----------|------|
+| 453 | ServiceNow | Sr Staff TPM — Data & Analytics | 4.2/5 | Remote/Flex | $191-334K |
+| 455 | ServiceNow | Principal TPM — Strategic Programs | 4.0/5 | Remote/Flex | AI-native |
+| 450 | Citi | TPM Applied AI & Agents SVP | 4.0/5 | NYC | Citi SVP band |
+| 150 | Goldman Sachs | Delivery PM VP — TxB | 4.0/5 | NYC | $125-250K |
+
+### APPLY-ELIGIBLE Roles (3.5-3.9)
+
+| # | Company | Role | Score | Location | Notes |
+|---|---------|------|-------|----------|-------|
+| 450 | Ness Tech | Sr TPM AI | 3.8/5 | Avenel NJ (remote) | Staffing firm; verify comp |
+| 449 | Citi | IT PM SVP | 3.8/5 | JC hybrid | 6/7 CS; people mgmt gap |
+| 447 | Citi | Payments Tech PM SVP | 3.6/5 | JC hybrid | $163-245K |
+| 447 | MetLife | Senior Agile PM | 3.5/5 | NJ hybrid | $103-130K borderline |
+| 448 | Citi | PM Senior Lead | 3.5/5 | NYC on-site | $200-245K |
+| 446 | Goldman Sachs | Delivery PM VP | 3.5/5 | NYC | Banking domain gap |
+
+### URGENT — Approaching Deadline
+- **Cognizant Sr Consulting PM** (Teaneck NJ, $134.5-158.5K) — closes Nov 27 — evaluated 3.3/5; needs user decision
+
+### Network Limitations (persistent)
+All career sites remain unreachable via WebFetch (cloud network policy). WebSearch used for JD extraction. All reports marked `unconfirmed (batch mode)`. Recommendation: add job board domains to network allowlist.
+
+### Session Status
+- **COMPLETE** — All 15 pipeline steps executed
+- **Notification sent** — PushNotification delivered with HIGH PRIORITY summary
+- **No further action required** until next scheduled run
