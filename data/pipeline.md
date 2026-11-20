@@ -5,10 +5,15 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-20: 32 tracked companies, 12 search queries. 4 new URLs added. Tracked company scan mostly saturated — Citi, CoreWeave, Anthropic, OpenAI all heavily pre-scanned. -->
+
+https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite
+https://job-boards.greenhouse.io/janeasystems/jobs/5489579004  Janea Systems — AI Innovation Lead — Remote
+https://jobs.lever.co/softrams/46ad45c0-ea94-4eb8-8358-a1abf587f2d4  Softrams — Sr. Program Manager — Federal/Remote
+https://jobs.lever.co/altarum/278b0ddc-67ab-4d94-8114-415c6f68bb18  Altarum — Agile PM / Portfolio Delivery Lead — Remote
+
 <!-- Scan 2026-11-19: 32 tracked companies, 12 search queries. New findings below. -->
 
-https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs — US Remote — AI-adjacent
-https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  EvolutionIQ — TPM AI/Insurtech SaaS — NYC
 https://job-boards.greenhouse.io/realchemistry/jobs/5173330008  Real Chemistry — Tech PM — Remote US
 https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix — RTE — NYC — 6-month contract
 https://job-boards.greenhouse.io/xebiausa/jobs/5505019004  Xebia — Agile/PM role — needs verification
@@ -33,7 +38,6 @@ https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agen
 https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi — AI Digital Sr Program Lead, SVP — NYC — HIGH PRIORITY
 https://jobs.citi.com/job/new-york/director-technical-program-manager-production-management/287/100500716432  Citi — Director TPM Production Management — NYC
 https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi — PM Lead Product Dev Transformation, VP — NYC
-https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi — Payments Tech PM/Quality Lead, SVP — JC
 https://jobs.citi.com/job/jersey-city/low-latency-infrastructure-senior-program-manager/287/95863915072  Citi — Low-Latency Infra Sr PM — JC
 https://jobs.citi.com/job/new-york/program-management-lead-alumni-network-vice-president/287/102261625120  Citi — PM Lead Alumni Network, VP — NYC — lower priority domain
 https://higher.gs.com/roles/172262  Goldman Sachs — VP Project Management, GBM — NYC
@@ -89,6 +93,16 @@ https://job-boards.greenhouse.io/anthropic/jobs/5208193008  Anthropic — Unknow
 https://job-boards.greenhouse.io/anthropic/jobs/5138044008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — Jersey City — Cash Equities
 
+<!-- Scan 2026-11-20: Daily pipeline run. New findings below. -->
+
+https://careers.servicenow.com/jobs/744000150471979/principal-technical-program-manager/  ServiceNow — Principal TPM — Likely Remote/Flexible
+https://careers.servicenow.com/jobs/744000150210329/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Mgmt — Likely Remote
+https://careers.servicenow.com/jobs/744000153604319/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Mgmt (2nd posting) — Likely Remote
+https://careers.servicenow.com/jobs/744000158298842/senior-staff-technical-program-manager-armisveza/  ServiceNow — Senior Staff TPM ArmiSveza — Likely Remote
+https://careers.servicenow.com/jobs/744000137983950/senior-director-technical-program-management/  ServiceNow — Senior Director TPM — Likely Remote/Flexible
+https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach — Director of TPM — US Remote
+https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent — TPM — Remote
+
 <!-- Scan 2026-11-19: 4 search groups (Big Tech+AI, Consulting+Gov, Financial+Healthcare, 12 portals queries). New findings below. -->
 
 https://jobs.citi.com/job/new-york/program-management-senior-lead-wealth-lending-senior-vice-president/287/99451029312  Citi — PM Senior Lead Wealth Lending SVP — NYC
@@ -112,8 +126,6 @@ https://www.accenture.com/us-en/careers/jobdetails?id=14784874_en  Accenture —
 https://careers.servicenow.com/jobs/744000152543649/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible — 10+ yrs
 https://careers.servicenow.com/jobs/744000161057189/technical-program-manager-research/  ServiceNow — TPM Research
 https://careers.servicenow.com/jobs/744000143924019/principal-technical-program-manager/  ServiceNow — Principal TPM
-https://jobs.parsons.com/jobs/project-manager-ai-and-transportation-consultancy-r-184075-jobs--project-program-management--  Parsons — PM AI & Transportation Consultancy
-https://jobs.parsons.com/jobs/senior-project-manager-intelligent-transportation-systems-its-smart-mobility-virtual-r-183922-jobs--project-program-management--  Parsons — Sr PM ITS & Smart Mobility — Virtual
 https://job-boards.greenhouse.io/anthropic/jobs/5112640008  Anthropic — TPM (unidentified role) — Needs verification
 https://job-boards.greenhouse.io/gleanwork/jobs/4657199005  Glean — Delivery Excellence Manager
 https://job-boards.greenhouse.io/gleanwork/jobs/4661884005  Glean — Senior Technical Program Manager
@@ -130,6 +142,19 @@ https://builtin.com/job/technical-program-delivery-product-management-lead/72366
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Processed 2026-11-20 (batch eval-batch-3: 5 URLs evaluated).
+Citi Payments Tech PM/Quality Lead SVP (JC) → #447 score 3.6/5 — CS-1+CS-5+CS-7, no CS-2.
+Parsons AI & Transportation (Abu Dhabi) → #450 score 1.5/5 — DEAL BREAKER: relocation.
+Parsons ITS & Smart Mobility (Virtual/TX) → #451 score 2.2/5 — domain mismatch, no CS-2/CS-3.
+Airtable PM AI Programs (Remote US) → #452 score 2.8/5 — Tier 4 de-emphasis (training/enablement focus).
+EvolutionIQ TPM (NYC) → #454 score 3.0/5 — CS-1+CS-5+CS-7, posting may be stale. -->
+
+https://jobs.citi.com/job/jersey-city/citi-direct-payments-tech-program-manager-quality-lead-senior-vice-president/287/100816127536  Citi — Payments Tech PM/Quality Lead SVP — JC — #447 — 3.6/5
+https://jobs.parsons.com/jobs/project-manager-ai-and-transportation-consultancy-r-184075-jobs--project-program-management--  Parsons — PM AI & Transportation — Abu Dhabi — #450 — 1.5/5 — REJECTED: location
+https://jobs.parsons.com/jobs/senior-project-manager-intelligent-transportation-systems-its-smart-mobility-virtual-r-183922-jobs--project-program-management--  Parsons — Sr PM ITS & Smart Mobility — Virtual — #451 — 2.2/5 — SKIP
+https://job-boards.greenhouse.io/airtable/jobs/8382158002  Airtable — PM AI Programs — Remote — #452 — 2.8/5 — SKIP
+https://job-boards.greenhouse.io/evolutioniq/jobs/5804095004  EvolutionIQ — TPM AI/Insurtech SaaS — NYC — #454 — 3.0/5
 
 <!-- Processed 2026-09-28 (scan covering since last run 2026-09-25, headless launchd run, 3-day gap).
 4 parallel agents covered the pipeline: 1 on all 12 portals.yml search_queries, 3 on tracked_companies
