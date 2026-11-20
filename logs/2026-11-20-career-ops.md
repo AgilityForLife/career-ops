@@ -87,8 +87,75 @@ The following high-priority pending URLs still need evaluation:
 9. **Palantir — IS Program Manager** — NYC
 10. **Palantir — TPM** — NYC
 
+## Run 2 — Continuation Session (context resumed)
+
+### Additional Evaluations (reports 445-449)
+
+| # | Company | Role | Score | Recommendation |
+|---|---------|------|-------|----------------|
+| 445 | EY | Program Manager Hoboken | 3.3/5 | APPLY w/ caveats — CS-1/CS-5; $165.8-302.3K; may be stale (Mar 2026) |
+| 446 | EY | Project Manager Hoboken | 2.4/5 | DO NOT APPLY — under-levels; construction-tech domain; Feb 2026 stale |
+| 447 | MetLife | Senior Agile PM | 3.5/5 | APPLY — CS-1/CS-5/CS-6/CS-7; NJ hybrid; $103-130K borderline comp |
+| 448 | MetLife | IAM Program Manager | 2.4/5 | DO NOT APPLY — IAM/security domain mismatch |
+| 449 | Goldman Sachs | Engineering Associate PM | 2.0/5 | DO NOT APPLY — severe seniority mismatch (1-3yr vs 15+yr) |
+
+### Additional Scan (Run 2)
+- 6 WebSearch queries across Greenhouse, Lever/Ashby, Citi/JPMorgan, Deloitte/EY, UnitedHealth/ServiceNow, Anthropic/OpenAI/CoreWeave
+- **6 genuinely new URLs** found and added to pipeline + scan-history:
+  1. Citi — Application PM Emerging Payment Director — JC (Director level)
+  2. EY — Transformation Architecture & Delivery Manager — NYC (Sep 2026)
+  3. UnitedHealth — Sr Manager TPM Remote (management role)
+  4. Deloitte — SM Project Delivery Analyst — NJ/NY
+  5. Deloitte — Delivery Mgmt Engineer II — NJ/NY
+  6. UnitedHealth — Technology Program/Project Manager
+
+### Tracker Merge Result
+- 1 updated: MetLife Senior Agile PM (2.2→3.5)
+- 4 skipped: already evaluated at equal or higher scores in prior session
+
+### Pipeline Health
+- verify-pipeline.mjs: 0 errors, 1 warning (known Glean #108/#109 dup)
+- Scan-history: +6 new entries
+- Pipeline pending: ~87 URLs + 6 new from this scan
+
 ## Recommendations
 
 1. **Network policy**: Add job board domains (job-boards.greenhouse.io, jobs.citi.com, higher.gs.com, apply.deloitte.com, careers.ey.com, jobs.lever.co) to allowed network domains for future runs to enable JD fetching and evaluation.
 2. **Evaluation backlog**: 87+ pending URLs need processing. Priority should be the AI-adjacent and high-comp roles listed above.
 3. **Scan saturation**: The 12 search queries and 32 tracked companies are heavily saturated. Consider adding new search queries targeting: (a) newer ATS platforms, (b) AI-specific job boards, (c) contract/C2C aggregators.
+4. **Apply-eligible from this run**: MetLife Senior Agile PM (3.5/5, NJ hybrid, SAFe differentiator) is the strongest new finding.
+
+---
+
+## Run 3 — Context-Resumed Continuation
+
+### Portal Scan (Pass 3)
+Executed 4 WebSearch batches covering all 12 portals.yml queries and tracked companies (ServiceNow, Deloitte, EY, Citi, Goldman Sachs, JPMorgan). Found 8 genuinely new URLs added to pipeline:
+
+| Company | Role | Location |
+|---------|------|----------|
+| ServiceNow | Staff TPM | Remote/Flexible |
+| ServiceNow | Sr Staff TPM (2nd req) | Remote/Flexible |
+| ServiceNow | Director TPM | Remote/Flexible |
+| ServiceNow | Sr Manager TPM Experience Team | Remote/Flexible |
+| Deloitte | Sr Manager Lead Delivery Leader (2nd req) | Morristown/NYC |
+| Deloitte | Operate CoE Delivery Lead Sr Manager | NJ/NY |
+| Deloitte | Product Engineering Delivery Manager | Morristown/NYC |
+| Deloitte | Manager Delivery Manager | Morristown/NYC |
+
+4 additional URLs logged to scan-history as skipped (low fit, duplicate, domain mismatch, small company).
+
+### Scan-History Update
+- 12 new entries added to scan-history.tsv (8 added_pipeline + 4 skipped)
+- Total scan-history: ~913 entries
+
+### Pipeline & Tracker State
+- Pipeline pending: ~95 URLs (87 prior + 8 new)
+- Applications tracker: 301 entries, max #455
+- Merge script: no pending additions
+- Verify script: 0 errors, 1 warning (known Glean dup)
+
+### Top 3 Apply-Now Recommendations (all sessions combined)
+1. **ServiceNow Sr Staff TPM — Data & Analytics (#453)** — 4.2/5, remote, $191-334K
+2. **Goldman Sachs Delivery PM VP — TxB (#447/150)** — 4.0/5, NYC, $125-250K
+3. **ServiceNow Principal TPM — Strategic Programs (#455)** — 4.0/5, remote, AI-native
