@@ -44,8 +44,6 @@ https://higher.gs.com/roles/172262  Goldman Sachs — VP Project Management, GBM
 https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-AGILE-Coach/353865  Deloitte — Senior Consultant Agile Coach — JC/Morristown/NY
 https://apply.deloitte.com/en_US/careers/JobDetail/Delivery-Leader-Core-Financial-Systems/360482  Deloitte — Delivery Leader Core Financial Systems — JC/Morristown/NY — remote tag
 https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Consultant-Scrum-Master-Release-Train-Engineer/353916  Deloitte — Senior Consultant SM/RTE — JC/Morristown/NY
-https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY — Program Manager — Hoboken NJ
-https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY — Project Manager — Hoboken NJ
 https://careers.unitedhealthgroup.com/job/eden-prairie/director-technical-project-program-management-remote/34088/100343446992  UnitedHealth — Director Tech Project/PM, Remote
 https://careers.unitedhealthgroup.com/job/eden-prairie/principal-technical-project-program-manager/34088/97439879232  UnitedHealth — Principal Tech Project/PM
 https://careers.unitedhealthgroup.com/job/austin/senior-manager-of-technical-project-and-program-management-remote/34088/97613515552  UnitedHealth — Sr Manager TPM, Remote
@@ -82,9 +80,7 @@ https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-
 https://www.dice.com/job-detail/aeff164d-f8f4-4050-95a8-4984f13ffe2a  JPMorgan — Lead Technology PM — Jersey City — $142K-190K
 https://www.themuse.com/jobs/jpmorganchase/principal-technical-program-manager-e633e6  JPMorgan — Principal Technical PM — NYC/JC
 https://www.ihireengineering.com/jobs/view/523189677  JPMorgan — Data Modernization Technical PM — Jersey City
-https://www.builtinnyc.com/job/senior-agile-project-manager/299212  MetLife — Senior Agile Project Manager — NYC/NJ Hybrid — $103K-130K
 https://builtinnyc.com/job/project-manager-system-migrations/310842  MetLife — Project Manager System Migrations — NYC Remote — $66K-112K
-https://builtinnyc.com/job/iam-program-manager/291377  MetLife — IAM Program Manager — Remote — $100K-155K
 https://jobs.insightglobal.com/find_a_job/new-jersey/job-565371/  Insight Global — Project Manager — Remote Cranbury NJ — Contract
 https://wellfound.com/jobs/4689860-program-manager  Nava/QBA — Program Manager Gov SAFe — Remote — $157K-177K
 https://careers-govcio.icims.com/jobs/6808/program-manager-%28remote%29/job  GovCIO — Program Manager — Remote — Federal
@@ -120,7 +116,6 @@ https://job-boards.greenhouse.io/xebiausa/jobs/5505019004  Xebia — Agile Coach
 https://job-boards.greenhouse.io/realchemistry/jobs/5030986008  Real Chemistry — AI Program Manager — SF/NYC
 https://jobs.lever.co/palantir/bd34525c-6e4e-44ea-88c8-d8dac9747feb  Palantir — TPM US Government — Huntsville AL — clearance req
 https://higher.gs.com/roles/179077  Goldman Sachs — Transaction Banking Delivery PM VP — NYC — $125-250K
-https://higher.gs.com/roles/176759  Goldman Sachs — Engineering Associate PM — NYC — $103-153K
 https://openai.com/careers/technical-program-manager-global-programs-applied-ai-engineering-san-francisco/  OpenAI — TPM Global Programs Applied AI Engineering — SF — $216-240K
 https://www.accenture.com/us-en/careers/jobdetails?id=14784874_en  Accenture — Scrum Master — JC/Pennington NJ — 4 day onsite
 https://careers.servicenow.com/jobs/744000152543649/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible — 10+ yrs
@@ -142,6 +137,13 @@ https://builtin.com/job/technical-program-delivery-product-management-lead/72366
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Evaluated 2026-11-20: 5 pending URLs from Nov 13 + Nov 19 scans. Batch mode (network-restricted). -->
+https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager Hoboken (3.3/5) [APPLY w/ caveats] - CS-1/CS-5; $165.8-302.3K; may be stale
+https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY | Project Manager Hoboken (2.4/5) [DO NOT APPLY] - under-levels; construction-tech domain; Feb 2026 stale
+https://www.builtinnyc.com/job/senior-agile-project-manager/299212  MetLife | Senior Agile PM (3.5/5) [APPLY] - CS-1/CS-5/CS-6/CS-7; NJ hybrid; $103-130K borderline comp
+https://builtinnyc.com/job/iam-program-manager/291377  MetLife | IAM Program Manager (2.4/5) [DO NOT APPLY] - IAM/security domain mismatch; 1.5 CS
+https://higher.gs.com/roles/176759  Goldman Sachs | Engineering Associate PM (2.0/5) [DO NOT APPLY] - severe seniority mismatch (1-3yr vs 15+yr)
 
 <!-- Processed 2026-11-20 (batch eval-batch-3: 5 URLs evaluated).
 Citi Payments Tech PM/Quality Lead SVP (JC) → #447 score 3.6/5 — CS-1+CS-5+CS-7, no CS-2.
