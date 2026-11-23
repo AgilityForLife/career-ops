@@ -5,6 +5,10 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-23: 12 search queries + tracked companies. Fully saturated on generic queries. 10 new URLs found (3 added, 7 skipped). WebFetch blocked in cloud env — batch mode evaluations only. -->
+
+<!-- 2026-11-23 evaluated: ServiceNow Strategic Partnerships TPM → #464 (3.0/5 DO NOT APPLY), EY Service Delivery Manager → #465 (3.7/5 SECONDARY), EY NextGen AI Manager → #466 (2.6/5 SKIP) -->
+
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite

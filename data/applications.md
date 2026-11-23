@@ -2,6 +2,9 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 464 | 2026-11-23 | ServiceNow | Strategic Partnerships TPM | 3.0/5 | Evaluada | ❌ | [464](reports/464-servicenow-strategic-partnerships-tpm-2026-11-23.md) | DO NOT APPLY; partnership/BD focus diverges from enterprise delivery; 10yr SWE-company req + AI/ML PM gap; comp $221K+ above target but misaligned skills |
+| 465 | 2026-11-23 | EY | Service Delivery Manager | 3.7/5 | Evaluada | ❌ | [465](reports/465-ey-service-delivery-mgr-2026-11-23.md) | SECONDARY; Hoboken NJ STS Lab; $131K-$246K; CS-4/CS-6/CS-7 strong; ITIL gap; security domain specificity risk |
+| 466 | 2026-11-23 | EY | NextGen AI Manager | 2.6/5 | NO APLICAR | ❌ | [466](reports/466-ey-nextgen-ai-mgr-2026-11-23.md) | SKIP; 1/7 CS engaged; comp risk ($92K–$142K Dice range may breach floor); AI prototyping not enterprise delivery; posting likely expired |
 | 456 | 2026-11-20 | Ness Technologies | Sr TPM AI — Avenel NJ | 3.8/5 | Evaluada | ❌ | [450](reports/450-ness-sr-tpm-ai-avenel-2026-11-20.md) | APPLY-ELIGIBLE; NJ local + remote; 4 CS confirmed; AI-adjacent; staffing firm — verify comp/engagement model; unconfirmed batch mode |
 | 457 | 2026-11-20 | Parsons | PM AI & Transportation Consultancy | 1.5/5 | Descartado | ❌ | [451](reports/451-parsons-pm-ai-transportation-2026-11-20.md) | DO NOT APPLY — Abu Dhabi UAE location deal-breaker; unconfirmed batch mode |
 | 447 | 2026-11-20 | ServiceNow | Senior Staff TPM — Data & Analytics | 4.2/5 | Evaluada | ❌ | [445](reports/445-servicenow-senior-staff-tpm-2026-11-20.md) | Re-eval 2026-11-20 (3.6→4.2). HIGH PRIORITY; Remote/Flexible; ~$191-334K; CS-1/CS-2/CS-4/CS-5; near-exact domain match to Verisk/Sanofi data platform delivery; unconfirmed batch mode |
