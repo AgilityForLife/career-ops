@@ -1,4 +1,4 @@
-# 478 — JPMorgan Chase — Technical Project Manager, Executive Director, AI Product Management
+# 479 — JPMorgan Chase — Technical Project Manager, Executive Director, AI Product Management
 
 **Date:** 2026-11-24
 **URL:** https://www.themuse.com/jobs/jpmorganchase/technical-project-manager-executive-director-ai-product-management-team

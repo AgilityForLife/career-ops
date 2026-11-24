@@ -5,6 +5,19 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-24 (pass 4): 24 WebSearches across all 32 companies + 12 portal queries. 10 net-new URLs added (Goldman Sachs 2, Citi 3, Accenture 2, Cognizant 1, J&J 2). 7 URLs skipped (Goldman 4 downlevel/location/product, UHG 2 probable dups). Portals heavily saturated — most returning previously-seen results. -->
+
+https://higher.gs.com/roles/179569  Goldman Sachs — Unknown Role — NYC — needs verification
+https://higher.gs.com/roles/153184  Goldman Sachs — Unknown Role — needs verification
+https://jobs.citi.com/job/new-york/it-project-sr-group-manager/287/102161062960  Citi — IT Project Sr Group Manager — NYC
+https://jobs.citi.com/job/new-york/it-project-sr-group-manager/287/102155123584  Citi — IT Project Sr Group Manager — NYC (2nd req)
+https://jobs.citi.com/job/new-york/it-project-sr-group-manager/287/101628097248  Citi — IT Project Sr Group Manager — NYC (3rd req)
+https://www.accenture.com/us-en/careers/jobdetails?id=14823957_en  Accenture — PM Role — NJ — unverified
+https://www.accenture.com/us-en/careers/jobdetails?id=R00362525_en  Accenture — PM Role — unverified
+https://careers.cognizant.com/us-en/jobs/00071028351/  Cognizant — Unknown Role — needs verification
+https://www.careers.jnj.com/en/jobs/r-109437/manager-implementation/  J&J — Manager Implementation — Remote tag
+https://www.careers.jnj.com/en/jobs/r-101320/compliance-project-manager/  J&J — Compliance PM — New Brunswick NJ
+
 <!-- Scan 2026-11-24 (pass 3): Extended sweep — 32 companies + 12 portal queries + dedup. 5 net-new URLs added (ServiceNow 2, Anthropic 2, JRM Construction 1). Glean 6 URLs skipped (likely Palo Alto pattern). Most portals saturated. careers.servicenow.com and job-boards.greenhouse.io blocked by network policy — URLs added unverified. -->
 
 https://careers.servicenow.com/jobs/744000140516224/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible — unverified (site blocked)

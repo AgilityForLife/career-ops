@@ -111,3 +111,52 @@
 - ServiceNow Sr Staff TPM (#473, 4.1/5) is the second-highest — premium unlock (CS-2+CS-3+CS-7)
 - UnitedHealth has 5 new remote openings across Principal/Director levels — bulk-evaluate when network access available
 - Scan yield continues to decline — most portals returning previously-seen results. Consider adding new companies or adjusting search queries.
+
+## Pass 3 — Extended Scan & AI-Focused Evaluations
+
+**Trigger:** Context continuation after pass 2 commit. Final extended sweep + priority evaluations.
+
+### Additional Scan Results (Pass 3)
+
+| Company | Role | Location | New? |
+|---------|------|----------|------|
+| **ServiceNow** | Senior Staff TPM | Remote/Flexible | ✅ NEW |
+| **ServiceNow** | Principal TPM Strategic PM (3rd posting) | Likely Remote | ✅ NEW |
+| **Anthropic** | Unknown Role (5114705008) | Unverified | ✅ NEW |
+| **Anthropic** | Unknown Role (5018714008) | Unverified | ✅ NEW |
+| **JRM Construction** | Project Manager | NYC, $125-225K | ✅ NEW |
+| Glean (x6) | Various TPM/PM roles | Palo Alto | Skipped (location mismatch) |
+
+### Additional Reports (Pass 3)
+
+| # | Company | Role | Score | Recommendation |
+|---|---------|------|-------|----------------|
+| 477/433* | Citi | TPM, Applied AI & Agents (SVP) | **4.3/5** | **APPLY HIGH PRIORITY — AI Factory, $192-288K** |
+| 478/484 | Citi | AI Digital Sr Program Lead (SVP) | **4.1/5** | **APPLY PRIORITY — AI/Digital governance** |
+| 479/485 | JPMorgan Chase | Tech PM Exec Dir, AI Product Mgmt | **4.4/5** | **APPLY HIGHEST PRIORITY — $166-260K** |
+| 480/486 | CoreWeave | TPM, Product Engineering | **4.0/5** | **APPLY SECONDARY — Cloud infra, $150-190K** |
+
+*Note: #477 matched existing tracker entry #433 (Citi TPM AI); merge script updated score 4→4.3. Others assigned #484-486 by merge script.
+
+### Final Combined Session Highlights (All Passes)
+
+**Top 7 opportunities — action required:**
+1. **#479/485 JPMorgan Chase — Tech PM Exec Dir AI Product Mgmt (4.4/5)** — HIGHEST PRIORITY
+2. **#477/433 Citi — TPM Applied AI & Agents SVP (4.3/5)** — HIGH PRIORITY
+3. **#474 Citi — Head of PM, Governance & Agile Transformation (4.2/5)** — PRIORITY
+4. **#478/484 Citi — AI Digital Sr Program Lead SVP (4.1/5)** — PRIORITY
+5. **#473 ServiceNow — Sr Staff TPM Armis/Veza (4.1/5)** — APPLY
+6. **#466 Softrams — Senior Program Manager (4.0/5)** — RECOMMEND APPLY
+7. **#480/486 CoreWeave — TPM Product Engineering (4.0/5)** — SECONDARY
+
+**Full session totals:** 17 reports generated (#464-480), 24 new pipeline URLs across 3 scan passes, 947 scan-history entries total
+**Tracker:** 316 entries in applications.md (was 307; +9 net)
+**Pipeline health:** GREEN (1 known warning: Glean #108/#109 duplicate)
+
+## Pass 3 Notes
+
+- AI/ML-focused roles emerged as strongest cluster this session: JPMorgan (4.4), Citi AI Factory (4.3), Citi AI Digital (4.1)
+- Financial services + AI intersection commands premium comp ($166-288K ranges)
+- CoreWeave represents cloud infrastructure play — different profile but strong CS-2/CS-3 engagement
+- All pass 3 reports marked "unconfirmed (batch mode)" — career sites still blocked by network policy
+- Recommend manual JD verification for JPMorgan #479 and Citi #477 as immediate priorities

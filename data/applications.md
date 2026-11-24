@@ -2,6 +2,9 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 484 | 2026-11-24 | Citi | AI Digital Senior Program Lead, Global Services (SVP) | 4.1/5 | Evaluada | ❌ | [478](reports/478-citi-ai-digital-sr-program-lead-2026-11-24.md) | APPLY PRIORITY — AI/Digital program governance, NYC Hybrid, 4/7 CS engaged |
+| 485 | 2026-11-24 | JPMorgan Chase | Technical Project Manager, Exec Dir, AI Product Mgmt | 4.4/5 | Evaluada | ❌ | [479](reports/479-jpmorgan-tech-pm-ai-product-mgmt-2026-11-24.md) | APPLY HIGHEST PRIORITY — AI Product Mgmt, NYC, $166-260K, 5/7 CS engaged |
+| 486 | 2026-11-24 | CoreWeave | Technical Program Manager, Product Engineering | 4.0/5 | Evaluada | ❌ | [480](reports/480-coreweave-tpm-product-engineering-2026-11-24.md) | APPLY SECONDARY — Cloud infra TPM, NJ/NYC Hybrid, $150-190K, 4/7 CS engaged |
 | 483 | 2026-11-24 | UnitedHealth | Director, Technical Project Management | 3.7/5 | Evaluada | ❌ | [476](reports/476-unitedhealth-director-tpm-remote-2026-11-24.md) | Remote; Director level; CS-1,4,5,7 engaged; title-gap risk but strong comp |
 | 474 | 2026-11-24 | Bloomreach | Director of TPM | 3.6/5 | Evaluada | ❌ | [464](reports/464-bloomreach-director-tpm-2026-11-24.md) | Director-level people-manager; level stretch from Senior TPM; US Remote |
 | 475 | 2026-11-24 | Transcarent | Technical Program Manager | 3.9/5 | Evaluada | ❌ | [465](reports/465-transcarent-tpm-2026-11-24.md) | AI/healthcare platform TPM; $104K-$160K; 3-5yr req may signal mid-level |
@@ -35,7 +38,7 @@
 | 430 | 2026-11-13 | Deloitte | IT Program Manager Strategy & Ops | 3.6/5 | Evaluada | ❌ | [430](reports/430-deloitte-it-program-manager-strategy-operations-2026-11-13.md) | APPLY-ELIGIBLE; predominantly remote; 0-10% travel; unconfirmed batch mode |
 | 431 | 2026-11-13 | Deloitte | Sr Manager Lead Delivery Leader | 3.7/5 | Evaluada | ❌ | [431](reports/431-deloitte-sr-manager-lead-delivery-leader-2026-11-13.md) | APPLY-ELIGIBLE; Jersey City/Morristown/NYC; title matches target "Delivery Lead"; unconfirmed batch mode |
 | 432 | 2026-11-13 | Citi | AI Digital Senior Program Lead SVP | 3.6/5 | Evaluada | ❌ | [432](reports/432-citi-ai-digital-senior-program-lead-global-services-2026-11-13.md) | APPLY-ELIGIBLE; NYC; AI-adjacent; SVP level; verify no Python coding req; unconfirmed batch mode |
-| 433 | 2026-11-13 | Citi | TPM Applied AI & Agents SVP | 4.0/5 | Evaluada | ❌ | [433](reports/433-citi-tpm-applied-ai-agents-svp-2026-11-13.md) | HIGH PRIORITY; NYC hybrid; AI-adjacent; SVP; CS-1/CS-5/CS-7 confirmed; unconfirmed batch mode |
+| 433 | 2026-11-24 | Citi | Technical Program Manager, Applied AI & Agents (SVP) | 4.3/5 | Evaluada | ❌ | [477](reports/477-citi-tpm-applied-ai-agents-2026-11-24.md) | Re-eval 2026-11-24 (4→4.3). APPLY HIGH PRIORITY — AI Factory TPM, NYC Hybrid, $192-288K, 5/7 CS engaged |
 | 435 | 2026-11-13 | Citi | Director TPM Production Management | 3.8/5 | Evaluada | ❌ | [434](reports/434-citi-director-tpm-production-management-2026-11-13.md) | APPLY-ELIGIBLE; NYC; CS-3 strong match (production governance); SRE req gap; unconfirmed batch mode |
 | 436 | 2026-11-13 | Deloitte | Senior Consultant — AGILE Coach | 3.9/5 | Evaluada | ❌ | [435](reports/435-deloitte-senior-consultant-agile-coach-2026-11-13.md) | JC/Morristown/NYC; Agile Coach role; CS-6 strong, Tier 4 cap risk |
 | 437 | 2026-11-13 | Deloitte | Delivery Leader, Core Financial Systems | 3.7/5 | Evaluada | ❌ | [436](reports/436-deloitte-delivery-leader-core-financial-systems-2026-11-13.md) | JC/Morristown/NYC; CS-1/CS-5/CS-7 engaged; #LI-Remote tag |
