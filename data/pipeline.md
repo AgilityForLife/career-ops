@@ -5,7 +5,21 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Scan 2026-11-24: 32 tracked companies, 12 search queries. 9 new URLs added. Incremental new finds from Citi, J&J, Greenhouse ATS. boards-api.greenhouse.io blocked by network policy. -->
+<!-- Scan 2026-11-24 (pass 3): Extended sweep — 32 companies + 12 portal queries + dedup. 5 net-new URLs added (ServiceNow 2, Anthropic 2, JRM Construction 1). Glean 6 URLs skipped (likely Palo Alto pattern). Most portals saturated. careers.servicenow.com and job-boards.greenhouse.io blocked by network policy — URLs added unverified. -->
+
+https://careers.servicenow.com/jobs/744000140516224/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible — unverified (site blocked)
+https://job-boards.greenhouse.io/anthropic/jobs/5114705008  Anthropic — Unknown Role — unverified (site blocked)
+https://job-boards.greenhouse.io/anthropic/jobs/5018714008  Anthropic — Unknown Role — unverified (site blocked)
+https://job-boards.greenhouse.io/jrmconstructionmanagementllc/jobs/4552788006  JRM Construction — Project Manager — NYC — $125-225K — Procore relevant
+https://careers.unitedhealthgroup.com/job/22468116  UnitedHealth — Principal Technical Program Manager — Remote (2nd req)
+https://careers.unitedhealthgroup.com/job/23012241  UnitedHealth — Agile Practitioner 4 — Remote — portfolio-level Agile role
+https://careers.unitedhealthgroup.com/job/23127383  UnitedHealth — Senior Technical Project Manager — Remote/Hybrid MN or DC
+https://careers.cognizant.com/global-en/jobs/00067578661/  Cognizant — Sr TPM/Delivery Manager — needs verification
+https://aecom.com/careers/find-a-job?ID=744000132496880  AECOM — VP Program Management Consultant Lead — NY/NJ
+https://www.accenture.com/us-en/careers/jobdetails?id=R00352311  Accenture — PM Role — unverified
+https://www.accenture.com/us-en/careers/jobdetails?id=R00366684  Accenture — PM Role — unverified
+
+<!-- Scan 2026-11-24 (pass 1): 32 tracked companies, 12 search queries. 9 new URLs added. Incremental new finds from Citi, J&J, Greenhouse ATS. boards-api.greenhouse.io blocked by network policy. -->
 
 https://job-boards.greenhouse.io/onesixsolutions27/jobs/4419993006  OneSixSolutions — AI role — needs verification (site blocked; evaluate next session)
 https://job-boards.greenhouse.io/lindawernerassociates/jobs/5059447008  Linda Werner Associates — PM Knowledge & Content — needs verification (site blocked)
@@ -21,20 +35,14 @@ https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J �
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite
 https://job-boards.greenhouse.io/janeasystems/jobs/5489579004  Janea Systems — AI Innovation Lead — Remote
-https://jobs.lever.co/softrams/46ad45c0-ea94-4eb8-8358-a1abf587f2d4  Softrams — Sr. Program Manager — Federal/Remote
-https://jobs.lever.co/altarum/278b0ddc-67ab-4d94-8114-415c6f68bb18  Altarum — Agile PM / Portfolio Delivery Lead — Remote
 https://careers.servicenow.com/jobs/744000138884916/staff-technical-program-manager/  ServiceNow — Staff TPM — Remote/Flexible
 https://careers.servicenow.com/jobs/744000130081989/senior-staff-technical-program-manager/  ServiceNow — Sr Staff TPM (2nd req) — Remote/Flexible
 https://careers.servicenow.com/jobs/744000137206440/director-technical-program-management/  ServiceNow — Director TPM — Remote/Flexible
 https://careers.servicenow.com/jobs/744000137736699/sr-manager-technical-program-management-experience-team/  ServiceNow — Sr Manager TPM Experience Team — Remote/Flexible
-https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360060  Deloitte — Sr Manager Lead Delivery Leader (2nd req) — Morristown/NYC — #LI-Remote
-https://apply.deloitte.com/en_US/careers/JobDetail/Operate-Center-of-Excellence-Delivery-Lead-Operate-AMS-BPaaS-Platform-Senior-Manager-C-MAT/361205  Deloitte — Operate CoE Delivery Lead Sr Manager — NJ/NY
-https://apply.deloitte.com/en_US/careers/JobDetail/Product-Engineering-Delivery-Manager/319183  Deloitte — Product Engineering Delivery Manager — Morristown/NYC
 https://apply.deloitte.com/en_US/careers/JobDetail/Manager-Delivery-Manager/360059  Deloitte — Manager Delivery Manager — Morristown/NYC
 
 <!-- Scan 2026-11-19: 32 tracked companies, 12 search queries. New findings below. -->
 
-https://job-boards.greenhouse.io/realchemistry/jobs/5173330008  Real Chemistry — Tech PM — Remote US
 https://job-boards.greenhouse.io/phizenix/jobs/4681931008  Phizenix — RTE — NYC — 6-month contract
 https://job-boards.greenhouse.io/xebiausa/jobs/5505019004  Xebia — Agile/PM role — needs verification
 https://jobs.citi.com/job/jersey-city/project-manager-exchange-traded-derivatives-cleared-otc-hybrid/287/95000211888  Citi — PM Exchange Traded Derivatives — JC Hybrid
@@ -114,10 +122,7 @@ https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/951
 https://careers.servicenow.com/jobs/744000150471979/principal-technical-program-manager/  ServiceNow — Principal TPM — Likely Remote/Flexible
 https://careers.servicenow.com/jobs/744000150210329/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Mgmt — Likely Remote
 https://careers.servicenow.com/jobs/744000153604319/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Mgmt (2nd posting) — Likely Remote
-https://careers.servicenow.com/jobs/744000158298842/senior-staff-technical-program-manager-armisveza/  ServiceNow — Senior Staff TPM ArmiSveza — Likely Remote
 https://careers.servicenow.com/jobs/744000137983950/senior-director-technical-program-management/  ServiceNow — Senior Director TPM — Likely Remote/Flexible
-https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach — Director of TPM — US Remote
-https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent — TPM — Remote
 
 <!-- Scan 2026-11-20: daily portal scan. 6 new URLs found across Citi, EY, UnitedHealth, Deloitte. -->
 
