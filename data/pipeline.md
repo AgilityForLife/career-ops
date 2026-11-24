@@ -172,6 +172,21 @@ https://builtin.com/job/technical-program-delivery-product-management-lead/72366
 
 ## Done
 
+<!-- Evaluated 2026-11-24: 13 URLs evaluated from Nov 19-24 scans. Batch mode (network-restricted). Top finds: ServiceNow Armis/Veza 4.1/5, Citi Head PM/Agile Transformation 4.2/5, Softrams Sr PM 4.0/5. -->
+https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach | Director of TPM (3.6/5) [Stretch] - Director-level people-manager; level gap from Senior TPM
+https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent | TPM (3.9/5) [Consider] - AI/healthcare platform TPM; $104K-$160K
+https://jobs.lever.co/softrams/46ad45c0-ea94-4eb8-8358-a1abf587f2d4  Softrams | Sr. Program Manager (4.0/5) [APPLY] - Federal health; CS-1/CS-5/CS-7; 100% remote
+https://jobs.lever.co/altarum/278b0ddc-67ab-4d94-8114-415c6f68bb18  Altarum | Agile PM / Portfolio Delivery Lead (3.4/5) [Low priority] - coaching-heavy; weak CS-1/CS-2
+https://job-boards.greenhouse.io/realchemistry/jobs/5173330008  Real Chemistry | Tech PM (SKIP) [REJECTED] - DEAL-BREAKER: $90K-$100K below $100K FTE floor
+https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Manager-Lead-Delivery-Leader/360060  Deloitte | Sr Manager Lead Delivery Leader (3.2/5) [SKIP] - 2/7 CS; likely stale
+https://apply.deloitte.com/en_US/careers/JobDetail/Operate-Center-of-Excellence-Delivery-Lead-Operate-AMS-BPaaS-Platform-Senior-Manager-C-MAT/361205  Deloitte | Operate CoE Delivery Lead (2.8/5) [SKIP] - almost certainly stale; BPaaS ops focus; 15+ yrs req
+https://apply.deloitte.com/en_US/careers/JobDetail/Product-Engineering-Delivery-Manager/319183  Deloitte | Product Eng Delivery Manager (3.8/5) [APPLY] - PRIMARY; SAFe+Jira required; SPC6 differentiator
+https://careers.servicenow.com/jobs/744000153603880/principal-technical-program-manager-strategic-program-management/  ServiceNow | Principal TPM Strategic PM (3.1/5) [SKIP] - CES Office of Business Strategy; principal level likely above positioning
+https://careers.servicenow.com/jobs/744000158298842/senior-staff-technical-program-manager-armisveza/  ServiceNow | Sr Staff TPM Armis/Veza Cyber Risk (4.1/5) [APPLY] - PRIMARY; 5/7 CS; premium unlock CS-2+CS-3+CS-7
+https://jobs.citi.com/job/new-york/citi-wealth-head-of-program-management-governance-and-agile-transformation-director/287/78206315104  Citi | Head of PM, Governance & Agile Transformation Director (4.2/5) [APPLY] - PRIMARY; 5/7 CS; CS-6 in title; NYC Hybrid
+https://careers.unitedhealthgroup.com/job/22659120  UnitedHealth | Principal TPM (3.6/5) [Evaluate further] - Remote; 3/7 CS confirmed; needs JD verification
+https://careers.unitedhealthgroup.com/job/23145548  UnitedHealth | Director, Technical Project Management (3.7/5) [Evaluate further] - Remote; Director level; CS-1/4/5/7
+
 <!-- Evaluated 2026-11-20: 5 pending URLs from Nov 13 + Nov 19 scans. Batch mode (network-restricted). -->
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager Hoboken (3.3/5) [APPLY w/ caveats] - CS-1/CS-5; $165.8-302.3K; may be stale
 https://careers.ey.com/ey/job/Hoboken-Project-Manager-NJ-07030/1291362501  EY | Project Manager Hoboken (2.4/5) [DO NOT APPLY] - under-levels; construction-tech domain; Feb 2026 stale

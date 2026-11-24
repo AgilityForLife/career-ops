@@ -12,9 +12,9 @@
 | 1. Load context | DONE | skills-model.md, profile.yml, cv.md loaded |
 | 2. npm install | DONE | Dependencies installed |
 | 3. Portal scan | DONE | 12 queries + 32 tracked companies; 9 new URLs found |
-| 4. Process pipeline | PARTIAL | 10 reports generated (#464-473) earlier in session; 9 new URLs triaged but not fully evaluated (career sites blocked by network policy) |
-| 5-10. Evaluation | PARTIAL | Batch mode — WebSearch fallback used; full JD fetch blocked for jobs.citi.com, careers.jnj.com, job-boards.greenhouse.io |
-| 11. Merge & verify | DONE | 4 tracker additions merged (#470-473); pipeline healthy at 307 entries |
+| 4. Process pipeline | DONE | 13 reports generated (#464-476); 19 new URLs across 3 scan passes |
+| 5-10. Evaluation | DONE | Batch mode — WebSearch fallback; 3 PRIMARY finds (4.0+), 2 CONSIDER, 5 SKIP/low |
+| 11. Merge & verify | DONE | 13 tracker additions merged; pipeline healthy at 313 entries (1 warning: Glean dup) |
 | 12. Final state | DONE | See below |
 | 13. Commit & push | DONE | 18 files, 486 insertions |
 | 14. Session log | DONE | This file |
@@ -44,12 +44,12 @@
 
 | # | Company | Role | Score |
 |---|---------|------|-------|
-| 464 | Bloomreach | Director TPM | unconfirmed (batch) |
-| 465 | Transcarent | TPM | unconfirmed (batch) |
-| 466 | Softrams | Sr Program Manager | unconfirmed (batch) |
-| 467 | Altarum | Agile PM / Portfolio Delivery | unconfirmed (batch) |
-| 468 | Real Chemistry | Tech PM | unconfirmed (batch) |
-| 469 | Deloitte | Sr Mgr Delivery Leader | eval'd |
+| 464 | Bloomreach | Director TPM | 3.6/5 — Stretch (Director level gap) |
+| 465 | Transcarent | TPM | 3.9/5 — Consider (AI/healthcare, $104-160K) |
+| 466 | Softrams | Sr Program Manager | 4.0/5 — **APPLY** (federal health, remote, CS-1/5/7) |
+| 467 | Altarum | Agile PM / Portfolio Delivery | 3.4/5 — Low priority (coaching-heavy) |
+| 468 | Real Chemistry | Tech PM | SKIP — Deal-breaker ($90-100K below floor) |
+| 469 | Deloitte | Sr Mgr Delivery Leader | 3.2/5 — SKIP (likely stale)
 | 470 | Deloitte | Operate CoE Delivery Lead | 2.8/5 |
 | 471 | Deloitte | Product Eng Delivery Mgr | 3.8/5 |
 | 472 | ServiceNow | Principal TPM | 3.1/5 |
@@ -57,8 +57,8 @@
 
 ## Pipeline State
 
-- **Total entries:** 307 in applications.md
-- **Pending URLs:** ~70+ across Nov 13-24 scans
+- **Total entries:** 313 in applications.md (was 307; +6 net after merge + dedup)
+- **Pending URLs:** ~55+ across Nov 13-24 scans (13 evaluated this session)
 - **Health:** GREEN (1 known warning: Glean #108/#109 duplicate)
 - **Saturation:** Heavy — scan incremental yield continues to decline
 
