@@ -160,3 +160,43 @@
 - CoreWeave represents cloud infrastructure play — different profile but strong CS-2/CS-3 engagement
 - All pass 3 reports marked "unconfirmed (batch mode)" — career sites still blocked by network policy
 - Recommend manual JD verification for JPMorgan #479 and Citi #477 as immediate priorities
+
+## Pass 4 — Final Scan Sweep
+
+**Trigger:** Context continuation after pass 3. 24 additional WebSearches to close out daily pipeline.
+
+### Additional Scan Results (Pass 4)
+
+| Company | Role | Location | New? |
+|---------|------|----------|------|
+| **Goldman Sachs** | Unknown Role (179569) | NYC | ✅ NEW |
+| **Goldman Sachs** | Unknown Role (153184) | TBD | ✅ NEW |
+| **Citi** | IT Project Sr Group Manager (x3 reqs) | NYC | ✅ NEW |
+| **Accenture** | PM Role (14823957) | NJ | ✅ NEW |
+| **Accenture** | PM Role (R00362525) | Unverified | ✅ NEW |
+| **Cognizant** | Unknown Role (00071028351) | TBD | ✅ NEW |
+| **J&J** | Manager Implementation (r-109437) | Remote | ✅ NEW |
+| **J&J** | Compliance PM (r-101320) | New Brunswick NJ | ✅ NEW |
+| Goldman Sachs (x2) | Associate PM Engineering | NYC | Skipped (downlevel) |
+| Goldman Sachs | AWM TPM | Dallas | Skipped (location) |
+| Goldman Sachs (x2) | Product Mgmt | NYC | Skipped (title mismatch) |
+| UnitedHealth (x2) | TPM/Senior TPM | — | Skipped (probable dup) |
+
+### Final Session Totals
+
+- **Reports generated:** 17 (#464-480)
+- **New pipeline URLs:** 34 across 4 scan passes
+- **Scan history entries:** 964 total (was 912 at session start; +52)
+- **Tracker entries:** 316 in applications.md
+- **Pipeline health:** GREEN (1 known warning: Glean #108/#109 dup)
+- **Scan passes:** 4 (heavily saturated — most portals returning previously-seen results)
+
+### Top Opportunities — Action Required
+
+1. **#479/485 JPMorgan Chase — Tech PM Exec Dir AI Product Mgmt (4.4/5)** — HIGHEST PRIORITY
+2. **#477/433 Citi — TPM Applied AI & Agents SVP (4.3/5)** — HIGH PRIORITY
+3. **#474 Citi — Head of PM, Governance & Agile Transformation (4.2/5)** — PRIORITY
+4. **#478/484 Citi — AI Digital Sr Program Lead SVP (4.1/5)** — PRIORITY
+5. **#473 ServiceNow — Sr Staff TPM Armis/Veza (4.1/5)** — APPLY
+6. **#466 Softrams — Senior Program Manager (4.0/5)** — RECOMMEND APPLY
+7. **#480/486 CoreWeave — TPM Product Engineering (4.0/5)** — SECONDARY
