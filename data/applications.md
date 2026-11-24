@@ -2,6 +2,10 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 470 | 2026-11-24 | Deloitte | Operate CoE Delivery Lead | 2.8/5 | NO APLICAR | ❌ | [470](reports/470-deloitte-operate-coe-delivery-lead-2026-11-24.md) | Almost certainly stale (recruiting end 08/05/2026); BPaaS ops focus; 15+ yrs req; 2/7 CS |
+| 471 | 2026-11-24 | Deloitte | Product Engineering Delivery Manager | 3.8/5 | Evaluada | ❌ | [471](reports/471-deloitte-product-eng-delivery-mgr-2026-11-24.md) | PRIMARY — SAFe+Jira required (SPC6 differentiator); ADO co-req caveat; verify posting status |
+| 472 | 2026-11-24 | ServiceNow | Principal Technical Program Manager | 3.1/5 | NO APLICAR | ❌ | [472](reports/472-servicenow-principal-tpm-2026-11-24.md) | CES Office of Business Strategy; principal level likely above positioning; low JD data |
+| 473 | 2026-11-24 | ServiceNow | Sr Staff TPM Armis/Veza (Cyber Risk) | 4.1/5 | Evaluada | ❌ | [473](reports/473-servicenow-sr-staff-tpm-armis-veza-2026-11-24.md) | PRIMARY — 5/7 CS; premium unlock (CS-2+CS-3+CS-7); SaaS platform+cyber risk delivery; verify location |
 | 456 | 2026-11-20 | Ness Technologies | Sr TPM AI — Avenel NJ | 3.8/5 | Evaluada | ❌ | [450](reports/450-ness-sr-tpm-ai-avenel-2026-11-20.md) | APPLY-ELIGIBLE; NJ local + remote; 4 CS confirmed; AI-adjacent; staffing firm — verify comp/engagement model; unconfirmed batch mode |
 | 457 | 2026-11-20 | Parsons | PM AI & Transportation Consultancy | 1.5/5 | Descartado | ❌ | [451](reports/451-parsons-pm-ai-transportation-2026-11-20.md) | DO NOT APPLY — Abu Dhabi UAE location deal-breaker; unconfirmed batch mode |
 | 447 | 2026-11-20 | ServiceNow | Senior Staff TPM — Data & Analytics | 4.2/5 | Evaluada | ❌ | [445](reports/445-servicenow-senior-staff-tpm-2026-11-20.md) | Re-eval 2026-11-20 (3.6→4.2). HIGH PRIORITY; Remote/Flexible; ~$191-334K; CS-1/CS-2/CS-4/CS-5; near-exact domain match to Verisk/Sanofi data platform delivery; unconfirmed batch mode |

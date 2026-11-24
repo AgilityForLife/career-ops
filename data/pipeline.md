@@ -5,6 +5,18 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-24: 32 tracked companies, 12 search queries. 9 new URLs added. Incremental new finds from Citi, J&J, Greenhouse ATS. boards-api.greenhouse.io blocked by network policy. -->
+
+https://job-boards.greenhouse.io/onesixsolutions27/jobs/4419993006  OneSixSolutions — AI role — needs verification (site blocked; evaluate next session)
+https://job-boards.greenhouse.io/lindawernerassociates/jobs/5059447008  Linda Werner Associates — PM Knowledge & Content — needs verification (site blocked)
+https://job-boards.greenhouse.io/rxsense/jobs/4533350005  RxSense — PM/Delivery role — needs verification (site blocked)
+https://jobs.citi.com/job/jersey-city/it-business-lead-analyst-project-manager-c13-jersey-city-new-york/287/76949799968  Citi — IT Business Lead Analyst/PM C13 — JC/NYC Hybrid — ~$190-204K per aggregator; BA-heavy title, verify PM scope
+https://jobs.citi.com/job/new-york/project-management-lead/287/81532951088  Citi — Project Management Lead — NYC — may duplicate 93676913664/94977560096 from Nov 19; verify
+https://jobs.citi.com/job/new-york/cybersecurity-operations-project-delivery-lead-svp-c14/287/67960437440  Citi — Cybersecurity Ops Project Delivery Lead SVP — NYC — SKIP: domain mismatch (requires cybersecurity background)
+https://jobs.citi.com/job/jersey-city/program-management-senior-lead-senior-vice-president-hybrid/287/87632959920  Citi — Program Mgmt Senior Lead SVP — JC Hybrid — $163-245K per aggregator; CS-1/CS-5/CS-7 fit; evaluate priority
+https://www.careers.jnj.com/en/jobs/r-110854/manager-project-management-capabilities/  J&J — Manager PM Capabilities — Titusville/Raritan NJ Hybrid — MS Project platform mgmt; requires pharma/CRO exp; PMP preferred; closes Dec 03 2026
+https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success — New Brunswick NJ — MedTech Supply Chain; 12-month role; domain gap
+
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite
