@@ -2,8 +2,12 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 476 | 2026-11-25 | Altarum | Agile PM / Portfolio Delivery Lead | 3.8/5 | Evaluada | ❌ | [476](reports/476-altarum-agile-pm-portfolio-delivery-2026-11-25.md) | APPLY; remote; CS-1/CS-3/CS-5/CS-6/CS-7; SPC6+RTE differentiator; verify comp; unconfirmed batch mode |
+| 472 | 2026-11-25 | Softrams | Sr. Program Manager | 3.3/5 | Evaluada | ❌ | [464](reports/464-softrams-sr-program-manager-2026-11-25.md) | APPLY w/ caveats; remote US; federal; CS-1/CS-5/CS-7; comp undisclosed — verify; unconfirmed batch mode |
+| 473 | 2026-11-25 | Transcarent | TPM | 2.5/5 | Evaluada | ❌ | [473](reports/473-transcarent-tpm-2026-11-25.md) | DO NOT APPLY. 2.5/5; low CS engagement; remote US; unconfirmed batch mode |
+| 474 | 2026-11-25 | Goldman Sachs | TXB Delivery PM VP | 3.6/5 | Evaluada | ❌ | [474](reports/474-goldman-sachs-txb-delivery-pm-vp-2026-11-25.md) | APPLY. NYC; CS-1/CS-5/CS-7 finserv; transaction banking delivery; unconfirmed batch mode |
 | 469 | 2026-11-25 | UnitedHealth Group | Director Tech Project/PM Remote | 3.6/5 | Evaluada | ❌ | [469](reports/469-unitedhealth-director-tech-pm-remote-2026-11-25.md) | APPLY. Fully remote; Director level; CS-1/CS-5/CS-7; Sanofi pharma experience leverage. |
-| 470 | 2026-11-25 | Bloomreach | Director of TPM | 3.3/5 | Evaluada | ❌ | [470](reports/470-bloomreach-director-tpm-remote-2026-11-25.md) | APPLY w/ caveats. US Remote; Director TPM cloud commerce platform; CS-1/CS-5; verify product-company fit. |
+| 470 | 2026-11-25 | Bloomreach | Director of TPM | 3.4/5 | Evaluada | ❌ | [472](reports/472-bloomreach-director-tpm-2026-11-25.md) | Re-eval 2026-11-25 (3.3→3.4). US Remote; Director TPM cloud commerce; CS-1/CS-5; verify product fit; unconfirmed batch mode |
 | 471 | 2026-11-25 | J&J | Program Manager HCS | 3.5/5 | Evaluada | ❌ | [471](reports/471-jj-program-manager-hcs-remote-2026-11-25.md) | APPLY. Remote US; pharma; CS-1/CS-5/CS-7; Sanofi R&D experience direct leverage; NJ HQ. |
 | 465 | 2026-11-25 | Citi | AI Digital Sr Program Lead SVP | 3.8/5 | Evaluada | ❌ | [465](reports/465-citi-ai-digital-program-lead-2026-11-25.md) | APPLY w/ caveats. 4/7 CS; NYC hybrid; AI program delivery; unconfirmed batch mode |
 | 466 | 2026-11-25 | JPMorgan Chase | TPM AI Product Management ED | 4.2/5 | Evaluada | ❌ | [466](reports/466-jpmorgan-tpm-ai-product-2026-11-25.md) | HIGH PRIORITY. 5/7 CS; NYC hybrid; AI PM team build-out; $142K-190K+; unconfirmed batch mode |

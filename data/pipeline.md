@@ -28,6 +28,13 @@ https://careers.servicenow.com/jobs/744000129860259/senior-director-strategic-pr
 https://job-boards.greenhouse.io/anthropic/jobs/5133449008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://job-boards.greenhouse.io/anthropic/jobs/4942791008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://www.anthropic.com/careers/jobs/5062968008  Anthropic — Unknown PM/TPM Role — Needs verification
+
+<!-- Scan 2026-11-25 (supplemental): 4 additional new URLs found via extended search. -->
+
+https://apply.deloitte.com/en_US/careers/JobDetail/Software-Product-Delivery-Manager/327118  Deloitte — Software Product Delivery Manager — NJ/NY
+https://apply.deloitte.com/en_US/careers/JobDetail/ConvergeHEALTH-Commercial-Life-Sciences-Delivery-Manager-Managed-Platform-as-a-Services-MPaaS-Innovation-Delivery-Transformation/340064  Deloitte — ConvergeHEALTH Commercial Life Sciences Delivery Manager — NJ/NY
+https://careers.servicenow.com/jobs/744000153603880/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Management (3rd posting) — Likely Remote
+https://careers.servicenow.com/jobs/744000140516224/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Remote/Flexible
 https://jobs.lever.co/nava/df873ff4-dae7-4e03-90ef-a46161f21239  Nava — Technical Program Manager — Federal/Remote
 https://careers-consilio.icims.com/jobs/3925/project-manager%2C-ai/job  Consilio — Project Manager, AI — Remote
 https://amazon.jobs/jobs/2872606  Amazon — TPM Role — NYC — Needs verification
@@ -187,6 +194,13 @@ https://builtin.com/job/technical-program-delivery-product-management-lead/72366
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Evaluated 2026-11-25 (batch 2): 5 URLs evaluated from Nov 19/20 pending. Batch mode (WebFetch network-restricted, scored via WebSearch). -->
+https://jobs.lever.co/softrams/46ad45c0-ea94-4eb8-8358-a1abf587f2d4  Softrams | Sr Program Manager (3.3/5) [APPLY w/ caveats] - CS-1/CS-5/CS-7; remote US; federal; comp undisclosed
+https://jobs.lever.co/altarum/278b0ddc-67ab-4d94-8114-415c6f68bb18  Altarum | Agile PM / Portfolio Delivery Lead (3.8/5) [APPLY] - CS-1/CS-3/CS-5/CS-6/CS-7; remote; SPC6/RTE differentiator
+https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach | Director of TPM (3.4/5) [APPLY w/ caveats] - CS-1/CS-3/CS-5; US remote; Director stretch; posting may be stale
+https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent | TPM (2.5/5) [DO NOT APPLY] - 2 CS; $104-160K; 3-5yr req under-levels 15yr+ profile
+https://higher.gs.com/roles/179077  Goldman Sachs | TxB Delivery PM VP (3.6/5) [APPLY w/ caveats] - CS-1/CS-4/CS-5/CS-7; NYC; $125-250K; verify hybrid
 
 <!-- Evaluated 2026-11-25: 5 high-priority URLs from Nov 13 pending batch. Batch mode (network-restricted). -->
 https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents SVP (4.0/5) [APPLY w/ caveats] - CS-1/CS-2/CS-4/CS-5/CS-7; AI delivery lifecycle; NYC hybrid
