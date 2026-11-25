@@ -5,6 +5,47 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-25 (finance/healthcare): 38 new pipeline URLs from JPMorgan(6), Citi(1), Goldman Sachs(4), Prudential(5), MetLife(5), J&J(4), Merck(7), UnitedHealth(6). -->
+
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-423cd7  JPMorgan — Lead Technical Program Manager — NYC/JC hybrid
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-modernization  JPMorgan — Lead TPM Modernization — NYC/JC hybrid
+https://www.themuse.com/jobs/jpmorganchase/stocks-and-bonds-lead-technical-program-manager  JPMorgan — Stocks & Bonds Lead TPM — NYC hybrid
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-df6b96  JPMorgan — Lead Technical Program Manager — NYC/JC hybrid
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-1a552f  JPMorgan — Lead Technical Program Manager — NYC/JC hybrid
+https://www.dice.com/job-detail/0db4b892-7dff-4e69-8656-bf123e34deab  JPMorgan — TPM AI-Enabled Technology Delivery — NYC/JC hybrid
+https://jobs.citi.com/job/new-york/citi-wealth-head-of-program-management-governance-and-agile-transformation-director/287/78206315104  Citi — Head of PM, Governance & Agile Transformation (Director) — NYC hybrid — SAFe/Agile heavy
+https://higher.gs.com/roles/181778  Goldman Sachs — PM Electronic Trading Platform — NYC — $130K-250K
+https://higher.gs.com/roles/179569  Goldman Sachs — Digital Transformation PM AI VP — NYC
+https://higher.gs.com/roles/180838  Goldman Sachs — Unknown role (needs fetch) — NYC
+https://higher.gs.com/roles/140990  Goldman Sachs — Implementation PM Compliance Remediation VP — NYC
+https://www.themuse.com/jobs/prudentialfinancial/lead-technical-program-management  Prudential — Lead Technical PM — Newark NJ hybrid
+https://www.themuse.com/jobs/prudentialfinancial/director-program-management  Prudential — Director Program Management — Newark NJ hybrid
+https://www.themuse.com/jobs/prudentialfinancial/scrum-master-29fbdf  Prudential — Scrum Master — Newark NJ hybrid
+https://www.themuse.com/jobs/prudentialfinancial/scrum-masterproject-manager-imo  Prudential — Scrum Master/PM IMO — Newark NJ hybrid
+https://www.themuse.com/jobs/prudentialfinancial/manager-project-management-f576e1  Prudential — Manager PM — Newark NJ hybrid
+https://builtin.com/job/senior-agile-project-manager/3722608  MetLife — Senior Agile PM — NYC/Bridgewater NJ — $103K-130K
+https://builtin.com/job/agile-coach-enablement/4726091  MetLife — Agile Coach Enablement — NYC hybrid
+https://builtin.com/job/director-agile-portfolio-management/3580569  MetLife — Director Agile Portfolio Management — NYC hybrid
+https://builtin.com/job/vp-global-program-manager-erp-modernization-initiative/3814744  MetLife — VP Global PM ERP Modernization — virtual option
+https://builtin.com/job/senior-project-lead-control-functions-technology/8044177  MetLife — Sr Project Lead Control Functions Tech — NYC — $101K-135K
+https://www.careers.jnj.com/en/jobs/r-110854/manager-project-management-capabilities/  J&J — Manager PM Capabilities — Titusville/Raritan NJ
+https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success — Raritan or remote
+https://www.careers.jnj.com/en/jobs/r-084489/manager-project-manager/  J&J — Manager, Project Manager — NJ
+https://www.careers.jnj.com/en/jobs/r-101320/compliance-project-manager/  J&J — Compliance Project Manager — NJ
+https://www.monster.com/job-openings/sr-specialist-technical-project-manager-scrum-master-rahway-nj--f38e4472-4c37-49d5-861f-464dcd7c3389  Merck — Sr Technical PM/Scrum Master — Rahway NJ — $117K-184K
+https://builtin.com/job/project/senior-scrum-master/1196906  Merck — Senior Scrum Master — Rahway NJ
+https://builtin.com/job/project/senior-specialist-program-project-management/847695  Merck — Sr Specialist Program/PM — Rahway NJ
+https://www.builtinnyc.com/job/project/delivery-orchestratorscrum-master-remote/186472  Merck — Delivery Orchestrator/Scrum Master — REMOTE
+https://www.themuse.com/jobs/merck/agile-project-manager  Merck — Agile Project Manager — Rahway NJ hybrid
+https://www.themuse.com/jobs/merck/senior-business-program-manager  Merck — Senior Business Program Manager — Rahway NJ
+https://www.themuse.com/jobs/merck/servicenow-transformation-lead-hybrid  Merck — ServiceNow Transformation Lead — hybrid
+https://careers.unitedhealthgroup.com/job/22659120  UnitedHealth — Principal TPM — Remote
+https://careers.unitedhealthgroup.com/job/22468116  UnitedHealth — Principal TPM — Remote
+https://careers.unitedhealthgroup.com/job/23145548  UnitedHealth — Director Tech PM — Remote
+https://careers.unitedhealthgroup.com/job/23127383  UnitedHealth — Sr TPM — Remote/Hybrid
+https://careers.unitedhealthgroup.com/job/eden-prairie/senior-technical-project-manager/34088/96863594208  UnitedHealth — Senior Technical PM — check if remote
+https://careers.unitedhealthgroup.com/job/eden-prairie/technical-project-manager/34088/93920232528  UnitedHealth — Technical PM — check if remote
+
 <!-- Scan 2026-11-25 (final): 32 tracked companies, 12 search queries. 28 new URLs logged to scan-history; 15 pipeline-worthy added below. 3 EY Atlanta AI PM roles skipped (location). Pipeline mostly saturated — incremental finds from ServiceNow, Google, Amazon, EY, OpenAI, Parsons. -->
 
 https://careers.servicenow.com/jobs/744000153608459/program-director/  ServiceNow — Program Director — Likely Remote/Hybrid

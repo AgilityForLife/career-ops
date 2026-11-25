@@ -123,3 +123,45 @@ A second pass ran after context break. Additional work:
 3. **Altarum Agile PM / Portfolio Delivery Lead** (3.8/5) — Remote. SPC6/RTE direct match. Verify comp.
 4. **Deloitte Delivery Mgmt TPM DevOps/Cloud** (3.8/5) — Morristown/NYC. CS-2/CS-3 Verisk match.
 5. **Goldman Sachs TxB Delivery PM VP** (3.6/5) — NYC. $125-250K. Financial services.
+
+## Final Session Summary (all agents consolidated)
+
+**Run completed:** 2026-11-25 ~05:25 UTC
+
+### Scan totals
+- **Scan agents:** 4 parallel (Big Tech/AI, Consulting/Gov, Finance/Healthcare, Search Queries)
+- **Total scan-history entries added:** 130+
+- **New pipeline URLs added:** 61 (38 finance/healthcare + 15 consulting/gov/tech + 8 search queries)
+- **Pipeline pending total:** ~197 URLs awaiting evaluation
+
+### Evaluation totals
+- **Reports created today:** 18 (#464-476, with renumbering for parallel agent collisions)
+- **Tracker entries added/updated:** 12 new + re-evals
+- **Tracker total:** 318 entries
+
+### Scores distribution (today's evaluations)
+| Score Range | Count | Action |
+|-------------|-------|--------|
+| 4.0+ | 2 | HIGH PRIORITY APPLY |
+| 3.5-3.9 | 8 | APPLY / APPLY w/ caveats |
+| 3.0-3.4 | 6 | Borderline / APPLY w/ caveats |
+| Below 3.0 | 2 | DO NOT APPLY |
+
+### High-value new pipeline entries (not yet evaluated)
+1. **Citi — Head of PM, Governance & Agile Transformation (Director)** — NYC, SAFe/Agile heavy — STRONG PRIMARY FIT
+2. **MetLife — Agile Coach Enablement** — NYC hybrid — PRIMARY FIT
+3. **MetLife — Director Agile Portfolio Management** — NYC hybrid — PRIMARY FIT
+4. **UnitedHealth — Principal TPM (2 postings)** — Remote — STRONG FIT
+5. **Merck — Delivery Orchestrator/Scrum Master** — REMOTE — good pharma leverage
+6. **Goldman Sachs — Digital Transformation PM AI VP** — NYC — AI-adjacent
+7. **Prudential — Director Program Management** — Newark NJ — local employer
+8. **Merck — Sr Technical PM/Scrum Master** — Rahway NJ — $117K-184K
+
+### Pipeline health
+- 0 errors, 2 known warnings (Deloitte/Glean re-eval duplicates)
+- All reports linked, all scores valid, all statuses canonical
+- **URGENT:** Cognizant Teaneck PM (#444, 3.3/5) closes Nov 27
+
+### Blockers
+- WebFetch blocked for external career sites in this cloud environment
+- ~197 pending URLs need JD fetch + evaluation (recommend Playwright session or domain allowlist)
