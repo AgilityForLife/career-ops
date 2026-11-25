@@ -47,9 +47,46 @@ Scheduled automated scan of 32 tracked companies + 12 search queries. Last scan 
 
 ~25 URLs in pipeline.md Pending section from Nov 19-25 scans still need full JD fetch + evaluation. The 7 new Nov 25 URLs are added at the top. Recommend running evaluations with WebFetch access or Playwright in next session.
 
+## Continuation Session (context-resumed)
+
+A second pass ran after context break. Additional work:
+
+### Additional scan
+- 2 more new ServiceNow URLs found (Strategic Partnerships TPM, Sr Director Strategic Program Mgmt)
+- Scan history: 1,038 entries total
+
+### Backlog catch-up (reports 458-463, created Nov 20 but never merged)
+| # | Company | Role | Score | Merged? |
+|---|---------|------|-------|---------|
+| 458 | Anthropic | TPM Revenue Ops | 2.5/5 | Skipped (existing #158 higher) |
+| 459 | Anthropic | TPM Product | 3.0/5 | ✅ Added |
+| 460 | Anthropic | TPM Compute | 3.2/5 | ✅ Added |
+| 461 | Anthropic | Senior TPM Lead | 3.0/5 | ✅ Added |
+| 462 | Glean | Delivery Excellence Mgr | 2.0/5 | ✅ Added |
+| 463 | Glean | Senior TPM | 3.0/5 | ✅ Added |
+
+### New evaluations (reports 464-471, continuation session)
+| # | Company | Role | Score | Merged? |
+|---|---------|------|-------|---------|
+| 468 | Deloitte | Delivery Mgmt TPM DevOps/Cloud | 3.8/5 | ✅ Updated (3.5→3.8) |
+| 469 | UnitedHealth | Director Tech PM Remote | 3.6/5 | ✅ Added |
+| 470 | Bloomreach | Director of TPM Remote | 3.3/5 | ✅ Added |
+| 471 | J&J | Program Manager HCS Remote | 3.5/5 | ✅ Added |
+
+### Top opportunities (apply-eligible)
+1. **Deloitte Delivery Mgmt TPM DevOps/Cloud Sr Manager** (#468, 3.8/5) — Morristown/NYC; CS-1/CS-2/CS-3/CS-5
+2. **UnitedHealth Director Tech PM Remote** (#469, 3.6/5) — Fully remote, Director level
+3. **J&J Program Manager HCS** (#471, 3.5/5) — Remote US, pharma leverage
+
+### Pipeline health
+- 314 entries tracked, 357 reports, 0 errors, 2 known warnings
+- Report number collisions at 464-468 from multiple broken sessions — merge script deduplicates correctly
+
 ## Files Changed
 
-- `data/scan-history.tsv` — 21 new entries appended
-- `data/pipeline.md` — 7 new URLs added to Pending section, scan comment updated
-- `reports/468-citi-pm-senior-lead-nyc-2026-11-25.md` — Renumbered from duplicate #464
-- `logs/2026-11-25-career-ops.md` — This session log
+- `data/scan-history.tsv` — 24 new entries total (21 prior + 3 continuation)
+- `data/pipeline.md` — 10 new URLs added total (8 prior + 2 continuation)
+- `data/applications.md` — 8 new entries added, 1 updated via merge-tracker.mjs
+- `reports/458-471` — 14 evaluation reports (6 backlog catch-up + 8 new evaluations)
+- `logs/2026-11-25-career-ops.md` — This session log (updated)
+- `logs/tmp-2026-11-25.md` — Micro log
