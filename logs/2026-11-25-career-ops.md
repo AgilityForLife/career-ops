@@ -90,3 +90,36 @@ A second pass ran after context break. Additional work:
 - `reports/458-471` — 14 evaluation reports (6 backlog catch-up + 8 new evaluations)
 - `logs/2026-11-25-career-ops.md` — This session log (updated)
 - `logs/tmp-2026-11-25.md` — Micro log
+
+## Batch 3 (context-resumed, 3rd pass)
+
+### Additional scan
+- 4 more new URLs found via extended search:
+  - ServiceNow `744000153603880` — Principal TPM Strategic PM (3rd posting)
+  - ServiceNow `744000140516224` — Senior Staff TPM
+  - Deloitte `327118` — Software Product Delivery Manager
+  - Deloitte `340064` — ConvergeHEALTH Commercial Life Sciences Delivery Manager
+- Scan history: added 4 entries
+
+### New evaluations (batch 2, reports 472-476)
+| # | Company | Role | Score | Status |
+|---|---------|------|-------|--------|
+| 472 | Softrams | Sr. Program Manager | 3.3/5 | APPLY w/ caveats — federal/remote, CS-1/CS-5/CS-7 |
+| 476 | Altarum | Agile PM / Portfolio Delivery Lead | 3.8/5 | APPLY — remote, SPC6/RTE differentiator |
+| 470 | Bloomreach | Director of TPM | 3.4/5 | Re-eval (3.3→3.4), verify freshness |
+| 473 | Transcarent | TPM | 2.5/5 | DO NOT APPLY — under-levels, 2 CS only |
+| 474 | Goldman Sachs | TxB Delivery PM VP | 3.6/5 | APPLY w/ caveats — NYC, $125-250K |
+
+### Combined day totals
+- **Total evaluations today:** 20 (5 batch 1 + 10 continuation + 5 batch 2)
+- **Total new pipeline URLs:** 23 (15 + 4 + 4 supplemental)
+- **Apply-eligible (3.0+):** 17 of 20
+- **High priority (4.0+):** 2 (JPMorgan TPM AI 4.2, Citi TPM Applied AI 4.0)
+- **Pipeline health:** 0 errors, 2 known warnings, 318 entries
+
+### Top 5 action items for Erick
+1. **JPMorgan TPM AI Product Management ED** (4.2/5) — Build TPM function. NYC. $142-190K+.
+2. **Citi TPM Applied AI & Agents SVP** (4.0/5) — AI delivery lifecycle. NYC hybrid.
+3. **Altarum Agile PM / Portfolio Delivery Lead** (3.8/5) — Remote. SPC6/RTE direct match. Verify comp.
+4. **Deloitte Delivery Mgmt TPM DevOps/Cloud** (3.8/5) — Morristown/NYC. CS-2/CS-3 Verisk match.
+5. **Goldman Sachs TxB Delivery PM VP** (3.6/5) — NYC. $125-250K. Financial services.
