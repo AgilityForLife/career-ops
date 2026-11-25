@@ -5,16 +5,42 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Scan 2026-11-25: 12 search queries + key tracked companies. Mostly saturated; 8 new direct-employer URLs added. Jobgether aggregator listings skipped. -->
+<!-- Scan 2026-11-25 (final): 32 tracked companies, 12 search queries. 28 new URLs logged to scan-history; 15 pipeline-worthy added below. 3 EY Atlanta AI PM roles skipped (location). Pipeline mostly saturated — incremental finds from ServiceNow, Google, Amazon, EY, OpenAI, Parsons. -->
 
+https://careers.servicenow.com/jobs/744000153608459/program-director/  ServiceNow — Program Director — Likely Remote/Hybrid
+https://careers.servicenow.com/jobs/744000152486749/program-lead-transformation-enablement/  ServiceNow — Program Lead Transformation Enablement — Likely Remote
+https://careers.servicenow.com/jobs/744000123921999/program-manager/  ServiceNow — Program Manager — Large Implementation Programs
+https://careers.ey.com/ey/job/Hoboken-CT-Tech-Activation-Program-Manager-NJ-07030/1442933033/  EY — CT Tech Activation Program Manager — Hoboken NJ
+https://careers.ey.com/ey/job/new-york-financial-services-technology-consulting-product-operating-model-transformation-manager-nyc-ny-10001-8604/1440729333/  EY — FS Tech Product Operating Model Transformation Manager — NYC
+https://careers.ey.com/ey/job/New-York-Financial-Services-Technology-Consulting-Product-Manager-Manager-NYC-NY-10001-8604/1440728933/  EY — FS Tech Product Manager — NYC
+https://google.com/about/careers/applications/jobs/results/77010939341087430  Google — TPM Lead Technical Risk Engineering — NYC
+https://google.com/about/careers/applications/jobs/results/137053239961887430  Google — TPM II Design & Delivery Core — NYC/LA
+https://google.com/about/careers/applications/jobs/results/130667656532370118  Google — Senior TPM — NYC
+https://amazon.jobs/jobs/2873749  Amazon — TPM Enterprise Engineering — NYC
+https://amazon.jobs/jobs/2627016  Amazon — Principal TPM — NYC
+https://openai.com/careers/project-manager-compute-transformation-san-francisco/  OpenAI — PM Compute Transformation — SF (check remote)
+https://openai.com/careers/technical-program-manager-enterprise-san-francisco/  OpenAI — TPM Enterprise — SF (check remote)
+https://jobs.parsons.com/jobs/project-interface-manager-rail-and-transit-new-york-new-york-jobs  Parsons — Project Interface Manager Rail/Transit — Newark NJ / NYC
+https://jobs.parsons.com/jobs/senior-project-manager-bridges-and-transit-structures-new-york-r-171504-jobs--project-program-management--  Parsons — Sr PM Bridges & Transit Structures — NYC
+
+https://careers.servicenow.com/jobs/744000162190039/strategic-partnerships-technical-program-manager/  ServiceNow — Strategic Partnerships TPM — Likely Remote
+https://careers.servicenow.com/jobs/744000129860259/senior-director-strategic-program-management/  ServiceNow — Sr Director Strategic Program Mgmt — Likely Remote
 https://job-boards.greenhouse.io/anthropic/jobs/5133449008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://job-boards.greenhouse.io/anthropic/jobs/4942791008  Anthropic — Unknown PM/TPM Role — Needs verification
 https://www.anthropic.com/careers/jobs/5062968008  Anthropic — Unknown PM/TPM Role — Needs verification
-https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava — Principal Project Manager — Federal/Remote
 https://jobs.lever.co/nava/df873ff4-dae7-4e03-90ef-a46161f21239  Nava — Technical Program Manager — Federal/Remote
 https://careers-consilio.icims.com/jobs/3925/project-manager%2C-ai/job  Consilio — Project Manager, AI — Remote
 https://amazon.jobs/jobs/2872606  Amazon — TPM Role — NYC — Needs verification
 https://amazon.jobs/jobs/2853223  Amazon — TPM Role — NYC — Needs verification
+https://jobs.citi.com/job/new-york/program-management-lead-vice-president/287/102261625120  Citi — Program Management Lead VP — NYC Hybrid
+https://www.dice.com/job-detail/12222db8-51a1-4f66-b10b-38de9f7a8622  Release Train Engineer — Jersey City — Contract — PRIMARY FIT
+https://insightglobal.com/jobs/find_a_job/job-514672  RTE — Bernards NJ — $54-67/hr Contract — PRIMARY FIT
+https://www.dice.com/job-detail/f0e8825d-25b0-4801-ade9-a3e9448b9a99  Agile PM / Scrum Master Digital Transformation — NJ/NY
+https://www.dice.com/job-detail/a4dbd767-e4fd-4f93-9545-ad02b2bb25cf  Program Manager CDAO — Jersey City — Contract C2C
+https://www.dice.com/job-detail/7b903616-8f5f-4f1e-a902-a264b0edf193  Hybrid TPM/Agile Delivery Lead — NYC — Contract
+https://careers-cadent.icims.com/jobs/1393/delivery-lead/job  Cadent — Delivery Lead — NYC — 8+ yrs
+https://www.careers.jnj.com/en/jobs/r-083700/transcend-pmo-senior-operations-manager/  J&J — Transcend PMO Senior Ops Manager — NJ
+https://job-boards.greenhouse.io/realchemistry/jobs/5098701008  Real Chemistry — Senior Technical Delivery Manager — Remote US / NYC
 
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
@@ -53,8 +79,6 @@ https://careers.ey.com/ey/job/Atlanta-AI-Project-Manager-GA-30309/1453538133/  E
 
 <!-- Scan 2026-11-13: 31 tracked companies, 18 search queries. New findings below. -->
 
-https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi — TPM Applied AI & Agents, SVP — NYC — Oct 2026 — HIGH PRIORITY
-https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi — AI Digital Sr Program Lead, SVP — NYC — HIGH PRIORITY
 https://jobs.citi.com/job/new-york/director-technical-program-manager-production-management/287/100500716432  Citi — Director TPM Production Management — NYC
 https://jobs.citi.com/job/new-york/program-management-lead-product-development-transformation-vice-president/287/99017418464  Citi — PM Lead Product Dev Transformation, VP — NYC
 https://jobs.citi.com/job/jersey-city/low-latency-infrastructure-senior-program-manager/287/95863915072  Citi — Low-Latency Infra Sr PM — JC
@@ -68,8 +92,6 @@ https://careers.unitedhealthgroup.com/job/eden-prairie/principal-technical-proje
 https://careers.unitedhealthgroup.com/job/austin/senior-manager-of-technical-project-and-program-management-remote/34088/97613515552  UnitedHealth — Sr Manager TPM, Remote
 https://jobs.lever.co/palantir/301e82dc-b70f-49a9-80d7-cc80ae49ff02  Palantir — IS Program Manager — NYC
 https://jobs.lever.co/palantir/34e30387-4469-41e4-9e69-6cc8a179af3b  Palantir — TPM — NYC
-https://www.themuse.com/jobs/jpmorganchase/technical-project-manager-executive-director-ai-product-management-team  JPMorgan — Technical PM Exec Dir AI Product Mgmt — NYC
-https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-strategic-initiatives-and-delivery-office  JPMorgan — Lead TPM Strategic Initiatives & Delivery Office — NYC/JC
 https://jobs.citi.com/job/new-york/transformation-program-management-lead-markets-vp/287/100186124528  Citi — Transformation PM Lead Markets, VP — NYC — Agile/Scrum mentioned
 https://jobs.citi.com/job/jersey-city/vp-technology-lead-project-manager/287/95130175456  Citi — VP Technology Lead PM — JC — Cash Equities
 https://careers.unitedhealthgroup.com/job/eden-prairie/technical-program-leader/34088/100045687744  UnitedHealth — Technical Program Leader — Remote?
@@ -165,6 +187,13 @@ https://builtin.com/job/technical-program-delivery-product-management-lead/72366
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Evaluated 2026-11-25: 5 high-priority URLs from Nov 13 pending batch. Batch mode (network-restricted). -->
+https://jobs.citi.com/job/new-york/technical-program-manager-applied-ai-and-agents-senior-vice-president/287/102042992832  Citi | TPM Applied AI & Agents SVP (4.0/5) [APPLY w/ caveats] - CS-1/CS-2/CS-4/CS-5/CS-7; AI delivery lifecycle; NYC hybrid
+https://jobs.citi.com/job/new-york/ai-digital-senior-program-lead-global-services-senior-vice-president/287/99544988176  Citi | AI Digital Sr Program Lead SVP (3.8/5) [APPLY] - CS-1/CS-4/CS-5/CS-7; AI digital transformation; NYC hybrid
+https://www.themuse.com/jobs/jpmorganchase/technical-project-manager-executive-director-ai-product-management-team  JPMorgan | Tech PM Exec Dir AI Product Mgmt (4.2/5) [STRONG APPLY] - CS-1/CS-3/CS-4/CS-5/CS-7; build TPM function; NYC hybrid
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-strategic-initiatives-and-delivery-office  JPMorgan | Lead TPM Strategic Initiatives (3.9/5) [APPLY] - CS-1/CS-4/CS-5/CS-7; strategic delivery office; NYC/JC hybrid
+https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava | Principal Project Manager (3.5/5) [APPLY] - CS-1/CS-5/CS-7; federal remote NJ; $159-177K; Agile delivery
 
 <!-- Evaluated 2026-11-20: 5 pending URLs from Nov 13 + Nov 19 scans. Batch mode (network-restricted). -->
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager Hoboken (3.3/5) [APPLY w/ caveats] - CS-1/CS-5; $165.8-302.3K; may be stale
