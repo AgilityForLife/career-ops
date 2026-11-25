@@ -5,6 +5,17 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-25: 12 search queries + key tracked companies. Mostly saturated; 8 new direct-employer URLs added. Jobgether aggregator listings skipped. -->
+
+https://job-boards.greenhouse.io/anthropic/jobs/5133449008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://job-boards.greenhouse.io/anthropic/jobs/4942791008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://www.anthropic.com/careers/jobs/5062968008  Anthropic — Unknown PM/TPM Role — Needs verification
+https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava — Principal Project Manager — Federal/Remote
+https://jobs.lever.co/nava/df873ff4-dae7-4e03-90ef-a46161f21239  Nava — Technical Program Manager — Federal/Remote
+https://careers-consilio.icims.com/jobs/3925/project-manager%2C-ai/job  Consilio — Project Manager, AI — Remote
+https://amazon.jobs/jobs/2872606  Amazon — TPM Role — NYC — Needs verification
+https://amazon.jobs/jobs/2853223  Amazon — TPM Role — NYC — Needs verification
+
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite

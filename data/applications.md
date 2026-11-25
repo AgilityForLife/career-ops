@@ -2,6 +2,11 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 459 | 2026-11-20 | Anthropic | TPM Product | 3.0/5 | Evaluada | ❌ | [459](reports/459-anthropic-tpm-product-2026-11-20.md) | Borderline. 2/7 CS (CS-1,CS-5); product-focused, not platform; SF or NYC; $200K+. CS-2 absent. |
+| 460 | 2026-11-20 | Anthropic | TPM Compute | 3.2/5 | Evaluada | ❌ | [460](reports/460-anthropic-tpm-compute-2026-11-20.md) | APPLY w/ caveats. 4/7 CS (CS-1/2/3/5); compute infra K8s/Slurm; SF/NYC/Seattle; $200K+. Best Anthropic fit this batch. |
+| 461 | 2026-11-20 | Anthropic | Senior TPM Lead | 3.0/5 | Evaluada | ❌ | [461](reports/461-anthropic-senior-tpm-lead-2026-11-20.md) | Borderline. 2/7 CS confirmed; insufficient JD detail; requires 7+ yrs managing TPMs (gap). Conservative score. |
+| 462 | 2026-11-20 | Glean | Delivery Excellence Manager | 2.0/5 | Evaluada | ❌ | [462](reports/462-glean-delivery-excellence-mgr-2026-11-20.md) | DO NOT APPLY. Customer-facing SaaS deployment; 3-5yr req under-levels; 0/7 CS fully engaged. |
+| 463 | 2026-11-20 | Glean | Senior TPM | 3.0/5 | Evaluada | ❌ | [463](reports/463-glean-senior-tpm-2026-11-20.md) | Borderline. 2/7 CS (CS-1,CS-5); SF likely; $198-235K; BS/MS CS required (gap). No SAFe/DevOps. |
 | 456 | 2026-11-20 | Ness Technologies | Sr TPM AI — Avenel NJ | 3.8/5 | Evaluada | ❌ | [450](reports/450-ness-sr-tpm-ai-avenel-2026-11-20.md) | APPLY-ELIGIBLE; NJ local + remote; 4 CS confirmed; AI-adjacent; staffing firm — verify comp/engagement model; unconfirmed batch mode |
 | 457 | 2026-11-20 | Parsons | PM AI & Transportation Consultancy | 1.5/5 | Descartado | ❌ | [451](reports/451-parsons-pm-ai-transportation-2026-11-20.md) | DO NOT APPLY — Abu Dhabi UAE location deal-breaker; unconfirmed batch mode |
 | 447 | 2026-11-20 | ServiceNow | Senior Staff TPM — Data & Analytics | 4.2/5 | Evaluada | ❌ | [445](reports/445-servicenow-senior-staff-tpm-2026-11-20.md) | Re-eval 2026-11-20 (3.6→4.2). HIGH PRIORITY; Remote/Flexible; ~$191-334K; CS-1/CS-2/CS-4/CS-5; near-exact domain match to Verisk/Sanofi data platform delivery; unconfirmed batch mode |
