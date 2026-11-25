@@ -3,7 +3,7 @@
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
 | 476 | 2026-11-25 | Altarum | Agile PM / Portfolio Delivery Lead | 3.8/5 | Evaluada | ❌ | [476](reports/476-altarum-agile-pm-portfolio-delivery-2026-11-25.md) | APPLY; remote; CS-1/CS-3/CS-5/CS-6/CS-7; SPC6+RTE differentiator; verify comp; unconfirmed batch mode |
-| 472 | 2026-11-25 | Softrams | Sr. Program Manager | 3.3/5 | Evaluada | ❌ | [464](reports/464-softrams-sr-program-manager-2026-11-25.md) | APPLY w/ caveats; remote US; federal; CS-1/CS-5/CS-7; comp undisclosed — verify; unconfirmed batch mode |
+| 472 | 2026-11-25 | Softrams | Sr. Program Manager | 3.3/5 | Evaluada | ❌ | [475](reports/475-softrams-sr-program-manager-2026-11-25.md) | APPLY w/ caveats; remote US; federal; CS-1/CS-5/CS-7; comp undisclosed — verify; unconfirmed batch mode |
 | 473 | 2026-11-25 | Transcarent | TPM | 2.5/5 | Evaluada | ❌ | [473](reports/473-transcarent-tpm-2026-11-25.md) | DO NOT APPLY. 2.5/5; low CS engagement; remote US; unconfirmed batch mode |
 | 474 | 2026-11-25 | Goldman Sachs | TXB Delivery PM VP | 3.6/5 | Evaluada | ❌ | [474](reports/474-goldman-sachs-txb-delivery-pm-vp-2026-11-25.md) | APPLY. NYC; CS-1/CS-5/CS-7 finserv; transaction banking delivery; unconfirmed batch mode |
 | 469 | 2026-11-25 | UnitedHealth Group | Director Tech Project/PM Remote | 3.6/5 | Evaluada | ❌ | [469](reports/469-unitedhealth-director-tech-pm-remote-2026-11-25.md) | APPLY. Fully remote; Director level; CS-1/CS-5/CS-7; Sanofi pharma experience leverage. |
