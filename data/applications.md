@@ -2,9 +2,12 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 469 | 2026-11-25 | UnitedHealth Group | Director Tech Project/PM Remote | 3.6/5 | Evaluada | ❌ | [469](reports/469-unitedhealth-director-tech-pm-remote-2026-11-25.md) | APPLY. Fully remote; Director level; CS-1/CS-5/CS-7; Sanofi pharma experience leverage. |
+| 470 | 2026-11-25 | Bloomreach | Director of TPM | 3.3/5 | Evaluada | ❌ | [470](reports/470-bloomreach-director-tpm-remote-2026-11-25.md) | APPLY w/ caveats. US Remote; Director TPM cloud commerce platform; CS-1/CS-5; verify product-company fit. |
+| 471 | 2026-11-25 | J&J | Program Manager HCS | 3.5/5 | Evaluada | ❌ | [471](reports/471-jj-program-manager-hcs-remote-2026-11-25.md) | APPLY. Remote US; pharma; CS-1/CS-5/CS-7; Sanofi R&D experience direct leverage; NJ HQ. |
 | 465 | 2026-11-25 | Citi | AI Digital Sr Program Lead SVP | 3.8/5 | Evaluada | ❌ | [465](reports/465-citi-ai-digital-program-lead-2026-11-25.md) | APPLY w/ caveats. 4/7 CS; NYC hybrid; AI program delivery; unconfirmed batch mode |
 | 466 | 2026-11-25 | JPMorgan Chase | TPM AI Product Management ED | 4.2/5 | Evaluada | ❌ | [466](reports/466-jpmorgan-tpm-ai-product-2026-11-25.md) | HIGH PRIORITY. 5/7 CS; NYC hybrid; AI PM team build-out; $142K-190K+; unconfirmed batch mode |
-| 468 | 2026-11-25 | Nava | Principal Project Manager | 3.5/5 | Evaluada | ❌ | [468](reports/468-nava-principal-pm-2026-11-25.md) | CS-1/CS-5/CS-7; federal remote NJ; $159-177K; Agile delivery; APPLY |
+| 468 | 2026-11-25 | Deloitte | Delivery Mgmt TPM DevOps/Cloud Sr Manager | 3.8/5 | Evaluada | ❌ | [468](reports/468-deloitte-delivery-mgmt-tpm-devops-cloud-2026-11-25.md) | Re-eval 2026-11-25 (3.5→3.8). HIGH PRIORITY APPLY. Morristown/NYC; CS-1/CS-2/CS-3/CS-5; best CS overlap in batch. DevOps+Cloud title matches Verisk experience exactly. |
 | 459 | 2026-11-20 | Anthropic | TPM Product | 3.0/5 | Evaluada | ❌ | [459](reports/459-anthropic-tpm-product-2026-11-20.md) | Borderline. 2/7 CS (CS-1,CS-5); product-focused, not platform; SF or NYC; $200K+. CS-2 absent. |
 | 460 | 2026-11-20 | Anthropic | TPM Compute | 3.2/5 | Evaluada | ❌ | [460](reports/460-anthropic-tpm-compute-2026-11-20.md) | APPLY w/ caveats. 4/7 CS (CS-1/2/3/5); compute infra K8s/Slurm; SF/NYC/Seattle; $200K+. Best Anthropic fit this batch. |
 | 461 | 2026-11-20 | Anthropic | Senior TPM Lead | 3.0/5 | Evaluada | ❌ | [461](reports/461-anthropic-senior-tpm-lead-2026-11-20.md) | Borderline. 2/7 CS confirmed; insufficient JD detail; requires 7+ yrs managing TPMs (gap). Conservative score. |
