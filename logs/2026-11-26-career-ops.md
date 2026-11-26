@@ -57,9 +57,32 @@ Scheduled daily pipeline run (automated)
 - 5 roles marked "apply-eligible" for Erick's review
 - No PDFs generated (batch mode)
 
+## Extended Evaluations (Pass 4-5)
+Additional evaluations from later context windows:
+
+| # | Company | Role | Score | Recommendation |
+|---|---------|------|-------|----------------|
+| 479 | ServiceNow | Staff TPM (Design) | 3.3/5 | SKIP — Design org, 1.5 CS |
+| 480 | ServiceNow | Director TPM | 3.8/5 | SECONDARY — AI-native PM req; $200K+ est |
+| 481 | Softrams | Sr Program Manager (Federal) | 3.5/5 | SECONDARY — remote; federal healthcare IT |
+| 482 | Altarum | Agile PM / Portfolio Delivery Lead | 3.8/5 | **PRIMARY** — 6.5 CS; SAFe CS-6 req; remote |
+| 483 | Deloitte | Sr Mgr Lead Delivery Leader (360060) | 1.0/5 | REJECTED — posting expired Aug 31 |
+
+**Updated totals:** 16 roles evaluated (#464-#469, #477-#483). 7 apply-eligible, 3 secondary, 3 skips/rejects, 3 below threshold.
+
+## Final Pipeline Health
+- verify-pipeline.mjs: **0 errors, 1 warning** (pre-existing Glean #108/#109 duplicate)
+- Orphaned reports #474-#476 cleaned (worktree artifacts; duplicates of #464/#466/#467)
+- dedup-tracker removed 2 entries (#453 ServiceNow dup of #447, #271 UHG dup of #343)
+- **313 total tracker entries**
+- **70 scan-history entries for 2026-11-26**
+- Committed and pushed to `claude/magical-gauss-o1gxg9`
+
 ## Key Observations
 1. SAFe RTE roles are emerging as the strongest channel — MetLife Principal RTE (3.9) and J&J RTE (3.8) both directly engage CS-6
 2. NJ-local pipeline strengthening: 10 of 12 new finds from Consulting+Gov segment are NJ-based
 3. Portal saturation continues: search queries and most tracked companies returning same roles since Nov 13
 4. Financial/Healthcare (esp. Citi, UHG) remain the most productive scan channels for volume
 5. Goldman Sachs higher.gs.com yields URLs but titles require individual fetch (not in search snippets)
+6. Altarum Agile PM (#482, 3.8/5) is a sleeper find — 6.5 CS engaged, remote, portfolio-level Agile delivery with DevSecOps
+7. ServiceNow Director TPM (#480) is the highest-comp opportunity at ~$200K+ est
