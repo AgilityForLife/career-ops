@@ -5,8 +5,14 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
-<!-- Scan 2026-11-26 (pass 2): 32 tracked companies, 12 search queries. 12+ new pipeline URLs total (7 prior pass + 5 new J&J Transcend/RTE). Scan heavily saturated — most portals returning known results. Key new finds: J&J RTE (CS-6!), J&J Transcend PMO/Hypercare/Signavio, Cognizant Sr TPM JC NJ, MetLife RTE/Agile Lead, Prudential TPM+SM. -->
+<!-- Scan 2026-11-26 (pass 3 — final): 32 tracked companies, 12 search queries, full coverage. 18+ new pipeline URLs total. Scan heavily saturated — most portals returning known results. Key new finds: J&J RTE (CS-6!), J&J Transcend PMO/Hypercare/Signavio, Cognizant Sr TPM JC NJ, MetLife RTE/Agile Lead, Prudential TPM+SM, ServiceNow 2 new reqs, EY Service Delivery Mgr Hoboken. Big Tech (IBM/Salesforce/Microsoft/AWS/Google/Anthropic/OpenAI/CoreWeave/Glean) fully saturated — zero genuinely new evaluable URLs. Consulting+Gov (KPMG/PwC/Booz Allen/Leidos/SAIC/WSP/AECOM/Parsons) saturated 4th straight scan. 12 portals.yml search queries saturated — returning same results as prior scans. -->
 
+https://careers.servicenow.com/jobs/744000148618994/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic PM (3rd posting) — Likely Remote
+https://careers.servicenow.com/jobs/744000140516224/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Likely Remote/Flexible
+https://careers.ey.com/ey/job/Hoboken-Service-Delivery-Manager-NJ-07030/1434451633/  EY — Service Delivery Manager — Hoboken NJ — Agile/PM fluency required
+https://job-boards.greenhouse.io/cocoon/jobs/5684112004  Cocoon — TPM — Remote
+https://job-boards.greenhouse.io/successkpiinc/jobs/4643336005  SuccessKPI — Sr Technical Program Director — Remote (incl NJ)
+https://apply.deloitte.com/en_US/careers/JobDetail/Software-Product-Delivery-Manager/327118  Deloitte — Software Product Delivery Manager — NJ/NY
 https://careers.cognizant.com/us-en/jobs/00067578661/senior-tpm-delivery-manager/  Cognizant — Sr TPM/Delivery Manager — Jersey City NJ — HIGH PRIORITY (local, strong CS-1/CS-5 fit)
 https://apply.deloitte.com/en_US/careers/JobDetail/350249  Deloitte — Mobile Device Migration PM — NJ/NY — check domain fit
 https://builtin.com/job/principal-release-train-engineer-composite-ai/9330935  MetLife — Principal RTE Composite AI — Whippany NJ — SAFe CS-6 fit
