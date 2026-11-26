@@ -5,6 +5,41 @@ Format: one URL per line, optionally with a note after a space.
 
 ## Pending
 
+<!-- Scan 2026-11-26 (pass 2): 32 tracked companies, 12 search queries. 12+ new pipeline URLs total (7 prior pass + 5 new J&J Transcend/RTE). Scan heavily saturated — most portals returning known results. Key new finds: J&J RTE (CS-6!), J&J Transcend PMO/Hypercare/Signavio, Cognizant Sr TPM JC NJ, MetLife RTE/Agile Lead, Prudential TPM+SM. -->
+
+https://careers.cognizant.com/us-en/jobs/00067578661/senior-tpm-delivery-manager/  Cognizant — Sr TPM/Delivery Manager — Jersey City NJ — HIGH PRIORITY (local, strong CS-1/CS-5 fit)
+https://apply.deloitte.com/en_US/careers/JobDetail/350249  Deloitte — Mobile Device Migration PM — NJ/NY — check domain fit
+https://builtin.com/job/principal-release-train-engineer-composite-ai/9330935  MetLife — Principal RTE Composite AI — Whippany NJ — SAFe CS-6 fit
+https://builtin.com/job/agile-enablement-lead/8617346  MetLife — Agile Enablement Lead — NJ — Agile coaching fit
+https://jobs.anitab.org/companies/prudential-financial-2-db32b774-b9c6-430c-9f48-c0533e56157b/jobs/82373181-lead-technical-program-management  Prudential — Lead TPM — Newark NJ — $123K-$204K + Equity
+https://jobs.recruiter.com/jobs/9676026808-lead-scrum-master  Prudential — Lead Scrum Master — Newark NJ — Hybrid
+https://job-boards.greenhouse.io/boxinc/jobs/7545081  Box — Agile Practitioner/Leader — Remote — 10+ yrs
+
+https://jobs.citi.com/en/job/getzville/project-management-lead-vice-president/287/102494672528  Citi — Project Management Lead (VP) — Getzville NY — $92K-$138K
+https://jobs.citi.com/job/jersey-city/program-management-senior-lead-senior-vice-president-hybrid/287/87632959920  Citi — Program Mgmt Senior Lead (SVP) — Jersey City Hybrid
+https://higher.gs.com/roles/179569  Goldman Sachs — PM/TPM role (title TBD)
+https://higher.gs.com/roles/180838  Goldman Sachs — PM/TPM role (title TBD)
+https://higher.gs.com/roles/185406  Goldman Sachs — PM/TPM role (title TBD)
+https://higher.gs.com/roles/181648  Goldman Sachs — PM/TPM role (title TBD)
+https://higher.gs.com/roles/181784  Goldman Sachs — PM/TPM role (title TBD)
+https://higher.gs.com/roles/181675  Goldman Sachs — PM/TPM role (title TBD)
+https://jobs.jnj.com/en/jobs/r-110854  J&J — Manager Project Management Capabilities — closing Dec 3
+https://jobs.jnj.com/en/jobs/r-109437  J&J — Manager Implementation — #Li-Remote
+https://careers.unitedhealthgroup.com/en/jobs/34088/93920232528  UHG — Technical Project Manager
+https://careers.unitedhealthgroup.com/en/jobs/34088/95017291904  UHG — Sr Technical Project Manager
+https://careers.unitedhealthgroup.com/en/jobs/34088/99226763664  UHG — PM role (title TBD)
+https://careers.unitedhealthgroup.com/en/jobs/34088/99356735376  UHG — PM role (title TBD)
+https://careers.unitedhealthgroup.com/en/jobs/34088/99991461472  UHG — Technical Program Lead — Mesa AZ
+https://careers.unitedhealthgroup.com/en/jobs/34088/99821103376  UHG — Principal Technology Product & Program Manager
+https://careers.unitedhealthgroup.com/job/21909499  UHG — Agile Practitioner 2 — National Remote
+https://careers.unitedhealthgroup.com/en/jobs/34088/96944675472  UHG — Agile Practitioner 1 — Schaumburg IL
+https://careers.unitedhealthgroup.com/en/jobs/34088/99380785728  UHG — Sr Technology PM — Irvine CA
+https://www.careers.jnj.com/en/jobs/r-092471/ts-finance-senior-manager-release-train-engineer-rte/  J&J — Sr Manager RTE (Release Train Engineer) — Raritan/New Brunswick NJ — SAFe CS-6 — HIGH PRIORITY
+https://www.careers.jnj.com/en/jobs/r-081270/transcend-business-cutover-hypercare-manager/  J&J — Transcend Business Cutover & Hypercare Manager — Titusville NJ — CS-1/CS-7 fit
+https://www.careers.jnj.com/en/jobs/r-083700/transcend-pmo-senior-operations-manager/  J&J — Transcend PMO Senior Ops Manager — Titusville NJ — ERP transformation
+https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success — NJ — needs domain check
+https://www.careers.jnj.com/en/jobs/r-072616/im-transcend-program-manager-signavio/  J&J — IM Transcend PM Signavio — NJ — process mining/ERP
+
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite
