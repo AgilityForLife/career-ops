@@ -9,19 +9,17 @@ Format: one URL per line, optionally with a note after a space.
 
 https://careers.servicenow.com/jobs/744000148618994/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic PM (3rd posting) — Likely Remote
 https://careers.servicenow.com/jobs/744000140516224/senior-staff-technical-program-manager/  ServiceNow — Senior Staff TPM — Likely Remote/Flexible
-https://careers.ey.com/ey/job/Hoboken-Service-Delivery-Manager-NJ-07030/1434451633/  EY — Service Delivery Manager — Hoboken NJ — Agile/PM fluency required
-https://job-boards.greenhouse.io/cocoon/jobs/5684112004  Cocoon — TPM — Remote
-https://job-boards.greenhouse.io/successkpiinc/jobs/4643336005  SuccessKPI — Sr Technical Program Director — Remote (incl NJ)
-https://apply.deloitte.com/en_US/careers/JobDetail/Software-Product-Delivery-Manager/327118  Deloitte — Software Product Delivery Manager — NJ/NY
-https://careers.cognizant.com/us-en/jobs/00067578661/senior-tpm-delivery-manager/  Cognizant — Sr TPM/Delivery Manager — Jersey City NJ — HIGH PRIORITY (local, strong CS-1/CS-5 fit)
 https://apply.deloitte.com/en_US/careers/JobDetail/350249  Deloitte — Mobile Device Migration PM — NJ/NY — check domain fit
 https://builtin.com/job/principal-release-train-engineer-composite-ai/9330935  MetLife — Principal RTE Composite AI — Whippany NJ — SAFe CS-6 fit
 https://builtin.com/job/agile-enablement-lead/8617346  MetLife — Agile Enablement Lead — NJ — Agile coaching fit
 https://jobs.anitab.org/companies/prudential-financial-2-db32b774-b9c6-430c-9f48-c0533e56157b/jobs/82373181-lead-technical-program-management  Prudential — Lead TPM — Newark NJ — $123K-$204K + Equity
 https://jobs.recruiter.com/jobs/9676026808-lead-scrum-master  Prudential — Lead Scrum Master — Newark NJ — Hybrid
-https://job-boards.greenhouse.io/boxinc/jobs/7545081  Box — Agile Practitioner/Leader — Remote — 10+ yrs
 
-https://jobs.citi.com/en/job/getzville/project-management-lead-vice-president/287/102494672528  Citi — Project Management Lead (VP) — Getzville NY — $92K-$138K
+<!-- Scan 2026-11-27: Healthcare + Tech portals. 18 new URLs found (8 added to pipeline, 4 UHG + 6 Glean unconfirmed titles in scan-history only). -->
+https://www.careers.jnj.com/en/jobs/r-095997/  J&J — Assoc Dir Portfolio Management — NJ pharma, director-level
+https://www.careers.jnj.com/en/jobs/r-068180/  J&J — Director MedTech Transcend DRI — Director-level, Transcend program
+https://careers.servicenow.com/jobs/744000149948539/  ServiceNow — Sr Staff TPM Moveworks Integration (2nd req) — Verify if distinct
+https://job-boards.greenhouse.io/gleanwork/jobs/4611652005  Glean — Unknown role — AI search company, verify title+location
 https://jobs.citi.com/job/jersey-city/program-management-senior-lead-senior-vice-president-hybrid/287/87632959920  Citi — Program Mgmt Senior Lead (SVP) — Jersey City Hybrid
 https://higher.gs.com/roles/179569  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/180838  Goldman Sachs — PM/TPM role (title TBD)
@@ -29,8 +27,6 @@ https://higher.gs.com/roles/185406  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/181648  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/181784  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/181675  Goldman Sachs — PM/TPM role (title TBD)
-https://jobs.jnj.com/en/jobs/r-110854  J&J — Manager Project Management Capabilities — closing Dec 3
-https://jobs.jnj.com/en/jobs/r-109437  J&J — Manager Implementation — #Li-Remote
 https://careers.unitedhealthgroup.com/en/jobs/34088/93920232528  UHG — Technical Project Manager
 https://careers.unitedhealthgroup.com/en/jobs/34088/95017291904  UHG — Sr Technical Project Manager
 https://careers.unitedhealthgroup.com/en/jobs/34088/99226763664  UHG — PM role (title TBD)
@@ -145,8 +141,6 @@ https://careers.servicenow.com/jobs/744000150210329/principal-technical-program-
 https://careers.servicenow.com/jobs/744000153604319/principal-technical-program-manager-strategic-program-management/  ServiceNow — Principal TPM Strategic Program Mgmt (2nd posting) — Likely Remote
 https://careers.servicenow.com/jobs/744000158298842/senior-staff-technical-program-manager-armisveza/  ServiceNow — Senior Staff TPM ArmiSveza — Likely Remote
 https://careers.servicenow.com/jobs/744000137983950/senior-director-technical-program-management/  ServiceNow — Senior Director TPM — Likely Remote/Flexible
-https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach — Director of TPM — US Remote
-https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent — TPM — Remote
 
 <!-- Scan 2026-11-20: daily portal scan. 6 new URLs found across Citi, EY, UnitedHealth, Deloitte. -->
 
@@ -190,11 +184,46 @@ https://www.dice.com/job-detail/760632ab-2275-4c2d-8ba9-3b9dbd9dcd1a  Dice — T
 https://www.monster.com/job-openings/sr-technical-program-manager-ai-avenel-nj--14e8b6c0-14b4-4264-ab23-f659f1c65363  Monster — Sr TPM AI — Avenel NJ
 https://builtin.com/job/technical-program-delivery-product-management-lead/7236631  BuiltIn — Technical Program Delivery & Product Mgmt Lead — Bounteous
 
+<!-- Scan 2026-11-27: Financial services portals. 33 new URLs (JPMorgan 16, Prudential 6, MetLife 8, Goldman 3). Citi saturated. Many JPMorgan TheMuse slugs may be duplicate underlying roles. -->
+https://www.themuse.com/jobs/jpmorganchase/executive-director-tpm  JPMorgan — Executive Director TPM — Senior level
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-chief-of-staff-services  JPMorgan — Lead TPM Chief of Staff Services
+https://www.themuse.com/jobs/jpmorganchase/principle-technical-program-manager  JPMorgan — Principal Technical Program Manager
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-2db8de  JPMorgan — Lead Technical Program Manager
+https://www.themuse.com/jobs/jpmorganchase/principal-technical-program-manager-6d5fa4  JPMorgan — Principal Technical Program Manager
+https://www.themuse.com/jobs/jpmorganchase/lead-technical-program-manager-chase  JPMorgan — Lead TPM Chase
+https://www.themuse.com/jobs/prudentialfinancial/manager-project-management-f576e1  Prudential — Manager Project Management — $115K-189K
+https://www.themuse.com/jobs/prudentialfinancial/project-manager-process-management-virtual  Prudential — PM Process Management — Virtual/Remote
+https://themuse.com/jobs/prudentialfinancial/scrum-master-29fbdf  Prudential — Scrum Master — Verify location
+https://builtin.com/job/senior-project-lead-control-functions-technology/8044177  MetLife — Sr Project Lead Control Functions Tech — NYC $101K-135K
+https://builtin.com/job/principal-technology-program-manager/7779392  MetLife — Principal Technology PM — Strong title match
+
 ## In Progress
 
 <!-- URLs currently being evaluated -->
 
 ## Done
+
+<!-- Evaluated 2026-11-27: 20 evaluations (batch mode). 3 HIGH PRIORITY (4.1/5): UHG Agile Practitioner 3 AI (#504), Cognizant Sr TPM JC (#464 updated), J&J Finance RTE (#491). 2 CONDITIONAL (3.5/5): MetLife Sr Agile PM (#490 verify NYC), EY SDM Hoboken (#494). 15 lower/SKIP. -->
+https://careers.unitedhealthgroup.com/job/99861949104/  UHG Agile Practitioner 3 AI (#504, 4.1/5) APPLY
+https://careers.cognizant.com/us-en/jobs/00067578661/senior-tpm-delivery-manager/  Cognizant Sr TPM/DM (#464 updated to 4.1/5) APPLY
+https://www.careers.jnj.com/en/jobs/r-072301/  J&J Finance RTE Manager (#491, 4.1/5) APPLY
+https://builtin.com/job/sr-agile-program-manager/7351733  MetLife Sr Agile PM (#490, 3.5/5) CONDITIONAL
+https://careers.ey.com/ey/job/Hoboken-Service-Delivery-Manager-NJ-07030/1434451633/  EY SDM Hoboken (#494, 3.5/5) CONDITIONAL
+https://builtin.com/job/sr-agile-coach-ii/9011850  MetLife Sr Agile Coach II (#485, 3.0/5) SKIP — Cary NC
+https://builtin.com/job/release-train-engineer-data-analytics/6543907  MetLife RTE D&A (#486, 1.0/5) EXPIRED
+https://www.themuse.com/jobs/prudentialfinancial/scrum-masterproject-manager-imo  Prudential SM/PM IMO (#487, 2.2/5) SKIP — marketing domain
+https://www.themuse.com/jobs/jpmorganchase/technical-program-manager-aienabled-technology-delivery  JPMorgan AI TPM (#489, 3.2/5) SKIP — Columbus OH
+https://careers.servicenow.com/jobs/744000151920039/  ServiceNow Sr Staff TPM (#492, 3.2/5) SKIP — Mountain View CA
+https://careers.unitedhealthgroup.com/job/98919079408/  UHG Agile Practitioner 2 (#505, 2.8/5) SKIP — seniority downlevel
+https://job-boards.greenhouse.io/cocoon/jobs/5684112004  Cocoon TPM (#495, 2.8/5) SKIP — startup first hire
+https://job-boards.greenhouse.io/successkpiinc/jobs/4643336005  SuccessKPI Director (#496, 3.3/5)
+https://job-boards.greenhouse.io/bloomreach/jobs/5020365  Bloomreach Director TPM (#497, 3.4/5)
+https://job-boards.greenhouse.io/transcarent/jobs/5656743004  Transcarent TPM (#498, 2.7/5) SKIP — seniority mismatch
+https://job-boards.greenhouse.io/boxinc/jobs/7545081  Box Agile Practitioner (#499, 3.2/5)
+https://jobs.jnj.com/en/jobs/r-110854  J&J Mgr PM Capabilities (#500, 3.4/5)
+https://apply.deloitte.com/en_US/careers/JobDetail/Software-Product-Delivery-Manager/327118  Deloitte Software Delivery PM (#501, 3.6/5)
+https://jobs.citi.com/en/job/getzville/project-management-lead-vice-president/287/102494672528  Citi PM Lead VP Getzville (#502, 2.4/5) SKIP — location
+https://jobs.jnj.com/en/jobs/r-109437  J&J Manager Implementation (#503, 3.3/5)
 
 <!-- Evaluated 2026-11-20: 5 pending URLs from Nov 13 + Nov 19 scans. Batch mode (network-restricted). -->
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager Hoboken (3.3/5) [APPLY w/ caveats] - CS-1/CS-5; $165.8-302.3K; may be stale
