@@ -20,7 +20,7 @@ https://www.careers.jnj.com/en/jobs/r-095997/  J&J — Assoc Dir Portfolio Manag
 https://www.careers.jnj.com/en/jobs/r-068180/  J&J — Director MedTech Transcend DRI — Director-level, Transcend program
 https://careers.servicenow.com/jobs/744000149948539/  ServiceNow — Sr Staff TPM Moveworks Integration (2nd req) — Verify if distinct
 https://job-boards.greenhouse.io/gleanwork/jobs/4611652005  Glean — Unknown role — AI search company, verify title+location
-https://jobs.citi.com/job/jersey-city/program-management-senior-lead-senior-vice-president-hybrid/287/87632959920  Citi — Program Mgmt Senior Lead (SVP) — Jersey City Hybrid
+
 https://higher.gs.com/roles/179569  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/180838  Goldman Sachs — PM/TPM role (title TBD)
 https://higher.gs.com/roles/185406  Goldman Sachs — PM/TPM role (title TBD)
@@ -36,19 +36,19 @@ https://careers.unitedhealthgroup.com/en/jobs/34088/99821103376  UHG — Princip
 https://careers.unitedhealthgroup.com/job/21909499  UHG — Agile Practitioner 2 — National Remote
 https://careers.unitedhealthgroup.com/en/jobs/34088/96944675472  UHG — Agile Practitioner 1 — Schaumburg IL
 https://careers.unitedhealthgroup.com/en/jobs/34088/99380785728  UHG — Sr Technology PM — Irvine CA
-https://www.careers.jnj.com/en/jobs/r-092471/ts-finance-senior-manager-release-train-engineer-rte/  J&J — Sr Manager RTE (Release Train Engineer) — Raritan/New Brunswick NJ — SAFe CS-6 — HIGH PRIORITY
+
 https://www.careers.jnj.com/en/jobs/r-081270/transcend-business-cutover-hypercare-manager/  J&J — Transcend Business Cutover & Hypercare Manager — Titusville NJ — CS-1/CS-7 fit
 https://www.careers.jnj.com/en/jobs/r-083700/transcend-pmo-senior-operations-manager/  J&J — Transcend PMO Senior Ops Manager — Titusville NJ — ERP transformation
 https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success — NJ — needs domain check
 https://www.careers.jnj.com/en/jobs/r-072616/im-transcend-program-manager-signavio/  J&J — IM Transcend PM Signavio — NJ — process mining/ERP
 
 <!-- Scan 2026-11-27 (consulting/ATS segment): 9 new pipeline URLs from EY, PwC, Cognizant, Nava, Dice. Consulting Big 4 saturated (Accenture/KPMG/Booz Allen/Leidos/SAIC zero new). Infrastructure/Gov (WSP/AECOM/Parsons) domain mismatches only. -->
-https://careers.ey.com/ey/job/Hoboken-NextGen-AI-Manager-NJ-07030/1396995633/  EY — NextGen AI Manager — Hoboken NJ — $92.3-142.3K (Dice) / $125.9-235.5K (AnitaB) — AI transformation consulting
+
 https://careers.ey.com/ey/job/Hoboken-FSO-Consulting-Tech-Cons-Tech-Solution-Delivery-WAM-Manager-Multiple-Position-1746354-NJ-07030/1441072133/  EY — FSO Tech Solution Delivery WAM Manager — Hoboken NJ — Wealth & Asset Mgmt domain, borderline fit
 https://jobs.us.pwc.com/job/-/-/932/93002511712  PwC — Engineering Manager / Technical Program Manager — Multi-location — ~$114-132K — 12+ yrs req, PMP, CI/CD
 https://jobs.us.pwc.com/job/new-york/program-strategist-manager/932/90524265920  PwC — Program Strategist-Manager — NYC + others — $73.5-212.3K — IFS IT specialty, may be stale (Jan 2026)
 https://careers.cognizant.com/us-en/jobs/00071082171/  Cognizant — SR Project Manager Core Banking — TBD location — Systematics core banking data migration
-https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava PBC — Principal Project Manager — Remote (NJ eligible) — Gov tech, federal delivery — seniority_boost
+
 https://www.dice.com/job-detail/46b4a81e-e465-4b70-bf4a-aeaadc9fbbb2  Dice — Enterprise Agile Coach — Remote — Contract — Tier 4 concern if pure coaching
 https://www.dice.com/job-detail/7aeea2ad-84b8-4e65-b8c3-48c33aea0ac7  Dice — IT Project Manager — Remote — Contract — Recently posted
 https://www.dice.com/job-detail/00ac6f0d-5b21-4287-9239-97d7bb4c9c09  Dice — IT Project Manager Procore — Remote — Contract — Procore cert alignment (SGA staffing)
@@ -206,7 +206,7 @@ https://www.themuse.com/jobs/prudentialfinancial/manager-project-management-f576
 https://www.themuse.com/jobs/prudentialfinancial/project-manager-process-management-virtual  Prudential — PM Process Management — Virtual/Remote
 https://themuse.com/jobs/prudentialfinancial/scrum-master-29fbdf  Prudential — Scrum Master — Verify location
 https://builtin.com/job/senior-project-lead-control-functions-technology/8044177  MetLife — Sr Project Lead Control Functions Tech — NYC $101K-135K
-https://builtin.com/job/principal-technology-program-manager/7779392  MetLife — Principal Technology PM — Strong title match
+
 
 ## In Progress
 
@@ -214,7 +214,8 @@ https://builtin.com/job/principal-technology-program-manager/7779392  MetLife �
 
 ## Done
 
-<!-- Evaluated 2026-11-27: 20 evaluations (batch mode). 3 HIGH PRIORITY (4.1/5): UHG Agile Practitioner 3 AI (#504), Cognizant Sr TPM JC (#464 updated), J&J Finance RTE (#491). 2 CONDITIONAL (3.5/5): MetLife Sr Agile PM (#490 verify NYC), EY SDM Hoboken (#494). 15 lower/SKIP. -->
+<!-- Evaluated 2026-11-27 (batch 1): 20 evaluations. 3 HIGH PRIORITY (4.1/5): UHG Agile Practitioner 3 AI (#504), Cognizant Sr TPM JC (#464 updated), J&J Finance RTE (#491). 2 CONDITIONAL (3.5/5): MetLife Sr Agile PM (#490 verify NYC), EY SDM Hoboken (#494). 15 lower/SKIP. -->
+<!-- Evaluated 2026-11-27 (batch 2): 5 evaluations from consulting/ATS + financial/healthcare segments. 1 APPLY w/ caveats (3.5/5): J&J Sr Manager RTE Finance (#506). 2 CONDITIONAL (3.0/5): Nava Principal PM (#507), Citi PM Senior Lead SVP (#509). 2 SKIP: EY NextGen AI (#508 2.5/5), MetLife Principal Tech PM (#510 2.5/5 Cary NC). -->
 https://careers.unitedhealthgroup.com/job/99861949104/  UHG Agile Practitioner 3 AI (#504, 4.1/5) APPLY
 https://careers.cognizant.com/us-en/jobs/00067578661/senior-tpm-delivery-manager/  Cognizant Sr TPM/DM (#464 updated to 4.1/5) APPLY
 https://www.careers.jnj.com/en/jobs/r-072301/  J&J Finance RTE Manager (#491, 4.1/5) APPLY
@@ -235,6 +236,11 @@ https://jobs.jnj.com/en/jobs/r-110854  J&J Mgr PM Capabilities (#500, 3.4/5)
 https://apply.deloitte.com/en_US/careers/JobDetail/Software-Product-Delivery-Manager/327118  Deloitte Software Delivery PM (#501, 3.6/5)
 https://jobs.citi.com/en/job/getzville/project-management-lead-vice-president/287/102494672528  Citi PM Lead VP Getzville (#502, 2.4/5) SKIP — location
 https://jobs.jnj.com/en/jobs/r-109437  J&J Manager Implementation (#503, 3.3/5)
+https://www.careers.jnj.com/en/jobs/r-092471/ts-finance-senior-manager-release-train-engineer-rte/  J&J Sr Manager RTE Finance (#506, 3.5/5) APPLY w/ caveats — verify distinct from R-072301
+https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava Principal PM (#507, 3.0/5) APPLY w/ caveats — verify still active
+https://careers.ey.com/ey/job/Hoboken-NextGen-AI-Manager-NJ-07030/1396995633/  EY NextGen AI Manager (#508, 2.5/5) SKIP — AI product ownership, weak CS
+https://jobs.citi.com/job/jersey-city/program-management-senior-lead-senior-vice-president-hybrid/287/87632959920  Citi PM Senior Lead SVP JC (#509, 3.0/5) APPLY w/ caveats — verify active
+https://builtin.com/job/principal-technology-program-manager/7779392  MetLife Principal Tech PM (#510, 2.5/5) SKIP — Cary NC, likely expired
 
 <!-- Evaluated 2026-11-20: 5 pending URLs from Nov 13 + Nov 19 scans. Batch mode (network-restricted). -->
 https://careers.ey.com/ey/job/Hoboken-Program-Manager-NJ-07030/1378107933  EY | Program Manager Hoboken (3.3/5) [APPLY w/ caveats] - CS-1/CS-5; $165.8-302.3K; may be stale

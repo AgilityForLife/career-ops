@@ -2,6 +2,11 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 506 | 2026-11-27 | Johnson & Johnson | TS Finance Sr Manager RTE | 3.5/5 | Evaluada | ❌ | [506](reports/504-jnj-sr-manager-rte-finance-2026-11-27.md) | APPLY w/ caveats — 4/7 CS (CS-1/5/6/7); SAFe RTE direct match; NJ; verify distinct from R-072301 (#491); unconfirmed batch mode |
+| 507 | 2026-11-27 | Nava PBC | Principal Project Manager | 3.0/5 | Evaluada | ❌ | [507](reports/505-nava-principal-pm-2026-11-27.md) | APPLY w/ caveats — 3/7 CS (CS-1/5/7); federal delivery; $159-177K remote; verify still active (may be stale since Aug 2025); unconfirmed batch mode |
+| 508 | 2026-11-27 | EY | NextGen AI Manager | 2.5/5 | Evaluada | ❌ | [508](reports/506-ey-nextgen-ai-manager-2026-11-27.md) | SKIP — 1/7 CS; AI product ownership not delivery; Hoboken NJ; comp $92-142K low end below floor; unconfirmed batch mode |
+| 509 | 2026-11-27 | Citi | PM Senior Lead SVP | 3.0/5 | Evaluada | ❌ | [509](reports/507-citi-pm-senior-lead-svp-jc-2026-11-27.md) | APPLY w/ caveats — 3/7 CS (CS-1/5/7); JC hybrid SVP; equities C&S domain gap; posted Oct 2025 may be stale; unconfirmed batch mode |
+| 510 | 2026-11-27 | MetLife | Principal Technology PM | 2.5/5 | Evaluada | ❌ | [510](reports/508-metlife-principal-technology-pm-2026-11-27.md) | SKIP — Cary NC location (not NJ/NY); likely expired (closed Jan 2026); 3/7 CS; unconfirmed batch mode |
 | 485 | 2026-11-27 | MetLife | Sr Agile Coach II | 3.0/5 | Evaluada | ❌ | [485](reports/485-metlife-sr-agile-coach-ii-2026-11-27.md) | SKIP — Cary NC location (deal-breaker); coaching-primary role; comp $105K-$141K reaches target but relocation required |
 | 486 | 2026-11-27 | MetLife | Release Train Engineer Data & Analytics | 1.0/5 | NO APLICAR | ❌ | [486](reports/486-metlife-rte-data-analytics-2026-11-27.md) | EXPIRED — posting removed Aug 2025 (~15mo ago); would have been 4.4/5 fit (5 CS engaged); monitor for similar MetLife D&A RTE openings |
 | 487 | 2026-11-27 | Prudential | Scrum Master / PM IMO | 2.2/5 | Evaluada | ❌ | [487](reports/487-prudential-scrum-master-pm-imo-2026-11-27.md) | SKIP — marketing PM role, zero CS engagement, domain mismatch |
