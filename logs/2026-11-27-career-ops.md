@@ -79,4 +79,7 @@
 - Numbering conflict resolved: consulting/ATS agent reports renumbered 494-503
 - Report #483 (Deloitte) skipped by merge — duplicate of existing #431
 - Cognizant #464 updated from 3.6 to 4.1 with fresh evaluation
-- All evaluations in batch mode (WebFetch, no Playwright verification)
+- All evaluations in batch mode (WebFetch blocked for all career sites — WebSearch fallback used, no Playwright)
+- Pipeline health: 0 errors, 1 warning (pre-existing #108/#109 Glean false positive)
+- Session: cloud environment, context continuation (original context window exhausted mid-pipeline)
+- Commit pushed to branch `claude/magical-gauss-nljuvv`
