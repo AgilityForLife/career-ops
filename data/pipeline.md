@@ -42,6 +42,17 @@ https://www.careers.jnj.com/en/jobs/r-083700/transcend-pmo-senior-operations-man
 https://www.careers.jnj.com/en/jobs/r-083324/sr-manager-program-success/  J&J — Sr Manager Program Success — NJ — needs domain check
 https://www.careers.jnj.com/en/jobs/r-072616/im-transcend-program-manager-signavio/  J&J — IM Transcend PM Signavio — NJ — process mining/ERP
 
+<!-- Scan 2026-11-27 (consulting/ATS segment): 9 new pipeline URLs from EY, PwC, Cognizant, Nava, Dice. Consulting Big 4 saturated (Accenture/KPMG/Booz Allen/Leidos/SAIC zero new). Infrastructure/Gov (WSP/AECOM/Parsons) domain mismatches only. -->
+https://careers.ey.com/ey/job/Hoboken-NextGen-AI-Manager-NJ-07030/1396995633/  EY — NextGen AI Manager — Hoboken NJ — $92.3-142.3K (Dice) / $125.9-235.5K (AnitaB) — AI transformation consulting
+https://careers.ey.com/ey/job/Hoboken-FSO-Consulting-Tech-Cons-Tech-Solution-Delivery-WAM-Manager-Multiple-Position-1746354-NJ-07030/1441072133/  EY — FSO Tech Solution Delivery WAM Manager — Hoboken NJ — Wealth & Asset Mgmt domain, borderline fit
+https://jobs.us.pwc.com/job/-/-/932/93002511712  PwC — Engineering Manager / Technical Program Manager — Multi-location — ~$114-132K — 12+ yrs req, PMP, CI/CD
+https://jobs.us.pwc.com/job/new-york/program-strategist-manager/932/90524265920  PwC — Program Strategist-Manager — NYC + others — $73.5-212.3K — IFS IT specialty, may be stale (Jan 2026)
+https://careers.cognizant.com/us-en/jobs/00071082171/  Cognizant — SR Project Manager Core Banking — TBD location — Systematics core banking data migration
+https://jobs.lever.co/nava/441141bf-c935-490b-a57c-0aeb8dfc9099  Nava PBC — Principal Project Manager — Remote (NJ eligible) — Gov tech, federal delivery — seniority_boost
+https://www.dice.com/job-detail/46b4a81e-e465-4b70-bf4a-aeaadc9fbbb2  Dice — Enterprise Agile Coach — Remote — Contract — Tier 4 concern if pure coaching
+https://www.dice.com/job-detail/7aeea2ad-84b8-4e65-b8c3-48c33aea0ac7  Dice — IT Project Manager — Remote — Contract — Recently posted
+https://www.dice.com/job-detail/00ac6f0d-5b21-4287-9239-97d7bb4c9c09  Dice — IT Project Manager Procore — Remote — Contract — Procore cert alignment (SGA staffing)
+
 <!-- Scan 2026-11-20 (pass 2): 32 tracked companies, 12 search queries. 12 new URLs added (4 prior + 8 new). Scan mostly saturated — incremental new findings from ServiceNow, Deloitte, Citi. -->
 
 https://job-boards.greenhouse.io/automatticcareers/jobs/7558661  Automattic — AI Ops Manager — NYC Onsite
